@@ -1,0 +1,10 @@
+{% if terms %}
+    <ul>
+    {% for term in terms %}
+    <li>{{ term.rep }}</li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No terms are available.</p>
+{% endif %}
+

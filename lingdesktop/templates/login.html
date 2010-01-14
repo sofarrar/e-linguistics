@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block js %}
+    <script type="text/javascript" src="../htdocs/media/js/login.js"></script>     
+{% endblock %}
+
+{% block content %}    
+Login screen
+    <a href="../htdocs/media/js/login.js">test</a>
+    {% if username %}
+        <div id="mylogin"></div>
+    {% endif %}    
+{% endblock %}

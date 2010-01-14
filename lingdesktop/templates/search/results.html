@@ -1,0 +1,12 @@
+<h1>Results of your Search</h1>
+
+{% if result %}
+    
+    <ul>
+    {% for r in result %}
+    <li>{{ r }} </li>
+    {% endfor %}
+    </ul>
+    {% else %}
+    <p>There were no results for your search.</p>
+    {% endif %}

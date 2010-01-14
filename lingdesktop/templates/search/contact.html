@@ -1,0 +1,41 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="/media/css/input.css" />
+<link rel="stylesheet" type="text/css" href="/media/css/background.css" />
+<head>
+<body>
+<h3>from the views file </h3>
+
+<form action="/contact/" method="POST">
+{{ form.as_p }}
+<input type="submit" value="Submit" />
+</form>
+
+<h3>more control</h3>
+
+
+<form action="/contact/" method="POST">
+    <div class="fieldWrapper">
+        {{ form.subject.errors }}
+        <label for="id_subject">E-mail subject:</label>
+        {{ form.subject }}
+    </div>
+    <div class="fieldWrapper">
+        {{ form.message.errors }}
+        <label for="id_message">Your message:</label>
+        {{ form.message }}
+    </div>
+    <div class="fieldWrapper">
+        {{ form.sender.errors }}
+        <label for="id_sender">Your email address:</label>
+        {{ form.sender }}
+    </div>
+    <div class="fieldWrapper">
+        {{ form.cc_myself.errors }}
+        <label for="id_cc_myself">CC yourself?</label>
+        {{ form.cc_myself }}
+    </div>
+    <p><input type="submit" value="Send message" /></p>
+</form>
+</body>
+</html>

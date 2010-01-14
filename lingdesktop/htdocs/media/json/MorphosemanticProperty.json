@@ -1,0 +1,313 @@
+[{
+    "children": [
+        {
+            "children": [
+                {
+                    "leaf": true, 
+                    "text": "HabitualAspect", 
+                    "uri": "http://purl.org/linguistics/gold#HabitualAspect"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "FrequentiveAspect", 
+                    "uri": "http://purl.org/linguistics/gold#FrequentiveAspect"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "PerfectiveAspect", 
+                    "uri": "http://purl.org/linguistics/gold#PerfectiveAspect"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "ProgressiveAspect", 
+                    "uri": "http://purl.org/linguistics/gold#ProgressiveAspect"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "CompletiveAspect", 
+                    "uri": "http://purl.org/linguistics/gold#CompletiveAspect"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "SemelfactiveAspect", 
+                    "uri": "http://purl.org/linguistics/gold#SemelfactiveAspect"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "ImperfectiveAspect", 
+                    "uri": "http://purl.org/linguistics/gold#ImperfectiveAspect"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "NonProgressiveAspect", 
+                    "uri": "http://purl.org/linguistics/gold#NonProgressiveAspect"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "IterativeAspect", 
+                    "uri": "http://purl.org/linguistics/gold#IterativeAspect"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "InceptiveAspect", 
+                    "uri": "http://purl.org/linguistics/gold#InceptiveAspect"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "PhasalAspect", 
+                    "uri": "http://purl.org/linguistics/gold#PhasalAspect"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "DurativeAspect", 
+                    "uri": "http://purl.org/linguistics/gold#DurativeAspect"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "ContinuousAspect", 
+                    "uri": "http://purl.org/linguistics/gold#ContinuousAspect"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "SimultaneousAspect", 
+                    "uri": "http://purl.org/linguistics/gold#SimultaneousAspect"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "TerminativeAspect", 
+                    "uri": "http://purl.org/linguistics/gold#TerminativeAspect"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "QuantificationalAspect", 
+                    "uri": "http://purl.org/linguistics/gold#QuantificationalAspect"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "DistributiveAspect", 
+                    "uri": "http://purl.org/linguistics/gold#DistributiveAspect"
+                }
+            ], 
+            "cls": "folder", 
+            "text": "AspectProperty", 
+            "uri": "http://purl.org/linguistics/gold#AspectProperty"
+        }, 
+        {
+            "children": [
+                {
+                    "leaf": true, 
+                    "text": "SubjunctiveMood", 
+                    "uri": "http://purl.org/linguistics/gold#SubjunctiveMood"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "DubitiveMood", 
+                    "uri": "http://purl.org/linguistics/gold#DubitiveMood"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "RealisMood", 
+                    "uri": "http://purl.org/linguistics/gold#RealisMood"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "IndicativeMood", 
+                    "uri": "http://purl.org/linguistics/gold#IndicativeMood"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "OptativeMood", 
+                    "uri": "http://purl.org/linguistics/gold#OptativeMood"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "ProhibitiveMood", 
+                    "uri": "http://purl.org/linguistics/gold#ProhibitiveMood"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "TimitiveMood", 
+                    "uri": "http://purl.org/linguistics/gold#TimitiveMood"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "IrrealisMood", 
+                    "uri": "http://purl.org/linguistics/gold#IrrealisMood"
+                }
+            ], 
+            "cls": "folder", 
+            "text": "MoodProperty", 
+            "uri": "http://purl.org/linguistics/gold#MoodProperty"
+        }, 
+        {
+            "children": [
+                {
+                    "leaf": true, 
+                    "text": "RelativeFutureTense", 
+                    "uri": "http://purl.org/linguistics/gold#RelativeFutureTense"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "RelativePastTense", 
+                    "uri": "http://purl.org/linguistics/gold#RelativePastTense"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "PresentTense", 
+                    "uri": "http://purl.org/linguistics/gold#PresentTense"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "NonPastTense", 
+                    "uri": "http://purl.org/linguistics/gold#NonPastTense"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "PastInPastTense", 
+                    "uri": "http://purl.org/linguistics/gold#PastInPastTense"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "PerfectTense", 
+                    "uri": "http://purl.org/linguistics/gold#PerfectTense"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "SimplePresentTense", 
+                    "uri": "http://purl.org/linguistics/gold#SimplePresentTense"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "PastTense", 
+                    "uri": "http://purl.org/linguistics/gold#PastTense"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "NearFutureTense", 
+                    "uri": "http://purl.org/linguistics/gold#NearFutureTense"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "HesternalPastTense", 
+                    "uri": "http://purl.org/linguistics/gold#HesternalPastTense"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "FutureInPastTense", 
+                    "uri": "http://purl.org/linguistics/gold#FutureInPastTense"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "RemotePastTense", 
+                    "uri": "http://purl.org/linguistics/gold#RemotePastTense"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "NonFutureTense", 
+                    "uri": "http://purl.org/linguistics/gold#NonFutureTense"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "PreHodiernalPastTense", 
+                    "uri": "http://purl.org/linguistics/gold#PreHodiernalPastTense"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "ImmediatePastTense", 
+                    "uri": "http://purl.org/linguistics/gold#ImmediatePastTense"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "FutureInFutureTense", 
+                    "uri": "http://purl.org/linguistics/gold#FutureInFutureTense"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "ImmediateFutureTense", 
+                    "uri": "http://purl.org/linguistics/gold#ImmediateFutureTense"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "HodiernalFutureTense", 
+                    "uri": "http://purl.org/linguistics/gold#HodiernalFutureTense"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "RelativePresentTense", 
+                    "uri": "http://purl.org/linguistics/gold#RelativePresentTense"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "RemoteFutureTense", 
+                    "uri": "http://purl.org/linguistics/gold#RemoteFutureTense"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "PostHodiernalFutureTense", 
+                    "uri": "http://purl.org/linguistics/gold#PostHodiernalFutureTense"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "SimplePastTense", 
+                    "uri": "http://purl.org/linguistics/gold#SimplePastTense"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "RecentTense", 
+                    "uri": "http://purl.org/linguistics/gold#RecentTense"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "StillTense", 
+                    "uri": "http://purl.org/linguistics/gold#StillTense"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "PresentPerfectTense", 
+                    "uri": "http://purl.org/linguistics/gold#PresentPerfectTense"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "PastPerfectTense", 
+                    "uri": "http://purl.org/linguistics/gold#PastPerfectTense"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "SimpleFutureTense", 
+                    "uri": "http://purl.org/linguistics/gold#SimpleFutureTense"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "HodiernalPastTense", 
+                    "uri": "http://purl.org/linguistics/gold#HodiernalPastTense"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "RecentPastTense", 
+                    "uri": "http://purl.org/linguistics/gold#RecentPastTense"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "CloseFutureTense", 
+                    "uri": "http://purl.org/linguistics/gold#CloseFutureTense"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "FutureTense", 
+                    "uri": "http://purl.org/linguistics/gold#FutureTense"
+                }, 
+                {
+                    "leaf": true, 
+                    "text": "FuturePerfectTense", 
+                    "uri": "http://purl.org/linguistics/gold#FuturePerfectTense"
+                }
+            ], 
+            "cls": "folder", 
+            "text": "TenseProperty", 
+            "uri": "http://purl.org/linguistics/gold#TenseProperty"
+        }
+    ], 
+    "cls": "folder", 
+    "text": "MorphosemanticProperty", 
+    "uri": "http://purl.org/linguistics/gold#MorphosemanticProperty"
+}]
