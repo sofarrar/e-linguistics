@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+
+
+
+<!-- dictate schema -->
+
+<!-- \cc elicitado (conditions of creation) -->
+<!-- \fc 21-01-2006 ( date of transcription ) -->
+<!-- \phaa Yichjoyom, Jolom Konob' ( speaker's place of origin ) -->
+<!-- \ehaa 69 años ( age of speaker ) -->
+<!-- \se  masculino ( sex of speaker ) -->
+<!-- \idl Norte de Huehuetenango ( location where language is spoken ) -->
+<!-- \nac no restringido  ( level of access, access restrictions ) -->
+<!-- \pro Nuq'ej; Documentación de la Sintaxis y Usos Especiales del Q'anjob'al ( name of project ) -->
+<!-- \not El señor es  monolingüe. ( notes ) -->
+<!-- \est revisado B'alam ( state of work ) -->
+<!-- \fa 03/Oct/2006 ( date of creation of metadata ) -->
+<!-- \gd Lab', sueños, cerros -->
+<!-- *** how best to incorporate all of B'alam's metadata? -->
+
+
+<text tx_id="T1" lg="x-sil-KJB" src_id="txt080_p2" title="Pixanej"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation='igtxml_new.xsd'>
+  
+  <!--metadata text_id="T1"> 
+    <xs:schemaLocation="http://www.language-archives.org/OLAC/1.0/olac.xsd">
+      <title>Lab', Wayich, Pixan Witz Ak'al</title>
+      <subject xsi:type="olac:language" olac:code="x-sil-KJB">Q'anjob'al</subject>
+      <description>Esta es una narración sobre algunos Lab' (mal agüeros) que el señor ha tenido.  Tambien narra sobre el espíritu de cerros y sueños.</description>
+      <contributor xsi:type="olac:role" olac:code="speaker">Piyo Lucas</contributor>
+      <contributor xsi:type="olac:role" olac:code="transcriber">Francisco Jerónimo Pedro</contributor>
+      <contributor xsi:type="olac:role" olac:code="editor">B'alam Mateo-Toledo</contributor>
+      <format>text saved as .txt file</format>
+      <relation>Este texto corresponde al audio au080q7annuq7ej2006 y al minidisco md080q7annuq7ej2006</relation>
+    </olac:olac>
+  </metadata-->
+  <body>  
+    <phrases src_layer="\tx">
+      <phrase ph_id="T1_P1" src_ph_id="txt080_p2.001">
+	  <plaintext>Pixanej, Oyb'inaq Satej,+</plaintext>
+	  <word wd_id="T1_P1_W1" text="Pixanej"/>
+	  <word wd_id="T1_P1_W2" text=","/>
+	  <word wd_id="T1_P1_W3" text="Oyb'inaq"/>
+	  <word wd_id="T1_P1_W4" text="Satej"/>
+	  <word wd_id="T1_P1_W5" text=","/>
+      </phrase>
+    </phrases>
+    <morphemes src_layer="\dm">
+      <phrase phrase_ref="T1_P1">
+        <morph morph_id="T1_P1_W1_M1" word_ref="T1_P1_W1" text="pixan"/>
+	  <morph morph_id="T1_P1_W1_M2" word_ref="T1_P1_W1" text="ej" type="suf"/>
+	  <morph morph_id="T1_P1_W2_M1" word_ref="T1_P1_W2" text="," type="punct"/>
+	  <morph morph_id="T1_P1_W3_M1" word_ref="T1_P1_W3" text="oyb'"/>
+	  <morph morph_id="T1_P1_W3_M2" word_ref="T1_P1_W3" text="inaq" type="suf"/>
+	  <morph morph_id="T1_P1_W4_M1" word_ref="T1_P1_W4" text="satej"/>
+	  <morph morph_id="T1_P1_W5_M1" word_ref="T1_P1_W5" text="," type="punct"/>
+      </phrase>
+    </morphemes>
+    <gloss src_layer="\ge">
+      <phrase phrase_ref="T1_P1">
+	  <gls morph_ref="T1_P1_W1_M1" text="corazon"/>
+	  <gls morph_ref="T1_P1_W1_M2" text="GNR"/>
+	  <gls morph_ref="T1_P1_W3_M1" text="marearse"/>
+	  <gls morph_ref="T1_P1_W3_M2" text="TNS"/>
+	  <gls morph_ref="T1_P1_W4_M1" text="mal.de.ojo"/>
+      </phrase>
+    </gloss>
+    <translations>
+      <phrase phrase_ref="T1_P1">
+	  <trans trans_id="T1_P1_Tr1" lg="es" src_layer="\tes">
+	    <transtext>Espiritus y Ataques</transtext>
+	  </trans>
+      </phrase>
+    </translations>
+  </body>
+</text>
+
+

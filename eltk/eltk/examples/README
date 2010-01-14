@@ -1,0 +1,28 @@
+--------
+Overview
+--------
+This directory (eltk/examples/) contains a number of example scripts that illustrate how to use the ELTK. We focus on using the ELTK with Jpype and OWLAPI.
+
+
+-----------------------
+Settings tests/examples:
+-----------------------
+
+-------------
+ELTK examples:
+-------------
+-import_ontology.py: shows how to import an OWL ontology's logical model (classes, individuals, properties) into the Python's OOP environment
+-build_ontology.py: shows how to create an empty ontology and add a class 
+-convert_bibtex.py: shows how to convert a bibtex file into RDF
+-convert_character.py: illustrates a few conversions between character systems
+
+
+---------
+Important: 
+---------- 
+These Python files typically have to be run with the "python" command,
+e.g. "python build_ontology.py" instead of "./build_ontology.py"
+because of the lack of a specific Python declaration in each .py file.
+
+
+

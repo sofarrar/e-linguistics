@@ -1,0 +1,5 @@
+goldcomm/trunk/tools/
+
+Ccontains scripts for things like:
+
+  - connecting to the  DB to port portions of GOLD

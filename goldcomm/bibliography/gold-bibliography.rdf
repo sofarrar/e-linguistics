@@ -1,0 +1,2835 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [
+<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+<!ENTITY bibtex "http://purl.org/net/nknouf/ns/bibtex#" >
+<!ENTITY biblio "http://www.linguistics-ontology.org/bibliography/bibliography.owl#" >
+<!ENTITY person "http://www.linguistics-ontology.org/bibliography/person.rdf#">
+]>
+
+<rdf:RDF xmlns="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#"
+	xml:base="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf"
+	xmlns:bibtex="http://purl.org/net/nknouf/ns/bibtex#"
+	xmlns:biblio="http://www.linguistics-ontology.org/bibliography/bibliography.owl#"
+	xmlns:person="http://www.linguistics-ontology.org/bibliography/person.rdf#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+	<!--This document automatically created by the eltk toolkit-->
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Siewierska2003-->
+
+	<bibtex:InCollection rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Siewierska2003">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;AnnaSiewierska"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<biblio:hasEditorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;MiriamButt"/>
+				<rdf:_2 rdf:resource="&person;TracyHollowayKing"/>
+			</rdf:Seq>
+		</biblio:hasEditorList>
+		<bibtex:hasYear>2003</bibtex:hasYear>
+		<bibtex:hasTitle>Nominals Inside and Out</bibtex:hasTitle>
+		<bibtex:hasBookTitle>Nominals Inside and Out</bibtex:hasBookTitle>
+		<bibtex:hasPages>119--150.</bibtex:hasPages>
+		<bibtex:hasPublisher>CSLI Publications</bibtex:hasPublisher>
+		<bibtex:hasAddress>Stanford</bibtex:hasAddress>
+	</bibtex:InCollection>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Barnes1984-->
+
+	<bibtex:Article rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Barnes1984">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;J.Barnes"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1984</bibtex:hasYear>
+		<bibtex:hasTitle>Evidentials in the Tuyuca Verb</bibtex:hasTitle>
+		<bibtex:hasJournal>International Journal of American Linguistics</bibtex:hasJournal>
+		<bibtex:hasVolume>50</bibtex:hasVolume>
+		<bibtex:hasPages>255-71</bibtex:hasPages>
+	</bibtex:Article>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Noonan1994-->
+
+	<bibtex:InCollection rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Noonan1994">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;MichaelNoonan"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1994</bibtex:hasYear>
+		<bibtex:hasTitle>Voice: Form and Function</bibtex:hasTitle>
+		<bibtex:hasBookTitle>Voice: Form and Function</bibtex:hasBookTitle>
+		<bibtex:hasPublisher>John Benjamins</bibtex:hasPublisher>
+	</bibtex:InCollection>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Siewierska2004-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Siewierska2004">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;AnnaSiewierska"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>2004</bibtex:hasYear>
+		<bibtex:hasTitle>Person</bibtex:hasTitle>
+		<bibtex:hasPublisher>Cambridge University Press</bibtex:hasPublisher>
+		<bibtex:hasAddress>Cambridge, UK</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Dik1989-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Dik1989">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;SimonC.Dik"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1989</bibtex:hasYear>
+		<bibtex:hasTitle>The Theory of Functional Grammar</bibtex:hasTitle>
+		<bibtex:hasPublisher>Dordrecht</bibtex:hasPublisher>
+		<bibtex:hasAddress>The Netherlands</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Miller1965-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Miller1965">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;W.Miller"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1965</bibtex:hasYear>
+		<bibtex:hasTitle>Acoma Grammar and Texts</bibtex:hasTitle>
+		<bibtex:hasPublisher>University of California Publications in Linguistics</bibtex:hasPublisher>
+		<bibtex:hasAddress>Berkeley</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Delancey1984-->
+
+	<bibtex:Article rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Delancey1984">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;ScottDelancey"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1984</bibtex:hasYear>
+		<bibtex:hasTitle>Notes on agentivity and causation</bibtex:hasTitle>
+		<bibtex:hasJournal>Studies in Language</bibtex:hasJournal>
+		<bibtex:hasVolume>8</bibtex:hasVolume>
+		<bibtex:hasPages>181-213</bibtex:hasPages>
+	</bibtex:Article>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Hervey1979-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Hervey1979">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;SándorHervey"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1979</bibtex:hasYear>
+		<bibtex:hasTitle>Axiomatic Semantics: A Theory of Linguistic Semantics</bibtex:hasTitle>
+		<bibtex:hasPublisher>Scottish Academic Press</bibtex:hasPublisher>
+		<bibtex:hasAddress>Edinburgh</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Glasgow1964-->
+
+	<bibtex:InCollection rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Glasgow1964">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;KathleenGlasgow"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<biblio:hasEditorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;RichardPittman"/>
+				<rdf:_2 rdf:resource="&person;HarlandKerr"/>
+			</rdf:Seq>
+		</biblio:hasEditorList>
+		<bibtex:hasYear>1964</bibtex:hasYear>
+		<bibtex:hasTitle>Papers on the Languages of the Australian Aborigines</bibtex:hasTitle>
+		<bibtex:hasBookTitle>Papers on the Languages of the Australian Aborigines</bibtex:hasBookTitle>
+		<bibtex:hasVolume>3</bibtex:hasVolume>
+		<bibtex:hasSeries>Occasional Papers in Aboriginal Studies</bibtex:hasSeries>
+		<bibtex:hasPages>118</bibtex:hasPages>
+		<bibtex:hasPublisher>Australian Institute of Aboriginal Studies</bibtex:hasPublisher>
+		<bibtex:hasAddress>Canberra</bibtex:hasAddress>
+	</bibtex:InCollection>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Evans2003-->
+
+	<bibtex:InCollection rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Evans2003">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;NicholasEvans"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<biblio:hasEditorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;DunstanBrown"/>
+				<rdf:_2 rdf:resource="&person;GrevilleG.Corbett"/>
+				<rdf:_3 rdf:resource="&person;CaroleTiberius"/>
+			</rdf:Seq>
+		</biblio:hasEditorList>
+		<bibtex:hasYear>2003</bibtex:hasYear>
+		<bibtex:hasTitle>Agreement: A Typological Perspective (Special issue of Transaction</bibtex:hasTitle>
+		<bibtex:hasBookTitle>Agreement: A Typological Perspective (Special issue of Transaction</bibtex:hasBookTitle>
+		<bibtex:hasVolume>101</bibtex:hasVolume>
+		<bibtex:hasNumber>2</bibtex:hasNumber>
+		<bibtex:hasPages>203--234</bibtex:hasPages>
+		<bibtex:hasPublisher>Blackwell</bibtex:hasPublisher>
+		<bibtex:hasAddress>Oxford</bibtex:hasAddress>
+	</bibtex:InCollection>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Osborne1974-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Osborne1974">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;CharlesRolandOsborne"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1974</bibtex:hasYear>
+		<bibtex:hasTitle>The Tiwi language : grammar, myths and dictionary of the Tiwi languag</bibtex:hasTitle>
+		<bibtex:hasPublisher>Australian Institute of Aboriginal Studies</bibtex:hasPublisher>
+		<bibtex:hasAddress>Canberra</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#PeiGaynor1954-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#PeiGaynor1954">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;MarioA.Pei"/>
+				<rdf:_2 rdf:resource="&person;FrankGaynor"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1954</bibtex:hasYear>
+		<bibtex:hasTitle>A Dictionary of Linguistics</bibtex:hasTitle>
+		<bibtex:hasPublisher>Philosophical Library</bibtex:hasPublisher>
+		<bibtex:hasAddress>New York</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Corbett2000-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Corbett2000">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;G.Corbett"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>2000</bibtex:hasYear>
+		<bibtex:hasTitle>Number</bibtex:hasTitle>
+		<bibtex:hasSeries>Cambridge Textbooks in Linguistics</bibtex:hasSeries>
+		<bibtex:hasPublisher>Cambridge University Press</bibtex:hasPublisher>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Klavans1982-->
+
+	<bibtex:Misc rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Klavans1982">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;JudithL.Klavans"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1982</bibtex:hasYear>
+		<bibtex:hasTitle>Some problems in a theory of clitics</bibtex:hasTitle>
+		<bibtex:hasAddress>Bloomington, IN</bibtex:hasAddress>
+		<bibtex:howPublished>Indiana University Linguistics Club</bibtex:howPublished>
+	</bibtex:Misc>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Crowley2002-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Crowley2002">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;TerryCrowley"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>2002</bibtex:hasYear>
+		<bibtex:hasTitle>Serial Verbs in Oceanic: A Descriptive Typology</bibtex:hasTitle>
+		<bibtex:hasPublisher>Oxford University Press</bibtex:hasPublisher>
+		<bibtex:hasAddress>Oxford, UK</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Clark1990-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Clark1990">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;RobinClark"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1990</bibtex:hasYear>
+		<bibtex:hasTitle>Thematic Theory in Syntax and Interpretation</bibtex:hasTitle>
+		<bibtex:hasSeries>Croon Helm Linguistics Series</bibtex:hasSeries>
+		<bibtex:hasPublisher>Routledge</bibtex:hasPublisher>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Jacobson1984-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Jacobson1984">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;StevenA.Jacobson"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1984</bibtex:hasYear>
+		<bibtex:hasTitle>Yup'ik Eskimo Dictionary</bibtex:hasTitle>
+		<bibtex:hasPublisher>University of Alaska, Alaska Native Language Center</bibtex:hasPublisher>
+		<bibtex:hasAddress>Fairbanks, Alaska</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#PollardSag1994-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#PollardSag1994">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;CarlPollard"/>
+				<rdf:_2 rdf:resource="&person;IvanA.Sag"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1994</bibtex:hasYear>
+		<bibtex:hasTitle>Head-Driven Phrase Structure Grammar</bibtex:hasTitle>
+		<bibtex:hasPublisher>University of Chicago Press and {CSLI} Publications</bibtex:hasPublisher>
+		<bibtex:hasAddress>Chicago, Illinois</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Crystal1997-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Crystal1997">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;DavidCrystal"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1997</bibtex:hasYear>
+		<bibtex:hasTitle>Cambridge Encyclopedia of Language</bibtex:hasTitle>
+		<bibtex:hasEdition>2nd</bibtex:hasEdition>
+		<bibtex:hasPublisher>Cambridge University Press</bibtex:hasPublisher>
+		<bibtex:hasAddress>Cambridge</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Roberts1990-->
+
+	<bibtex:Article rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Roberts1990">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;J.T.Roberts"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1990</bibtex:hasYear>
+		<bibtex:hasTitle>Modality in Amele and Other Papuan Languages</bibtex:hasTitle>
+		<bibtex:hasJournal>Journal of Linguistics</bibtex:hasJournal>
+		<bibtex:hasVolume>26</bibtex:hasVolume>
+		<bibtex:hasNumber>2</bibtex:hasNumber>
+		<bibtex:hasPages>363--401</bibtex:hasPages>
+	</bibtex:Article>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Haiman1980-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Haiman1980">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;J.Haiman"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1980</bibtex:hasYear>
+		<bibtex:hasTitle>Hua: A Papuan Language of the Eastern Highlands of New Guinea</bibtex:hasTitle>
+		<bibtex:hasPublisher>John Benjamins</bibtex:hasPublisher>
+		<bibtex:hasAddress>Amsterdam</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Givon1994-->
+
+	<bibtex:InCollection rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Givon1994">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;T.Givon"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1994</bibtex:hasYear>
+		<bibtex:hasTitle>Voice: Form and Function</bibtex:hasTitle>
+		<bibtex:hasBookTitle>Voice: Form and Function</bibtex:hasBookTitle>
+		<bibtex:hasPublisher>John Benjamins</bibtex:hasPublisher>
+	</bibtex:InCollection>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Roberts1997-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Roberts1997">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;IanRoberts"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1997</bibtex:hasYear>
+		<bibtex:hasTitle>Comparative Syntax</bibtex:hasTitle>
+		<bibtex:hasPublisher>Arnold</bibtex:hasPublisher>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#deSaussure1983-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#deSaussure1983">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;FerdinanddeSaussure"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<biblio:hasEditorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;CharlesBally"/>
+				<rdf:_2 rdf:resource="&person;AlbertSechehaye"/>
+			</rdf:Seq>
+		</biblio:hasEditorList>
+		<bibtex:hasYear>1983</bibtex:hasYear>
+		<bibtex:hasTitle>Course in General Linguistics</bibtex:hasTitle>
+		<bibtex:hasPublisher>Open Court</bibtex:hasPublisher>
+		<bibtex:hasAddress>La Salle, Illinois</bibtex:hasAddress>
+		<rdfs:comment>Translated by Roy Harris</rdfs:comment>
+		<bibtex:isbn>0-8126-9023-0</bibtex:isbn>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Sebeok1946-->
+
+	<bibtex:Article rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Sebeok1946">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;ThomasA.Sebeok"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1946</bibtex:hasYear>
+		<bibtex:hasTitle>Finnish and Hungarian case systems: Their form and function</bibtex:hasTitle>
+		<bibtex:hasJournal>Linguistica</bibtex:hasJournal>
+		<bibtex:hasVolume>3</bibtex:hasVolume>
+	</bibtex:Article>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Blake2001-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Blake2001">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;BarryJ.Blake"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>2001</bibtex:hasYear>
+		<bibtex:hasTitle>Case</bibtex:hasTitle>
+		<bibtex:hasPublisher>Cambridge University Press</bibtex:hasPublisher>
+		<bibtex:hasAddress>Cambridge; New York</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Hope1974-->
+
+	<bibtex:InCollection rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Hope1974">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;E.R.Hope"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1974</bibtex:hasYear>
+		<bibtex:hasTitle>Pacific Linguistics Series B</bibtex:hasTitle>
+		<bibtex:hasBookTitle>Pacific Linguistics Series B</bibtex:hasBookTitle>
+		<bibtex:hasPublisher>Department of Linguistics, Research School of Pacific Studies, Australia</bibtex:hasPublisher>
+		<bibtex:hasAddress>Canberra</bibtex:hasAddress>
+	</bibtex:InCollection>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Kibrik1998-->
+
+	<bibtex:InCollection rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Kibrik1998">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;A.E.Kibrik"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<biblio:hasEditorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;ArnoldSpencerZwicky"/>
+			</rdf:Seq>
+		</biblio:hasEditorList>
+		<bibtex:hasYear>1998</bibtex:hasYear>
+		<bibtex:hasTitle>The Handbook of Morphology</bibtex:hasTitle>
+		<bibtex:hasBookTitle>The Handbook of Morphology</bibtex:hasBookTitle>
+		<bibtex:hasPublisher>Blackwell</bibtex:hasPublisher>
+		<bibtex:hasAddress>Oxford; Malden, MA</bibtex:hasAddress>
+	</bibtex:InCollection>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#1992-->
+
+	<bibtex:InCollection rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#1992">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;PaulJHopper"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<biblio:hasEditorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;WilliamBright"/>
+			</rdf:Seq>
+		</biblio:hasEditorList>
+		<bibtex:hasYear>1992</bibtex:hasYear>
+		<bibtex:hasTitle>International Encyclopedia of Linguistics</bibtex:hasTitle>
+		<bibtex:hasBookTitle>International Encyclopedia of Linguistics</bibtex:hasBookTitle>
+		<bibtex:hasPages>79--81</bibtex:hasPages>
+		<bibtex:hasPublisher>Oxford University Press</bibtex:hasPublisher>
+		<bibtex:hasAddress>Oxford, UK</bibtex:hasAddress>
+	</bibtex:InCollection>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Wilkins1988-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Wilkins1988">
+		<biblio:hasEditorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;WendyWilkins"/>
+			</rdf:Seq>
+		</biblio:hasEditorList>
+		<bibtex:hasYear>1988</bibtex:hasYear>
+		<bibtex:hasTitle>Thematic Relations</bibtex:hasTitle>
+		<bibtex:hasPublisher>Academic Press</bibtex:hasPublisher>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Cole1982-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Cole1982">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;PeterCole"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1982</bibtex:hasYear>
+		<bibtex:hasTitle>Imbabura Quechua</bibtex:hasTitle>
+		<bibtex:hasVolume>5</bibtex:hasVolume>
+		<bibtex:hasSeries>Lingua Descriptive Series</bibtex:hasSeries>
+		<bibtex:hasPublisher>North Holland</bibtex:hasPublisher>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#BybeeFleischman1995-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#BybeeFleischman1995">
+		<biblio:hasEditorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;J.Bybee"/>
+				<rdf:_2 rdf:resource="&person;S.Fleischman"/>
+			</rdf:Seq>
+		</biblio:hasEditorList>
+		<bibtex:hasYear>1995</bibtex:hasYear>
+		<bibtex:hasTitle>Modality in Grammar and Discourse</bibtex:hasTitle>
+		<bibtex:hasNumber>32</bibtex:hasNumber>
+		<bibtex:hasSeries>Typological Studies in Language</bibtex:hasSeries>
+		<bibtex:hasPublisher>John Benjamins</bibtex:hasPublisher>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Cysouw2003-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Cysouw2003">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;MichaelCysouw"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>2003</bibtex:hasYear>
+		<bibtex:hasTitle>The Paradigmatic Structure of Person Marking</bibtex:hasTitle>
+		<bibtex:hasSeries>Oxford Studies in Typology and Linguistic Theory</bibtex:hasSeries>
+		<bibtex:hasPublisher>Oxford University Press</bibtex:hasPublisher>
+		<bibtex:hasAddress>Oxford, UK</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Mithun1999-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Mithun1999">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;M.Mithun"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1999</bibtex:hasYear>
+		<bibtex:hasTitle>The Languages of Native North America</bibtex:hasTitle>
+		<bibtex:hasPublisher>Cambridge University Press</bibtex:hasPublisher>
+		<bibtex:hasAddress>Cambridge; New York</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Givón1984-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Givón1984">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;TalmyGivón"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1984</bibtex:hasYear>
+		<bibtex:hasTitle>Syntax: A functional-typological introduction</bibtex:hasTitle>
+		<bibtex:hasVolume>1</bibtex:hasVolume>
+		<bibtex:hasPublisher>John Benjamins</bibtex:hasPublisher>
+		<bibtex:hasAddress>Amsterdam</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Faust1973-->
+
+	<bibtex:Booklet rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Faust1973">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;NormaFaust"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1973</bibtex:hasYear>
+		<bibtex:hasTitle>Lecciones para el aprendizaje del idioma Shipibo-Conibo</bibtex:hasTitle>
+		<bibtex:hasSeries>Documento de Trabajo</bibtex:hasSeries>
+		<bibtex:hasAddress>Yarinacocha, Peru</bibtex:hasAddress>
+		<bibtex:howPublished>Published by SIL (Summer Institute of Linguistics)</bibtex:howPublished>
+	</bibtex:Booklet>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#DahlVelupillai2005-->
+
+	<bibtex:InCollection rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#DahlVelupillai2005">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;ÖstenDahl"/>
+				<rdf:_2 rdf:resource="&person;VivekaVelupillai"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<biblio:hasEditorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;MartinHaspelmath"/>
+				<rdf:_2 rdf:resource="&person;MatthewDryer"/>
+				<rdf:_3 rdf:resource="&person;DavidGil"/>
+				<rdf:_4 rdf:resource="&person;BernardComrie"/>
+			</rdf:Seq>
+		</biblio:hasEditorList>
+		<bibtex:hasYear>2005</bibtex:hasYear>
+		<bibtex:hasTitle>World Atlas of Language Structures</bibtex:hasTitle>
+		<bibtex:hasBookTitle>World Atlas of Language Structures</bibtex:hasBookTitle>
+		<bibtex:hasPublisher>Oxford University Press</bibtex:hasPublisher>
+		<bibtex:hasAddress>Oxford</bibtex:hasAddress>
+	</bibtex:InCollection>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Farrell1995-->
+
+	<bibtex:InCollection rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Farrell1995">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;TimFarrell"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1995</bibtex:hasYear>
+		<bibtex:hasTitle>Subject, Voice and Ergativity: Selected Essays</bibtex:hasTitle>
+		<bibtex:hasBookTitle>Subject, Voice and Ergativity: Selected Essays</bibtex:hasBookTitle>
+		<bibtex:hasPublisher>Routledge</bibtex:hasPublisher>
+	</bibtex:InCollection>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Granberry1993-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Granberry1993">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;J.Granberry"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1993</bibtex:hasYear>
+		<bibtex:hasTitle>A Grammar and Dictionary of the Timucua Language</bibtex:hasTitle>
+		<bibtex:hasPublisher>University of Alabama</bibtex:hasPublisher>
+		<bibtex:hasAddress>Tuscaloosa</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#McKay1978-->
+
+	<bibtex:Article rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#McKay1978">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;GrahamR.McKay"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1978</bibtex:hasYear>
+		<bibtex:hasTitle>Pronominal person and number categories in Rembarrnga and Djeebana</bibtex:hasTitle>
+		<bibtex:hasJournal>Oceanic Linguistics</bibtex:hasJournal>
+		<bibtex:hasNumber>Pronominal person and number categories in Rembarrnga and Djeebana</bibtex:hasNumber>
+		<bibtex:hasPages>27--37</bibtex:hasPages>
+	</bibtex:Article>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#BernstenNimbkar1982-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#BernstenNimbkar1982">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;M.Bernsten"/>
+				<rdf:_2 rdf:resource="&person;J.Nimbkar"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1982</bibtex:hasYear>
+		<bibtex:hasTitle>Marathi Structural Patterns: Book One</bibtex:hasTitle>
+		<bibtex:hasPublisher>Granthali and Marathi Abhyas Parishad</bibtex:hasPublisher>
+		<bibtex:hasAddress>Pune</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Faust1978-->
+
+	<bibtex:Article rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Faust1978">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;N.Faust"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1978</bibtex:hasYear>
+		<bibtex:hasTitle>Grámatica Cocama: Lecciones para el aprendizaje del idioma Cocama</bibtex:hasTitle>
+		<bibtex:hasJournal>Serie Ling\:{u}ística Peruana</bibtex:hasJournal>
+		<bibtex:hasVolume>6</bibtex:hasVolume>
+		<bibtex:hasPublisher>Ministerio de Educación Instituto Ling\:{u}ístico de Verano</bibtex:hasPublisher>
+		<bibtex:hasAddress>Lima</bibtex:hasAddress>
+	</bibtex:Article>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Primus1999-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Primus1999">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;BeatricePrimus"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1999</bibtex:hasYear>
+		<bibtex:hasTitle>Cases and Thematic Roles: Ergative, Accusative and Active</bibtex:hasTitle>
+		<bibtex:hasNumber>393</bibtex:hasNumber>
+		<bibtex:hasSeries>Linguistiche Arbeiten</bibtex:hasSeries>
+		<bibtex:hasPublisher>Max Niemeyer Verlag</bibtex:hasPublisher>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Schultze-Berndt2000-->
+
+	<bibtex:PhdThesis rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Schultze-Berndt2000">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;EvaSchultze-Berndt"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>2000</bibtex:hasYear>
+		<bibtex:hasTitle>Simple and complex verbs in Jaminjung. A study of event categorisation in an Australian language</bibtex:hasTitle>
+		<bibtex:hasAddress>Nijmegen</bibtex:hasAddress>
+		<bibtex:hasSchool>Katholieke Universiteit Nijmegen</bibtex:hasSchool>
+	</bibtex:PhdThesis>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Trask1996-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Trask1996">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;R.L.Trask"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1996</bibtex:hasYear>
+		<bibtex:hasTitle>Historical Linguistics</bibtex:hasTitle>
+		<bibtex:hasPublisher>Arnold</bibtex:hasPublisher>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Dahl1985-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Dahl1985">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;ÖstenDahl"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1985</bibtex:hasYear>
+		<bibtex:hasTitle>Tense and aspect systems</bibtex:hasTitle>
+		<bibtex:hasPublisher>Basil Blackwell</bibtex:hasPublisher>
+		<bibtex:hasAddress>Oxford, England</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#AllenGardinerFrantz1984-->
+
+	<bibtex:Article rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#AllenGardinerFrantz1984">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;B.J.Allen"/>
+				<rdf:_2 rdf:resource="&person;D.B.Gardiner"/>
+				<rdf:_3 rdf:resource="&person;D.G.Frantz"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1984</bibtex:hasYear>
+		<bibtex:hasTitle>Noun Incorporation in Southern Tiwa</bibtex:hasTitle>
+		<bibtex:hasJournal>International Journal of American Linguistics</bibtex:hasJournal>
+		<bibtex:hasVolume>50</bibtex:hasVolume>
+		<bibtex:hasNumber>3</bibtex:hasNumber>
+		<bibtex:hasPages>292-311</bibtex:hasPages>
+	</bibtex:Article>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#McIntosh1984-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#McIntosh1984">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;MaryMcIntosh"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1984</bibtex:hasYear>
+		<bibtex:hasTitle>Fulfulde Syntax and Verbal Morphology</bibtex:hasTitle>
+		<bibtex:hasPublisher>KPI</bibtex:hasPublisher>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Masolo-etal2003-->
+
+	<bibtex:TechReport rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Masolo-etal2003">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;ClaudioMasolo"/>
+				<rdf:_2 rdf:resource="&person;StefanoBorgo"/>
+				<rdf:_3 rdf:resource="&person;AldoGangemi"/>
+				<rdf:_4 rdf:resource="&person;NicolaGuarin"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>2003</bibtex:hasYear>
+		<bibtex:hasMonth>December</bibtex:hasMonth>
+		<bibtex:hasTitle>Ontologies library (final)</bibtex:hasTitle>
+		<bibtex:hasNumber>D18</bibtex:hasNumber>
+		<bibtex:hasAddress>Padova, Italy</bibtex:hasAddress>
+		<bibtex:hasInstitution>ISTC-CNR</bibtex:hasInstitution>
+	</bibtex:TechReport>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Callaghan1963-->
+
+	<bibtex:PhdThesis rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Callaghan1963">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;C.Callaghan"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1963</bibtex:hasYear>
+		<bibtex:hasTitle>A Grammar of the Lake Miwok Language</bibtex:hasTitle>
+		<bibtex:hasAddress>Berkeley</bibtex:hasAddress>
+		<bibtex:hasSchool>University of California</bibtex:hasSchool>
+	</bibtex:PhdThesis>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Chafe1995-->
+
+	<bibtex:InCollection rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Chafe1995">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;W.Chafe"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<biblio:hasEditorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;J.Bybee"/>
+				<rdf:_2 rdf:resource="&person;S.Fleischman"/>
+			</rdf:Seq>
+		</biblio:hasEditorList>
+		<bibtex:hasYear>1995</bibtex:hasYear>
+		<bibtex:hasTitle>Modality in grammar and discourse</bibtex:hasTitle>
+		<bibtex:hasBookTitle>Modality in grammar and discourse</bibtex:hasBookTitle>
+		<bibtex:hasPages>349--65</bibtex:hasPages>
+		<bibtex:hasPublisher>John Benjamins</bibtex:hasPublisher>
+		<bibtex:hasAddress>Amsterdam</bibtex:hasAddress>
+	</bibtex:InCollection>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Palmer2001-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Palmer2001">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;F.R.Palmer"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>2001</bibtex:hasYear>
+		<bibtex:hasTitle>Mood and Modality</bibtex:hasTitle>
+		<bibtex:hasEdition>2nd</bibtex:hasEdition>
+		<bibtex:hasPublisher>Cambridge University Press</bibtex:hasPublisher>
+		<bibtex:hasAddress>Cambridge; New York</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#ChafeNichols1986-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#ChafeNichols1986">
+		<biblio:hasEditorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;WallaceChafe"/>
+				<rdf:_2 rdf:resource="&person;JohannaNichols"/>
+			</rdf:Seq>
+		</biblio:hasEditorList>
+		<bibtex:hasYear>1986</bibtex:hasYear>
+		<bibtex:hasTitle>Evidentiality: the linguistic coding of epistemology.</bibtex:hasTitle>
+		<bibtex:hasPublisher>Ablex</bibtex:hasPublisher>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Glinert1989-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Glinert1989">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;LewisGlinert"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1989</bibtex:hasYear>
+		<bibtex:hasTitle>The Grammar of Modern Hebrew</bibtex:hasTitle>
+		<bibtex:hasPublisher>Cambridge University Press</bibtex:hasPublisher>
+		<bibtex:hasAddress>Cambridge</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Givón1988-->
+
+	<bibtex:InCollection rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Givón1988">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;TalmyGivón"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<biblio:hasEditorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;MasayoshiShibatani"/>
+			</rdf:Seq>
+		</biblio:hasEditorList>
+		<bibtex:hasYear>1988</bibtex:hasYear>
+		<bibtex:hasTitle>Passive and Voice</bibtex:hasTitle>
+		<bibtex:hasBookTitle>Passive and Voice</bibtex:hasBookTitle>
+		<bibtex:hasPages>417</bibtex:hasPages>
+		<bibtex:hasPublisher>John Benjamins</bibtex:hasPublisher>
+		<bibtex:hasAddress>Amsterdam</bibtex:hasAddress>
+	</bibtex:InCollection>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#MaxwellSimonsHayashi2000-->
+
+	<bibtex:Misc rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#MaxwellSimonsHayashi2000">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;MikeMaxwell"/>
+				<rdf:_2 rdf:resource="&person;GarySimons"/>
+				<rdf:_3 rdf:resource="&person;LarryHayashi"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>2000</bibtex:hasYear>
+		<bibtex:hasMonth>dec</bibtex:hasMonth>
+		<bibtex:hasTitle>Resources for morphology learning and evaluation: A morphologica</bibtex:hasTitle>
+		<bibtex:howPublished>Presented at the Workshop on Web-Based Language Documentation an</bibtex:howPublished>
+	</bibtex:Misc>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#SpencerZwicky1998-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#SpencerZwicky1998">
+		<biblio:hasEditorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;A.Spencer"/>
+				<rdf:_2 rdf:resource="&person;A.Zwicky"/>
+			</rdf:Seq>
+		</biblio:hasEditorList>
+		<bibtex:hasYear>1998</bibtex:hasYear>
+		<bibtex:hasTitle>The Handbook of Morphology</bibtex:hasTitle>
+		<bibtex:hasPublisher>Blackwell</bibtex:hasPublisher>
+		<bibtex:hasAddress>Oxford and Malden, MA</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#SaltarelliAzkarate1988-->
+
+	<bibtex:InCollection rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#SaltarelliAzkarate1988">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;M.Saltarelli"/>
+				<rdf:_2 rdf:resource="&person;M.Azkarate"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1988</bibtex:hasYear>
+		<bibtex:hasTitle>Croom helm descriptive grammars series</bibtex:hasTitle>
+		<bibtex:hasBookTitle>Croom helm descriptive grammars series</bibtex:hasBookTitle>
+		<bibtex:hasSeries>Croom helm descriptive grammars series</bibtex:hasSeries>
+		<bibtex:hasPublisher>Croom Helm</bibtex:hasPublisher>
+		<bibtex:hasAddress>London; New York</bibtex:hasAddress>
+	</bibtex:InCollection>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Mugane1997-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Mugane1997">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;J.Mugane"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1997</bibtex:hasYear>
+		<bibtex:hasTitle>A Paradigmatic Grammar of Gĩkũyũ</bibtex:hasTitle>
+		<bibtex:hasPublisher>CSLI Publications</bibtex:hasPublisher>
+		<bibtex:hasAddress>Stanford: CA</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Givón1994-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Givón1994">
+		<biblio:hasEditorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;TalmyGivón"/>
+			</rdf:Seq>
+		</biblio:hasEditorList>
+		<bibtex:hasYear>1994</bibtex:hasYear>
+		<bibtex:hasTitle>Voice and Inversion</bibtex:hasTitle>
+		<bibtex:hasSeries>Typological Studies in Language</bibtex:hasSeries>
+		<bibtex:hasPublisher>John Benjamins</bibtex:hasPublisher>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Hakulinen1961-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Hakulinen1961">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;LauriHakulinen"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1961</bibtex:hasYear>
+		<bibtex:hasTitle>The Structure and Development of the Finnish Language</bibtex:hasTitle>
+		<bibtex:hasVolume>3</bibtex:hasVolume>
+		<bibtex:hasSeries>Uralic and Altaic Series</bibtex:hasSeries>
+		<bibtex:hasPublisher>Indiana University Publications</bibtex:hasPublisher>
+		<bibtex:hasAddress>Bloomington, IN</bibtex:hasAddress>
+		<rdfs:comment>Translated by John Atkinson</rdfs:comment>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#ChierchiaMcConnell-Ginet1990-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#ChierchiaMcConnell-Ginet1990">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;GennaroChierchia"/>
+				<rdf:_2 rdf:resource="&person;SallyMcConnell-Ginet"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1990</bibtex:hasYear>
+		<bibtex:hasTitle>Meaning and Grammar: An Introduction to Semantics</bibtex:hasTitle>
+		<bibtex:hasPublisher>MIT Press</bibtex:hasPublisher>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#NedjalkovOtainaXoldovic1995-->
+
+	<bibtex:InCollection rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#NedjalkovOtainaXoldovic1995">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;V.P.Nedjalkov"/>
+				<rdf:_2 rdf:resource="&person;G.A.Otaina"/>
+				<rdf:_3 rdf:resource="&person;A.A.Xoldovic"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1995</bibtex:hasYear>
+		<bibtex:hasTitle>Subject, Voice and Ergativity: Selected Essays</bibtex:hasTitle>
+		<bibtex:hasBookTitle>Subject, Voice and Ergativity: Selected Essays</bibtex:hasBookTitle>
+		<bibtex:hasPublisher>Routledge</bibtex:hasPublisher>
+	</bibtex:InCollection>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Bybee1985-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Bybee1985">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;JoanBybee"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1985</bibtex:hasYear>
+		<bibtex:hasTitle>Morphology: A Study of the Relation Between Meaning and Form</bibtex:hasTitle>
+		<bibtex:hasPublisher>John Benjamins</bibtex:hasPublisher>
+		<bibtex:hasAddress>Philadelphia</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Stone1993-->
+
+	<bibtex:InCollection rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Stone1993">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;G.Stone"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<biblio:hasEditorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;B.Comrie"/>
+				<rdf:_2 rdf:resource="&person;G.Corbett"/>
+			</rdf:Seq>
+		</biblio:hasEditorList>
+		<bibtex:hasYear>1993</bibtex:hasYear>
+		<bibtex:hasTitle>The Slavonic Languages</bibtex:hasTitle>
+		<bibtex:hasBookTitle>The Slavonic Languages</bibtex:hasBookTitle>
+		<bibtex:hasPages>593--685</bibtex:hasPages>
+		<bibtex:hasPublisher>Routledge</bibtex:hasPublisher>
+		<bibtex:hasAddress>London</bibtex:hasAddress>
+	</bibtex:InCollection>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Ross1988-->
+
+	<bibtex:Article rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Ross1988">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;M.Ross"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1988</bibtex:hasYear>
+		<bibtex:hasTitle>Proto Oceanic and the Autroneasian Languages of Western Melanesia</bibtex:hasTitle>
+		<bibtex:hasJournal>Pacific Linguistics, series C</bibtex:hasJournal>
+		<bibtex:hasVolume>98</bibtex:hasVolume>
+		<bibtex:hasSeries>Pacific Linguistics, series C</bibtex:hasSeries>
+		<bibtex:hasPublisher>Department of Linguistics, Research School of Pacific Studies, Australia</bibtex:hasPublisher>
+		<bibtex:hasAddress> Canberra</bibtex:hasAddress>
+	</bibtex:Article>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#BybeePerkinsPagliuca1994-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#BybeePerkinsPagliuca1994">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;J.Bybee"/>
+				<rdf:_2 rdf:resource="&person;R.Perkins"/>
+				<rdf:_3 rdf:resource="&person;W.Pagliuca"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1994</bibtex:hasYear>
+		<bibtex:hasTitle>The Evolution of Grammar: Tense, Aspect, and Modality in the Language</bibtex:hasTitle>
+		<bibtex:hasPublisher>University of Chicago Press</bibtex:hasPublisher>
+		<bibtex:hasAddress>Chicago</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Michaelis1998-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Michaelis1998">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;LauraA.Michaelis"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1998</bibtex:hasYear>
+		<bibtex:hasTitle>Aspectual Grammar and Past-Time Reference</bibtex:hasTitle>
+		<bibtex:hasPublisher>Routledge</bibtex:hasPublisher>
+		<bibtex:hasAddress>London</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Comrie1989-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Comrie1989">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;B.Comrie"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1989</bibtex:hasYear>
+		<bibtex:hasTitle>Language Universals and Linguistic Typology: Syntax and Morphology</bibtex:hasTitle>
+		<bibtex:hasPublisher>Blackwell</bibtex:hasPublisher>
+		<bibtex:hasAddress>Oxford</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#KeenanKeenan1998-->
+
+	<bibtex:InCollection rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#KeenanKeenan1998">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;EdwardL.Keenan"/>
+				<rdf:_2 rdf:resource="&person;MariaKeenan"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<biblio:hasEditorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;AndrewSpencer"/>
+				<rdf:_2 rdf:resource="&person;ArnoldM.Zwicky"/>
+			</rdf:Seq>
+		</biblio:hasEditorList>
+		<bibtex:hasYear>1998</bibtex:hasYear>
+		<bibtex:hasTitle>The Handbook of Morphology</bibtex:hasTitle>
+		<bibtex:hasBookTitle>The Handbook of Morphology</bibtex:hasBookTitle>
+		<bibtex:hasPages>563--623</bibtex:hasPages>
+		<bibtex:hasChapter>28</bibtex:hasChapter>
+		<bibtex:hasPublisher>Backwell</bibtex:hasPublisher>
+		<bibtex:hasAddress>Oxford, UK</bibtex:hasAddress>
+	</bibtex:InCollection>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Anceaux1965-->
+
+	<bibtex:Article rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Anceaux1965">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;J.C.Anceaux"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1965</bibtex:hasYear>
+		<bibtex:hasTitle>The Nimboran language: Phonology and Morphology</bibtex:hasTitle>
+		<bibtex:hasJournal>Verhandelingen van het Koninklijk Instituut voor Taal-, Land- e</bibtex:hasJournal>
+		<bibtex:hasVolume>44</bibtex:hasVolume>
+		<bibtex:hasPublisher>Nijhoff</bibtex:hasPublisher>
+		<bibtex:hasAddress>The Hague</bibtex:hasAddress>
+	</bibtex:Article>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Comrie1985-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Comrie1985">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;B.Comrie"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1985</bibtex:hasYear>
+		<bibtex:hasTitle>Tense</bibtex:hasTitle>
+		<bibtex:hasPublisher>Cambridge University Press</bibtex:hasPublisher>
+		<bibtex:hasAddress>London</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Schachter1985-->
+
+	<bibtex:InCollection rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Schachter1985">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;PaulSchachter"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<biblio:hasEditorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;TimothyShopen"/>
+			</rdf:Seq>
+		</biblio:hasEditorList>
+		<bibtex:hasYear>1985</bibtex:hasYear>
+		<bibtex:hasTitle>Language Typology and Syntactic Description</bibtex:hasTitle>
+		<bibtex:hasBookTitle>Language Typology and Syntactic Description</bibtex:hasBookTitle>
+		<bibtex:hasVolume>1</bibtex:hasVolume>
+		<bibtex:hasPages>3--61</bibtex:hasPages>
+		<bibtex:hasPublisher>Cambridge University Press</bibtex:hasPublisher>
+	</bibtex:InCollection>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Ladefoged1997-->
+
+	<bibtex:InCollection rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Ladefoged1997">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;PeterLadefoged"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<biblio:hasEditorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;WilliamJ.Hardcastle"/>
+				<rdf:_2 rdf:resource="&person;JohnLaver"/>
+			</rdf:Seq>
+		</biblio:hasEditorList>
+		<bibtex:hasYear>1997</bibtex:hasYear>
+		<bibtex:hasTitle>The Handbook of Phonetic Sciences</bibtex:hasTitle>
+		<bibtex:hasBookTitle>The Handbook of Phonetic Sciences</bibtex:hasBookTitle>
+		<bibtex:hasPages>589--618</bibtex:hasPages>
+		<bibtex:hasPublisher>Blackwell</bibtex:hasPublisher>
+		<bibtex:hasAddress>Oxford, UK</bibtex:hasAddress>
+	</bibtex:InCollection>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Khaidakov1966-->
+
+	<bibtex:Article rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Khaidakov1966">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;S.M.Khaidakov"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1966</bibtex:hasYear>
+		<bibtex:hasTitle>The dialect divisions of Lak</bibtex:hasTitle>
+		<bibtex:hasJournal>Studia Caucasica</bibtex:hasJournal>
+		<bibtex:hasVolume>2</bibtex:hasVolume>
+		<bibtex:hasPages>9--18</bibtex:hasPages>
+	</bibtex:Article>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Khaidakov1963-->
+
+	<bibtex:Article rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Khaidakov1963">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;S.M.Khaidakov"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1963</bibtex:hasYear>
+		<bibtex:hasTitle>Principy raspredelenija imen suščestvitel'nyx po grammatičeskim klassa</bibtex:hasTitle>
+		<bibtex:hasJournal>Studia Caucasica</bibtex:hasJournal>
+		<bibtex:hasVolume>1</bibtex:hasVolume>
+		<bibtex:hasPages>48--55</bibtex:hasPages>
+	</bibtex:Article>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Frantz1991-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Frantz1991">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;D.Frantz"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1991</bibtex:hasYear>
+		<bibtex:hasTitle>Blackfoot Grammar</bibtex:hasTitle>
+		<bibtex:hasPublisher>University of Toronto Press</bibtex:hasPublisher>
+		<bibtex:hasAddress>Toronto</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Crystal2001-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Crystal2001">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;DavidCrystal"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>2001</bibtex:hasYear>
+		<bibtex:hasTitle>Language and the Internet</bibtex:hasTitle>
+		<bibtex:hasPublisher>Cambridge University Press</bibtex:hasPublisher>
+		<bibtex:hasAddress>Cambridge, UK</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Klein1975-->
+
+	<bibtex:Article rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Klein1975">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;F.Klein"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1975</bibtex:hasYear>
+		<bibtex:hasTitle>Pragmatic Constraints on Distribution: The Spanish Subjunctive</bibtex:hasTitle>
+		<bibtex:hasJournal>Papers from the Regional Meetings, Chicago Linguistic Society</bibtex:hasJournal>
+		<bibtex:hasVolume>11</bibtex:hasVolume>
+		<bibtex:hasPages>353-365</bibtex:hasPages>
+		<bibtex:hasPublisher>Chicago Linguistic Society</bibtex:hasPublisher>
+		<bibtex:hasAddress>Chicago</bibtex:hasAddress>
+	</bibtex:Article>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#FoxHopper1994-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#FoxHopper1994">
+		<biblio:hasEditorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;BarbaraFox"/>
+				<rdf:_2 rdf:resource="&person;PaulJ.Hopper"/>
+			</rdf:Seq>
+		</biblio:hasEditorList>
+		<bibtex:hasYear>1994</bibtex:hasYear>
+		<bibtex:hasTitle>Voice: Form and Function</bibtex:hasTitle>
+		<bibtex:hasPublisher>John Benjamins</bibtex:hasPublisher>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#WijayawardhanaWickramasingheBynon1995-->
+
+	<bibtex:InProceedings rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#WijayawardhanaWickramasingheBynon1995">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;G.D.Wijayawardhana"/>
+				<rdf:_2 rdf:resource="&person;DayaWickramasinghe"/>
+				<rdf:_3 rdf:resource="&person;TheodoraBynon"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1995</bibtex:hasYear>
+		<bibtex:hasTitle>Subject, Voice and Ergativity: Selected Essays</bibtex:hasTitle>
+		<bibtex:hasBookTitle>Subject, Voice and Ergativity: Selected Essays</bibtex:hasBookTitle>
+	</bibtex:InProceedings>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#WolfartCarroll1973-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#WolfartCarroll1973">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;H.C.Wolfart"/>
+				<rdf:_2 rdf:resource="&person;J.F.Carroll"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1973</bibtex:hasYear>
+		<bibtex:hasTitle>Meet Cree: A Guide to the Cree Language</bibtex:hasTitle>
+		<bibtex:hasPublisher>University of Alberta Press</bibtex:hasPublisher>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Klaiman1991-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Klaiman1991">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;M.H.Klaiman"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1991</bibtex:hasYear>
+		<bibtex:hasTitle>Grammatical Voice</bibtex:hasTitle>
+		<bibtex:hasPublisher>Cambridge University Press</bibtex:hasPublisher>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#LoewekeMay1980-->
+
+	<bibtex:Article rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#LoewekeMay1980">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;E.Loeweke"/>
+				<rdf:_2 rdf:resource="&person;J.May"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1980</bibtex:hasYear>
+		<bibtex:hasTitle>General grammar of Fasu (Namo Me)</bibtex:hasTitle>
+		<bibtex:hasJournal>Working Papers in New Guinea Linguistics</bibtex:hasJournal>
+		<bibtex:hasVolume>27</bibtex:hasVolume>
+		<bibtex:hasPages>5--106</bibtex:hasPages>
+	</bibtex:Article>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#TennyPustejovsky2000-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#TennyPustejovsky2000">
+		<biblio:hasEditorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;CarolTenny"/>
+				<rdf:_2 rdf:resource="&person;JamesPustejovsky"/>
+			</rdf:Seq>
+		</biblio:hasEditorList>
+		<bibtex:hasYear>2000</bibtex:hasYear>
+		<bibtex:hasTitle>Events as Grammatical Objects</bibtex:hasTitle>
+		<bibtex:hasPublisher>CSLI Publications</bibtex:hasPublisher>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#RichardsPlattWeber1985-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#RichardsPlattWeber1985">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;JackRichards"/>
+				<rdf:_2 rdf:resource="&person;JohnPlatt"/>
+				<rdf:_3 rdf:resource="&person;HeidiWeber"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1985</bibtex:hasYear>
+		<bibtex:hasTitle>Longman Dictionary of Applied Linguistics</bibtex:hasTitle>
+		<bibtex:hasPublisher>Longman</bibtex:hasPublisher>
+		<bibtex:hasAddress>Harlow, Essex</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Zirkov1955-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Zirkov1955">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;LevZirkov"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1955</bibtex:hasYear>
+		<bibtex:hasTitle>Lakskij Jazyk: Fonetika i Morfologija Moskva [Lak. Phonetics an</bibtex:hasTitle>
+		<bibtex:hasPublisher>Izdatel'stvo</bibtex:hasPublisher>
+		<bibtex:hasAddress>USSR</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Siewierska1988-->
+
+	<bibtex:InCollection rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Siewierska1988">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;AnnaSiewierska"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<biblio:hasEditorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;MasayoshiShibatani"/>
+			</rdf:Seq>
+		</biblio:hasEditorList>
+		<bibtex:hasYear>1988</bibtex:hasYear>
+		<bibtex:hasTitle>Passive and Voice</bibtex:hasTitle>
+		<bibtex:hasBookTitle>Passive and Voice</bibtex:hasBookTitle>
+		<bibtex:hasPublisher>John Benjamins</bibtex:hasPublisher>
+		<bibtex:hasAddress>Amsterdam</bibtex:hasAddress>
+	</bibtex:InCollection>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Leman1980-->
+
+	<bibtex:Article rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Leman1980">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;W.Leman"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1980</bibtex:hasYear>
+		<bibtex:hasTitle>A reference grammar of the Cheyenne Language</bibtex:hasTitle>
+		<bibtex:hasJournal>Occasional Publications in Anthropology, Linguistics Series</bibtex:hasJournal>
+		<bibtex:hasVolume>5</bibtex:hasVolume>
+		<bibtex:hasPublisher>Museum of Anthropology, University of Northern Colorado</bibtex:hasPublisher>
+		<bibtex:hasAddress>Greeley</bibtex:hasAddress>
+	</bibtex:Article>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Good2003-->
+
+	<bibtex:Article rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Good2003">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;JeffGood"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>2003</bibtex:hasYear>
+		<bibtex:hasTitle>Clause Combining in Chechen</bibtex:hasTitle>
+		<bibtex:hasJournal>Studies in Language</bibtex:hasJournal>
+		<bibtex:hasVolume>27</bibtex:hasVolume>
+		<bibtex:hasPages>113-170</bibtex:hasPages>
+	</bibtex:Article>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Fleming1988-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Fleming1988">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;IlahFleming"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1988</bibtex:hasYear>
+		<bibtex:hasTitle>Communication Analysis: A Tratificational Approach: A field guid</bibtex:hasTitle>
+		<bibtex:hasVolume>2</bibtex:hasVolume>
+		<bibtex:hasPublisher>Summer Institute of Linguistics</bibtex:hasPublisher>
+		<bibtex:hasAddress>Dallas, TX</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Caughley1982-->
+
+	<bibtex:Article rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Caughley1982">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;R.C.Caughley"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1982</bibtex:hasYear>
+		<bibtex:hasTitle>The Syntax and Morphology of the Verb in Chepang</bibtex:hasTitle>
+		<bibtex:hasJournal>Pacific Linguistics Series B</bibtex:hasJournal>
+		<bibtex:hasVolume>84</bibtex:hasVolume>
+		<bibtex:hasPublisher>Australian National University</bibtex:hasPublisher>
+		<bibtex:hasAddress>Canberra</bibtex:hasAddress>
+	</bibtex:Article>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Bybee2003-->
+
+	<bibtex:InCollection rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Bybee2003">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;JoanL.Bybee"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<biblio:hasEditorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;WilliamFrawley"/>
+			</rdf:Seq>
+		</biblio:hasEditorList>
+		<bibtex:hasYear>2003</bibtex:hasYear>
+		<bibtex:hasTitle>International Encyclopedia of Linguistics</bibtex:hasTitle>
+		<bibtex:hasBookTitle>International Encyclopedia of Linguistics</bibtex:hasBookTitle>
+		<bibtex:hasEdition>2nd</bibtex:hasEdition>
+		<bibtex:hasPages>157--158</bibtex:hasPages>
+		<bibtex:hasPublisher>Oxford University Press</bibtex:hasPublisher>
+		<bibtex:hasAddress>Oxford</bibtex:hasAddress>
+	</bibtex:InCollection>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Lyons1977-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Lyons1977">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;JohnLyons"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1977</bibtex:hasYear>
+		<bibtex:hasTitle>Semantics</bibtex:hasTitle>
+		<bibtex:hasVolume>I</bibtex:hasVolume>
+		<bibtex:hasPublisher>Cambridge University Press</bibtex:hasPublisher>
+		<bibtex:hasAddress>Cambridge, UK</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Hoijer1933-->
+
+	<bibtex:InCollection rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Hoijer1933">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;H.Hoijer"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1933</bibtex:hasYear>
+		<bibtex:hasTitle>Extract from Handbook of American Indian Languages</bibtex:hasTitle>
+		<bibtex:hasBookTitle>Extract from Handbook of American Indian Languages</bibtex:hasBookTitle>
+		<bibtex:hasVolume>3</bibtex:hasVolume>
+		<bibtex:hasPages>1--148</bibtex:hasPages>
+		<bibtex:hasPublisher>Columbia University</bibtex:hasPublisher>
+		<bibtex:hasAddress>New York</bibtex:hasAddress>
+		<rdfs:comment>Book published 1931.</rdfs:comment>
+	</bibtex:InCollection>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Donohue1999-->
+
+	<bibtex:Article rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Donohue1999">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;M.Donohue"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1999</bibtex:hasYear>
+		<bibtex:hasTitle>Warembori</bibtex:hasTitle>
+		<bibtex:hasJournal>Languages of the World/Material</bibtex:hasJournal>
+		<bibtex:hasVolume>341</bibtex:hasVolume>
+		<bibtex:hasPublisher>Lincom Europa</bibtex:hasPublisher>
+		<bibtex:hasAddress>Muenchen</bibtex:hasAddress>
+	</bibtex:Article>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#LiThompson1981-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#LiThompson1981">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;CharlesLi"/>
+				<rdf:_2 rdf:resource="&person;SandraThompson"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1981</bibtex:hasYear>
+		<bibtex:hasTitle>Mandarin Chinese: A functional reference grammar</bibtex:hasTitle>
+		<bibtex:hasPublisher>University of California Press</bibtex:hasPublisher>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Haspelmath1993-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Haspelmath1993">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;MartinHaspelmath"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1993</bibtex:hasYear>
+		<bibtex:hasTitle>A grammar of Lezgian</bibtex:hasTitle>
+		<bibtex:hasPublisher>Mouton de Gruyter</bibtex:hasPublisher>
+		<bibtex:hasAddress>Berlin</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Frawley1992-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Frawley1992">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;WilliamFrawley"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1992</bibtex:hasYear>
+		<bibtex:hasTitle>Linguistic Semantics</bibtex:hasTitle>
+		<bibtex:hasPublisher>Lawrence Erlbaum Associates</bibtex:hasPublisher>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Silver1966-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Silver1966">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;S.Silver"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1966</bibtex:hasYear>
+		<bibtex:hasTitle>The Shasta Language. Ph.D. dissertation</bibtex:hasTitle>
+		<bibtex:hasPublisher>University of California</bibtex:hasPublisher>
+		<bibtex:hasAddress>Berkeley</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Donaldson1980-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Donaldson1980">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;T.Donaldson"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1980</bibtex:hasYear>
+		<bibtex:hasTitle>Ngiyambaa: the language of the Wangaaybuwan</bibtex:hasTitle>
+		<bibtex:hasVolume>29</bibtex:hasVolume>
+		<bibtex:hasSeries>Cambridge Studies in Linguistics</bibtex:hasSeries>
+		<bibtex:hasPublisher>Cambridge University Press</bibtex:hasPublisher>
+		<bibtex:hasAddress>Cambridge</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Prost1962-->
+
+	<bibtex:Article rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Prost1962">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;G.R.Prost"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1962</bibtex:hasYear>
+		<bibtex:hasTitle>Signalling of transitive and intransitive in Chacobo (Pano)</bibtex:hasTitle>
+		<bibtex:hasJournal>International Journal of American Linguistics</bibtex:hasJournal>
+		<bibtex:hasVolume>28</bibtex:hasVolume>
+		<bibtex:hasPages>108--118</bibtex:hasPages>
+	</bibtex:Article>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Kiparsky2001-->
+
+	<bibtex:Article rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Kiparsky2001">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;P.Kiparsky"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>2001</bibtex:hasYear>
+		<bibtex:hasTitle>Structural Case in Finnish</bibtex:hasTitle>
+		<bibtex:hasJournal>Lingua</bibtex:hasJournal>
+		<bibtex:hasVolume>111</bibtex:hasVolume>
+		<bibtex:hasPages>315-376</bibtex:hasPages>
+		<bibtex:hasPublisher>Chicago Linguistic Society</bibtex:hasPublisher>
+		<bibtex:hasAddress>Chicago</bibtex:hasAddress>
+	</bibtex:Article>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Foley1986-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Foley1986">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;W.A.Foley"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1986</bibtex:hasYear>
+		<bibtex:hasTitle>The Papuan Language of New Guinea</bibtex:hasTitle>
+		<bibtex:hasPublisher>Cambridge University Press</bibtex:hasPublisher>
+		<bibtex:hasAddress>Cambridge; New York</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Axelrod1993-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Axelrod1993">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;M.Axelrod"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1993</bibtex:hasYear>
+		<bibtex:hasTitle>The Semantics of Time: Aspectual Categorization in Koyukon Athabaskan</bibtex:hasTitle>
+		<bibtex:hasPublisher>University of Nebraska Press</bibtex:hasPublisher>
+		<bibtex:hasAddress>Lincoln</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Plank1979-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Plank1979">
+		<biblio:hasEditorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;FransPlank"/>
+			</rdf:Seq>
+		</biblio:hasEditorList>
+		<bibtex:hasYear>1979</bibtex:hasYear>
+		<bibtex:hasTitle>Ergativity: Towards a theory of Grammatical Relations</bibtex:hasTitle>
+		<bibtex:hasPublisher>Academic Press</bibtex:hasPublisher>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Hayward1984-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Hayward1984">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;DickHayward"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1984</bibtex:hasYear>
+		<bibtex:hasTitle>The Arbore Language : a First Investigation, Including a Vocabulary</bibtex:hasTitle>
+		<bibtex:hasPublisher>Buske</bibtex:hasPublisher>
+		<bibtex:hasAddress>Hamburg</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Klaiman1982-->
+
+	<bibtex:Article rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Klaiman1982">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;M.H.Klaiman"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1982</bibtex:hasYear>
+		<bibtex:hasTitle>Studies in Language</bibtex:hasTitle>
+		<bibtex:hasJournal>Chicago Linguistic Society</bibtex:hasJournal>
+		<bibtex:hasVolume>18</bibtex:hasVolume>
+		<bibtex:hasPages>267-81</bibtex:hasPages>
+	</bibtex:Article>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Shieber1986-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Shieber1986">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;StuartM.Shieber"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1986</bibtex:hasYear>
+		<bibtex:hasTitle>An introduction to Unification-based approaches to Grammar</bibtex:hasTitle>
+		<bibtex:hasPublisher>Center for the Study of Language and Information</bibtex:hasPublisher>
+		<bibtex:hasAddress>Stanford University, Stanford, CA</bibtex:hasAddress>
+		<rdfs:comment>CLSI Lecture Notes, No. 4</rdfs:comment>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Hermon1984-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Hermon1984">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;GabriellaHermon"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1984</bibtex:hasYear>
+		<bibtex:hasTitle>Syntactic Modularity</bibtex:hasTitle>
+		<bibtex:hasPublisher>Foris</bibtex:hasPublisher>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Quirk-etal1985-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Quirk-etal1985">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;RandolphQuirk"/>
+				<rdf:_2 rdf:resource="&person;SidneyGreenbaum"/>
+				<rdf:_3 rdf:resource="&person;GeoffreyLeech"/>
+				<rdf:_4 rdf:resource="&person;JanSvartik"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1985</bibtex:hasYear>
+		<bibtex:hasTitle>A comprehensive grammar of the {English} language</bibtex:hasTitle>
+		<bibtex:hasPublisher>Longman</bibtex:hasPublisher>
+		<bibtex:hasAddress>London</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Lyons1968-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Lyons1968">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;JohnLyons"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1968</bibtex:hasYear>
+		<bibtex:hasTitle>Introduction to Theoretical Linguistics</bibtex:hasTitle>
+		<bibtex:hasPublisher>Cambridge University Press</bibtex:hasPublisher>
+		<bibtex:hasAddress>Cambridge, UK</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#MoselHovdhaugen1992-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#MoselHovdhaugen1992">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;U.Mosel"/>
+				<rdf:_2 rdf:resource="&person;E.Hovdhaugen"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1992</bibtex:hasYear>
+		<bibtex:hasTitle>Samoan Reference Grammar</bibtex:hasTitle>
+		<bibtex:hasPublisher>Scandinavian University Press</bibtex:hasPublisher>
+		<bibtex:hasAddress>Oslo</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Hewitt1979-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Hewitt1979">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;B.GeorgeHewitt"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1979</bibtex:hasYear>
+		<bibtex:hasTitle>Abkhaz</bibtex:hasTitle>
+		<bibtex:hasVolume>2</bibtex:hasVolume>
+		<bibtex:hasSeries>Lingua Descriptive Studies</bibtex:hasSeries>
+		<bibtex:hasPublisher>North Holland</bibtex:hasPublisher>
+		<bibtex:hasAddress>Amsterdam</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Valentine2001-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Valentine2001">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;J.RandolphValentine"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>2001</bibtex:hasYear>
+		<bibtex:hasTitle>Nishnaabemwin Reference Grammar</bibtex:hasTitle>
+		<bibtex:hasPublisher>University of Toronto Press</bibtex:hasPublisher>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#HartmannStork1972-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#HartmannStork1972">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;R.R.K.Hartmann"/>
+				<rdf:_2 rdf:resource="&person;F.C.Stork"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1972</bibtex:hasYear>
+		<bibtex:hasTitle>Dictionary of Language and Linguistics</bibtex:hasTitle>
+		<bibtex:hasPublisher>Applied Science Publishers, Ltd.</bibtex:hasPublisher>
+		<bibtex:hasAddress>London</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Hymes1955-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Hymes1955">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;D.Hymes"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1955</bibtex:hasYear>
+		<bibtex:hasTitle>The Language of Kathlamet Chinook</bibtex:hasTitle>
+		<bibtex:hasPublisher>Indiana University</bibtex:hasPublisher>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Ebeling1966-->
+
+	<bibtex:Article rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Ebeling1966">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;C.L.Ebeling"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1966</bibtex:hasYear>
+		<bibtex:hasTitle>Review of Chikobava and Cercvadze's 'The Grammar of Literary Avar'</bibtex:hasTitle>
+		<bibtex:hasJournal>Studia Caucasica</bibtex:hasJournal>
+		<bibtex:hasVolume>2</bibtex:hasVolume>
+		<bibtex:hasPages>58-100</bibtex:hasPages>
+	</bibtex:Article>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Shibatani1995-->
+
+	<bibtex:InCollection rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Shibatani1995">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;MasayoshiShibatani"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<biblio:hasEditorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;D.C.Bennett"/>
+				<rdf:_2 rdf:resource="&person;T.Bynon"/>
+				<rdf:_3 rdf:resource="&person;B.G.Hewitt"/>
+			</rdf:Seq>
+		</biblio:hasEditorList>
+		<bibtex:hasYear>1995</bibtex:hasYear>
+		<bibtex:hasTitle>Subject, Voice and Ergativity: Selected Essays</bibtex:hasTitle>
+		<bibtex:hasBookTitle>Subject, Voice and Ergativity: Selected Essays</bibtex:hasBookTitle>
+		<bibtex:hasPublisher>Routledge</bibtex:hasPublisher>
+	</bibtex:InCollection>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Naylor1995-->
+
+	<bibtex:InCollection rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Naylor1995">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;P.B.Naylor"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1995</bibtex:hasYear>
+		<bibtex:hasTitle>Subject, Voice and Ergativity: Selected Essays</bibtex:hasTitle>
+		<bibtex:hasBookTitle>Subject, Voice and Ergativity: Selected Essays</bibtex:hasBookTitle>
+		<bibtex:hasPublisher>Routledge</bibtex:hasPublisher>
+	</bibtex:InCollection>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Asher1982-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Asher1982">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;R.E.Asher"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1982</bibtex:hasYear>
+		<bibtex:hasTitle>Tamil</bibtex:hasTitle>
+		<bibtex:hasVolume>7</bibtex:hasVolume>
+		<bibtex:hasSeries>Lingua Descriptive Series</bibtex:hasSeries>
+		<bibtex:hasPublisher>North Holland</bibtex:hasPublisher>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#England1983-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#England1983">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;NoraEngland"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1983</bibtex:hasYear>
+		<bibtex:hasTitle>A Grammar of Mam, a Mayan Language</bibtex:hasTitle>
+		<bibtex:hasPublisher>University of Texas Press</bibtex:hasPublisher>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Holt1943-->
+
+	<bibtex:Article rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Holt1943">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;JensHolt"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1943</bibtex:hasYear>
+		<bibtex:hasTitle>Études d'aspect</bibtex:hasTitle>
+		<bibtex:hasJournal>Acta Jutlandica</bibtex:hasJournal>
+		<bibtex:hasVolume>15</bibtex:hasVolume>
+		<bibtex:hasNumber>2</bibtex:hasNumber>
+	</bibtex:Article>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Cohen1936-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Cohen1936">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;MarcelCohen"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1936</bibtex:hasYear>
+		<bibtex:hasTitle>Traité de langue amharique</bibtex:hasTitle>
+		<bibtex:hasPublisher>Institut d'ethnologie</bibtex:hasPublisher>
+		<bibtex:hasAddress>Paris</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Cruse2000-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Cruse2000">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;AlanCruse"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>2000</bibtex:hasYear>
+		<bibtex:hasTitle>Meaning in Language: An Introduction to Semantics and Pragmatics</bibtex:hasTitle>
+		<bibtex:hasPublisher>Oxford University Press</bibtex:hasPublisher>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Forrest1994-->
+
+	<bibtex:InCollection rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Forrest1994">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;LindaB.Forrest"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1994</bibtex:hasYear>
+		<bibtex:hasTitle>Voice and Inversion</bibtex:hasTitle>
+		<bibtex:hasBookTitle>Voice and Inversion</bibtex:hasBookTitle>
+		<bibtex:hasPublisher>John Benjamins</bibtex:hasPublisher>
+	</bibtex:InCollection>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Zwicky1977-->
+
+	<bibtex:Misc rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Zwicky1977">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;ArnoldM.Zwicky"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1977</bibtex:hasYear>
+		<bibtex:hasMonth>February</bibtex:hasMonth>
+		<bibtex:hasTitle>On clitics</bibtex:hasTitle>
+		<bibtex:hasAddress>Bloomington, IN</bibtex:hasAddress>
+		<bibtex:howPublished>Indiana University Linguistics Club</bibtex:howPublished>
+	</bibtex:Misc>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Matthews1991-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Matthews1991">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;PeterHugoeMatthews"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1991</bibtex:hasYear>
+		<bibtex:hasTitle>Morphology</bibtex:hasTitle>
+		<bibtex:hasPublisher>Cambridge University Press</bibtex:hasPublisher>
+		<bibtex:hasAddress>Cambridge, UK</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Buszard-Welcher-->
+
+	<bibtex:Unpublished rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Buszard-Welcher">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;L.Buszard-Welcher"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasTitle>Unpublished notes</bibtex:hasTitle>
+		<rdfs:comment>Unpublished notes</rdfs:comment>
+	</bibtex:Unpublished>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Lynch1982-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Lynch1982">
+		<biblio:hasEditorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;JohnLynch"/>
+			</rdf:Seq>
+		</biblio:hasEditorList>
+		<bibtex:hasYear>1982</bibtex:hasYear>
+		<bibtex:hasTitle>Southwest Tanna grammar and vocabulary</bibtex:hasTitle>
+		<bibtex:hasVolume>4</bibtex:hasVolume>
+		<bibtex:hasSeries>Papers in Linguistics of Melanesia</bibtex:hasSeries>
+		<bibtex:hasPublisher>Australian National University Press</bibtex:hasPublisher>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Schlichter1986-->
+
+	<bibtex:InCollection rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Schlichter1986">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;AliceSchlichter"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<biblio:hasEditorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;WallaceChafe"/>
+				<rdf:_2 rdf:resource="&person;JohannaNichols"/>
+			</rdf:Seq>
+		</biblio:hasEditorList>
+		<bibtex:hasYear>1986</bibtex:hasYear>
+		<bibtex:hasTitle>Evidentiality: The Linguistic Coding of Epistemology</bibtex:hasTitle>
+		<bibtex:hasBookTitle>Evidentiality: The Linguistic Coding of Epistemology</bibtex:hasBookTitle>
+		<bibtex:hasVolume>20</bibtex:hasVolume>
+		<bibtex:hasSeries>Advances in Discourse Processes</bibtex:hasSeries>
+		<bibtex:hasPages>46-59</bibtex:hasPages>
+		<bibtex:hasPublisher>Ablex</bibtex:hasPublisher>
+	</bibtex:InCollection>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Payne1997-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Payne1997">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;T.Payne"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1997</bibtex:hasYear>
+		<bibtex:hasTitle>Describing Morphosyntax: A Guide for Field Linguists </bibtex:hasTitle>
+		<bibtex:hasPublisher>Cambridge University Press</bibtex:hasPublisher>
+		<bibtex:hasAddress>Cambridge; New York</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Haspelmath2002-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Haspelmath2002">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;MartinHaspelmath"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>2002</bibtex:hasYear>
+		<bibtex:hasTitle>Understanding Morphology</bibtex:hasTitle>
+		<bibtex:hasPublisher>Arnold</bibtex:hasPublisher>
+		<bibtex:hasAddress>London</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Shibatani1988-->
+
+	<bibtex:InCollection rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Shibatani1988">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;MasayoshiShibatani"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1988</bibtex:hasYear>
+		<bibtex:hasTitle>Passive and Voice</bibtex:hasTitle>
+		<bibtex:hasBookTitle>Passive and Voice</bibtex:hasBookTitle>
+		<bibtex:hasPublisher>John Benjamins</bibtex:hasPublisher>
+	</bibtex:InCollection>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#BaermanBrownCorbett2005-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#BaermanBrownCorbett2005">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;MatthewBaerman"/>
+				<rdf:_2 rdf:resource="&person;DunstanBrown"/>
+				<rdf:_3 rdf:resource="&person;GrevilleCorbett"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>2005</bibtex:hasYear>
+		<bibtex:hasTitle>The Syntax-Morphology Interface: A Study of Syncretism</bibtex:hasTitle>
+		<bibtex:hasVolume>109</bibtex:hasVolume>
+		<bibtex:hasSeries>Cambridge Studies in Linguistics</bibtex:hasSeries>
+		<bibtex:hasPublisher>Cambridge University Press</bibtex:hasPublisher>
+		<bibtex:hasAddress>Cambridge, UK</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Blake1979-->
+
+	<bibtex:Article rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Blake1979">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;BarryJ.Blake"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1979</bibtex:hasYear>
+		<bibtex:hasTitle>A Kalkatungu Grammar</bibtex:hasTitle>
+		<bibtex:hasJournal>Pacific Linguistics Series B</bibtex:hasJournal>
+		<bibtex:hasVolume>57</bibtex:hasVolume>
+		<bibtex:hasPublisher>Department of Linguist cs, Research School of Pacific Studies, Australia</bibtex:hasPublisher>
+		<bibtex:hasAddress>Canberra</bibtex:hasAddress>
+	</bibtex:Article>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Croft1990-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Croft1990">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;WilliamCroft"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1990</bibtex:hasYear>
+		<bibtex:hasTitle>Typology and Universals</bibtex:hasTitle>
+		<bibtex:hasPublisher>Cambridge University Press</bibtex:hasPublisher>
+		<bibtex:hasAddress>Cambridge, UK</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Khaidakov1980-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Khaidakov1980">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;S.M.Khaidakov"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1980</bibtex:hasYear>
+		<bibtex:hasTitle>Principy Imennoj Klassifikacii v Dagestanskix Jazykax</bibtex:hasTitle>
+		<bibtex:hasPublisher>Nauka</bibtex:hasPublisher>
+		<bibtex:hasAddress>Moscow</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Fortescue1984-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Fortescue1984">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;M.Fortescue"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1984</bibtex:hasYear>
+		<bibtex:hasTitle>West Greenlandic Eskimo</bibtex:hasTitle>
+		<bibtex:hasPublisher>Croom Helm</bibtex:hasPublisher>
+		<bibtex:hasAddress>London</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Matthews1965-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Matthews1965">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;GeorgeH.Matthews"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1965</bibtex:hasYear>
+		<bibtex:hasTitle>Hidatsa syntax</bibtex:hasTitle>
+		<bibtex:hasPublisher>Mouton</bibtex:hasPublisher>
+		<bibtex:hasAddress>The Hague</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Malone1988-->
+
+	<bibtex:Article rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Malone1988">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;T.Malone"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1988</bibtex:hasYear>
+		<bibtex:hasTitle>The Origin and Development of Tuyuca Evidentials</bibtex:hasTitle>
+		<bibtex:hasJournal>International Journal of American Linguistics</bibtex:hasJournal>
+		<bibtex:hasVolume>54</bibtex:hasVolume>
+		<bibtex:hasPages>119-40</bibtex:hasPages>
+	</bibtex:Article>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#LadigLadig1990-->
+
+	<bibtex:Article rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#LadigLadig1990">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;W.D.Ladig"/>
+				<rdf:_2 rdf:resource="&person;C.J.Ladig"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1990</bibtex:hasYear>
+		<bibtex:hasTitle>Larike pronouns: duals and trials in a Central Moluccan language</bibtex:hasTitle>
+		<bibtex:hasJournal>Oceanic Linguistics</bibtex:hasJournal>
+		<bibtex:hasVolume>29</bibtex:hasVolume>
+		<bibtex:hasPages>87-109</bibtex:hasPages>
+		<bibtex:hasPublisher>University of Hawaii Press</bibtex:hasPublisher>
+		<bibtex:hasAddress>Honolulu</bibtex:hasAddress>
+	</bibtex:Article>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Bromley1981-->
+
+	<bibtex:InCollection rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Bromley1981">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;H.M.Bromley"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1981</bibtex:hasYear>
+		<bibtex:hasTitle>Pacific Linguistic Series C</bibtex:hasTitle>
+		<bibtex:hasBookTitle>Pacific Linguistic Series C</bibtex:hasBookTitle>
+		<bibtex:hasNumber>63</bibtex:hasNumber>
+		<bibtex:hasPublisher>Department of Linguistics, Australian National University</bibtex:hasPublisher>
+	</bibtex:InCollection>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Dayley1981-->
+
+	<bibtex:Article rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Dayley1981">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;J.Dayley"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1981</bibtex:hasYear>
+		<bibtex:hasTitle>Modality in Amele and other Papuan languages</bibtex:hasTitle>
+		<bibtex:hasJournal>Journal of Mayan Linguistics</bibtex:hasJournal>
+		<bibtex:hasVolume>2.2</bibtex:hasVolume>
+		<bibtex:hasPages>3-82</bibtex:hasPages>
+	</bibtex:Article>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Hetzron1969-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Hetzron1969">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;J.Hetzron"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1969</bibtex:hasYear>
+		<bibtex:hasTitle>The Verbal System of Southern Agaw</bibtex:hasTitle>
+		<bibtex:hasVolume>12</bibtex:hasVolume>
+		<bibtex:hasPublisher>University of California Press</bibtex:hasPublisher>
+		<bibtex:hasAddress>Berkeley and Los Angeles</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Jacobs1994-->
+
+	<bibtex:InCollection rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Jacobs1994">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;PeterJacobs"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1994</bibtex:hasYear>
+		<bibtex:hasTitle>Voice and Inversion</bibtex:hasTitle>
+		<bibtex:hasBookTitle>Voice and Inversion</bibtex:hasBookTitle>
+		<bibtex:hasPublisher>John Benjamins</bibtex:hasPublisher>
+	</bibtex:InCollection>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Reed-etal1977-->
+
+	<bibtex:InProceedings rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Reed-etal1977">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;I.Reed"/>
+				<rdf:_2 rdf:resource="&person;O.Miyaoka"/>
+				<rdf:_3 rdf:resource="&person;S.Jacobsen"/>
+				<rdf:_4 rdf:resource="&person;P.Afcan"/>
+				<rdf:_5 rdf:resource="&person;M.Krauss"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1977</bibtex:hasYear>
+		<bibtex:hasTitle>Alaska Native Language Center and the Yup'ik Language Workshop</bibtex:hasTitle>
+		<bibtex:hasBookTitle>Alaska Native Language Center and the Yup'ik Language Workshop</bibtex:hasBookTitle>
+		<bibtex:hasAddress>University of Alaska</bibtex:hasAddress>
+	</bibtex:InProceedings>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Gärdenfors2000-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Gärdenfors2000">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;P.Gärdenfors"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>2000</bibtex:hasYear>
+		<bibtex:hasTitle>Conceptual spaces: the geometry of thought</bibtex:hasTitle>
+		<bibtex:hasPublisher>MIT Press</bibtex:hasPublisher>
+		<bibtex:hasAddress>Cambridge, MA.</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Bhat1999-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Bhat1999">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;D.N.S.Bhat"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1999</bibtex:hasYear>
+		<bibtex:hasTitle>The Prominence of Tense, Aspect, and Mood</bibtex:hasTitle>
+		<bibtex:hasPublisher>John Benjamins</bibtex:hasPublisher>
+		<bibtex:hasAddress>Amsterdam</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Berinstein1985-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Berinstein1985">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;A.Berinstein"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1985</bibtex:hasYear>
+		<bibtex:hasTitle>Evidence for Multiattachment in K'ekchi Mayan</bibtex:hasTitle>
+		<bibtex:hasPublisher>Garland</bibtex:hasPublisher>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Foster1979-->
+
+	<bibtex:InCollection rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Foster1979">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;J.F.Foster"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1979</bibtex:hasYear>
+		<bibtex:hasTitle>Ergativity: Towards a theory of Grammatical Relations</bibtex:hasTitle>
+		<bibtex:hasBookTitle>Ergativity: Towards a theory of Grammatical Relations</bibtex:hasBookTitle>
+		<bibtex:hasPublisher>Academic Press</bibtex:hasPublisher>
+	</bibtex:InCollection>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Comrie1976-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Comrie1976">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;B.Comrie"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1976</bibtex:hasYear>
+		<bibtex:hasTitle>Aspect: An Introduction to the Study of Verbal Aspect and Relate</bibtex:hasTitle>
+		<bibtex:hasPublisher>Cambridge University Press</bibtex:hasPublisher>
+		<bibtex:hasAddress>London</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Anderson1985-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Anderson1985">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;S.R.Anderson"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1985</bibtex:hasYear>
+		<bibtex:hasTitle>Phonology in the Twentieth Century: Theories of Rules and Theorie</bibtex:hasTitle>
+		<bibtex:hasPublisher>The University of Chicago Press</bibtex:hasPublisher>
+		<bibtex:hasAddress>Chicago</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#BabbyBrecht1975-->
+
+	<bibtex:Article rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#BabbyBrecht1975">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;L.H.Babby"/>
+				<rdf:_2 rdf:resource="&person;R.D.Brecht"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1975</bibtex:hasYear>
+		<bibtex:hasTitle>The Syntax of Voice in Russian</bibtex:hasTitle>
+		<bibtex:hasJournal>Languages of the World/Material</bibtex:hasJournal>
+		<bibtex:hasVolume>51</bibtex:hasVolume>
+		<bibtex:hasNumber>2</bibtex:hasNumber>
+		<bibtex:hasPages>342-67</bibtex:hasPages>
+	</bibtex:Article>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Muravyova1998-->
+
+	<bibtex:InCollection rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Muravyova1998">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;I.Muravyova"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<biblio:hasEditorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;A.Spencer"/>
+				<rdf:_2 rdf:resource="&person;A.Zwicky"/>
+			</rdf:Seq>
+		</biblio:hasEditorList>
+		<bibtex:hasYear>1998</bibtex:hasYear>
+		<bibtex:hasTitle>The Handbook of Morphology</bibtex:hasTitle>
+		<bibtex:hasBookTitle>The Handbook of Morphology</bibtex:hasBookTitle>
+		<bibtex:hasPublisher>Blackwell</bibtex:hasPublisher>
+		<bibtex:hasAddress>Oxford; Malden, MA</bibtex:hasAddress>
+	</bibtex:InCollection>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Levinsohn1975-->
+
+	<bibtex:Article rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Levinsohn1975">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;S.H.Levinsohn"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1975</bibtex:hasYear>
+		<bibtex:hasTitle>Functional Perspective in Inga</bibtex:hasTitle>
+		<bibtex:hasJournal>Journal of Linguistics</bibtex:hasJournal>
+		<bibtex:hasVolume>11</bibtex:hasVolume>
+		<bibtex:hasPages>1-37</bibtex:hasPages>
+	</bibtex:Article>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Jr.1986-->
+
+	<bibtex:InCollection rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Jr.1986">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;WilliamH.JacobsenJr."/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<biblio:hasEditorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;WallaceChafe"/>
+				<rdf:_2 rdf:resource="&person;JohannaNichols"/>
+			</rdf:Seq>
+		</biblio:hasEditorList>
+		<bibtex:hasYear>1986</bibtex:hasYear>
+		<bibtex:hasTitle>Evidentiality: the Linguistic Coding of Epistemology</bibtex:hasTitle>
+		<bibtex:hasBookTitle>Evidentiality: the Linguistic Coding of Epistemology</bibtex:hasBookTitle>
+		<bibtex:hasPages>3-28</bibtex:hasPages>
+		<bibtex:hasPublisher>Ablex</bibtex:hasPublisher>
+	</bibtex:InCollection>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Randriamasimanana1981-->
+
+	<bibtex:PhdThesis rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Randriamasimanana1981">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;CharlesRandriamasimanana"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1981</bibtex:hasYear>
+		<bibtex:hasTitle>A Study of the Causative Constructions of Malagasy</bibtex:hasTitle>
+		<bibtex:hasSchool>University of Southern California, L.A.</bibtex:hasSchool>
+	</bibtex:PhdThesis>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Seiter1979-->
+
+	<bibtex:PhdThesis rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Seiter1979">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;WilliamSeiter"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1979</bibtex:hasYear>
+		<bibtex:hasTitle>Studies in Niuean syntax</bibtex:hasTitle>
+		<bibtex:hasSchool>UC San Diego</bibtex:hasSchool>
+	</bibtex:PhdThesis>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Broadwell1988-->
+
+	<bibtex:InCollection rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Broadwell1988">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;GeorgeAaronBroadwell"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1988</bibtex:hasYear>
+		<bibtex:hasTitle>Thematic Relations</bibtex:hasTitle>
+		<bibtex:hasBookTitle>Thematic Relations</bibtex:hasBookTitle>
+		<bibtex:hasPublisher>Academic Press</bibtex:hasPublisher>
+	</bibtex:InCollection>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Ashton-etal1951-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Ashton-etal1951">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;E.O.Ashton"/>
+				<rdf:_2 rdf:resource="&person;E.M.K.Mulira"/>
+				<rdf:_3 rdf:resource="&person;E.G.M.Ndawula"/>
+				<rdf:_4 rdf:resource="&person;A.N.Tucker"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1951</bibtex:hasYear>
+		<bibtex:hasTitle>A Luganda Grammar</bibtex:hasTitle>
+		<bibtex:hasPublisher>Longmans, Green and Co.</bibtex:hasPublisher>
+		<bibtex:hasAddress>London</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Hjelmslev1953-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Hjelmslev1953">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;LouisHjelmslev"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1953</bibtex:hasYear>
+		<bibtex:hasTitle>Prolegomena to a theory of language</bibtex:hasTitle>
+		<bibtex:hasPublisher>Indiana University Publications in Anthropology and Linguistics</bibtex:hasPublisher>
+		<bibtex:hasAddress>Bloomington, Indiana</bibtex:hasAddress>
+		<rdfs:comment>Translated by Francis J. Whitfield</rdfs:comment>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Shipley1964-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Shipley1964">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;W.Shipley"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1964</bibtex:hasYear>
+		<bibtex:hasTitle>Maidu Grammar</bibtex:hasTitle>
+		<bibtex:hasPublisher>University of California Publications in Linguistics</bibtex:hasPublisher>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Reichenbach1947-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Reichenbach1947">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;HansReichenbach"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1947</bibtex:hasYear>
+		<bibtex:hasTitle>Elements of Symbolic Logic</bibtex:hasTitle>
+		<bibtex:hasPublisher>Macmillan</bibtex:hasPublisher>
+		<bibtex:hasAddress>London</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Manning1996-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Manning1996">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;ChristopherD.Manning"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1996</bibtex:hasYear>
+		<bibtex:hasTitle>Ergativity: Argument Structure and Grammatical Relations</bibtex:hasTitle>
+		<bibtex:hasSeries>Dissertations in Linguistics</bibtex:hasSeries>
+		<bibtex:hasPublisher>CSLI Publications</bibtex:hasPublisher>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Corbett1991-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Corbett1991">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;G.Corbett"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1991</bibtex:hasYear>
+		<bibtex:hasTitle>Gender</bibtex:hasTitle>
+		<bibtex:hasSeries>Cambridge Textbooks in Linguistics</bibtex:hasSeries>
+		<bibtex:hasPublisher>Cambridge University Press</bibtex:hasPublisher>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Jespersen1924-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Jespersen1924">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;OttoJespersen"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1924</bibtex:hasYear>
+		<bibtex:hasTitle>The Philosophy of Grammar</bibtex:hasTitle>
+		<bibtex:hasPublisher>Holt and Co</bibtex:hasPublisher>
+		<bibtex:hasAddress>New York</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Knott1995-->
+
+	<bibtex:InCollection rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Knott1995">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;JudithM.Knott"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<biblio:hasEditorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;D.C.Bennett"/>
+				<rdf:_2 rdf:resource="&person;T.Bynon"/>
+				<rdf:_3 rdf:resource="&person;B.G.Hewitt"/>
+			</rdf:Seq>
+		</biblio:hasEditorList>
+		<bibtex:hasYear>1995</bibtex:hasYear>
+		<bibtex:hasTitle>Subject, Voice and Ergativity: Selected Essays</bibtex:hasTitle>
+		<bibtex:hasBookTitle>Subject, Voice and Ergativity: Selected Essays</bibtex:hasBookTitle>
+		<bibtex:hasPublisher>Routledge</bibtex:hasPublisher>
+	</bibtex:InCollection>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Oswalt1986-->
+
+	<bibtex:InCollection rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Oswalt1986">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;RobertL.Oswalt"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<biblio:hasEditorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;WallaceChafe"/>
+				<rdf:_2 rdf:resource="&person;JohannaNichols"/>
+			</rdf:Seq>
+		</biblio:hasEditorList>
+		<bibtex:hasYear>1986</bibtex:hasYear>
+		<bibtex:hasTitle>Evidentiality: The Linguistic Coding of Epistemology</bibtex:hasTitle>
+		<bibtex:hasBookTitle>Evidentiality: The Linguistic Coding of Epistemology</bibtex:hasBookTitle>
+		<bibtex:hasPages>29-45</bibtex:hasPages>
+		<bibtex:hasPublisher>Ablex</bibtex:hasPublisher>
+	</bibtex:InCollection>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Anderson1997-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Anderson1997">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;JohnM.Anderson"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1997</bibtex:hasYear>
+		<bibtex:hasTitle>A Notional Theory of Syntactic Categories</bibtex:hasTitle>
+		<bibtex:hasPublisher>Cambridge University Press</bibtex:hasPublisher>
+		<bibtex:hasAddress>Cambridge, U.K.</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Munro1976-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Munro1976">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;P.Munro"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1976</bibtex:hasYear>
+		<bibtex:hasTitle>Mojave Syntax</bibtex:hasTitle>
+		<bibtex:hasPublisher>Garland</bibtex:hasPublisher>
+		<bibtex:hasAddress>New York</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#PikePike1982-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#PikePike1982">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;KennethL.Pike"/>
+				<rdf:_2 rdf:resource="&person;E.Pike"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1982</bibtex:hasYear>
+		<bibtex:hasTitle>Text and Tagmeme</bibtex:hasTitle>
+		<bibtex:hasPublisher>Frances Pinter</bibtex:hasPublisher>
+		<bibtex:hasAddress>London</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Kuno1973-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Kuno1973">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;SusumuKuno"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1973</bibtex:hasYear>
+		<bibtex:hasTitle>The Structure of the Japanese Language</bibtex:hasTitle>
+		<bibtex:hasPublisher>MIT Press</bibtex:hasPublisher>
+		<bibtex:hasAddress>Cambridge, MA</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Dixon1972-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Dixon1972">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;RobertM.W.Dixon"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1972</bibtex:hasYear>
+		<bibtex:hasTitle>The Dyirbal language of North Queensland</bibtex:hasTitle>
+		<bibtex:hasPublisher>Cambridge University Press</bibtex:hasPublisher>
+		<bibtex:hasAddress>Cambridge, UK</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Dixon1973-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Dixon1973">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;RobertM.W.Dixon"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1973</bibtex:hasYear>
+		<bibtex:hasTitle>The Dyirbal language of North Queensland</bibtex:hasTitle>
+		<bibtex:hasPublisher>Cambridge University Press</bibtex:hasPublisher>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Crystal1980-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Crystal1980">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;DavidCrystal"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1980</bibtex:hasYear>
+		<bibtex:hasTitle>A First Dictionary of Linguistics and Phonetics</bibtex:hasTitle>
+		<bibtex:hasPublisher>Westview</bibtex:hasPublisher>
+		<bibtex:hasAddress>Boulder, CO</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Spalatin1973-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Spalatin1973">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;L.Spalatin"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1973</bibtex:hasYear>
+		<bibtex:hasTitle>Some Serbo-Croatian equivalents of the English Passive</bibtex:hasTitle>
+		<bibtex:hasPublisher>Institute of Linguistics</bibtex:hasPublisher>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Dixon1977-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Dixon1977">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;RobertM.W.Dixon"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1977</bibtex:hasYear>
+		<bibtex:hasTitle>A Grammar of Yidiny</bibtex:hasTitle>
+		<bibtex:hasVolume>19</bibtex:hasVolume>
+		<bibtex:hasSeries>Cambridge Studies in Linguistics</bibtex:hasSeries>
+		<bibtex:hasPublisher>Cambridge University Press</bibtex:hasPublisher>
+		<bibtex:hasAddress>Cambridge</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Crystal1985-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Crystal1985">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;DavidCrystal"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1985</bibtex:hasYear>
+		<bibtex:hasTitle>A dictionary of linguistics and phonetics</bibtex:hasTitle>
+		<bibtex:hasEdition>2nd</bibtex:hasEdition>
+		<bibtex:hasPublisher>Basil Blackwell</bibtex:hasPublisher>
+		<bibtex:hasAddress>New York</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#DaviesDubinsky2001-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#DaviesDubinsky2001">
+		<biblio:hasEditorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;WilliamD.Davies"/>
+				<rdf:_2 rdf:resource="&person;StanleyDubinsky"/>
+			</rdf:Seq>
+		</biblio:hasEditorList>
+		<bibtex:hasYear>2001</bibtex:hasYear>
+		<bibtex:hasTitle>Objects and Other Subjects: Grammatical Functions, Functional Categorie</bibtex:hasTitle>
+		<bibtex:hasSeries>Studies in Natural Language and Linguistic Theory</bibtex:hasSeries>
+		<bibtex:hasPublisher>Kluwer Academic</bibtex:hasPublisher>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Leslau1945-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Leslau1945">
+		<biblio:hasAuthorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;WolfLeslau"/>
+			</rdf:Seq>
+		</biblio:hasAuthorList>
+		<bibtex:hasYear>1945</bibtex:hasYear>
+		<bibtex:hasTitle>A Short Grammar of Tigre</bibtex:hasTitle>
+		<bibtex:hasPublisher>American Oriental Society</bibtex:hasPublisher>
+		<bibtex:hasAddress>New Haven, CT</bibtex:hasAddress>
+	</bibtex:Book>
+
+	<!--http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#BennettBynonHewitt1995-->
+
+	<bibtex:Book rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#BennettBynonHewitt1995">
+		<biblio:hasEditorList>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&person;D.C.Bennett"/>
+				<rdf:_2 rdf:resource="&person;T.Bynon"/>
+				<rdf:_3 rdf:resource="&person;B.G.Hewitt"/>
+			</rdf:Seq>
+		</biblio:hasEditorList>
+		<bibtex:hasYear>1995</bibtex:hasYear>
+		<bibtex:hasTitle>Subject, Voice and Ergativity: Selected Essays</bibtex:hasTitle>
+		<bibtex:hasPublisher>Routledge</bibtex:hasPublisher>
+	</bibtex:Book>
+
+</rdf:RDF>

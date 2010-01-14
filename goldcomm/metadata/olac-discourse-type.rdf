@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY terms "http://purl.org/dc/terms/" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY owl2xml "http://www.w3.org/2006/12/owl2-xml#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY olac "http://purl.org/linguistics/olac/" >
+]>
+
+
+<rdf:RDF xmlns="http://purl.org/linguistics/olac/#"
+     xml:base="http://purl.org/linguistics/olac/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:olac="http://purl.org/linguistics/olac/">
+    <owl:Ontology rdf:about="">
+        <owl:imports rdf:resource="http://purl.org/dc/terms/"/>
+    </owl:Ontology>
+    
+
+
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#DiscourseType -->
+
+    <owl:Class rdf:about="#DiscourseType"/>
+
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#dialogue -->
+
+    <DiscourseType rdf:about="#dialogue">
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </DiscourseType>
+    
+
+
+   
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#drama -->
+
+    <DiscourseType rdf:about="#drama">
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </DiscourseType>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#formulaic_discourse -->
+
+    <owl:Thing rdf:about="#formulaic_discourse">
+        <rdf:type rdf:resource="#DiscourseType"/>
+    </owl:Thing>
+    
+   
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#interactive_discourse -->
+
+    <owl:Thing rdf:about="#interactive_discourse">
+        <rdf:type rdf:resource="#DiscourseType"/>
+    </owl:Thing>
+    
+ 
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#language_play -->
+
+    <DiscourseType rdf:about="#language_play">
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </DiscourseType>
+    
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#ludic -->
+
+    <DiscourseType rdf:about="#ludic">
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </DiscourseType>
+    
+
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#narrative -->
+
+    <owl:Thing rdf:about="#narrative">
+        <rdf:type rdf:resource="#DiscourseType"/>
+    </owl:Thing>
+ 
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#oratory -->
+
+    <DiscourseType rdf:about="#oratory">
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </DiscourseType>
+    
+
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#procedural_discourse -->
+
+    <owl:Thing rdf:about="#procedural_discourse">
+        <rdf:type rdf:resource="#DiscourseType"/>
+    </owl:Thing>
+    
+
+
+   
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#report -->
+
+    <owl:Thing rdf:about="#report">
+        <rdf:type rdf:resource="#DiscourseType"/>
+    </owl:Thing>
+    
+
+ 
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#singing -->
+
+    <DiscourseType rdf:about="#singing">
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </DiscourseType>
+    
+
+
+   
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#unintelligle_speech -->
+
+    <owl:Thing rdf:about="#unintelligle_speech">
+        <rdf:type rdf:resource="#DiscourseType"/>
+    </owl:Thing>
+   
+
+
+
+
+
+
+
+    
+
+</rdf:RDF>

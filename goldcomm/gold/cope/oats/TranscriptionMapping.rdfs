@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE rdf:RDF [
+	 <!ENTITY rdf 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'>
+	 <!ENTITY scriptemes 'http://linguistics-ontology.org/ns/scriptemes/'>
+	 <!ENTITY graphemes 'http://linguistics-ontology.org/ns/graphemes/'>
+	 <!ENTITY phonetics 'http://linguistics-ontology.org/ns/phonetics/'>
+	 <!ENTITY characters 'http://linguistics-ontology.org/ns/characters/'>
+	 <!ENTITY rdfs 'http://www.w3.org/2000/01/rdf-schema#'>
+]>
+<rdf:RDF xmlns:rdf="&rdf;"
+	 xmlns:graphemes="&graphemes;"
+	 xmlns:scriptemes="&scriptemes;"
+	 xmlns:characters="&characters;"
+	 xmlns:phonetics="&phonetics;"
+	 xmlns:rdfs="&rdfs;">
+<rdfs:Class rdf:about="&characters;Character"
+	 rdfs:label="characters:Character">
+	<rdfs:subClassOf rdf:resource="&rdfs;Resource"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&characters;Doulos1993Character"
+	 rdfs:label="characters:Doulos1993Character">
+	<rdfs:subClassOf rdf:resource="&characters;Character"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&characters;UnicodeCharacter"
+	 rdfs:label="characters:UnicodeCharacter">
+	<rdfs:subClassOf rdf:resource="&characters;Character"/>
+</rdfs:Class>
+<rdf:Property rdf:about="&characters;hasCharacterID"
+	 rdfs:label="characters:hasCharacterID">
+	<rdfs:domain rdf:resource="&characters;Character"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&characters;hasHTML_Entity"
+	 rdfs:label="characters:hasHTML_Entity">
+	<rdfs:domain rdf:resource="&characters;UnicodeCharacter"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&characters;hasUTF-8_CodePoint"
+	 rdfs:label="characters:hasUTF-8_CodePoint">
+	<rdfs:domain rdf:resource="&characters;UnicodeCharacter"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&characters;hasUnicodeName"
+	 rdfs:label="characters:hasUnicodeName">
+	<rdfs:domain rdf:resource="&characters;UnicodeCharacter"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&characters;hasUnicodeVersionNumber"
+	 rdfs:label="characters:hasUnicodeVersionNumber">
+	<rdfs:domain rdf:resource="&characters;UnicodeCharacter"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdfs:Class rdf:about="&graphemes;Grapheme"
+	 rdfs:label="graphemes:Grapheme">
+	<rdfs:subClassOf rdf:resource="&rdfs;Resource"/>
+</rdfs:Class>
+<rdf:Property rdf:about="&graphemes;hasGraphemes"
+	 rdfs:label="graphemes:hasGraphemes">
+	<rdfs:range rdf:resource="&graphemes;Grapheme"/>
+	<rdfs:domain rdf:resource="&scriptemes;Scripteme"/>
+</rdf:Property>
+<rdfs:Class rdf:about="&phonetics;Document"
+	 rdfs:label="phonetics:Document">
+	<rdfs:subClassOf rdf:resource="&rdfs;Resource"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&phonetics;Mapping"
+	 rdfs:comment="mappings:Mapping"
+	 rdfs:label="phonetics:Mapping">
+	<rdfs:subClassOf rdf:resource="&rdfs;Resource"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&phonetics;MappingSystem"
+	 rdfs:label="phonetics:MappingSystem">
+	<rdfs:subClassOf rdf:resource="&rdfs;Resource"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&phonetics;OrthographicSystem"
+	 rdfs:label="phonetics:OrthographicSystem">
+	<rdfs:subClassOf rdf:resource="&phonetics;WritingSystem"/>
+</rdfs:Class>
+<rdf:Property rdf:about="&phonetics;Title"
+	 rdfs:label="phonetics:Title">
+	<rdfs:domain rdf:resource="&phonetics;TranscriptionSystem"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdfs:Class rdf:about="&phonetics;TranscriptionSystem"
+	 rdfs:label="phonetics:TranscriptionSystem">
+	<rdfs:subClassOf rdf:resource="&phonetics;WritingSystem"/>
+</rdfs:Class>
+<rdfs:Class rdf:about="&phonetics;WritingSystem"
+	 rdfs:label="phonetics:WritingSystem">
+	<rdfs:subClassOf rdf:resource="&rdfs;Resource"/>
+</rdfs:Class>
+<rdf:Property rdf:about="&phonetics;from"
+	 rdfs:label="phonetics:from">
+	<rdfs:domain rdf:resource="&phonetics;Mapping"/>
+	<rdfs:range rdf:resource="&scriptemes;Scripteme"/>
+</rdf:Property>
+<rdf:Property rdf:about="&phonetics;hasCanonicalForm"
+	 rdfs:label="phonetics:hasCanonicalForm">
+	<rdfs:domain rdf:resource="&graphemes;Grapheme"/>
+	<rdfs:domain rdf:resource="&scriptemes;Scripteme"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&phonetics;hasCharacter"
+	 rdfs:label="phonetics:hasCharacter">
+	<rdfs:range rdf:resource="&characters;UnicodeCharacter"/>
+	<rdfs:domain rdf:resource="&graphemes;Grapheme"/>
+</rdf:Property>
+<rdf:Property rdf:about="&phonetics;hasDC_Metadata"
+	 rdfs:label="phonetics:hasDC_Metadata">
+	<rdfs:domain rdf:resource="&phonetics;Document"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&phonetics;hasMapping"
+	 rdfs:label="phonetics:hasMapping">
+	<rdfs:range rdf:resource="&phonetics;Mapping"/>
+	<rdfs:domain rdf:resource="&phonetics;MappingSystem"/>
+</rdf:Property>
+<rdf:Property rdf:about="&phonetics;hasMappingID"
+	 rdfs:label="phonetics:hasMappingID">
+	<rdfs:domain rdf:resource="&phonetics;MappingSystem"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&phonetics;hasWritingSystem"
+	 rdfs:label="phonetics:hasWritingSystem">
+	<rdfs:domain rdf:resource="&phonetics;Document"/>
+	<rdfs:range rdf:resource="&rdfs;Class"/>
+</rdf:Property>
+<rdf:Property rdf:about="&phonetics;to"
+	 rdfs:label="phonetics:to">
+	<rdfs:domain rdf:resource="&phonetics;Mapping"/>
+	<rdfs:range rdf:resource="&scriptemes;Scripteme"/>
+</rdf:Property>
+<rdfs:Class rdf:about="&scriptemes;Scripteme"
+	 rdfs:label="scriptemes:Scripteme">
+	<rdfs:subClassOf rdf:resource="&rdfs;Resource"/>
+</rdfs:Class>
+<rdf:Property rdf:about="&scriptemes;hasExtraInformation"
+	 rdfs:comment="Extra information such as IPA number for IPA transcriptemes."
+	 rdfs:label="scriptemes:hasExtraInformation">
+	<rdfs:domain rdf:resource="&scriptemes;Scripteme"/>
+	<rdfs:range rdf:resource="&rdfs;Literal"/>
+</rdf:Property>
+<rdf:Property rdf:about="&scriptemes;hasScriptemes"
+	 rdfs:label="scriptemes:hasScriptemes">
+	<rdfs:domain rdf:resource="&phonetics;TranscriptionSystem"/>
+	<rdfs:domain rdf:resource="&phonetics;WritingSystem"/>
+	<rdfs:range rdf:resource="&scriptemes;Scripteme"/>
+</rdf:Property>
+</rdf:RDF>

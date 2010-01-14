@@ -1,0 +1,7 @@
+#
+#abbreviation, term name, gold entity, (optional comment)
+#
+1, first person, FirstPerson, some comment
+ACC, accusative case, AccusativeCase 
+, allative case, AllativeCase
+ESS, , EssiveCase

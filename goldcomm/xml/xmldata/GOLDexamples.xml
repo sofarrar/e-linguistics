@@ -1,0 +1,4789 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xslt/hbb2rdf.xsl"?>
+<!-->
+ Farrar fixed transcription and alignment errors in Klaiman examples and Nejalkov, Otaina and Xolodovič examples. July 21,2008 </-->
+<igt>
+  <example>
+   <goldConcept>Actor Focus</goldConcept>
+   <language code="CEB">Cebuano</language>
+   <source>Shibatani (1988:88)</source>
+   <item type="url"></item>
+   <item type="definition">"A construction in which the Actor (Agent) is topicalized."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"Juan gave the book to the child."</item>
+     <words>
+      <word>
+        <item type="text">ni-hatag</item>
+       <morphemes>
+        <morph>
+           <item type="text">ni</item>
+           <item type="gram">AF</item>
+         </morph>
+         <morph>
+          <item type="text">hatag</item>
+          <item type="gloss">give</item>
+         </morph>
+        </morphemes>
+         </word>
+         <word>
+         <item type="text">si</item>
+         <morphemes>
+         <morph>
+          <item type="text">si</item>
+          <item type="gram">ACTOR-TOP</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+         <item type="text">Juan</item>
+         <morphemes>
+         <morph>
+          <item type="text">Juan</item>
+          <item type="gram">Juan</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+         <item type="text">sa</item>
+         <morphemes>
+         <morph>
+          <item type="text">sa</item>
+          <item type="gram">GOAL-GEN</item>
+         </morph>
+         </morphemes>
+        </word>
+       <word>
+         <item type="text">libro</item>
+         <morphemes>
+         <morph>
+          <item type="text">libro</item>
+          <item type="gloss">book</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+         <item type="text">sa</item>
+         <morphemes>
+         <morph>
+          <item type="text">sa</item>
+          <item type="gram">RECIP-OBL</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+         <item type="text">bata</item>
+         <morphemes>
+         <morph>
+          <item type="text">bata</item>
+          <item type="gloss">child</item>
+         </morph>
+         </morphemes>
+        </word>
+       </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+
+<example>
+   <goldConcept>Goal Focus</goldConcept>
+   <language code="CEB">Cebuano</language>
+   <source>Shibatani (1988:88)</source>
+   <item type="url"></item>
+   <item type="definition">"A construction in which the Goal is topicalized."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"Juan gave the book to the child."</item>
+     <words>
+      <word>
+        <item type="text">gi-hatag</item>
+       <morphemes>
+        <morph>
+           <item type="text">gi</item>
+           <item type="gram">GF</item>
+         </morph>
+         <morph>
+          <item type="text">hatag</item>
+          <item type="gloss">give</item>
+         </morph>
+        </morphemes>
+         </word>
+         <word>
+         <item type="text">ni</item>
+         <morphemes>
+         <morph>
+          <item type="text">ni</item>
+          <item type="gram">ACTOR-GEN</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+         <item type="text">Juan</item>
+         <morphemes>
+         <morph>
+          <item type="text">Juan</item>
+          <item type="gram">Juan</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+         <item type="text">ang</item>
+         <morphemes>
+         <morph>
+          <item type="text">ang</item>
+          <item type="gram">GOAL-TOP</item>
+         </morph>
+         </morphemes>
+        </word>
+       <word>
+         <item type="text">libro</item>
+         <morphemes>
+         <morph>
+          <item type="text">libro</item>
+          <item type="gloss">book</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+         <item type="text">sa</item>
+         <morphemes>
+         <morph>
+          <item type="text">sa</item>
+          <item type="gram">RECIP-OBL</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+         <item type="text">bata</item>
+         <morphemes>
+         <morph>
+          <item type="text">bata</item>
+          <item type="gloss">child</item>
+         </morph>
+         </morphemes>
+        </word>
+       </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+
+
+ <example>
+   <goldConcept>Directional Focus</goldConcept>
+   <language code="CEB">Cebuano</language>
+   <source>Shibatani (1988:89)</source>
+   <item type="url"></item>
+   <item type="definition">"A construction in which the recipient is topicalized."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"Juan gave the child the book."</item>
+     <words>
+      <word>
+        <item type="text">gi-hatag-an</item>
+      <morphemes>
+        <morph>
+           <item type="text">gi</item>
+           <item type="gram">DF</item>
+         </morph>
+         <morph>
+          <item type="text">hatag</item>
+          <item type="gloss">give</item>
+         </morph>
+         <morph>
+          <item type="text">an</item>
+          <item type="gram">DF</item>
+         </morph>
+        </morphemes>
+         </word>
+         <word>
+         <item type="text">ang</item>
+         <morphemes>
+         <morph>
+          <item type="text">ang</item>
+          <item type="gram">RECIP-TOP</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+         <item type="text">bata</item>
+         <morphemes>
+         <morph>
+          <item type="text">bata</item>
+          <item type="gloss">child</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+         <item type="text">ni</item>
+         <morphemes>
+         <morph>
+          <item type="text">ni</item>
+          <item type="gram">ACTOR-GEN</item>
+         </morph>
+         </morphemes>
+        </word>
+       <word>
+         <item type="text">Juan</item>
+         <morphemes>
+         <morph>
+          <item type="text">Juan</item>
+          <item type="gloss">Juan</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+         <item type="text">sa</item>
+         <morphemes>
+         <morph>
+          <item type="text">sa</item>
+          <item type="gram">GOAL-GEN</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+         <item type="text">libro</item>
+         <morphemes>
+         <morph>
+          <item type="text">libro</item>
+          <item type="gloss">book</item>
+         </morph>
+         </morphemes>
+        </word>
+       </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+
+ <example>
+   <goldConcept>Instrumental Focus</goldConcept>
+   <language code="CEB">Cebuano</language>
+   <source>Shibatani (1988:89)</source>
+   <item type="url"></item>
+   <item type="definition">"A construction in which the instrument is topicalized."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"Maria cut the mango with the knife."</item>
+     <words>
+      <word>
+        <item type="text">i-hiwa</item>
+       <morphemes>
+        <morph>
+           <item type="text">i</item>
+           <item type="gram">IF</item>
+         </morph>
+         <morph>
+          <item type="text">hiwa</item>
+          <item type="gloss">cut</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">ang</item>
+         <morphemes>
+         <morph>
+          <item type="text">ang</item>
+          <item type="gram">INST-TOP</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+         <item type="text">kutsilyo</item>
+         <morphemes>
+         <morph>
+          <item type="text">kutsilyo</item>
+          <item type="gloss">knife</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+         <item type="text">sa</item>
+         <morphemes>
+         <morph>
+          <item type="text">sa</item>
+          <item type="gram">GOAL-GEN</item>
+         </morph>
+         </morphemes>
+        </word>
+       <word>
+         <item type="text">mangga</item>
+         <morphemes>
+         <morph>
+          <item type="text">mangga</item>
+          <item type="gloss">mango</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+         <item type="text">ni</item>
+         <morphemes>
+         <morph>
+          <item type="text">ni</item>
+          <item type="gram">ACTOR-GEN</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+         <item type="text">Maria</item>
+         <morphemes>
+         <morph>
+          <item type="text">Maria</item>
+          <item type="gloss">Maria</item>
+         </morph>
+         </morphemes>
+        </word>
+       </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+
+
+ <example>
+   <goldConcept>Periphrastic Personal Passive</goldConcept>
+   <language code="RUS">Russian</language>
+   <source>Siewierska (1988:247) from Babby and Brecht (1975:342)</source>
+   <item type="url"></item>
+   <item type="definition">"A personal passive construction in which the copular verb 'be' is used."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"The gate was opened by Oleg."</item>
+    <words>
+      <word>
+        <item type="text">kalitka</item>
+       <morphemes>
+        <morph>
+           <item type="text">kalitka</item>
+           <item type="gloss">gate-NOM</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">byla</item>
+         <morphemes>
+         <morph>
+          <item type="text">byla</item>
+          <item type="gloss">was</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+         <item type="text">otkryta</item>
+         <morphemes>
+         <morph>
+          <item type="text">otkryta</item>
+          <item type="gloss">open-P.PART</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+         <item type="text">Oleg-om</item>
+         <morphemes>
+         <morph>
+          <item type="text">Oleg</item>
+          <item type="gloss">Oleg</item>
+         </morph>
+         <morph>
+          <item type="text">om</item>
+          <item type="gram">INSTR</item>
+         </morph>
+         </morphemes>
+        </word>
+       </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+
+ <example>
+   <goldConcept>Reflexive Passive</goldConcept>
+   <language code="SRC">Serbo Croatian</language>
+   <source>Siewierska (1988:259) from Spalatin (1973:121)</source>
+   <item type="url"></item>
+   <item type="definition">"A Passive construction which contains reflexive markings."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"The house was built in two months (by people)/They built the house in two months."</item>
+     <words>
+      <word>
+        <item type="text">kuća</item>
+       <morphemes>
+        <morph>
+           <item type="text">kuća</item>
+           <item type="gloss">house</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">se</item>
+         <morphemes>
+         <morph>
+          <item type="text">se</item>
+          <item type="gram">REFL</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+         <item type="text">gradila</item>
+         <morphemes>
+         <morph>
+          <item type="text">gradila</item>
+          <item type="gloss">built-3SG</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+         <item type="text">dva</item>
+         <morphemes>
+         <morph>
+          <item type="text">dva</item>
+          <item type="gloss">two</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+        <item type="text">mjeseca</item>
+        <morphemes>
+         <morph>
+          <item type="text">mjeseca</item>
+          <item type="gloss">months</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+         <item type="text">(*ljudima)</item>
+         <morphemes>
+         <morph>
+          <item type="text">(*ljudima)</item>
+          <item type="gloss">(*people-INSTR)</item>
+         </morph>
+         </morphemes>
+        </word>
+       </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+
+
+ <example>
+   <goldConcept>Anticausative</goldConcept>
+   <language code="PQL">Polish</language>
+   <source>Siewierska (1988:267) in Shibatani (1988)</source>
+   <item type="url"></item>
+   <item type="definition">"An intransitive verb is derived from a basically transitive one with the direct object of the transitive verb corresponding to the subject of the intransitive."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"The train stopped."</item>
+     <words>
+      <word>
+        <item type="text">pociąg</item>
+       <morphemes>
+        <morph>
+           <item type="text">pociąg</item>
+           <item type="gloss">train</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">zatrzymaɬ</item>
+         <morphemes>
+         <morph>
+          <item type="text">zatrzymaɬ</item>
+          <item type="gloss">stopped-3SG</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+         <item type="text">się</item>
+         <morphemes>
+         <morph>
+          <item type="text">się</item>
+          <item type="gram">REFL</item>
+         </morph>
+         </morphemes>
+        </word>
+        </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+
+ <example>
+   <goldConcept>Agent-Deletion Passive</goldConcept>
+   <language code="UTE">Ute</language>
+   <source>Givon (1988:419) in Shibatani (1988)</source>
+   <item type="url"></item>
+   <item type="definition">"The object of the active retains its old case-marking in the passive, the subject of the active cannot appear in the passive clause, and the passive tends to be semantically active."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"The goat was killed. (by some unspecified person)"</item>
+     <words>
+      <word>
+        <item type="text">sivąątu-ci</item>
+       <morphemes>
+        <morph>
+           <item type="text">sivąątu</item>
+           <item type="gloss">goat</item>
+         </morph>
+         <morph>
+           <item type="text">ci</item>
+           <item type="gram">OBJ</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">paxá-xa</item>
+         <morphemes>
+         <morph>
+          <item type="text">paxá</item>
+          <item type="gloss">kill</item>
+         </morph>
+         <morph>
+          <item type="text">xa</item>
+          <item type="gram">ANT</item>
+         </morph>
+         </morphemes>
+        </word>
+       </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+<example>
+   <goldConcept>Direct Voice</goldConcept>
+   <language code="CRP">Plains Cree</language>
+   <source>Klaiman (1991:32) from Wolfart (1973:25)</source>
+   <item type="url"></item>
+   <item type="definition">"Signals that the action proceeds in an ontologically salient way, i.e. that salience is assigned to nominals based on their referen'ts relative real-world capacities to control situations."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"We scare the dog."</item>
+     <words>
+      <word>
+        <item type="text">ni-sēkih-ā-nān</item>
+       <morphemes>
+        <morph>
+           <item type="text">ni</item>
+           <item type="gram">1</item>
+         </morph>
+         <morph>
+          <item type="text">sēkih</item>
+          <item type="gloss">scare</item>
+         </morph>
+         <morph>
+          <item type="text">ā</item>
+          <item type="gram">theme.DIRECT</item>
+         </morph>
+         <morph>
+          <item type="text">nān</item>
+          <item type="gram">1PL</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">atim</item>
+         <morphemes>
+         <morph>
+          <item type="text">atim</item>
+          <item type="gloss">dog</item>
+         </morph>
+         </morphemes>
+        </word>
+       </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+
+
+ <example>
+   <goldConcept>Inverse Voice</goldConcept>
+   <language code="CRP">Plains Cree</language>
+   <source>Klaiman (1991:32) from Wolfart (1973:25)</source>
+   <item type="url"></item>
+   <item type="definition">"Signals when actions proceed from ontologically less salient to more salient participants."</item>
+   <interlinear-text>
+   <phrases>
+   <phrase>
+      <item type="gloss">"The dog scares us."</item>
+    <words>
+      <word>
+        <item type="text">ni-sēkih-iko-nān</item>
+       <morphemes>
+        <morph>
+           <item type="text">ni</item>
+           <item type="gram">1</item>
+         </morph>
+         <morph>
+          <item type="text">sēkih</item>
+          <item type="gloss">scare</item>
+         </morph>
+         <morph>
+          <item type="text">iko</item>
+          <item type="gram">theme.INVERSE</item>
+         </morph>
+         <morph>
+          <item type="text">nān</item>
+          <item type="gram">1PL</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">atim</item>
+         <morphemes>
+         <morph>
+          <item type="text">atim</item>
+          <item type="gloss">dog</item>
+         </morph>
+         </morphemes>
+        </word>
+       </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+
+<example>
+   <goldConcept>Weak Voice</goldConcept>
+   <language code="TCV">Tamil</language>
+   <source>Klaiman (1991:71) from Klaiman (1982:269)</source>
+   <item type="url"></item>
+   <item type="definition">"Analogous to the ActiveVoice, but can also be used with reflexive verbs."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"The son ate rice"</item>
+     <words>
+     <word>
+      <item type="text">piḷḷai</item>
+       <morphemes>
+        <morph>
+         <item type="text">piḷḷai</item>
+           <item type="gloss">son.NOM</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+          <item type="text">cōṟu</item>
+         <morphemes>
+         <morph>
+          <item type="text">cōṟu</item>
+          <item type="gloss">rice</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+         <item type="text">uṇ-ṭ-āṉ</item>
+         <morphemes>
+         <morph>
+          <item type="text">uṇ</item>
+          <item type="gloss">eat</item>
+         </morph>
+         <morph>
+          <item type="text">ṭ</item>
+          <item type="gram">WEAK.PAST</item>
+         </morph>
+         <morph>
+          <item type="text">āṉ</item>
+          <item type="gram">SG.MASC</item>
+         </morph>
+         </morphemes>
+        </word>
+       </words>
+       </phrase>
+      </phrases>
+      </interlinear-text>
+    </example>
+
+
+
+ <example>
+   <goldConcept>Strong Voice</goldConcept>
+   <language code="TCV">Tamil</language>
+   <source>Klaiman (1991:71) from Klaiman (1982:269)</source>
+   <item type="url"></item>
+   <item type="definition">"Analogous to the MiddleVoice, but can also be used with non-reflexive verbs."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"The mother fed the child rice."</item>
+     <words>
+      <word>
+        <item type="text">Ammā</item>
+       <morphemes>
+        <morph>
+           <item type="text">Ammā</item>
+           <item type="gloss">Mother-NOM</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+          <item type="text">piḷḷaikkuc</item>
+         <morphemes>
+         <morph>
+          <item type="text">piḷḷaikkuc</item>
+          <item type="gloss">son-DAT</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+         <item type="text">cōṟu</item>
+         <morphemes>
+         <morph>
+          <item type="text">cōṟu</item>
+          <item type="gloss">rice</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+          <item type="text">ūṭṭ-iṉ-āḷ</item>
+         <morphemes>
+         <morph>
+          <item type="text">ūṭṭ</item>
+         <item type="gloss">eat</item>
+         </morph>
+         <morph>
+          <item type="text">iṉ</item>
+         <item type="gram">StrongPast</item>
+         </morph>
+         <morph>
+          <item type="text">āḷ</item>
+          <item type="gram">SG.FEM</item>
+         </morph>
+         <morph>
+          <item type="text">āṉ</item>
+          <item type="gloss">SG.MASC</item>
+         </morph>
+         </morphemes>
+        </word>
+       </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+
+
+ <example>
+   <goldConcept>Instrumental Voice</goldConcept>
+   <language code="CAK">Cakchiquel</language>
+   <source>Klaiman (1991:240) from Dayley (1981:28)</source>
+   <item type="url"></item>
+   <item type="definition">"Targets nominals bearing the instrument semantic role.  Its effect is to assign informational salience to these nominals."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"With a machete I was wounded."</item>
+    <words>
+      <word>
+        <item type="text">R-ik'in</item>
+      <morphemes>
+        <morph>
+           <item type="text">R</item>
+           <item type="gram">3SG.ERG</item>
+         </morph>
+         <morph>
+           <item type="text">ik'in</item>
+           <item type="gloss">with.RN</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">jun</item>
+         <morphemes>
+         <morph>
+           <item type="text">jun</item>
+           <item type="gloss">a</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">machät</item>
+         <morphemes>
+         <morph>
+          <item type="text">machät</item>
+          <item type="gloss">machete</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+         <item type="text">x-i-sok-b'e-x</item>
+         <morphemes>
+         <morph>
+          <item type="text">x</item>
+          <item type="gram">tense</item>
+         </morph>
+        <morph>
+          <item type="text">i</item>
+          <item type="gram">1SG.ABS</item>
+         </morph>
+         <morph>
+          <item type="text">sok</item>
+          <item type="gloss">wound</item>
+         </morph>
+          <morph>
+          <item type="text">b'e</item>
+          <item type="gram">INSTRUMENTALVOICE</item>
+         </morph>
+         <morph>
+          <item type="text">x</item>
+          <item type="gram">PASSIVE</item>
+         </morph>
+         </morphemes>
+        </word>         
+       </words>
+      </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+
+
+ <example>
+   <goldConcept>Nonabsolutive Antipassive</goldConcept>
+   <language code="KEK">K'ekchi</language>
+   <source>Klaiman (1991:232) from Berinstein (1985:219)</source>
+   <item type="url"></item>
+   <item type="definition">"An Antipassive in which the P or logical object is overtly downgraded."</item>
+   <interlinear-text>
+  <phrases>
+    <phrase>
+      <item type="gloss">"The man picked the coffee."</item>
+     <words>
+     <word>
+        <item type="text">Eb</item>
+       <morphemes>
+        <morph>
+           <item type="text">Eb</item>
+           <item type="gram">PL</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+           <item type="text">li</item>
+         <morphemes>
+         <morph>
+          <item type="text">li</item>
+          <item type="gloss">the</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+          <item type="text">cui̱nk</item>
+         <morphemes>
+         <morph>
+          <item type="text">cui̱nk</item>
+          <item type="gloss">man</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+          <item type="text">x-e'-sic'-o-c</item>
+         <morphemes>
+         <morph>
+          <item type="text">x</item>
+          <item type="gram">tense</item>
+         </morph>
+         <morph>
+          <item type="text">e'</item>
+          <item type="gram">3PL.ABS</item>
+         </morph>
+         <morph>
+          <item type="text">sic'</item>
+          <item type="gloss">pick</item>
+         </morph>
+          <morph>
+          <item type="text">o</item>
+          <item type="gram">ANTIPASSIVE</item>
+         </morph>
+         <morph>
+          <item type="text">c</item>
+          <item type="gram">aspect</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+        <item type="text">r-e</item>
+        <morphemes>
+        <morph>
+        <item type="text">r</item>
+        <item type="gram">3SG.ERG</item>
+        </morph>
+        <morph>
+        <item type="text">e</item>
+        <item type="gram">DAT RN</item>
+        </morph>
+         </morphemes>
+        </word>
+        <word>
+        <item type="text">li</item>
+        <morphemes>
+        <morph> 
+        <item type="text">li</item>
+        <item type="gloss">the</item>
+        </morph>
+        </morphemes>
+        </word>
+        <word>
+        <item type="text">cape</item>
+        <morphemes>
+        <morph> 
+        <item type="text">cape</item>
+        <item type="gloss">coffee</item>
+        </morph>
+        </morphemes>
+        </word>
+       </words>
+      </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+
+ <example>
+   <goldConcept>Incorporating Antipassive</goldConcept>
+   <language code="KEK">K'ekchi</language>
+   <source>Klaiman (1991:232) from Berinstein (1985:219)</source>
+   <item type="url"></item>
+   <item type="definition">"Blocks the P or logical object (basic absolutive) nominal from being assigned Focus salience. This correlates with the P's morphosyntactic downgrading, whereby it becomes insusceptible to any informational salience assignment."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"The men picked coffee."</item>
+     <words>
+      <word>
+        <item type="text">x-e'-sic'-o-c</item>
+      <morphemes>
+        <morph>
+           <item type="text">x</item>
+           <item type="gram">tense</item>
+         </morph>
+         <morph>
+           <item type="text">e'</item>
+           <item type="gram">3PL.ABS</item>
+         </morph>
+          <morph>
+           <item type="text">sic'</item>
+           <item type="gloss">pick</item>
+         </morph>
+         <morph>
+           <item type="text">o</item>
+           <item type="gram">ANTIPASSIVE</item>
+         </morph>
+         <morph>
+           <item type="text">c</item>
+           <item type="gram">aspect</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+           <item type="text">cape</item>
+         <morphemes>
+         <morph>
+          <item type="text">cape</item>
+          <item type="gloss">coffee</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">li</item>
+         <morphemes>
+         <morph>
+          <item type="text">li</item>
+          <item type="gloss">the</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+          <item type="text">cui̱nk</item>
+         <morphemes>
+         <morph>
+          <item type="text">cui̱nk</item>
+          <item type="gloss">men</item>
+         </morph>
+         </morphemes>
+        </word>
+       </words>
+      </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+
+
+<example>
+   <goldConcept>Focus Antipassive</goldConcept>
+   <language code="KEK">K'ekchi</language>
+   <source>Klaiman (1991:236) from Berinstein (1985:236)</source>
+   <item type="url"></item>
+   <item type="definition">"Blocks the P or logical object (basic absolutive) nominal from being assigned Focus salience.  Topic salience is available for assignment to various arguments, including the P, but Focus salience is always assigned to A, and is therefore inaccessible to P or any other nominal."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"The money, I was the one who gave it to you."</item>
+     <words>
+      <word>
+        <item type="text">li</item>
+       <morphemes>
+        <morph>
+           <item type="text">li</item>
+           <item type="gloss">the</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+           <item type="text">tumin</item>
+           <morphemes>
+           <morph>
+           <item type="text">tumin</item>
+           <item type="gloss">money.TOPIC</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+          <item type="text">la̱in</item>
+          <morphemes>
+          <morph>
+           <item type="text">la̱in</item>
+           <item type="gram">1.FOCUS</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">x-in-q'eu-o-c</item>
+         <morphemes>
+         <morph>
+           <item type="text">x</item>
+           <item type="gram">tense</item>
+         </morph>
+         <morph>
+           <item type="text">in</item>
+           <item type="gram">3SG.ABS</item>
+         </morph>
+         <morph>
+           <item type="text">q'eu</item>
+           <item type="gloss">give</item>
+         </morph>
+         <morph>
+           <item type="text">o</item>
+           <item type="gram">ANTIPASSIVE</item>
+         </morph>
+         <morph>
+           <item type="text">c</item>
+           <item type="gram">aspect</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+          <item type="text">a̱cu-e</item>
+         <morphemes>
+         <morph>
+          <item type="text">a̱cu</item>
+          <item type="gram">2SG.ABS</item>
+         </morph>
+         <morph>
+          <item type="text">e</item>
+          <item type="gram">DAT.RN</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">r-e</item>
+         <morphemes>
+         <morph>
+          <item type="text">r</item>
+          <item type="gloss">3SG.ERG</item>
+         </morph>
+         <morph>
+          <item type="text">e</item>
+          <item type="gloss">DAT.RN</item>
+         </morph>
+         </morphemes>
+         </word>
+        </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+
+
+<example>
+   <goldConcept>Antipassive</goldConcept>
+   <language code="MAM">Mam</language>
+   <source>Klaiman (1991:229) from England (1985:212)</source>
+   <item type="url"></item>
+   <item type="definition">"The transitive subject takes on properties typical of the basic object.  Since in an ergative language the same morphological behaviors accrue to transitive object (P) as to intransitive subject (A), one effect of antipassivization is to dissociate the transitive subject (A) from its usual case assignment, the ergative, and reassign it the absolutive."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+     <item type="gloss">"José  grabbed the bird."</item>
+    <words>
+      <word>
+        <item type="text">ma</item>
+       <morphemes>
+        <morph>
+           <item type="text">ma</item>
+           <item type="gram">tense</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+           <item type="text">Ø</item>
+           <morphemes>
+           <morph>
+           <item type="text">Ø</item>
+           <item type="gram">3SG.ABS</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">tzyuu-n</item>
+          <morphemes>
+          <morph>
+           <item type="text">tzyuu</item>
+           <item type="gloss">grab</item>
+         </morph>
+         <morph>
+           <item type="text">n</item>
+           <item type="gram">ANTIPASSIVE</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">cheep</item>
+         <morphemes>
+         <morph>
+           <item type="text">cheep</item>
+          <item type="gloss">José </item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">t-iʔj</item>
+         <morphemes>
+        <morph>
+          <item type="text">t</item>
+          <item type="gram">3SG.ERG</item>
+          </morph>
+          <morph>
+           <item type="text">iʔj</item>
+           <item type="gram">patientive.RN</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">ch'it</item>
+         <morphemes>
+         <morph>
+           <item type="text">ch'it</item>
+           <item type="gloss">bird</item>
+         </morph>
+         </morphemes>
+        </word>
+      </words>
+      </phrase>
+     </phrases>
+     </interlinear-text>
+    </example>
+
+
+
+<example>
+   <goldConcept>Passive</goldConcept>
+   <language code="MAM">Mam</language>
+   <source>Klaiman (1991:229) from England (1985:201)</source>
+   <item type="url"></item>
+   <item type="definition">"The logical nonsubject takes on properties typical of the basic object."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+     <item type="gloss">"The tree was cut by José."</item>
+     <words>
+     <word>
+        <item type="text">ma</item>
+       <morphemes>
+        <morph>
+           <item type="text">ma</item>
+           <item type="gram">tense</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+          <item type="text">Ø-tx'eem-at</item>
+          <morphemes>
+           <morph>
+            <item type="text">Ø</item>
+            <item type="gram">3SG.ABS</item>
+           </morph>
+          <morph>
+           <item type="text">tx'eem</item>
+           <item type="gloss">cut</item>
+         </morph>
+         <morph>
+           <item type="text">at</item>
+           <item type="gram">PASSIVE</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">tzeeʔ</item>
+         <morphemes>
+         <morph>
+           <item type="text">tzeeʔ</item>
+           <item type="gloss">tree</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">t-uʔn</item>
+         <morphemes>
+        <morph>
+          <item type="text">t</item>
+          <item type="gram">3SG.ERG</item>
+          </morph>
+          <morph>
+           <item type="text">uʔn</item>
+           <item type="gloss">by.RN</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">cheep</item>
+         <morphemes>
+         <morph>
+           <item type="text">cheep</item>
+          <item type="gloss">José</item>
+         </morph>
+         </morphemes>
+        </word>
+      </words>
+      </phrase>
+     </phrases>
+     </interlinear-text>
+    </example>
+
+
+
+ <example>
+   <goldConcept>LocativePassive</goldConcept>
+   <language code="TIX">Southern Tiwa</language>
+   <source>Klaiman (1991:17) from Allen, Gardiner and Frantz (1984:304-5)</source>
+   <item type="url"></item>
+   <item type="definition">"An oblique locative nominal assumes the subject relation."</item>
+   <interlinear-text>
+   <phrases>
+   <phrase>
+      <item type="gloss">"The man came to me"</item>
+    <words>
+     <word>
+        <item type="text">in-seuan-wan-ban</item>
+       <morphemes>
+        <morph>
+           <item type="text">in</item>
+           <item type="gram">1SG/3SG.animate</item>
+         </morph>
+          <morph>
+           <item type="text">seuan</item>
+           <item type="gloss">man</item>
+         </morph>
+         <morph>
+           <item type="text">wan</item>
+           <item type="gloss">come</item>
+         </morph>
+          <morph>
+           <item type="text">ban</item>
+           <item type="gram">past</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+           <item type="text">(na)</item>
+           <morphemes>
+           <morph>
+           <item type="text">(na)</item>
+           <item type="gram">(I)</item>
+         </morph>
+         </morphemes>
+         </word>
+      </words>
+      </phrase>
+     </phrases>
+     </interlinear-text>
+    </example>
+
+
+ <example>
+   <goldConcept>Impersonal Passive</goldConcept>
+   <language code="GER">German</language>
+   <source>Klaiman (1991:7)</source>
+   <item type="url"></item>
+   <item type="definition">"A Passive that alters the mapping of a nominal to the Subject relation in a basic intransitive structure."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"(Literally) It is slept by the children."</item>
+     <words>
+      <word>
+        <item type="text">es</item>
+       <morphemes>
+        <morph>
+           <item type="text">es</item>
+           <item type="gloss">it</item>
+         </morph>
+        </morphemes>
+        </word>
+        <word>
+       <item type="text">wird</item>
+       <morphemes>
+       <morph>
+       <item type="text">wird</item>
+           <item type="gloss">is</item>
+         </morph>
+        </morphemes>
+        </word>
+        <word>
+        <item type="text"> (von</item>
+        <morphemes>
+         <morph>
+           <item type="text">(von</item>
+           <item type="gloss">by</item>
+         </morph> 
+         </morphemes>
+         </word>
+        <word>
+        <item type="text">den</item>
+        <morphemes>
+          <morph>
+           <item type="text">den</item>
+           <item type="gloss">the</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+           <item type="text">Kindern)</item>
+           <morphemes>
+           <morph>
+           <item type="text">Kindern)</item>
+           <item type="gloss">children.DAT</item>
+         </morph>
+         </morphemes>
+         </word>
+        <word>
+           <item type="text">geschlafen</item>
+           <morphemes>
+           <morph>
+           <item type="text">geschlafen</item>
+           <item type="gloss">slept</item>
+         </morph>
+         </morphemes>
+         </word>
+      </words>
+      </phrase>
+     </phrases>
+     </interlinear-text>
+    </example>
+
+
+
+ <example>
+   <goldConcept>Personal Passive</goldConcept>
+   <language code="IXI">Ixil, Nebaj</language>
+   <source>Klaiman (1991:244) from Ayres (1983:22)</source>
+   <item type="url"></item>
+   <item type="definition">"A Passive in which the argument mapped to Object in a basic structural configuration assumes the Subject relation in a corresponding nonbasic configuration."</item>
+   <interlinear-text>
+  <phrases>
+   <phrase>
+      <item type="gloss">"He was seen by her."</item>
+     <words>
+      <word>
+        <item type="text">kat</item>
+       <morphemes>
+        <morph>
+           <item type="text">kat</item>
+           <item type="gram">aspect</item>
+         </morph>
+        </morphemes>
+        </word>
+        <word>
+       <item type="text">il-ax</item>
+       <morphemes>
+       <morph>
+       <item type="text">il</item>
+           <item type="gloss">see</item>
+         </morph>
+        <morph>
+       <item type="text">ax</item>
+           <item type="gram">PASSIVE</item>
+         </morph>
+        </morphemes>
+        </word>
+        <word>
+        <item type="text">Ø</item>
+        <morphemes>
+         <morph>
+           <item type="text">Ø</item>
+           <item type="gram">3SG.ABS</item>
+         </morph> 
+         </morphemes>
+         </word>
+        <word>
+        <item type="text">naj</item>
+        <morphemes>
+          <morph>
+           <item type="text">naj</item>
+           <item type="gloss">he</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+           <item type="text">taʔn</item>
+           <morphemes>
+           <morph>
+           <item type="text">taʔn</item>
+           <item type="gloss">by</item>
+         </morph>
+         </morphemes>
+         </word>
+        <word>
+           <item type="text">ixoj</item>
+           <morphemes>
+           <morph>
+           <item type="text">ixoj</item>
+           <item type="gloss">she</item>
+         </morph>
+         </morphemes>
+         </word>
+      </words>
+      </phrase>
+     </phrases>
+     </interlinear-text>
+    </example>
+
+<example>
+   <goldConcept>Valency-Increasing Passive</goldConcept>
+   <language code="JPN">Japanese</language>
+   <source>Shibatani (1995:8)</source>
+   <item type="url"></item>
+   <item type="definition">"Passives that increase the number of actants, as opposed to the protogypical passive, which has the effect of decreasing valency."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"I was deprived of (my) purse by a pickpocket./I had (my) purse stolen."</item>
+     <words>
+      <word>
+        <item type="text">boku</item>
+       <morphemes>
+        <morph>
+           <item type="text">boku</item>
+           <item type="gloss">I</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+        <item type="text">wa</item>
+   <morphemes>     
+    <morph>
+           <item type="text">wa</item>
+           <item type="gram">TOP</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">suri</item>
+         <morphemes>
+         <morph>
+          <item type="text">suri</item>
+          <item type="gloss">pickpocket</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">ni</item>
+       <morphemes>
+         <morph>
+          <item type="text">ni</item>
+          <item type="gram">DAT</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+         <item type="text">saihu</item>
+       <morphemes>
+         <morph>
+          <item type="text">saihu</item>
+          <item type="gloss">purse</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+         <item type="text">o</item>
+       <morphemes>
+         <morph>
+          <item type="text">o</item>
+          <item type="gram">ACC</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+         <item type="text">nusu-mareta</item>
+       <morphemes>
+         <morph>
+          <item type="text">nusu</item>
+          <item type="gloss">steal</item>
+         </morph>
+         <morph>
+          <item type="text">mareta</item>
+          <item type="gram">PASS-PAST</item>
+         </morph>
+         </morphemes>
+        </word>
+       </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+ <example>
+   <goldConcept>Permissive</goldConcept>
+   <language code="NIV">Nivkh</language>
+   <source>Knott (1995:55) from Nedjalkov et al. (1969)</source>
+   <item type="url"></item>
+   <item type="definition">"The subject is seen as the "permitter", and is seen (by Comrie1981:164) as having the power to prevent the action."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"Father let the child go."</item>
+     <words>
+      <word>
+        <item type="text">ƏtƏk</item>
+       <morphemes>
+        <morph>
+           <item type="text">ƏtƏk</item>
+           <item type="gloss">father</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+        <item type="text">o:la-ax</item>
+   <morphemes>     
+    <morph>
+           <item type="text">o:la</item>
+           <item type="gloss">child</item>
+         </morph>
+         <morph>
+           <item type="text">ax</item>
+           <item type="gram">CAUSEE</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">vi-gu-d'</item>
+         <morphemes>
+         <morph>
+          <item type="text">vi</item>
+          <item type="gloss">go</item>
+         </morph>
+         <morph>
+          <item type="text">gu</item>
+          <item type="gram">CAUS</item>
+         </morph>
+         <morph>
+          <item type="text">d'</item>
+          <item type="gram">FINITE</item>
+         </morph>
+         </morphemes>
+         </word>
+        </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+
+ <example>
+   <goldConcept>Unwilling Permissive</goldConcept>
+   <language code="NIV">Nivkh</language>
+   <source>Knott (1995:55) from Nedjalkov et al. (1969)</source>
+   <item type="url"></item>
+   <item type="definition">"The permitter of a permissive construction is not the NP with the greatest control over the action."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"Now son, if you are stronger, you will kill the devils; if you are weaker,you will let the devils kills you."</item>
+     <words>
+      <word>
+        <item type="text">o:la</item>
+       <morphemes>
+        <morph>
+           <item type="text">o:la</item>
+           <item type="gloss">son</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+        <item type="text">navat</item>
+   <morphemes>     
+    <morph>
+           <item type="text">navat</item>
+           <item type="gloss">now</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">či</item>
+         <morphemes>
+         <morph>
+         <item type="text">či</item>
+         <item type="gloss">you</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">harʁo-ʁa</item>
+         <morphemes>
+         <morph>
+          <item type="text">harʁo</item>
+          <item type="gloss">strong</item>
+         </morph>
+         <morph>
+          <item type="text">ʁa</item>
+          <item type="gram">COMPAR</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">kinsku</item>
+         <morphemes>
+         <morph>
+         <item type="text">kinsku</item>
+         <item type="gloss">devils</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">khu-ra</item>
+         <morphemes>
+         <morph>
+          <item type="text">khu</item>
+          <item type="gloss">kill</item>
+         </morph>
+         <morph>
+          <item type="text">ra</item>
+          <item type="gram">CONJUNC</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">či</item>
+         <morphemes>
+         <morph>
+         <item type="text">či</item>
+         <item type="gloss">you</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">t'ez-ʁa</item>
+         <morphemes>
+         <morph>
+          <item type="text">t'ez</item>
+          <item type="gloss">weak</item>
+         </morph>
+         <morph>
+          <item type="text">ʁa</item>
+          <item type="gram">COMPAR</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">kinsku</item>
+         <morphemes>
+         <morph>
+         <item type="text">kinsku</item>
+         <item type="gloss">devils</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">p^h-iɤ-gu-ra</item>
+         <morphemes>
+         <morph>
+          <item type="text">p^h</item>
+          <item type="gram">REFL</item>
+         </morph>
+         <morph>
+          <item type="text">iɤ</item>
+          <item type="gloss">kill</item>
+         </morph>
+         <morph>
+          <item type="text">gu</item>
+          <item type="gram">CAUS</item>
+         </morph>
+         <morph>
+          <item type="text">ra</item>
+          <item type="gram">CONJUNC</item>
+         </morph>
+         </morphemes>
+         </word>
+         </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+ <example>
+   <goldConcept>Lexical Causative</goldConcept>
+   <language code="NIV">Nivkh</language>
+   <source>Nejalkov, Otaina and Xolodovič (1995:63)</source>
+   <item type="url"></item>
+   <item type="definition">"Causatives which use a lexeme as a causative marker."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"He knocked down his younger brother."</item>
+     <words>
+      <word>
+        <item type="text">if</item>
+       <morphemes>
+        <morph>
+           <item type="text">if</item>
+           <item type="gloss">he</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+        <item type="text">pʰatik</item>
+   <morphemes>     
+    <morph>
+           <item type="text">pʰatik</item>
+           <item type="gloss">his.younger.brother</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">volud'</item>
+         <morphemes>
+         <morph>
+          <item type="text">volud'</item>
+          <item type="gloss">fall.LC.FIN</item>
+         </morph>
+         </morphemes>
+         </word>
+        </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+ <example>
+   <goldConcept>Morphological Causative</goldConcept>
+   <language code="NIV">Nivkh</language>
+   <source>Nejalkov, Otaina and Xolodovič (1995:63)</source>
+   <item type="url"></item>
+   <item type="definition">"Causatives which use a morpheme on the verb as a causative marker."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"By nudging his younger brother, he caused him to fall."</item>
+     <words>
+      <word>
+        <item type="text">if</item>
+       <morphemes>
+        <morph>
+           <item type="text">if</item>
+           <item type="gloss">he</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+        <item type="text">pʰatik</item>
+   <morphemes>     
+    <morph>
+           <item type="text">pʰatik</item>
+           <item type="gloss">his.younger.brother</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">əxtr</item>
+         <morphemes>
+         <morph>
+          <item type="text">əxtr</item>
+          <item type="gloss">nudge.ADV</item>
+         </morph>
+         </morphemes>
+         </word>
+        <word>
+        <item type="text">jax</item>
+       <morphemes>
+        <morph>
+           <item type="text">if</item>
+           <item type="gloss">he.CAUSEE</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+        <item type="text">polgud'</item>
+       <morphemes>
+        <morph>
+           <item type="text">polgud'</item>
+           <item type="gloss">fall.MC.FIN</item>
+         </morph>
+         </morphemes>
+        </word>
+        </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+ <example>
+   <goldConcept>Multiple causation</goldConcept>
+   <language code="NIV">Nivkh</language>
+   <source>Nejalkov, Otaina and Xolodovič (1995:62)</source>
+   <item type="url"></item>
+   <item type="definition">"Expressing the causation of a number of different actions [with the same causer and causee] within a single sentence."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"The mother asked her daughter to cook food, bring dried fish, and to mend the net."</item>
+     <words>
+      <word>
+        <item type="text">əmək</item>
+       <morphemes>
+        <morph>
+           <item type="text">əmək</item>
+           <item type="gloss">mother</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+        <item type="text">pʰōlaax</item>
+   <morphemes>     
+    <morph>
+           <item type="text">pʰōlaax</item>
+           <item type="gloss">her.daughter.CAUSEE</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">vənirra</item>
+         <morphemes>
+         <morph>
+          <item type="text">vənirra</item>
+          <item type="gloss">cook.food.CONJ</item>
+         </morph>
+         </morphemes>
+         </word>
+        <word>
+        <item type="text">ma</item>
+       <morphemes>
+        <morph>
+           <item type="text">ma</item>
+           <item type="gloss">dried.fish</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+        <item type="text">ršəkra</item>
+       <morphemes>
+        <morph>
+           <item type="text">ršəkra</item>
+           <item type="gloss">bring.CONJ</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+        <item type="text">kʰe</item>
+       <morphemes>
+        <morph>
+           <item type="text">kʰe</item>
+           <item type="gloss">net</item>
+         </morph>
+         </morphemes>
+        </word>
+       <word>
+        <item type="text">ovra</item>
+       <morphemes>
+        <morph>
+           <item type="text">ovra</item>
+           <item type="gloss">mend.CONJ</item>
+         </morph>
+         </morphemes>
+        </word>
+       <word>
+        <item type="text">hagud'</item>
+       <morphemes>
+        <morph>
+           <item type="text">hagud'</item>
+           <item type="gloss">do.MC.FIN</item>
+         </morph>
+         </morphemes>
+        </word>
+        </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+
+ <example>
+   <goldConcept>Locative Focus</goldConcept>
+   <language code="TGL">Tagalog</language>
+   <source>Naylor (1995:172)</source>
+   <item type="url"></item>
+   <item type="definition">"A type of Non-Actor Focus which puts the locative into focus."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"The woman removed (the) shoes from the child."</item>
+     <words>
+      <word>
+        <item type="text">inasilan</item>
+       <morphemes>
+        <morph>
+           <item type="text">inasilan</item>
+           <item type="gloss">remove-LFcompl</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+        <item type="text">ng</item>
+   <morphemes>     
+    <morph>
+           <item type="text">ng</item>
+           <item type="gram">gen</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">babae</item>
+         <morphemes>
+         <morph>
+          <item type="text">babae</item>
+          <item type="gloss">woman</item>
+         </morph>
+         </morphemes>
+         </word>
+        <word>
+        <item type="text">ng</item>
+       <morphemes>
+        <morph>
+           <item type="text">ng</item>
+           <item type="gram">gen</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+        <item type="text">sapatos</item>
+       <morphemes>
+        <morph>
+           <item type="text">sapatos</item>
+           <item type="gloss">shoes</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+        <item type="text">ang</item>
+       <morphemes>
+        <morph>
+           <item type="text">ang</item>
+           <item type="gram">nom</item>
+         </morph>
+         </morphemes>
+        </word>
+       <word>
+        <item type="text">bata</item>
+       <morphemes>
+        <morph>
+           <item type="text">bata</item>
+           <item type="gloss">child</item>
+         </morph>
+         </morphemes>
+        </word>
+       </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+
+
+ <example>
+   <goldConcept>Benefactive Focus</goldConcept>
+   <language code="TGL">Tagalog</language>
+   <source>Naylor (1995:172)</source>
+   <item type="url"></item>
+   <item type="definition">"A type of Non-Actor Focus which puts the benefactive into focus."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"The woman removed thorns for the child."</item>
+     <words>
+      <word>
+        <item type="text">ipinag-alis</item>
+       <morphemes>
+        <morph>
+           <item type="text">ipinag</item>
+           <item type="gram">BFcompl</item>
+         </morph>
+         <morph>
+           <item type="text">alis</item>
+           <item type="gloss">remove</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+        <item type="text">ng</item>
+   <morphemes>     
+    <morph>
+           <item type="text">ng</item>
+           <item type="gram">gen</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">babae</item>
+         <morphemes>
+         <morph>
+          <item type="text">babae</item>
+          <item type="gloss">woman</item>
+         </morph>
+         </morphemes>
+         </word>
+        <word>
+        <item type="text">ng</item>
+       <morphemes>
+        <morph>
+           <item type="text">ng</item>
+           <item type="gram">gen</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+        <item type="text">tinik</item>
+       <morphemes>
+        <morph>
+           <item type="text">tinik</item>
+           <item type="gloss">thorns</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+        <item type="text">ang</item>
+       <morphemes>
+        <morph>
+           <item type="text">ang</item>
+           <item type="gram">nom</item>
+         </morph>
+         </morphemes>
+        </word>
+       <word>
+        <item type="text">bata</item>
+       <morphemes>
+        <morph>
+           <item type="text">bata</item>
+           <item type="gloss">child</item>
+         </morph>
+         </morphemes>
+        </word>
+       </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+
+<example>
+   <goldConcept>Identified Object Marking</goldConcept>
+   <language code="BCC">Balochi</language>
+   <source>Farrell 1995:220</source>
+   <item type="url"></item>
+   <item type="definition">"Marks 'identified' patients versus 'unidentified' patients.  Defined in terms of animacy and definiteness."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"He gives me "the" book."</item>
+     <words>
+      <word>
+        <item type="text">a-Ø</item>
+       <morphemes>
+        <morph>
+           <item type="text">a</item>
+           <item type="gloss">he</item>
+         </morph>
+          <morph>
+           <item type="text">Ø</item>
+           <item type="gram">DIR</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+        <item type="text">mƏn-a</item>
+        <morphemes>     
+        <morph>
+           <item type="text">mƏn</item>
+           <item type="gloss">I</item>
+         </morph>
+         <morph>
+           <item type="text">a</item>
+           <item type="gram">OBL</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">kitab-a</item>
+         <morphemes>
+         <morph>
+          <item type="text">kitab</item>
+          <item type="gloss">book</item>
+         </morph>
+         <morph>
+          <item type="text">a</item>
+          <item type="gram">OBL</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">dã</item>
+       <morphemes>
+         <morph>
+          <item type="text">dã</item>
+          <item type="gloss">give.PRES(3SG)</item>
+         </morph>
+         </morphemes>
+        </word>
+        </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+
+<example>
+   <goldConcept>Ergative</goldConcept>
+   <language code="DBL">Dyirbal</language>
+   <source>Trask (1996:151)</source>
+   <item type="url"></item>
+   <item type="definition">"The case marker assigned to the subject of transitive verbs in Ergative languages."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"The man saw the dog."</item>
+     <words>
+      <word>
+        <item type="text">balan</item>
+       <morphemes>
+        <morph>
+           <item type="text">balan</item>
+           <item type="gloss">the-II-ABS</item>
+         </morph>
+          </morphemes>
+        </word>
+        <word>
+        <item type="text">guda</item>
+        <morphemes>     
+        <morph>
+           <item type="text">guda</item>
+           <item type="gloss">dog-ABS</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">baŋgul</item>
+         <morphemes>
+         <morph>
+          <item type="text">baŋgul</item>
+          <item type="gloss">the-I-ERG</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">yara-ŋgu</item>
+       <morphemes>
+         <morph>
+          <item type="text">yara</item>
+          <item type="gloss">man</item>
+         </morph>
+         <morph>
+          <item type="text">ŋgu</item>
+          <item type="gram">ERG</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+         <item type="text">bura-n</item>
+       <morphemes>
+         <morph>
+          <item type="text">bura</item>
+          <item type="gloss">see</item>
+         </morph>
+         <morph>
+          <item type="text">n</item>
+          <item type="gram">PAST</item>
+         </morph>
+         </morphemes>
+        </word>
+        </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+
+<example>
+   <goldConcept>Absolutive</goldConcept>
+   <language code="DBL">Dyirbal</language>
+   <source>Trask (1996:151)</source>
+   <item type="url"></item>
+   <item type="definition">"The case marker assigned to the subject of intransitive and the object of transitive verbs in Ergative languages."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"The man saw the dog."</item>
+     <words>
+      <word>
+        <item type="text">balan</item>
+       <morphemes>
+        <morph>
+           <item type="text">balan</item>
+           <item type="gloss">the-II-ABS</item>
+         </morph>
+          </morphemes>
+        </word>
+        <word>
+        <item type="text">guda</item>
+        <morphemes>     
+        <morph>
+           <item type="text">guda</item>
+           <item type="gloss">dog-ABS</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">baŋgul</item>
+         <morphemes>
+         <morph>
+          <item type="text">baŋgul</item>
+          <item type="gloss">the-I-ERG</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">yara-ŋgu</item>
+       <morphemes>
+         <morph>
+          <item type="text">yara</item>
+          <item type="gloss">man</item>
+         </morph>
+         <morph>
+          <item type="text">ŋgu</item>
+          <item type="gram">ERG</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+         <item type="text">bura-n</item>
+       <morphemes>
+         <morph>
+          <item type="text">bura</item>
+          <item type="gloss">see</item>
+         </morph>
+         <morph>
+          <item type="text">n</item>
+          <item type="gram">PAST</item>
+         </morph>
+         </morphemes>
+        </word>
+        </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+<example>
+   <goldConcept>Semantic Inverse</goldConcept>
+   <language code="YAK">Northwest Sahaptin</language>
+   <source>Givon (1994:23)</source>
+   <item type="url"></item>
+   <item type="definition">"If the agent outranks the patient on the relevant generic topic hierarchy, the direct-active clause is used.  If the relevant norm is reversed and the patient outranks the agent on the relevant hierarchy, the inverse clause is used."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"The man [OBV] sees me [PROX]."</item>
+     <words>
+      <word>
+        <item type="text">i-q'ínu-sha-ash</item>
+       <morphemes>
+        <morph>
+           <item type="text">i</item>
+           <item type="gram">3/NOM</item>
+         </morph>
+         <morph>
+           <item type="text">q'ínu</item>
+           <item type="gloss">see</item>
+         </morph>
+         <morph>
+           <item type="text">sha</item>
+           <item type="gram">IMPFV</item>
+         </morph>
+         <morph>
+           <item type="text">ash</item>
+           <item type="gloss">me</item>
+         </morph>
+          </morphemes>
+        </word>
+        <word>
+        <item type="text">ɨwínsh-nɨm</item>
+        <morphemes>     
+        <morph>
+           <item type="text">ɨwínsh</item>
+           <item type="gloss">man</item>
+         </morph>
+         <morph>
+           <item type="text">nɨm</item>
+           <item type="gram">OBV</item>
+         </morph>
+         </morphemes>
+         </word>
+         </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+<example>
+   <goldConcept>Pragmatic Inverse</goldConcept>
+   <language code="YAK">Northwest Sahaptin</language>
+   <source>Givon (1994:24)</source>
+   <item type="url"></item>
+   <item type="definition">"If the agent is more topical than the patient, the direct-active clause is used.  If norm is reversed and the patient is more topical, the inverse clause is used."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"And the elder brother [OBV] told the wild cat [PROX]."</item>
+     <words>
+      <word>
+        <item type="text">ku</item>
+       <morphemes>
+        <morph>
+           <item type="text">ku</item>
+           <item type="gloss">and</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+        <item type="text">pá-'ɨn-a</item>
+        <morphemes>     
+        <morph>
+           <item type="text">pá</item>
+           <item type="gram">INV</item>
+         </morph>
+         <morph>
+           <item type="text">'ɨn</item>
+           <item type="gloss">tell</item>
+         </morph>
+         <morph>
+           <item type="text">a</item>
+           <item type="gram">PAST</item>
+         </morph>
+         </morphemes>
+         </word>
+        <word>
+        <item type="text">pch'íimya-n</item>
+        <morphemes>     
+        <morph>
+           <item type="text">pch'íimya</item>
+           <item type="gloss">wild.cat</item>
+         </morph>
+         <morph>
+           <item type="text">n</item>
+           <item type="gram">OBJ</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+        <item type="text">piyáp-in</item>
+        <morphemes>     
+        <morph>
+           <item type="text">piyáp</item>
+           <item type="gloss">elder.brother</item>
+         </morph>
+         <morph>
+           <item type="text">in</item>
+           <item type="gram">OBV</item>
+         </morph>
+         </morphemes>
+         </word>
+         </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+<example>
+   <goldConcept>Ergative</goldConcept>
+   <language code="DBL">Dyirbal</language>
+   <source>Trask (1996:151)</source>
+   <item type="url"></item>
+   <item type="definition">"The case marker assigned to the subject of transitive verbs in Ergative languages."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"The man saw the dog."</item>
+     <words>
+      <word>
+        <item type="text">balan</item>
+       <morphemes>
+        <morph>
+           <item type="text">balan</item>
+           <item type="gloss">the-II-ABS</item>
+         </morph>
+          </morphemes>
+        </word>
+        <word>
+        <item type="text">guda</item>
+        <morphemes>     
+        <morph>
+           <item type="text">guda</item>
+           <item type="gloss">dog-ABS</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">baŋgul</item>
+         <morphemes>
+         <morph>
+          <item type="text">baŋgul</item>
+          <item type="gloss">the-I-ERG</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">yara-ŋgu</item>
+       <morphemes>
+         <morph>
+          <item type="text">yara</item>
+          <item type="gloss">man</item>
+         </morph>
+         <morph>
+          <item type="text">ŋgu</item>
+          <item type="gram">ERG</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+         <item type="text">bura-n</item>
+       <morphemes>
+         <morph>
+          <item type="text">bura</item>
+          <item type="gloss">see</item>
+         </morph>
+         <morph>
+          <item type="text">n</item>
+          <item type="gram">PAST</item>
+         </morph>
+         </morphemes>
+        </word>
+        </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+
+<example>
+   <goldConcept>Absolutive</goldConcept>
+   <language code="DBL">Dyirbal</language>
+   <source>Trask (1996:151)</source>
+   <item type="url"></item>
+   <item type="definition">"The case marker assigned to the subject of intransitive and the object of transitive verbs in Ergative languages."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"The man saw the dog."</item>
+     <words>
+      <word>
+        <item type="text">balan</item>
+       <morphemes>
+        <morph>
+           <item type="text">balan</item>
+           <item type="gloss">the-II-ABS</item>
+         </morph>
+          </morphemes>
+        </word>
+        <word>
+        <item type="text">guda</item>
+        <morphemes>     
+        <morph>
+           <item type="text">guda</item>
+           <item type="gloss">dog-ABS</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">baŋgul</item>
+         <morphemes>
+         <morph>
+          <item type="text">baŋgul</item>
+          <item type="gloss">the-I-ERG</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">yara-ŋgu</item>
+       <morphemes>
+         <morph>
+          <item type="text">yara</item>
+          <item type="gloss">man</item>
+         </morph>
+         <morph>
+          <item type="text">ŋgu</item>
+          <item type="gram">ERG</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+         <item type="text">bura-n</item>
+       <morphemes>
+         <morph>
+          <item type="text">bura</item>
+          <item type="gloss">see</item>
+         </morph>
+         <morph>
+          <item type="text">n</item>
+          <item type="gram">PAST</item>
+         </morph>
+         </morphemes>
+        </word>
+        </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+<example>
+   <goldConcept>Semantic Inverse</goldConcept>
+   <language code="YAK">Northwest Sahaptin</language>
+   <source>Givon (1994:23)</source>
+   <item type="url"></item>
+   <item type="definition">"If the agent outranks the patient on the relevant generic topic hierarchy, the direct-active clause is used.  If the relevant norm is reversed and the patient outranks the agent on the relevant hierarchy, the inverse clause is used."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"The man [OBV] sees me [PROX]."</item>
+     <words>
+      <word>
+        <item type="text">i-q'ínu-sha-ash</item>
+       <morphemes>
+        <morph>
+           <item type="text">i</item>
+           <item type="gram">3/NOM</item>
+         </morph>
+         <morph>
+           <item type="text">q'ínu</item>
+           <item type="gloss">see</item>
+         </morph>
+         <morph>
+           <item type="text">sha</item>
+           <item type="gram">IMPFV</item>
+         </morph>
+         <morph>
+           <item type="text">ash</item>
+           <item type="gloss">me</item>
+         </morph>
+          </morphemes>
+        </word>
+        <word>
+        <item type="text">ɨwínsh-nɨm</item>
+        <morphemes>     
+        <morph>
+           <item type="text">ɨwínsh</item>
+           <item type="gloss">man</item>
+         </morph>
+         <morph>
+           <item type="text">nɨm</item>
+           <item type="gram">OBV</item>
+         </morph>
+         </morphemes>
+         </word>
+         </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+<example>
+   <goldConcept>Pragmatic Inverse</goldConcept>
+   <language code="YAK">Northwest Sahaptin</language>
+   <source>Givon (1994:24)</source>
+   <item type="url"></item>
+   <item type="definition">"If the agent is more topical than the patient, the direct-active clause is used.  If norm is reversed and the patient is more topical, the inverse clause is used."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"And the elder brother [OBV] told the wild cat [PROX]."</item>
+     <words>
+      <word>
+        <item type="text">ku</item>
+       <morphemes>
+        <morph>
+           <item type="text">ku</item>
+           <item type="gloss">and</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+        <item type="text">pá-'ɨn-a</item>
+        <morphemes>     
+        <morph>
+           <item type="text">pá</item>
+           <item type="gram">INV</item>
+         </morph>
+         <morph>
+           <item type="text">'ɨn</item>
+           <item type="gloss">tell</item>
+         </morph>
+         <morph>
+           <item type="text">a</item>
+           <item type="gram">PAST</item>
+         </morph>
+         </morphemes>
+         </word>
+        <word>
+        <item type="text">pch'íimya-n</item>
+        <morphemes>     
+        <morph>
+           <item type="text">pch'íimya</item>
+           <item type="gloss">wild.cat</item>
+         </morph>
+         <morph>
+           <item type="text">n</item>
+           <item type="gram">OBJ</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+        <item type="text">piyáp-in</item>
+        <morphemes>     
+        <morph>
+           <item type="text">piyáp</item>
+           <item type="gloss">elder.brother</item>
+         </morph>
+         <morph>
+           <item type="text">in</item>
+           <item type="gram">OBV</item>
+         </morph>
+         </morphemes>
+         </word>
+         </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+
+
+
+<example>
+   <goldConcept>ActiveVoice</goldConcept>
+   <language code="FUV">FulFulde</language>
+   <source>McIntosh (1984:109)</source>
+   <item type="url"></item>
+   <item type="definition">"Associated with transitivity, when the action is performed by an agent (subject) on another participant (object), or with intransitivity."</item>
+   <interlinear-text>
+  <phrases>
+    <phrase>
+      <item type="gloss">"I put a head-load on you."</item>
+    <words>
+      <word>
+        <item type="text">mi-ronnd-ii-ma</item>
+       <morphemes>
+        <morph>
+	  <item type="text">mi</item>
+          <item type="gram">1stPerson</item>
+         </morph>
+         <morph>
+          <item type="text">ronnd</item>
+          <item type="gloss">load</item>
+         </morph>
+         <morph>
+          <item type="text">ii</item>
+          <item type="gram">ActiveVoice</item>
+         </morph>
+         <morph>
+          <item type="text">ma</item>
+	  <item type="gram">2ndPerson</item>
+         </morph>
+        </morphemes>
+        </word>
+       </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+
+
+ <example>
+   <goldConcept>MiddleVoice</goldConcept>
+   <language code="FUV">FulFulde</language>
+   <source>McIntosh (1984:109)</source>
+   <item type="url"></item>
+   <item type="definition">"Associated with reflexivity and with borrowed verbal roots that would be semantically more compatible with ActiveVoice."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"You put a head-load on yourself."</item>
+     <words>
+      <word>
+        <item type="text">a-ronnd-aake</item>
+       <morphemes>
+        <morph>
+	  <item type="text">a</item>
+          <item type="gram">2ndPerson</item>
+         </morph>
+         <morph>
+          <item type="text">ronnd</item>
+          <item type="gloss">load</item>
+         </morph>
+         <morph>
+          <item type="text">aake</item>
+          <item type="gram">MiddleVoice</item>
+         </morph>
+        </morphemes>
+        </word>
+       </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+
+        
+ <example>
+   <goldConcept>PassiveVoice</goldConcept>
+   <language code="FUV">FulFulde</language>
+   <source>McIntosh (1984:109)</source>
+   <item type="url"></item>
+   <item type="definition">"Associated with actions performed on the subject by an unspecified agent."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"You have had your head load put on (yourself)."</item>
+    <words>
+      <word>
+        <item type="text">a-ronnd-aama</item>
+       <morphemes>
+        <morph>
+	  <item type="text">a</item>
+          <item type="gram">2ndPerson</item>
+         </morph>
+         <morph>
+          <item type="text">ronnd</item>
+          <item type="gloss">load</item>
+         </morph>
+         <morph>
+          <item type="text">aama</item>
+          <item type="gram">PassiveVoice</item>
+         </morph>
+        </morphemes>
+        </word>
+       </words>
+      </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+
+        
+<example>
+   <goldConcept>Continuative.Imperative</goldConcept>
+   <language code="FUV">FulFulde</language>
+   <source>McIntosh (1984:140)</source>
+   <item type="url"></item>
+   <item type="definition">"Expresses a command to continue an action."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">“Keep on coming!”</item>
+    <words>
+      <word>
+        <item type="text">war-atay</item>
+       <morphemes>
+        <morph>
+	  <item type="text">war</item>
+          <item type="gloss">come</item>
+         </morph>
+         <morph>
+          <item type="text">atay</item>
+          <item type="gram">CONTINUATIVE.IMPERATIVE</item>
+         </morph>
+        </morphemes>
+        </word>
+       </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+
+        
+ <example>
+   <goldConcept>Imperative</goldConcept>
+   <language code="FUV">FulFulde</language>
+   <source>McIntosh (1984:140)</source>
+   <item type="url"></item>
+   <item type="definition">“Expresses a peremptory command to begin an action that has not yet been started, with an implied 2ndPerson subject.”</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">“Sit down (pl)!”</item>
+     <words>
+      <word>
+        <item type="text">njooɗ-ee</item>
+       <morphemes>
+        <morph>
+	  <item type="text">njooɗ</item>
+          <item type="gloss">sit</item>
+         </morph>
+         <morph>
+          <item type="text">ee</item>
+          <item type="gram">IMPERATIVE</item>
+         </morph>
+        </morphemes>
+        </word>
+       </words>
+      </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+
+        
+ <example>
+   <goldConcept>Exhortative</goldConcept>
+   <language code="FUV">FulFulde</language>
+   <source>McIntosh (1984:141)</source>
+   <item type="url"></item>
+   <item type="definition">“Similar to imperative command, except is only used with 1stPerson and 3rd person subject, expresses a peremptory command to begin an action that has not yet begun.”</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">“Let’s sit down!”</item>
+     <words>
+      <word>
+        <item type="text">'en-njooɗ-oo</item>
+       <morphemes>
+        <morph>
+	  <item type="text">en</item>
+          <item type="gram">1stPersonPlural</item>
+         </morph>
+         <morph>
+          <item type="text">njooɗ</item>
+          <item type="gloss">sit</item>
+         </morph>
+	 <morph>
+	  <item type="text">oo</item>
+	  <item type="gram">EXHORTATIVE</item>
+	 </morph>
+        </morphemes>
+        </word>
+       </words>
+      </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+
+
+ <example>
+   <goldConcept>Applicative</goldConcept>
+   <language code="MAM">Mam</language>
+   <source>England 1983:103</source>
+   <item type="url"></item>
+   <item type="definition">"Derives transitive stems from noun roots."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"gather firewood"</item>
+     <words>
+      <word>
+        <item type="text">siʔ-wa</item>
+       <morphemes>
+        <morph>
+	  <item type="text">siʔ</item>
+          <item type="gloss">firewood</item>
+         </morph>
+         <morph>
+          <item type="text">wa</item>
+          <item type="gram">APPLICATIVE</item>
+         </morph>
+        </morphemes>
+        </word>
+       </words>
+      </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+
+<example>
+   <goldConcept>Antipassive</goldConcept>
+   <language code="MAM">Mam</language>
+   <source>England 1983:110</source>
+   <item type="url"></item>
+   <item type="definition">"Derives an intransitive verb from a transitive stem whereby the original agent (only) is cross-referrenced by the absolutive markers on the verb and the original patient, if it appears, is in an oblique phrase."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"I worked"</item>
+     <words>
+      <word>
+        <item type="text">ma</item>
+       <morphemes>
+        <morph>
+	  <item type="text">ma</item>
+          <item type="gram">REC</item>
+        </morph>
+       </morphemes>
+       </word>
+      <word>
+       <item type="text">chin</item>
+       <morphemes>
+        <morph>
+         <item type="text">chin</item>
+         <item type="gram">1sA</item>
+        </morph>
+       </morphemes>
+      </word>
+      <word>
+       <item type="text">aq’naa-n-a</item>
+       <morphemes>
+        <morph>
+         <item type="text">aq’naa</item>
+         <item type="gram">work</item>
+        </morph>
+        <morph>
+         <item type="text">n</item>
+         <item type="gram">Antipassive</item>
+        </morph>
+        <morph>
+         <item type="text">a</item>
+         <item type="gram">1s</item>
+        </morph>
+       </morphemes>
+      </word>
+       </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+
+
+ <example>
+   <goldConcept>Transitivizer</goldConcept>
+   <language code="MAM">Mam</language>
+   <source>England 1983:102</source>
+   <item type="url"></item>
+   <item type="definition">"Derives transitive stems from positional roots, with the meaning ‘put or leave in the position described by the root."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"put upside down"</item>
+     <words>
+      <word>
+        <item type="text">mutz-b’aa</item>
+       <morphemes>
+        <morph>
+	  <item type="text">mutz</item>
+          <item type="gloss">upside down</item>
+         </morph>
+         <morph>
+          <item type="text">b'aa</item>
+          <item type="gram">TRANSITIVIZER</item>
+         </morph>
+        </morphemes>
+        </word>
+       </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+
+
+<example>
+   <goldConcept>Intransitivizer</goldConcept>
+   <language code="MAM">Mam</language>
+   <source>England 1983:115</source>
+   <item type="url"></item>
+   <item type="definition">"Derives intransitive stems."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"put upside down"</item>
+     <words>
+      <word>
+        <item type="text">kyaq-b’a</item>
+       <morphemes>
+        <morph>
+	  <item type="text">kyaq</item>
+          <item type="gloss">red</item>
+         </morph>
+         <morph>
+          <item type="text">b'a</item>
+          <item type="gram">INTRANSITIVIZER</item>
+         </morph>
+        </morphemes>
+        </word>
+       </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+
+
+ <example>
+   <goldConcept>Processive</goldConcept>
+   <language code="MAM">Mam</language>
+   <source>England 1983:108</source>
+   <item type="url"></item>
+   <item type="definition">"Derives transitive stems from transitive and intransitive stems, adding the meaning ‘go and do it’."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"Go and sing."</item>
+     <words>
+      <word>
+        <item type="text">b’iitza-kj</item>
+      <morphemes>
+        <morph>
+	  <item type="text">b'iitza</item>
+          <item type="gloss">sing</item>
+         </morph>
+         <morph>
+          <item type="text">kj</item>
+          <item type="gram">PROCESSIVE</item>
+         </morph>
+       </morphemes>
+        </word>
+       </words>
+      </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+
+
+ <example>
+   <goldConcept>Repetitive</goldConcept>
+   <language code="MAM">Mam</language>
+   <source>England 1983:107</source>
+   <item type="url"></item>
+   <item type="definition">"Derives transitive stems from transitive roots and stems, and positional roots, adding the meaning ‘repetitive’ to the action."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"Lie down every little while"</item>
+     <words>
+      <word>
+        <item type="text">qej-najeeʔ</item>
+       <morphemes>
+        <morph>
+	  <item type="text">qej</item>
+          <item type="gloss">lie down</item>
+         </morph>
+         <morph>
+          <item type="text">najeeʔ</item>
+          <item type="gram">REPETITIVE</item>
+         </morph>
+        </morphemes>
+        </word>
+       </words>
+      </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+
+
+ <example>
+   <goldConcept>Versive</goldConcept>
+   <language code="MAM">Mam</language>
+   <source>England 1983:111</source>
+   <item type="url"></item>
+   <item type="definition">"Derives intransitive stems from adjectives, with the meaning ‘become or take on the quality of the adjective."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"become white"</item>
+     <words>
+      <word>
+        <item type="text">saq-ax</item>
+       <morphemes>
+        <morph>
+	  <item type="text">saq</item>
+          <item type="gloss">white</item>
+         </morph>
+         <morph>
+          <item type="text">ax</item>
+          <item type="gram">VERSIVE</item>
+         </morph>
+        </morphemes>
+        </word>
+       </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+
+
+<example>
+   <goldConcept>Processive Imperative</goldConcept>
+   <language code="MAM">Mam</language>
+   <source>England 1983:109</source>
+   <item type="url"></item>
+   <item type="definition">"Derives transitive stems from transitive and intransitive stems, adding ‘go’ and the imperative to the meaning."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"Go and run!"</item>
+     <words>
+      <word>
+        <item type="text">qee-ʔlatz</item>
+       <morphemes>
+        <morph>
+	  <item type="text">qee</item>
+          <item type="gloss">run</item>
+         </morph>
+         <morph>
+          <item type="text">ʔlatz</item>
+          <item type="gram">PROCESSIVE IMPERATIVE</item>
+         </morph>
+        </morphemes>
+        </word>
+       </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+<example>
+   <goldConcept>Valency-Increasing Passive</goldConcept>
+   <language code="JPN">Japanese</language>
+   <source>Shibatani (1995:8)</source>
+   <item type="url"></item>
+   <item type="definition">"Passives that increase the number of actants, as opposed to the protogypical passive, which has the effect of decreasing valency."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"I was deprived of (my) purse by a pickpocket./I had (my) purse stolen."</item>
+     <words>
+      <word>
+        <item type="text">boku</item>
+       <morphemes>
+        <morph>
+           <item type="text">boku</item>
+           <item type="gloss">I</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+        <item type="text">wa</item>
+   <morphemes>     
+    <morph>
+           <item type="text">wa</item>
+           <item type="gram">TOP</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">suri</item>
+         <morphemes>
+         <morph>
+          <item type="text">suri</item>
+          <item type="gloss">pickpocket</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">ni</item>
+       <morphemes>
+         <morph>
+          <item type="text">ni</item>
+          <item type="gram">DAT</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+         <item type="text">saihu</item>
+       <morphemes>
+         <morph>
+          <item type="text">saihu</item>
+          <item type="gloss">purse</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+         <item type="text">o</item>
+       <morphemes>
+         <morph>
+          <item type="text">o</item>
+          <item type="gram">ACC</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+         <item type="text">nusu-mareta</item>
+       <morphemes>
+         <morph>
+          <item type="text">nusu</item>
+          <item type="gloss">steal</item>
+         </morph>
+         <morph>
+          <item type="text">mareta</item>
+          <item type="gram">PASS-PAST</item>
+         </morph>
+         </morphemes>
+        </word>
+       </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+ <example>
+   <goldConcept>Permissive</goldConcept>
+   <language code="NIV">Nivkh</language>
+   <source>Knott (1995:55) from Nedjalkov et al. (1969) in Shibatani (1995)</source>
+   <item type="url"></item>
+   <item type="definition">"The subject is seen as the "permitter", and is seen (by Comrie1981:164) as having the power to prevent the action."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"Father let the child go."</item>
+     <words>
+      <word>
+        <item type="text">ƏtƏk</item>
+       <morphemes>
+        <morph>
+           <item type="text">ƏtƏk</item>
+           <item type="gloss">father</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+        <item type="text">o:la-ax</item>
+   <morphemes>     
+    <morph>
+           <item type="text">o:la</item>
+           <item type="gloss">child</item>
+         </morph>
+         <morph>
+           <item type="text">ax</item>
+           <item type="gram">CAUSEE</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">vi-gu-d'</item>
+         <morphemes>
+         <morph>
+          <item type="text">vi</item>
+          <item type="gloss">go</item>
+         </morph>
+         <morph>
+          <item type="text">gu</item>
+          <item type="gram">CAUS</item>
+         </morph>
+         <morph>
+          <item type="text">d'</item>
+          <item type="gram">FINITE</item>
+         </morph>
+         </morphemes>
+         </word>
+        </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+
+ <example>
+   <goldConcept>Unwilling Permissive</goldConcept>
+   <language code="NIV">Nivkh</language>
+   <source>Knott (1995:55) from Nedjalkov et al. (1969) in Shibatani (1995)</source>
+   <item type="url"></item>
+   <item type="definition">"The permitter of a permissive construction is not the NP with the greatest control over the action."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"Now son, if you are stronger, you will kill the devils; if you are weaker,you will let the devils kills you."</item>
+     <words>
+      <word>
+        <item type="text">o:la</item>
+       <morphemes>
+        <morph>
+           <item type="text">o:la</item>
+           <item type="gloss">son</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+        <item type="text">navat</item>
+   <morphemes>     
+    <morph>
+           <item type="text">navat</item>
+           <item type="gloss">now</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">či</item>
+         <morphemes>
+         <morph>
+         <item type="text">či</item>
+         <item type="gloss">you</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">harʁo-ʁa</item>
+         <morphemes>
+         <morph>
+          <item type="text">harʁo</item>
+          <item type="gloss">strong</item>
+         </morph>
+         <morph>
+          <item type="text">ʁa</item>
+          <item type="gram">COMPAR</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">kinsku</item>
+         <morphemes>
+         <morph>
+         <item type="text">kinsku</item>
+         <item type="gloss">devils</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">khu-ra</item>
+         <morphemes>
+         <morph>
+          <item type="text">khu</item>
+          <item type="gloss">kill</item>
+         </morph>
+         <morph>
+          <item type="text">ra</item>
+          <item type="gram">CONJUNC</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">či</item>
+         <morphemes>
+         <morph>
+         <item type="text">či</item>
+         <item type="gloss">you</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">t'ez-ʁa</item>
+         <morphemes>
+         <morph>
+          <item type="text">t'ez</item>
+          <item type="gloss">weak</item>
+         </morph>
+         <morph>
+          <item type="text">ʁa</item>
+          <item type="gram">COMPAR</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">kinsku</item>
+         <morphemes>
+         <morph>
+         <item type="text">kinsku</item>
+         <item type="gloss">devils</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">p^h-iɤ-gu-ra</item>
+         <morphemes>
+         <morph>
+          <item type="text">p^h</item>
+          <item type="gram">REFL</item>
+         </morph>
+         <morph>
+          <item type="text">iɤ</item>
+          <item type="gloss">kill</item>
+         </morph>
+         <morph>
+          <item type="text">gu</item>
+          <item type="gram">CAUS</item>
+         </morph>
+         <morph>
+          <item type="text">ra</item>
+          <item type="gram">CONJUNC</item>
+         </morph>
+         </morphemes>
+         </word>
+         </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+ <example>
+   <goldConcept>Lexical Causative</goldConcept>
+   <language code="NIV">Nivkh</language>
+   <source>Nejalkov, Otaina and Xolodovič (1995:61) Shibatani (1995)</source>
+   <item type="url"></item>
+   <item type="definition">"Causatives which use a lexeme as a causative marker."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"He knocked down his younger brother."</item>
+     <words>
+      <word>
+        <item type="text">if</item>
+       <morphemes>
+        <morph>
+           <item type="text">if</item>
+           <item type="gloss">he</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+        <item type="text">p^hatik</item>
+   <morphemes>     
+    <morph>
+           <item type="text">p^hatik</item>
+           <item type="gloss">his younger brother</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">volud'</item>
+         <morphemes>
+         <morph>
+          <item type="text">volud'</item>
+          <item type="gloss">fall-LC-FIN</item>
+         </morph>
+         </morphemes>
+         </word>
+        </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+ <example>
+   <goldConcept>Morphological Causative</goldConcept>
+   <language code="NIV">Nivkh</language>
+   <source>Nejalkov, Otaina and Xolodovič (1995:62) in Shibatani (1995)</source>
+   <item type="url"></item>
+   <item type="definition">"Causatives which use a morpheme on the verb as a causative marker."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"By nudging his younger brother, he caused him to fall."</item>
+     <words>
+      <word>
+        <item type="text">if</item>
+       <morphemes>
+        <morph>
+           <item type="text">if</item>
+           <item type="gloss">he</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+        <item type="text">p^hatik</item>
+   <morphemes>     
+    <morph>
+           <item type="text">p^hatik</item>
+           <item type="gloss">his younger brother</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">əxtr,^12</item>
+         <morphemes>
+         <morph>
+          <item type="text">əxtr,^12</item>
+          <item type="gloss">nudge-ADV</item>
+         </morph>
+         </morphemes>
+         </word>
+        <word>
+        <item type="text">jax</item>
+       <morphemes>
+        <morph>
+           <item type="text">if</item>
+           <item type="gloss">he-CAUSEE</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+        <item type="text">polgud'</item>
+       <morphemes>
+        <morph>
+           <item type="text">polgud'</item>
+           <item type="gloss">fall-MC-FIN</item>
+         </morph>
+         </morphemes>
+        </word>
+        </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+ <example>
+   <goldConcept>Multiple causation</goldConcept>
+   <language code="NIV">Nivkh</language>
+   <source>Nejalkov, Otaina and Xolodovič (1995:62) in Shibatani (1995)</source>
+   <item type="url"></item>
+   <item type="definition">"Expressing the causation of a number of different actions [with the same causer and causee] within a single sentence."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"The mother asked her daughter to cook food, bring dried fish, and to mend the net."</item>
+     <words>
+      <word>
+        <item type="text">əmək</item>
+       <morphemes>
+        <morph>
+           <item type="text">əmək</item>
+           <item type="gloss">mother</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+        <item type="text">p^hōlaax</item>
+   <morphemes>     
+    <morph>
+           <item type="text">p^hōlaax</item>
+           <item type="gloss">her daughter-CAUSEE</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">vənirra</item>
+         <morphemes>
+         <morph>
+          <item type="text">vənirra</item>
+          <item type="gloss">cook food-CONJ</item>
+         </morph>
+         </morphemes>
+         </word>
+        <word>
+        <item type="text">ma</item>
+       <morphemes>
+        <morph>
+           <item type="text">ma</item>
+           <item type="gloss">dried fish</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+        <item type="text">ršəkra</item>
+       <morphemes>
+        <morph>
+           <item type="text">ršəkra</item>
+           <item type="gloss">bring-CONJ</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+        <item type="text">k^e</item>
+       <morphemes>
+        <morph>
+           <item type="text">k^e</item>
+           <item type="gloss">net</item>
+         </morph>
+         </morphemes>
+        </word>
+       <word>
+        <item type="text">ovra</item>
+       <morphemes>
+        <morph>
+           <item type="text">ovra</item>
+           <item type="gloss">mend-CONJ</item>
+         </morph>
+         </morphemes>
+        </word>
+       <word>
+        <item type="text">hagud'</item>
+       <morphemes>
+        <morph>
+           <item type="text">hagud'</item>
+           <item type="gloss">do-MC-FIN</item>
+         </morph>
+         </morphemes>
+        </word>
+        </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+
+ <example>
+   <goldConcept>Locative Focus</goldConcept>
+   <language code="TGL">Tagalog</language>
+   <source>Naylor (1995:172) in Shibatani (1995)</source>
+   <item type="url"></item>
+   <item type="definition">"A type of Non-Actor Focus which puts the locative into focus."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"The woman removed (the) shoes from the child."</item>
+     <words>
+      <word>
+        <item type="text">inasilan</item>
+       <morphemes>
+        <morph>
+           <item type="text">inasilan</item>
+           <item type="gloss">remove-LFcompl</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+        <item type="text">ng</item>
+   <morphemes>     
+    <morph>
+           <item type="text">ng</item>
+           <item type="gram">gen</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">babae</item>
+         <morphemes>
+         <morph>
+          <item type="text">babae</item>
+          <item type="gloss">woman</item>
+         </morph>
+         </morphemes>
+         </word>
+        <word>
+        <item type="text">ng</item>
+       <morphemes>
+        <morph>
+           <item type="text">ng</item>
+           <item type="gram">gen</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+        <item type="text">sapatos</item>
+       <morphemes>
+        <morph>
+           <item type="text">sapatos</item>
+           <item type="gloss">shoes</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+        <item type="text">ang</item>
+       <morphemes>
+        <morph>
+           <item type="text">ang</item>
+           <item type="gram">nom</item>
+         </morph>
+         </morphemes>
+        </word>
+       <word>
+        <item type="text">bata</item>
+       <morphemes>
+        <morph>
+           <item type="text">bata</item>
+           <item type="gloss">child</item>
+         </morph>
+         </morphemes>
+        </word>
+       </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+
+
+ <example>
+   <goldConcept>Benefactive Focus</goldConcept>
+   <language code="TGL">Tagalog</language>
+   <source>Naylor (1995:172) in Shibatani (1995)</source>
+   <item type="url"></item>
+   <item type="definition">"A type of Non-Actor Focus which puts the benefactive into focus."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"The woman removed thorns for the child."</item>
+     <words>
+      <word>
+        <item type="text">ipinag-alis</item>
+       <morphemes>
+        <morph>
+           <item type="text">ipinag</item>
+           <item type="gram">BFcompl</item>
+         </morph>
+         <morph>
+           <item type="text">alis</item>
+           <item type="gloss">remove</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+        <item type="text">ng</item>
+   <morphemes>     
+    <morph>
+           <item type="text">ng</item>
+           <item type="gram">gen</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">babae</item>
+         <morphemes>
+         <morph>
+          <item type="text">babae</item>
+          <item type="gloss">woman</item>
+         </morph>
+         </morphemes>
+         </word>
+        <word>
+        <item type="text">ng</item>
+       <morphemes>
+        <morph>
+           <item type="text">ng</item>
+           <item type="gram">gen</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+        <item type="text">tinik</item>
+       <morphemes>
+        <morph>
+           <item type="text">tinik</item>
+           <item type="gloss">thorns</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+        <item type="text">ang</item>
+       <morphemes>
+        <morph>
+           <item type="text">ang</item>
+           <item type="gram">nom</item>
+         </morph>
+         </morphemes>
+        </word>
+       <word>
+        <item type="text">bata</item>
+       <morphemes>
+        <morph>
+           <item type="text">bata</item>
+           <item type="gloss">child</item>
+         </morph>
+         </morphemes>
+        </word>
+       </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+
+<example>
+   <goldConcept>Identified Object Marking</goldConcept>
+   <language code="BCC">Balochi</language>
+   <source>Farrell (1995:220) in Shibatani (1995)</source>
+   <item type="url"></item>
+   <item type="definition">"Marks 'identified' patients versus 'unidentified' patients.  Defined in terms of animacy and definiteness."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"He gives me "the" book."</item>
+     <words>
+      <word>
+        <item type="text">a-Ø</item>
+       <morphemes>
+        <morph>
+           <item type="text">a</item>
+           <item type="gloss">he</item>
+         </morph>
+          <morph>
+           <item type="text">Ø</item>
+           <item type="gram">DIR</item>
+         </morph>
+         </morphemes>
+        </word>
+        <word>
+        <item type="text">mƏn-a</item>
+        <morphemes>     
+        <morph>
+           <item type="text">mƏn</item>
+           <item type="gloss">I</item>
+         </morph>
+         <morph>
+           <item type="text">a</item>
+           <item type="gram">OBL</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">kitab-a</item>
+         <morphemes>
+         <morph>
+          <item type="text">kitab</item>
+          <item type="gloss">book</item>
+         </morph>
+         <morph>
+          <item type="text">a</item>
+          <item type="gram">OBL</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+         <item type="text">dã</item>
+       <morphemes>
+         <morph>
+          <item type="text">dã</item>
+          <item type="gloss">give.PRES(3SG)</item>
+         </morph>
+         </morphemes>
+        </word>
+        </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+<example>
+   <goldConcept>Agent</goldConcept>
+   <language code="DHG">Dakota</language>
+   <source>Foster (1979:499-500) from Frawley (1992:204)</source>
+   <item type="url"></item>
+   <item type="definition">"The deliberate, potent, active instigator of the predicate: the primary involved doer.  Normally the agent is human, and agency is therefore often connected with volition, will, intentionality, and responsibility."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"I gave myself a sore by doing something/I did the sore."</item>
+     <words>
+      <word>
+        <item type="text">wa-ka-hą</item>
+       <morphemes>
+        <morph>
+           <item type="text">wa</item>
+           <item type="gloss">I-Agt</item>
+         </morph>
+         <morph>
+           <item type="text">ka</item>
+           <item type="gloss">OuterForce</item>
+         </morph>
+         <morph>
+          <item type="text">hą</item>
+          <item type="gloss">sore</item>
+         </morph>
+         </morphemes>
+         </word>
+         </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+<example>
+   <goldConcept>???</goldConcept>
+   <language code="SCS">Hare</language>
+   <source>Delancey (1984) from Frawley (1992:207)</source>
+   <item type="url"></item>
+   <item type="definition">"When the primary executor of an act has all the characteristics of an agent, but is not the direct cause of the act, the argument is the author.  The distinction between agent and author is made to accommodate differences in participation between those arguments that carry out acts for reasons internal to the arguments (agents) and those that carry out acts for noninternal reasons.  Semantically authors fall on a gradient between agents and instruments."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"Liquor killed him/her/She/he died from liquor."</item>
+     <words>
+      <word>
+        <item type="text">kǫtúé'</item>
+       <morphemes>
+        <morph>
+           <item type="text">kǫtúé'</item>
+           <item type="gloss">liquor</item>
+         </morph>
+        </morphemes>
+        </word>
+        <word>
+        <item type="text">k'é</item>
+        <morphemes>
+        <morph>
+        <item type="text">k'é</item>
+           <item type="gram">???</item>
+         </morph>      
+         </morphemes>
+         </word>
+         <word>
+        <item type="text">lánį-we</item>
+        <morphemes>
+        <morph>
+        <item type="text">lánį</item>
+           <item type="gloss">die</item>
+         </morph>    
+         <morph>
+        <item type="text">we</item>
+           <item type="gram">3Per</item>
+         </morph>  
+         </morphemes>
+         </word>
+         </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+<example>
+   <goldConcept>???</goldConcept>
+   <language code="NIQ">Niuean</language>
+   <source>Seiter (1979:28-38) from Frawley (1992:209)</source>
+   <item type="url"></item>
+   <item type="definition">"If an argument is the means by which a predicate is carried out, it has the thematic role instrument.  Unlike agents and authors, instruments must be acted on by something else in order to participate in the situation; their energy source is external to them."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"I'm writing with a knife ('carving')."</item>
+     <words>
+      <word>
+        <item type="text">ko</item>
+       <morphemes>
+        <morph>
+           <item type="text">ko</item>
+           <item type="gram">Pres</item>
+         </morph>
+        </morphemes>
+        </word>
+        <word>
+        <item type="text">e</item>
+        <morphemes>
+        <morph>
+        <item type="text">e</item>
+           <item type="gram">Erg</item>
+         </morph>      
+         </morphemes>
+         </word>
+         <word>
+        <item type="text">tohitohi</item>
+        <morphemes>
+        <morph>
+        <item type="text">tohitohi</item>
+           <item type="gloss">write</item>
+         </morph>    
+         </morphemes>
+         </word>
+         <word>
+        <item type="text">a</item>
+        <morphemes>
+        <morph>
+        <item type="text">a</item>
+           <item type="gram">Abs</item>
+         </morph>    
+         </morphemes>
+         </word>
+         <word>
+        <item type="text">au</item>
+        <morphemes>
+        <morph>
+        <item type="text">au</item>
+           <item type="gloss">I</item>
+         </morph>    
+         </morphemes>
+         </word>
+         <word>
+        <item type="text">aki</item>
+        <morphemes>
+        <morph>
+        <item type="text">aki</item>
+           <item type="gram">Instr</item>
+         </morph>    
+         </morphemes>
+         </word>
+         <word>
+        <item type="text">e</item>
+        <morphemes>
+        <morph>
+        <item type="text">e</item>
+           <item type="gram">Abs</item>
+         </morph>    
+         </morphemes>
+         </word>
+         <word>
+        <item type="text">titipi</item>
+        <morphemes>
+        <morph>
+        <item type="text">titipi</item>
+           <item type="gloss">knife</item>
+         </morph>    
+         </morphemes>
+         </word>
+         </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+<example>
+   <goldConcept>Patient</goldConcept>
+   <language code="TGL">Tagalog</language>
+   <source>Frawley (1992:212)</source>
+   <item type="url"></item>
+   <item type="definition">"If an argument undergoes, is changed by, or is directly affected by a predicate, it is a patient.  This choice of terminology reflects the fact that a patient suffers the situation, or comes out changed as a result of the action of the predicate. The patient is the primary recipient of the event."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"The man broke the glass/The glass, it's what the man broke."</item>
+     <words>
+      <word>
+        <item type="text">binsang-Ø</item>
+       <morphemes>
+        <morph>
+           <item type="text">binsang</item>
+           <item type="gloss">broke</item>
+         </morph>
+        <morph>
+           <item type="text">Ø</item>
+           <item type="gram">Pat/Topic</item>
+         </morph>
+        </morphemes>
+        </word>
+        <word>
+        <item type="text">ng</item>
+        <morphemes>
+        <morph>
+        <item type="text">ng</item>
+           <item type="gram">Actor</item>
+         </morph>      
+         </morphemes>
+         </word>
+         <word>
+        <item type="text">lalake</item>
+        <morphemes>
+        <morph>
+        <item type="text">lalake</item>
+           <item type="gloss">man</item>
+         </morph>    
+         </morphemes>
+         </word>
+         <word>
+        <item type="text">ang</item>
+        <morphemes>
+        <morph>
+        <item type="text">ang</item>
+           <item type="gram">Topic</item>
+         </morph>    
+         </morphemes>
+         </word>
+         <word>
+        <item type="text">baso</item>
+        <morphemes>
+        <morph>
+        <item type="text">baso</item>
+           <item type="gloss">glass</item>
+         </morph>    
+         </morphemes>
+         </word>
+        </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+<example>
+   <goldConcept>Experiencer</goldConcept>
+   <language code="KJV">Kannada</language>
+   <source>Hermon (1984:200-9) from Frawley (1992:215)</source>
+   <item type="url"></item>
+   <item type="definition">"If a predicate affects the internal state or constitution of an argument, then the argument has the thematic role experiencer. Because internally affected entities have to have an internal state to register the effect, experiencers frequently turn out to be human, or at least animate.  But because what counts as an internal state is fuzzy and may be construed differently by a culture or domain of discourse, experiencers are not necessarily animate."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"Soma is very fond of himself."</item>
+     <words>
+      <word>
+        <item type="text">Sōma-nige</item>
+       <morphemes>
+        <morph>
+           <item type="text">Sōma</item>
+           <item type="gloss">Soma</item>
+         </morph>
+        <morph>
+           <item type="text">nige</item>
+           <item type="gram">DAT</item>
+         </morph>
+        </morphemes>
+        </word>
+        <word>
+        <item type="text">tānu</item>
+        <morphemes>
+        <morph>
+        <item type="text">tānu</item>
+           <item type="gloss">self</item>
+         </morph>      
+         </morphemes>
+         </word>
+         <word>
+        <item type="text">tumba</item>
+        <morphemes>
+        <morph>
+        <item type="text">tumba</item>
+           <item type="gloss">much</item>
+         </morph>    
+         </morphemes>
+         </word>
+         <word>
+        <item type="text">ishţa</item>
+        <morphemes>
+        <morph>
+        <item type="text">ishţa</item>
+           <item type="gloss">liking</item>
+         </morph>    
+         </morphemes>
+         </word>
+         </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+<example>
+   <goldConcept>Benefactive</goldConcept>
+   <language code="NIQ">Niuean</language>
+   <source>Seiter (1979:32) from Frawley (1992:217)</source>
+   <item type="url"></item>
+   <item type="definition">"A recipient that derives actions or entities from the actions of another.  Benefactives typically require an agent elsewhere in the predication."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"I work for that man."</item>
+     <words>
+      <word>
+        <item type="text">Gahua</item>
+       <morphemes>
+        <morph>
+           <item type="text">Gahua</item>
+           <item type="gloss">work</item>
+         </morph>
+        </morphemes>
+        </word>
+        <word>
+        <item type="text">a</item>
+        <morphemes>
+        <morph>
+        <item type="text">a</item>
+           <item type="gram">Abs</item>
+         </morph>      
+         </morphemes>
+         </word>
+         <word>
+        <item type="text">au</item>
+        <morphemes>
+        <morph>
+        <item type="text">au</item>
+           <item type="gloss">I</item>
+         </morph>    
+         </morphemes>
+         </word>
+         <word>
+        <item type="text">ma</item>
+        <morphemes>
+        <morph>
+        <item type="text">ma</item>
+           <item type="gram">Ben</item>
+         </morph>    
+         </morphemes>
+         </word>
+        <word>
+        <item type="text">e</item>
+        <morphemes>
+        <morph>
+        <item type="text">e</item>
+           <item type="gram">Abs</item>
+         </morph>    
+         </morphemes>
+         </word>
+         <word>
+        <item type="text">tagata</item>
+        <morphemes>
+        <morph>
+        <item type="text">tagata</item>
+           <item type="gloss">mab</item>
+         </morph>    
+         </morphemes>
+         </word>
+        <word>
+        <item type="text">kō</item>
+        <morphemes>
+        <morph>
+        <item type="text">kō</item>
+           <item type="gloss">that</item>
+         </morph>    
+         </morphemes>
+         </word>
+         </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+<example>
+   <goldConcept>Theme</goldConcept>
+   <language code="CCT">Choctaw</language>
+   <source>Broadwell (1988:124) from Frawley (1992:219)</source>
+   <item type="url"></item>
+   <item type="definition">"In the prototypical situation of motion, some entity is displaced as the result of an initiators influence and moves from some resting point along a trajectory, often to another resting point.  The displaced entity is the theme of the predication of displacement."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"We went."</item>
+     <words>
+      <word>
+        <item type="text">iyat</item>
+       <morphemes>
+        <morph>
+           <item type="text">iyat</item>
+           <item type="gloss">go</item>
+         </morph>
+        </morphemes>
+        </word>
+        <word>
+        <item type="text">ii-tahah</item>
+        <morphemes>
+        <morph>
+        <item type="text">ii</item>
+           <item type="gloss">we</item>
+         </morph>  
+        <morph>
+        <item type="text">tahah</item>
+           <item type="gloss">complete/theme</item>
+         </morph>    
+         </morphemes>
+         </word>
+         </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+<example>
+   <goldConcept>Source</goldConcept>
+   <language code="ESG">West Greenlandic Eskimo</language>
+   <source>Fortescue (1984:214) from Frawley (1992:220)</source>
+   <item type="url"></item>
+   <item type="definition">"Language may signal the object displaced in a predication.  It is also common for a language to make reference to the point of origin of displacement, this argument is the source."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"He got a letter from Fari."</item>
+     <words>
+      <word>
+        <item type="text">Fari-mit</item>
+       <morphemes>
+        <morph>
+           <item type="text">Fari</item>
+           <item type="gloss">Fari</item>
+         </morph>
+        <morph>
+           <item type="text">mit</item>
+           <item type="gram">Source</item>
+         </morph>
+        </morphemes>
+        </word>
+        <word>
+        <item type="text">allagar-si-vuq</item>
+        <morphemes>
+        <morph>
+        <item type="text">allagar</item>
+           <item type="gloss">letter</item>
+         </morph>  
+        <morph>
+        <item type="text">si</item>
+           <item type="gloss">get</item>
+         </morph>    
+         <morph>
+        <item type="text">vuq</item>
+           <item type="gram">3Per</item>
+         </morph>
+         </morphemes>
+         </word>
+         </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+<example>
+   <goldConcept>Goal</goldConcept>
+   <language code="CHN">Mandarin Chinese</language>
+   <source>Li and Thompson (1981:399) from Frawley (1992:223)</source>
+   <item type="url"></item>
+   <item type="definition">"The destination of a predication.  The endpoints of events, are not restricted to motion predicates."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"S/he is jumping onto the table."</item>
+     <words>
+      <word>
+        <item type="text">tā</item>
+       <morphemes>
+        <morph>
+           <item type="text">tā</item>
+           <item type="gram">3Per</item>
+         </morph>
+        </morphemes>
+        </word>
+        <word>
+        <item type="text">zài</item>
+        <morphemes>
+        <morph>
+        <item type="text">zài</item>
+           <item type="gloss">at</item>
+         </morph>  
+         </morphemes>
+         </word>
+         <word>
+        <item type="text">zhuōzi</item>
+        <morphemes>
+        <morph>
+        <item type="text">zhuōzi</item>
+           <item type="gloss">table</item>
+         </morph>  
+         </morphemes>
+         </word>
+         <word>
+        <item type="text">shang</item>
+        <morphemes>
+        <morph>
+        <item type="text">shang</item>
+           <item type="gloss">on</item>
+         </morph>  
+         </morphemes>
+         </word>
+        <word>
+        <item type="text">tiào</item>
+        <morphemes>
+        <morph>
+        <item type="text">tiào</item>
+           <item type="gloss">jump</item>
+         </morph>  
+         </morphemes>
+         </word>
+         </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+<example>
+   <goldConcept>Locative</goldConcept>
+   <language code="ESG">West Greenlandic Eskimo</language>
+   <source>Fortescue (1984:232-3) from Frawley (1992:225)</source>
+   <item type="url"></item>
+   <item type="definition">"The argument that denotes the spatial position of the of the predicate is the locative; it is the site of the predication, or its static position."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"on the windward side of the big island."</item>
+     <words>
+      <word>
+        <item type="text">qiqirtar-su-up</item>
+       <morphemes>
+        <morph>
+           <item type="text">qiqirtar</item>
+           <item type="gloss">island</item>
+         </morph>
+         <morph>
+           <item type="text">su</item>
+           <item type="gloss">big</item>
+         </morph>
+        <morph>
+           <item type="text">up</item>
+           <item type="gram">Rel</item>
+         </morph>
+        </morphemes>
+        </word>
+        <word>
+        <item type="text">assu-a-ni</item>
+        <morphemes>
+        <morph>
+        <item type="text">assu</item>
+           <item type="gloss">windward</item>
+         </morph>  
+         <morph>
+        <item type="text">a</item>
+           <item type="gloss">its</item>
+         </morph>
+         <morph>
+        <item type="text">ni</item>
+           <item type="gram">Loc</item>
+         </morph>
+         </morphemes>
+         </word>
+         </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+<example>
+   <goldConcept>Reason</goldConcept>
+   <language code="NWI">Southwest Tanna</language>
+   <source>Lynch (1982:41) from Frawley (1992:226)</source>
+   <item type="url"></item>
+   <item type="definition">"The arguments that denote the prior conditions of a predication have the thematic role reason. Reasons are connected to the intentions of the agent and as such rely on prior events themselves for their existence.  Reasons may thus be said to link other events to a predication by means of the motivation of an agent."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"I am sick from the fish."</item>
+     <words>
+      <word>
+        <item type="text">i-ak-a-mha</item>
+       <morphemes>
+        <morph>
+           <item type="text">i</item>
+           <item type="gloss">I</item>
+         </morph>
+         <morph>
+           <item type="text">ak</item>
+           <item type="gram">Pres</item>
+         </morph>
+        <morph>
+           <item type="text">a</item>
+           <item type="gram">Prog</item>
+         </morph>
+        <morph>
+           <item type="text">mha</item>
+           <item type="gloss">sick</item>
+         </morph>
+        </morphemes>
+        </word>
+        <word>
+        <item type="text">tukw</item>
+        <morphemes>
+        <morph>
+        <item type="text">tukw</item>
+           <item type="gram">Reason</item>
+         </morph>  
+         </morphemes>
+         </word>
+          <word>
+        <item type="text">kamaam</item>
+        <morphemes>
+        <morph>
+        <item type="text">kamaam</item>
+           <item type="gloss">fish</item>
+         </morph>  
+         </morphemes>
+         </word>
+         </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+<example>
+   <goldConcept>Purpose</goldConcept>
+   <language code="ESG">West Greenlandic Eskimo</language>
+   <source>Fortescue (1984:218) from Frawley (1992:226)</source>
+   <item type="url"></item>
+   <item type="definition">"A language may thematically code the result or consequence of a predicate.  An argument with this role is the purpose."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"Fishing equipment/equipment that will be used for fishing."</item>
+     <words>
+      <word>
+        <item type="text">aalisar-nir-mut</item>
+       <morphemes>
+        <morph>
+           <item type="text">aalisar</item>
+           <item type="gloss">fish</item>
+         </morph>
+         <morph>
+           <item type="text">nir</item>
+           <item type="gram">Nom</item>
+         </morph>
+        <morph>
+           <item type="text">mut</item>
+           <item type="gram">Purp</item>
+         </morph>
+        </morphemes>
+        </word>
+        <word>
+        <item type="text">aturtu-ssa-t</item>
+        <morphemes>
+        <morph>
+        <item type="text">aturtu</item>
+           <item type="gloss">equipment</item>
+         </morph>  
+         <morph>
+        <item type="text">ssa</item>
+           <item type="gram">Fut</item>
+         </morph>
+         <morph>
+        <item type="text">t</item>
+           <item type="gram">Pl</item>
+         </morph>
+         </morphemes>
+         </word>
+         </words>
+       </phrase>
+      </phrases>
+     </interlinear-text>
+    </example>
+
+
+ <example>
+   <goldConcept>Progressive Passive</goldConcept>
+   <language code="GLI">Irish Gaelic</language>
+   <source>Noonan (1994:280)</source>
+   <item type="url"></item>
+   <item type="definition">"A passive in Irish  in which the preposition "at" is used, and a semantic meaning of progressive tense is found."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"She was collecting mushrooms."</item>
+    <words>
+      <word>
+        <item type="text">bhí</item>
+       <morphemes>
+       <morph>
+           <item type="text">bhí</item>
+           <item type="gloss">was</item>
+         </morph>
+        </morphemes>
+        </word>
+        <word>
+       <item type="text">sí</item>
+       <morphemes>
+       <morph>
+       <item type="text">sí</item>
+           <item type="gloss">she</item>
+         </morph>
+        </morphemes>
+        </word>
+        <word>
+        <item type="text">ag</item>
+        <morphemes>
+         -<morph>
+           <item type="text">ag</item>
+           <item type="gloss">at</item>
+         </morph> 
+         </morphemes>
+         </word>
+        <word>
+        <item type="text">ceannach</item>
+        <morphemes>
+          -<morph>
+           <item type="text">ceannachj</item>
+           <item type="gloss">buy-NOMIN</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+           <item type="text">beacán</item>
+           <morphemes>
+           <morph>
+           <item type="text">beacán</item>
+           <item type="gloss">mushrooms-GEN</item>
+         </morph>
+         </morphemes>
+         </word>
+        </words>
+      </phrase>
+     </phrases>
+     </interlinear-text>
+    </example>
+
+
+
+ <example>
+   <goldConcept>Necessitative Passive</goldConcept>
+   <language code="GLI">Irish Gaelic</language>
+   <source>Noonan (1994:280) in Fox and Hopper (1994)</source>
+   <item type="url"></item>
+   <item type="definition">"A passive in Irish in which the preposition "with" is used, and a semantic meaning of necessity is added."</item>
+   <interlinear-text>
+   <phrases>
+    <phrase>
+      <item type="gloss">"She had/was to buy mushrooms."</item>
+     <words>
+      <word>
+        <item type="text">bhí</item>
+       <morphemes>
+        <morph>
+           <item type="text">bhí</item>
+           <item type="gloss">was</item>
+         </morph>
+        </morphemes>
+        </word>
+        <word>
+       <item type="text">sí</item>
+       <morphemes>
+       <morph>
+       <item type="text">sí</item>
+           <item type="gloss">she</item>
+         </morph>
+        </morphemes>
+        </word>
+        <word>
+        <item type="text">le</item>
+        <morphemes>
+         -<morph>
+           <item type="text">le</item>
+           <item type="gloss">with</item>
+         </morph> 
+         </morphemes>
+         </word>
+        <word>
+        <item type="text">beacán</item>
+        <morphemes>
+          -<morph>
+           <item type="text">beacán</item>
+           <item type="gloss">mushrooms</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+           <item type="text">a</item>
+           <morphemes>
+           <morph>
+           <item type="text">a</item>
+           <item type="gloss">to</item>
+         </morph>
+         </morphemes>
+         </word>
+        <word>
+           <item type="text">cheannach</item>
+           <morphemes>
+           <morph>
+           <item type="text">cheannach</item>
+           <item type="gloss">buy-NOMIN</item>
+         </morph>
+         </morphemes>
+         </word>
+        </words>
+      </phrase>
+     </phrases>
+     </interlinear-text>
+    </example>
+
+
+
+<example>
+   <goldConcept>Necessitative Passive</goldConcept>
+   <language code="GLI">Irish Gaelic</language>
+   <source>Noonan (1994:280) in Fox and Hopper (1994)</source>
+   <item type="url"></item>
+   <item type="definition">"A passive in Irish in which the preposition "with" is used, and a semantic meaning of necessity is added."</item>
+   <interlinear-text>
+  <phrases>
+    <phrase>
+      <item type="gloss">"She had/was to buy mushrooms."</item>
+     <words>
+      <word>
+        <item type="text">bhí</item>
+      <morphemes>
+        <morph>
+           <item type="text">bhí</item>
+           <item type="gloss">was</item>
+         </morph>
+        </morphemes>
+        </word>
+        <word>
+       <item type="text">sí</item>
+       <morphemes>
+       <morph>
+       <item type="text">sí</item>
+           <item type="gloss">she</item>
+         </morph>
+        </morphemes>
+        </word>
+        <word>
+        <item type="text">le</item>
+        <morphemes>
+         <morph>
+           <item type="text">le</item>
+           <item type="gloss">with</item>
+         </morph> 
+         </morphemes>
+         </word>
+        <word>
+        <item type="text">beacán</item>
+        <morphemes>
+          <morph>
+           <item type="text">beacán</item>
+           <item type="gloss">mushrooms</item>
+         </morph>
+         </morphemes>
+         </word>
+         <word>
+           <item type="text">a</item>
+           <morphemes>
+           <morph>
+           <item type="text">a</item>
+           <item type="gloss">to</item>
+         </morph>
+         </morphemes>
+         </word>
+        <word>
+           <item type="text">cheannach</item>
+           <morphemes>
+           <morph>
+           <item type="text">cheannach</item>
+           <item type="gloss">buy-NOMIN</item>
+         </morph>
+         </morphemes>
+         </word>
+        </words>
+      </phrase>
+      </phrases>
+    </interlinear-text>
+  </example>
+
+
+</igt>

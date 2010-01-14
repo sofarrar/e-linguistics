@@ -1,0 +1,28 @@
+Stiv
+
+I can read the owl files now. I took a look at the contents of the cope directory. Here are my comments:
+
+What's the origin of  features.xls?
+
+
+Issues for modeling phon. features using OWL-DL:
+
+
+-decide what an IPA symbol is supposed to represent in the ontology. I believe we've been assuming 'Sound'. So then, we'd have:
+
+Grapheme represents Sound
+
+A subclass of Sound would be Vowel, Consontant, etc and perahps specific to the particular theory (ie COPE).
+
+-define classes of sounds in terms of the features they take. We'll probably end up with similar looking hierarchies for sounds and features. Eg.,
+
+Sonorant implies Voiced and not Stop [made up example here]
+
+-or, we structure sound hierarchy, but keep feature hierarchy relatively flat
+
+
+-deal w issue of underspec., namely that a sound can have a voicing feature, but not be specified as to plus or minus.
+
+ 
+those are my random thoughts for now
+Scott

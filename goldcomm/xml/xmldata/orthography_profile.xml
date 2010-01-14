@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orthography_profile 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../schemas/orthography_profile.xsd">
+	
+	<script name="Arabic"/>
+
+	<glyph_inventory>
+		<glyph id="1" canonicalform="a" codepoint="0072"/>
+		<glyph id="2" canonicalform="b" codepoint="0073"/>
+		<glyph id="3" canonicalform="c" codepoint="0074"/>				
+	</glyph_inventory>
+
+	<phoneme_inventory>
+		<phoneme id="1"/> <!-- need to specify the id matches the glyph id -->
+		<phoneme id="2"/>
+	</phoneme_inventory>
+	
+	<correspondence>
+		<unit_g2p>
+			<grapheme_sequence first="" second=""/>
+			<phoneme_sequence first="" second=""/>
+		</unit_g2p>
+		<unit_p2g>
+			<phoneme_sequence first="" second=""/>
+			<grapheme_sequence first="" second=""/>
+		</unit_p2g>	
+	</correspondence>
+
+</orthography_profile>
+
+
+	<!-- goes in highest level schema, to track provenance-->
+<!-- 	<sources>
+		<document uri="" author=""/> perhaps a phoible uri
+		<tool uri="" author=""/>
+		</sources> -->
+
+	<!-- The note element is a  complex type because it contains other elements.
+	
+	
+	<!-- needs rule ordering 
+	<parsing_rules> 
+		<rule input="" output="" exceptions=""/>
+		<exceptions></exceptions> 
+		</parsing_rules>-->
+
+
+
+<!--
+	http://www.xfront.com/eXtreme-eXtensibility.html
+	
+	<element name="River">
+	<complexType>	
+	<sequence>
+	<any namespace="##targetNamespace" maxOccurs="unbounded"/>
+	</sequence>
+	<attribute name="id" type="ID" use="required"/>
+	</complexType>
+	</element>
+	<element name="Length" type="string"/>
+	<element name="StartingLocation" type="string"/>
+	<element name="EndingLocation" type="string"/>
+	
+	- no restrictions on the contents of River
+	- initial vocabulary - Length, StartingLocation, etc.
+	- no restriction on the ordering of elements?
+	- additional XML Web pages whose vocabulary extends the initial vocabulary need schemas created for them
+	
+	SCOTT:
+	- do we want restrictions on the contents of "orthographic_profile" (or "phonetic_profile", etc.)
+	- i need to get familiar with the namespacing schema that we're following
+	
+	Orthographic profile
+	
+	Metadata
+	URI
+	language code
+	author
+	date
+	script
+	encoding
+	font
+	
+	Glyph Inventory (Unicode characters)
+	U+0073
+	U+0074
+	U+0069
+	U+0076
+	
+	
+	Grapheme-to-phoneme correspondences
+	U+0067 U+0079 <dy> -> U+02A4 /ʤ/
+	
+	Phoneme Inventory (or a derivable method for it since we have the G2P correspondences)
+	include known parsing ambiguities?
+	statistics?
+	
+	Parsing rules
+	<dy> -> <dy>  (not <d> and <y> as separate graphemes/phonemes)
+	
+	List known exceptions and rules for disambiguation when possible?
+	e.g. <kidya> 'waterfall' is /kid.ya/ but it's the only example (or classes of examples) in the language
+	
+	
+-->

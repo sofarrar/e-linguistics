@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="igtxml2rdf.xsl"?>
+<igt
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.linguistics-ontology.org/schemas/2008 igt.xsd">
+    
+    
+    <igt_example>
+        <clause ortho_representation="Pixanej,Oyb'inaq Satej" gloss="Espiritus y Ataques">
+            <synword ortho_representation="pixanej">
+                <morpheme ortho_representation="pixan" gloss="corazon"/>
+                <morpheme ortho_representation="ej" gloss="GNR"/>
+            </synword>
+            <synword>
+                <morpheme ortho_representation="oyb" gloss="marearse"/>
+                <morpheme ortho_representation="inaq" gloss="TNS"/>
+            </synword>
+            <synword>
+                <morpheme ortho_representation="satej" gloss="mal.de.ojo"/>
+            </synword>
+        </clause>            
+    </igt_example>
+    
+    <igt_example>
+        
+    </igt_example>
+        
+
+
+
+</igt>

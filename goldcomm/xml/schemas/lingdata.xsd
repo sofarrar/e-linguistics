@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xs:schema 
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="http://www.linguistics-ontology.org/schemas/2008"
+    xmlns="http://www.linguistics-ontology.org/schemas/2008">
+
+    <!--for any instance of ling. form in any type of XML file>    
+    the base schema file, igt stuff to be pulled out into an igt.xsd
+        
+    phonological profile schema should inherit elements from this file
+    
+    </-->
+
+    <xs:complexType name="representationtype">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="type" type="typetype" use="required"/>
+                <xs:attribute name="id" type="xs:ID" use="required"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+                   
+
+    <xs:complexType name="glosstype">
+        <xs:simpleContent>
+            <xs:extension base="xs:string">
+                <xs:attribute name="id" type="xs:ID" use="required"/>
+            </xs:extension>
+        </xs:simpleContent>
+    </xs:complexType>
+    
+    
+
+    <xs:simpleType name="typetype">
+        <xs:restriction base="xs:string"/>
+    </xs:simpleType>
+        
+    
+    
+    <xs:complexType name="clausetype">
+        <xs:sequence>
+            <xs:element name="synword"  maxOccurs="unbounded"  type="synwordtype"/>    
+        </xs:sequence>
+        <xs:attribute name="representation" type="xs:IDREF" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="synwordtype">
+        <xs:sequence>
+            <xs:element name="morpheme" maxOccurs="unbounded" type="morphemetype"/>
+        </xs:sequence>
+        <xs:attribute name="representation" type="xs:IDREF" use="optional"/>
+    </xs:complexType>
+    
+
+    <xs:complexType name="morphemetype">
+        <xs:attribute name="representation" type="xs:IDREF" use="required"/>
+        <xs:attribute name="gloss" type="xs:IDREF" use="required"/>    
+        <xs:attribute name="type" type="typetype" use="optional"/>
+    </xs:complexType>
+    
+
+    <xs:complexType name="translationtype">
+        <xs:attribute name="source" type="xs:IDREF"/>
+        <xs:attribute name="target" type="xs:IDREF"/>
+    </xs:complexType>
+
+
+    <xs:complexType name="orthophrasetype">
+        
+        <xs:sequence>
+            <xs:element name="orthoword" type="orthowordtype" minOccurs="0"/>
+        </xs:sequence>
+        <xs:attribute name="representation" type="xs:IDREF"/>
+    </xs:complexType>    
+
+
+    <!--the following will reside in separate xsd, for igt instances-->
+    <xs:complexType name="orthowordtype">
+        <xs:sequence>
+            <xs:element name="orthopart" type="orthoparttype"/>
+        </xs:sequence>
+        <xs:attribute name="representation" type="xs:IDREF"/>
+    </xs:complexType>    
+
+    <xs:complexType name="orthoparttype">
+                <xs:attribute name="representation" type="xs:IDREF"/>
+    </xs:complexType>    
+    
+
+</xs:schema>

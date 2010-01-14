@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema 
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:lingdata="http://www.linguistics-ontology.org/schemas/2008"
+    elementFormDefault="unqualified">
+    
+    <xs:import namespace="http://www.linguistics-ontology.org/schemas/2008"
+        schemaLocation="lingdata.xsd"/>  
+    
+    <!-->
+        
+        the schema file to be used for igt data; inherits from the lingdata.xsd base schema
+        
+    </-->
+
+    <xs:element name="igt" type="igttype"/>
+
+    <xs:complexType name="igttype">
+        <xs:sequence>
+            <xs:element name="igt_example" maxOccurs="unbounded" type="igt_exampletype"/>
+            <xs:element name="representation" maxOccurs="unbounded" type="lingdata:representationtype"/>
+            <xs:element name="gloss" maxOccurs="unbounded" type="lingdata:glosstype"/>
+        </xs:sequence>
+        
+    </xs:complexType>
+    
+
+    <xs:complexType name="igt_exampletype">
+        
+        <xs:sequence>
+            <xs:element name="orthophrase" type="lingdata:orthophrasetype"/>
+            <xs:element name="clause" type="lingdata:clausetype"/>
+            <xs:element name="orthophrase" type="lingdata:orthophrasetype"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+
+
+    
+    
+    
+    
+    
+</xs:schema>

@@ -1,0 +1,40 @@
+
+CHANGELOG started by Scott Farrar, Mar 2009
+
+TO DO:
+
+POSProp's as properties of the sign, or particular unit?
+
+
+BEGIN CHANGE LOG
+
+Nov 2009
+-------------------------
+
+removed &quot; char's
+
+replaced line breaks in comments with '-------' so they json could handle decoding
+
+
+Mar 2009
+--------------
+NB: This version was created based on gold-2008
+
+
+Change log:
+
+Deleted Set, Class, SetOrClass.
+
+Added domain and range restrictions for:
+
+hasForm
+hasGrammar
+hasMeaning
+
+Added defintions to various high level classes.
+
+Created  PartOfSpeechProperty, and moved all the subclasses of SyntacticWord to be subsumed by PartOfSpeechProperty (from Gary's comments)
+
+Moved Pronominal to be a subclass of ProFrom, for consistency
+
+

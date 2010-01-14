@@ -1,0 +1,164 @@
+#This is the Leipzig Glossing Rules termset from the abbreviations found here: 
+#
+#http://www.eva.mpg.de/lingua/resources/glossing-rules.php
+#
+#abbreviation, term name, gold entity, (optional comment)
+#----------------------------------
+1,       first person,  FirstPerson
+2,      second person,  SecondPerson
+3,       third person,  ThirdPerson
+A,       agent, agent, agent-like argument of canonical transitive verb
+ABL,     ablative, AblativeCase
+ABS,     absolutive, AbsolutiveCase
+ACC,     accusative, AccusativeCase
+ADJ,     adjective, Adjectival
+ADV,     adverbial, Adverbial
+#AGR,     agreement, AgreementMarker
+ALL,     allative, AllativeCase
+ANTIP,   antipassive, AntiPassiveVoice
+APPL,   applicative, ApplicativeVoice
+ART,     article, Article
+AUX,     auxiliary, Auxiliary
+BEN,     benefactive, BenefactiveCase
+#CAUS,    causative, Causative
+CLF,     classifier, Classifier
+COM,     comitative, ComitativeCase
+COMP,    complementizer, Complementizer
+COMPL,   completive, CompletiveAspect
+COND,    conditional, ConditionalModality
+COP,     copula, Copula
+CVB,     converb, ConVerb
+DAT,     dative, DativeCase
+DECL,    declarative, DeclarativeForce
+#DEF,     definite, Definite
+DEM,     demonstrative, Demonstrative
+DET,     determiner, Determiner
+#DIST,    distal, Distal
+DISTR,   distributive, DistributiveAspect
+DU,      dual, DualNumber
+DUR,     durative, DurativeAspect
+ERG,     ergative, ErgativeCase
+#EXCL,    exclusive, ExclusivePerson
+F,       feminine, FeminineGender
+FOC,     focus, FocusProperty
+FUT,     future, FutureTense
+GEN,     genitive, GenitiveCase
+IMP,     imperative, ImperativeForce
+#INCL,    inclusive, Inclusive
+IND,     indicative, IndicativeMood
+#INDF,    indefinite, Indefinite
+#INF,     infinitive, Infinitive
+INS,     instrumental, InstrumentalCase
+INTR,    intransitive, IntransitiveVerb
+IPFV,    imperfective, ImperfectiveAspect
+IRR,     irrealis, IrrealisMood
+LOC,     locative, LocativeCase
+M,       masculine, MasculineGender
+N,       neuter, NeuterGender
+NEG,     negation/negative, NegativePolarity
+NMLZ,    nominalizer/nominalization, Nominalizer
+NOM,     nominative, NominativeCase
+NPST,   non-past tense, NonPastTense
+OBJ,     object, Object
+OBL,     oblique, ObliqueCase
+P,       patient, patient, patient-like argument of canonical transitive verb
+PASS,    passive, PassiveVoice
+PFV,     perfective, PerfectiveAspect
+PL,      plural, PluralNumber
+#POSS,    possessive, Possessive
+PRED,    predicative, Predicative
+PRF,     perfect, PerfectTense
+PRS,     present, PresentTense
+PROG,    progressive, ProgressiveAspect
+PROH,    prohibitive, ProhibitiveMood
+#PROX,    proximal/proximate, Proximative
+PST,     past, PastTense
+PTCP,    participle, Participle
+#PURP,    purposive, Purposive ???
+Q,       question particle/marker, InterrogativeOperator
+QUOT,    quotative, SecondHandEvidentiality 
+RECP,    reciprocal, ReciprocalPronoun
+REFL,    reflexive, ReflexivePronoun
+REL,     relative, Relativizer
+#RES,     resultative, Resultative ???
+#S,       single argument of canonical intransitive verb ???
+SBJ,     subject, subject
+SBJV,    subjunctive, SubjunctiveMood
+SG,      singular, SingularNumber
+TOP,     topic, TopicProperty
+TR,      transitive, TransitiveVerb
+VOC,     vocative, VocativeCase
+#
+##added these based on others fround in MorphosyntaxExamples.txt file
+#IMM,     immediate tense, ImmediateTense
+#HOD,     hodiernal tense, HodiernalTense
+GOAL,    goal, goal
+REC,     recent tense, RecentTense
+#REM,     remote tense, RemoteTense
+#NEU,     neutralized tense, NeutralizedTense
+STIL,    still tense, StillTense
+LAT,     lative case, LativeCase
+HAB,     habitual aspect, HabitualAspect
+INCP,     inceptive aspect, InceptiveAspect
+ITR,     iterative aspect, IterativeAspect
+OPT,     optative mood, OptativeMood
+#DIR,     directional, Directional
+ABESS,   abessive case, AbessiveCase
+ADESS,   adessive case, AdessiveCase
+AVS,     aversive case, AversiveCase
+PART,    partitive case, PartitiveCase
+CONTABL, contablative case, ContablativeCase
+CONTALL, contallative case, ContallativeCase
+CONTLAT, contlative case, ContlativeCase
+ELAT,    elative case, ElativeCase
+ESS,     essive case, EssiveCase
+ILL,     illative case, IllativeCase
+INABL,   inablative case, InablativeCase
+INALL,   inallative case, InallativeCase
+INESS,  inessive case, InessiveCase
+INTRABL,  interablative case, InterablativeCase
+INTRALL, interallative case, InterallativeCase
+INTRESS, interessive case, InteressiveCase
+INTRLAT, interlative case, InterlativeCase
+INTRTRANS,       intertranslative case, IntertranslativeCase
+INTRANS, intranslative case, IntranslativeCase
+SUBABL,  subablative case, SubablativeCase
+SUBALL,  suballative case, SuballativeCase
+SUBESS,  subessive case, SubessiveCase
+SUBLAT, sublative case, SublativeCase
+SUBTRANS,        subtranslative case, SubtranslativeCase
+SUPRABL,  superablative case, SuperablativeCase
+SUPRALL, superallative case, SuperallativeCase
+SUPRESS, superessive case, SuperessiveCase
+SUPRLAT, superlative case, SuperlativeCase
+SUPRTRANS, supertranslative case, SupertranslativeCase
+ASSMP,   assumptive evidentiality, AssumptiveEvidentiality
+AUD,     auditory evidentiality, AuditoryEvidentiality
+DEDUCT,  deductive evidentiality, DeductiveEvidentiality
+SENSE,  direct evidentiality, DirectEvidentiality
+HSY,     hearsay evidentiality, HearsayEvidentiality
+INDEVD,  indirect evidentiality, IndirectEvidentiality
+INFEVD,  inferential evidentiality, InferentialEvidentiality
+SECHAND, second-hand evidentiality, SecondHandEvidentiality
+VIS, visual evidentiality, VisualEvidentiality
+COMM,    commissive force, CommissiveForce
+HORT,    hortative force, HortatoryForce
+VOL,     volitive force, VolitiveForce
+ANIM,    animate gender, AnimateGender
+IN,      in-locative case, InLocativeCase
+INANIM,  inanimate gender, InanimateGender
+VEG,     vegetable gender, VegetableGender
+OBLIG,   obligative modality, ObligativeModality
+DIREVD,  direct evidential, DirectEvidentiality
+PERMIS,  permissive modality, PermissiveModality
+GENRL,   general number, GeneralNumber
+GREATPL, greater plural, GreaterPlural
+PAUC,    paucal number, PaucalNumber
+TRIAL,   trial number, TrialNumber
+MID,     middle voice, PlainMiddleVoice
+OBV,     third person obviative, ThirdPersonObviative
+ACT,     active voice, ActiveVoice
+DIRV,    direct voice, DirectVoice
+INV,    inverse voice, InverseVoice
+#DIFSBJ,  different subject, 
+SIM,     simultaneous aspect, SimultaneousAspect

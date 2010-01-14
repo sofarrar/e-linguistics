@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE Ontology [
+<!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+<!ENTITY owl2 "http://www.w3.org/2006/12/owl2#" >
+<!ENTITY dc "http://purl.org/dc/elements/1.1/" >
+<!ENTITY owl11 "http://www.w3.org/2006/12/owl11#" >
+<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+<!ENTITY owl2xml "http://www.w3.org/2006/12/owl2-xml#" >
+<!ENTITY owl11xml "http://www.w3.org/2006/12/owl11-xml#" >
+<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+<!ENTITY gold "http://www.linguistics-ontology.org/gold/" >
+<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+<!ENTITY vann "http://vocab.org/vann/vann-vocab-20050401.rdf#" >
+<!ENTITY examples "http://www.linguistics-ontology.org/examples/">
+<!ENTITY english "http://www.linguistics-ontology.org/english/">
+]>
+<rdf:RDF 
+    xmlns="http://www.linguistics-ontology.org/lexicon/eng/"
+    xml:base="http://www.linguistics-ontology.org/lexicon/eng/eng.rdf"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:gold="http://www.linguistics-ontology.org/gold/">
+    
+    
+    
+    <gold:Lexeme rdf:about="lex_hat">
+        
+        <gold:member rdf:resource="sign_hat"/>
+        <gold:member rdf:resource="sign_hats"/>
+    </gold:Lexeme>
+    
+    
+    
+    <gold:LinguisticSign rdf:about="sign_hat">
+        <gold:hasGrammar>
+            <gold:
+        </gold:hasGrammar>
+    </gold:LinguisticSign>
+    <gold:LinguisticSign rdf:about="sign_hats"/>
+    
+    
+</rdf:RDF> 

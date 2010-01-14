@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns="http://www.linguistics-ontology.org/bibliography/person.rdf#"
+    xml:base="http://www.linguistics-ontology.org/bibliography/person.rdf"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:bibtex="http://zeitkunst.org/bibtex/0.1/bibtex.owl#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:biblio="http://www.linguistics-ontology.org/bibliography/bibliography.owl#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+	<biblio:author rdf:about="#SándorHervey">
+		<rdfs:label>SándorHervey</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#TalmyGivón">
+		<rdfs:label>TalmyGivón</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#NormaFaust">
+		<rdfs:label>NormaFaust</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#ÖstenDahl">
+		<rdfs:label>ÖstenDahl</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#EvaSchultze-Berndt">
+		<rdfs:label>EvaSchultze-Berndt</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#ÖstenDahl">
+		<rdfs:label>ÖstenDahl</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#LewisGlinert">
+		<rdfs:label>LewisGlinert</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#TalmyGivón">
+		<rdfs:label>TalmyGivón</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#P.Gärdenfors">
+		<rdfs:label>P.Gärdenfors</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#MiriamButt">
+		<rdfs:label>MiriamButt</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#TracyHollowayKing">
+		<rdfs:label>TracyHollowayKing</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#TalmyGivón">
+		<rdfs:label>TalmyGivón</rdfs:label>
+	</biblio:author>
+</rdf:RDF>

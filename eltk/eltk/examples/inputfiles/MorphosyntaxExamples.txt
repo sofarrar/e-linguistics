@@ -1,0 +1,1699 @@
+################################################################
+#AUTHOR: Scott Farrar
+#
+#CONTENTS: This file contains various examples of morphosyntactic properties
+#in  text form. They were enterred by various members of the EMELD
+#project include students from Arizona and Eastern Michigan.
+#They were edited extensively by students at Washington.
+#
+#the grams in the gloss lines have been standardized according
+#to the Leipzig conventions.
+################################################################
+
+
+#Tenses 
+
+CloseFutureTense
+cdm
+Bybee, Perkins, and Pagliuca (1994:245-246) FROM Caughley (1982)
+This Chepang example illustrates the use of the suffix /-kheʔ/, in combination with tense/aspect suffixes. Caughley says that the action as a completed unit is about to occur, which contrasts with a simple tense, i.e., with no information as to when the event might occur. The tense here should be read as 'immediate non-past tense'.
+kim-	taŋ 	dah-	kheʔ-	naʔ
+house-	ALL arrive- IMM-	NPST
+He is about to arrive at the house
+
+
+
+FutureInFutureTense
+
+
+FutureInPastTense
+
+
+FutureTense
+cdm
+Bybee, Perkins, and Pagliuca (1994:245-246) FROM Caughley (1982)
+In Chepang, a simple Future may be expressed by suffixing /-ceʔ/ to the main verb.
+ŋa-	ʔi 	goʔ-	ceʔ-	na-	ŋ
+1.SG-	AGR 	call-	FUT-	2-	1.EXCL
+I will/may call you
+
+
+
+HesternalPastTense
+
+
+HodiernalFutureTense
+kiu
+Mugane (1997)
+The affix kũ- in the first example may be used to mark either Hodiernal Past or Hodiernal Future depending on what aspect markers co-occur with it in the verb.
+Kamau 	a-	kũ-	nyu-	a 	ũcũrũ
+Kamau 	2.SG-	HOD.FUT-	drink 		14.porridge
+Kamau will drink porridge (within the day)
+ 
+
+HodiernalPastTense
+cod
+Bybee, Perkins, and Pagliuca (1994:98-99) FROM Faust (1978)
+Bybee, et al divide past tense systems into those that refer to daily cycles and those that do not. Typically, languages with past tenses that refer to a daily cycle will have tense that specifies 'today' and all others will refer to spans of time prior to 'today' (Bybee, et al 1994:99, Dahl 1985:125; Comrie 1985:93). Cocama is such a language. The examples above illustrate its three-way system of remoteness distinctions in the past tense.
+Ritama -	ca 	tuts -	ui
+town-	to 	go-	HOD.PST
+I went to town today.
+
+
+
+ImmediateFutureTense
+cdm
+Bybee, Perkins, and Pagliuca (1994:245-246) FROM Caughley (1982)
+This Chepang example illustrates the use of the suffix /dhaŋ-/, in combination with tense/aspect suffixes. With the immediate future, Caughley says that the action 'is about to begin'. 
+ŋa-	ʔi-	dhaŋ 	yo-	dhaŋ-	ca-	ŋʔ
+1.SG-	AGR-	IMM.FUT look-	IMM.FUT-FUT-	1.EXCL
+I am about to look/I will look now.
+
+
+
+ImmediatePastTense
+cdm
+Bybee, Perkins and Pagliuca (1994:246)
+It is not -kheʔ alone that marks immediate past, but rather -kheʔ in conjunction with one or the other of two tense/aspect suffixes.
+jaʔ-ʔi mak-kheʔ-ʔa-thəy
+tiger-A devour-IMM-PST-GOAL
+A tiger is about to devour him.
+
+NearFutureTense
+
+
+NonFutureTense
+ygr
+Haiman (1980:47, 140-1)
+These examples illustrate a reportedly binary, future/non-future tense system. Interlinear glosses are constructed here based on Haiman's discussion of verb stem alternations and their structures. Haiman reports that in Hua, Non-future tense is indicated by the lack of an auxiliary. Future tense is expressed with a variety of auxiliaries. The first example illustrates the Simple Indicative Future.
+hu -	gu -	e
+do-	do-	FUT-	IND.SG
+I will do.
+
+NonFutureTense
+ygr
+Haiman (1980:47, 140-1)
+These examples illustrate a reportedly binary, future/non-future tense system. Interlinear glosses are constructed here based on Haiman's discussion of verb stem alternations and their structures. Haiman reports that in Hua, Non-future tense is indicated by the lack of an auxiliary. Future tense is expressed with a variety of auxiliaries. This example is a Non-future tense with Interrogative Mood.
+hu -	ve
+do-	1.Q.SG
+Did I do?
+
+
+
+
+NonPastTense
+cdm
+Bybee, Perkins and Pagliuca (1994:246)
+Caughley notes that -naʔ in the example is properly functioning as the non-past.
+kim-taŋ dah-kheʔ-naʔ
+house-ALL arrive-IMM-NPST
+He is about to arrive at the house.
+
+
+
+PastInFutureTense
+
+
+PastInPastTense
+
+PastPerfectTense
+mlt
+Comrie (1985:77)
+In this Maltese example of the past perfect, the tense of the auxiliary 'to be' locates a a past or future reference point relative to which the main verb occurs. 
+kien qatel
+he.was he.kill
+He had been killing.
+
+
+PastTense
+
+
+PerfectTense
+tur
+Blake (2001:87, 119)
+PastTense locates the situation in question prior to the present moment.	
+Hasan öküz -ü aldi
+Hasan- NOM ox- ACC buy- PST.3.SG
+Hasan bought the ox.
+
+
+
+PostHodiernalFutureTense
+
+
+PreHodiernalPastTense
+cod
+Bybee (1994:98-99)
+PreHodiernalPastTense locates the situation in question before that of a contrasting HodiernalPastTense. This category must be defined relative to a HodiernalPastTense 
+Ritama -ca tutsu -icuá  
+town- 	to go- PREHOD.PST
+I went to town yesterday/a few days ago.
+
+
+
+PresentPerfectTense
+
+RecentPastTense
+ike
+Bybee, Perkins, and Pagliuca (1994:99) FROM Fortescue (1984:273)
+Bybee, et al indicate that Inuktituk manifests a 2-way past distinction that makes no reference to daily cycles. The two subdivisions they reference are given in the second and third examples. The first example, with the affix glossed as PERF, illustrates a past that Fortescue claims is often understood as a general experiential past without any specified time. This might be analyzed as a Simple Past.
+niri -	qqammir -	punga
+eat-	REC.PST-	1.SG.IND
+I ate recently.
+
+
+
+RelativeFutureTense
+
+
+RelativePastTense
+
+
+RelativePresentTense
+
+
+RemoteFutureTense
+kiu
+Mugane (1997)
+The affix kũ- in the first example may be used to mark either Hodiernal Past or Hodiernal Future depending on what aspect markers co-occur with it in the verb. Also, in the examples above, the final vowel of each verb is phonological, hence there is no correspondent for it in the interlinear gloss.
+Kamau 	a-	rĩĩ-	nyu-	a 	ũcũrũ
+Kamau 	2.SG-	REM.FUT-	drink 		14.porridge
+Kamau will drink porridge (sometime beyond a few days from now)
+
+
+
+RemotePastTense
+cod
+Bybee, Perkins, and Pagliuca (1994:98-99) FROM Faust (1978)
+Bybee, et al divide past tense systems into those that refer to daily cycles and those that do not. Typically, languages with past tenses that refer to a daily cycle will have tense that specifies 'today' and all others will refer to spans of time prior to 'today' (Bybee, et al 1994:99, Dahl 1985:125; Comrie 1985:93). Cocama is such a language. The examples above illustrate its three-way system of remoteness distinctions in the past tense.
+Ritama -	ca 	tutsu -	tsuri
+town-	to 	go-	REM.PST
+I went to town a long time ago.
+
+RemotePastTense
+ike
+Bybee, Perkins, and Pagliuca (1994:103) FROM Fortescue (1984:272-3)
+This Inuktitut example, the suffix meaning 'long ago' is make up of 'riir' meaning 'already' and the verb 'katag' meaning 'be bored with -ing'. 
+tuqu -	riikatap -	puq
+die-	REM.PST-	3.SG.IND
+He died long ago.
+
+RemotePastTense, PresentTense
+bjh
+Comrie (1985:103)
+In Bahinemo, the neutralised tense verb forms in question have overtly the form of the present, as in the following example, where the first verb is in the remote past tense, all following verbs in the present.
+Nem na ya-tagiya-m, du-qi-yasinu, de-tenowa-u, niba la-hina-fanel, idu du-wei
+we sago eat-satisfy-REM.PST NEU-repeat-get.up.PRS NEU-ascend-PRS ridge IMM-upstream-arrive.PRS to.right NEU-walk.along.ridge.PRS
+After we ate sago until we were satisfied, we got up again, we ascended, immediately we went up the stream bed and arrived at the ridge, we walked along the ridge to the right.
+
+
+
+SimpleFutureTense
+
+
+SimplePastTense
+ike
+Bybee, Perkins, and Pagliuca (1994:99) FROM Fortescue (1984:272)
+Bybee, et al indicate that Inuit manifests a 2-way past distinction that makes no reference to daily cycles. The two subdivisions they reference are given in the second and third examples. The first example, with the affix glossed as PERF, illustrates a past that Fortescue claims is often understood as a general experiential past without any specified time. This might be analyzed as a Simple Past.
+Nuum -	miis -	sima -	vunga
+Nuuk-	be.in-	PERF-	1.SG.INDIC
+I have been to Nuuk.
+
+
+SimplePresentTense
+
+
+StillTense
+lug
+Comrie (1983: 54)
+The still present tense combines past and present time reference. In Luganda, it contrasts with the not-yet tense, which is only found in the negative.
+mu- kya- tudde
+you-STIL-sit
+You are still seated.
+
+#Aspects 
+
+#ContinuousAspect, NominativeCase, AbsolutiveCase, ObliqueCase, LativeCase, EssiveCase, PerfectiveAspect
+#aqc
+#Kibrik (1998:459)
+#The event P is completed; the result of P has begun to take place and continue at the time of utterance.
+#zon s̄anʁi-m-a-š χara: -si ja-t biq'ʷ-m-a q'o-w-di-mat w-i
+#I.NOM yesterday-OBL-IN-ABL from.behind-LAT this.IV place-OBL-IN.ESS sit-I-PFTV-CONTIN.ABS I-be
+#I have been sitting here since yesterday.
+#
+#find IN in Kibrik
+
+
+#find Kibrik
+#DurativeAspect
+#aqc
+#Kibrik (1998:458)
+#The event P is continuous, has no result and is simultaneous with the time of utterance.
+#to-w buq' b-e-r-k'-u-r-ši w-i
+#he-I.NOM grain.NOM III-clean-DUR-ABS
+#He is cleaning grain.
+
+
+
+FrequentiveAspect
+
+
+HabitualAspect
+ewe
+Payne (1997:242)
+The habitual in Ewe.
+é -	du -	a 	mɔ́li
+3-	eat-	HAB 	rice
+He/she eats rice habitually
+
+
+
+ImperfectiveAspect
+mrt
+Bhat (1999:46) FROM Bernsten and Nimbkar (1982)
+NO_COMMENT
+to 	tikDe 	jat 	hota
+he 	there 	going-	IPFV 	was
+he was going there (he was on the way)
+
+
+
+InceptiveAspect
+ckt
+Muravyova (1998:537)
+The inceptive is formed via affixation.
+wetgawə -	ŋŋo -	k
+speak-	INCP-	INF
+to begin speaking
+
+InceptiveAspect
+nmi
+Bhat (1999:52)
+This Manipuri example illustrates the inceptive with an auxiliary verb meaning 'start'.
+məhak-nə phu-bə həw-wi
+he-NOM beat-INF start-NFUT
+He began to beat (habitual).
+
+
+
+IterativeAspect
+ewe
+Payne (1997:242)
+NO_COMMENT
+é -	ga -	du 	mɔ́li
+3-	ITR-	eat 	rice
+He/She repeatedly ate rice
+
+
+
+NonProgressiveAspect
+spa
+Comrie (1976:33)
+There is no progressive marker in this Spanish example.
+Juan canta
+John sing-3.SG
+John	sings.
+
+
+
+PerfectiveAspect
+mrt
+Bhat (1999:46) FROM Bernsten and Nimbkar (1982)
+NO_COMMENT
+to 	tikDe 	gela 	hota
+he 	there 	gone-	PFV 	was
+he went there
+
+
+
+
+
+ProgressiveAspect
+koy
+Mithun (1999:169) FROM Axelrod (1993:95, 99)
+The progressive is used for incomplete or ongoing actions or states, actions continued as one moves along, and inchoatives. 
+ghe -	le -	nustl
+PFV-       CL-	swell.PROG
+It is swelling up.
+
+ProgressiveAspect
+koy
+Mithun (1999:169) FROM Axelrod (1993:95, 99)
+The progressive is used for incomplete or ongoing actions or states, actions continued as one moves along, and inchoatives. 
+Ø-	le -	noots
+PROG-       CL-	swell.Transitional
+It is swelling up.
+
+
+
+
+QuantificationalAspect
+
+
+SemelfactiveAspect
+
+
+TerminativeAspect
+
+
+#Moods 
+
+DubitiveMood
+
+
+IndicativeMood
+spn
+Palmer (2001:5) FROM Klein (1975)
+The  example from Spanish, illustrating Indicative mood, may be compared with that of Subjunctive mood. Subjunctive is used to express doubt about a proposition.
+Creo 	que 	aprende
+believe-	1.SG 	that 	learn-	3.SG.PRS.IND
+I believe that he is learning.
+
+
+
+OptativeMood, ProhibitiveMood
+xsl
+Bybee, Perkins and Pagliuca (1994:211)
+In Alyawarra and Slave, and also in Chepang, where the possibility marker does not carry the deleterious implication, the gram in question can also be used to issue warnings or (in other words) as an admonitive.
+wo̜t'ée sáná
+2.S.OPT.burn PROH
+You might get burned.
+
+OptativeMood, ProhibitiveMood
+xsl
+Bybee, Perkins and Pagliuca (1994:212)
+In Alyawarra and Slave, and also in Chepang, where the possibility marker does not carry the deleterious implication, the gram in question can also be used to issue warnings or (in other words) as an admonitive.
+go̜ts'í sóné
+2.S.OPT.lie PROH
+Don't ever lie.
+
+SubjunctiveMood
+spn
+Palmer (2001:5) FROM Klein (1975)
+Indicative mood may be compared with that of Subjunctive mood. Subjunctive is used to express doubt about a proposition.
+Dudo 	que 	aprenda
+doubt-	1.SG 	that 	learn-	3.SG.PRS.SBJV
+I doubt that he is learning.
+
+
+
+
+SubjunctiveMood, TimitiveMood
+ltn
+Palmer (2001:133)
+Palmer notes that the Timitive Mood tends to be expressed with a verb of fearing plus a subjunctive verb in a subordinate clause.
+Timeo ne 	laborem 	agueam
+I fear 	work 	increase-	1.SG.PRS.SBJV
+I am afraid that I shall increase my work
+
+SubjunctiveMood
+spa
+Givon (1984:303-319)
+The jussive, or subjunctive, mode is found in complements of epistemic and manipulative verbs.
+espero que  no  venga
+hope-I that NEG come-SBJV
+I hope that he won't come.
+
+
+
+
+IrrealisMood
+ami
+Palmer (2001:5) FROM Roberts (1990)
+Irrealis mood is an epistemic modality that indicates possible or conditional truth.
+ho 	bu -	busal -	eb 	age 	qo -	qag -	an
+pig 	SIM-	run.out-	3.SG.DIFSBJ.IRREAL 	3.PL 	hit-	3.PL.FUT
+They will kill the pig as it runs out.
+
+
+RealisMood
+ami
+Palmer (2001:5) FROM Roberts (1990)
+Realis encodes that the speaker is offering and unqualified statement of fact. The term 'realis' is synonymous with the term 'indicative' and therefore 'declarative.'
+ho 	bu -	busal -	en 	age 	qo -	in
+pig 	SIM-	run.out-	3.SG.DIFSBJ.REAL 	3.PL 	hit-	3.PL.REM.PST
+They killed the pig as it ran out.
+
+
+
+#Cases 
+
+AbessiveCase
+fin
+Branch (1987:607)
+NO_COMMENT
+kirja-tta 
+book-ABESS 
+bookless
+
+
+
+AblativeCase
+
+
+
+AbsolutiveCase 
+dbl 
+Trask (1996:151) 
+In Dyirbal, the absolutive case marker is assigned to the subject of intransitive and the object of transitive verbs in ergative languages.
+balan   guda    ba?gul  yara-?gu        bura-n  
+the.II.ABS  dog.ABS  the.I.ERG  man-ERG  see-PST  
+The man saw the dog.
+
+
+
+AccusativeCase, NominativeCase
+tur
+Blake (2001:87, 119) FROM Comrie (1989:132-6, 175-6)
+In Turkish, the nominative is zero-marked. Also, in this language nonspecific objects do not take the accusative case.
+Hasan 		öküz -	ü 	aldi
+Hasan.NOM 	ox- ACC 	buy-	PST.3.SG
+Hasan bought the ox
+
+AccusativeCase, NominativeCase
+tur
+Blake (2001:87, 119) FROM Comrie (1989:132-6, 175-6)
+In Turkish, the nominative is zero-marked. Also, in this language nonspecific objects do not take the accusative case.
+Müdür 		Hasan -	a 	mektu -	u 	göster -	di
+director.NOM 	Hasan-	DAT 	letter-	ACC 	show-	PST
+The director showed the letter to Hasan
+
+AccusativeCase
+lmw
+Mithun (1999:204) FROM Callaghan (1963: 96-98)
+Lake Miwok has ten case enclitics. One of which is the accusative.
+káac=u ʔute
+fish=ACC he.saw
+He saw the fish.
+
+
+
+AdessiveCase
+fin
+Kiparsky (2001:316)
+NO_COMMENT
+karhu -	lla
+bear-	ADESS
+near the bear
+
+
+
+AllativeCase
+fin
+Kiparsky (2001:316)
+NO_COMMENT
+karhu -	lle
+bear-	ALL
+towards the bear
+
+AllativeCase
+lmw
+Mithun (1999:205) FROM Callaghan (1963: 104)
+Lake Miwok has ten case enclitics. The allative enclitic indicates direction toward a goal: 'to', 'into', 'during', 'near', 'by', or 'onto'.
+réej -	to 	ʔonínnuka
+king-	ALL he.brought.them
+He brought them to the king
+
+AversiveCase
+ktg
+Blake (2001: 156)
+In Kalkatungu, the aversive here literally means 'turning from'.
+Yanyi-ngungu rumpi
+ghost-AVS fear
+S/he is afraid of ghosts.
+
+AversiveCase
+ktg
+Blake (2001: 156)
+In Kalkatungu, the aversive here literally means 'turning from'.
+palpir-tungu uli-nyin
+poison-AVS die-PART
+dying from poison
+
+BenefactiveCase
+eus
+Saltarelli (1988:156)
+NO_COMMENT
+ama-	rentzat eros-	i 	d-	it-	u-	t 	lore-	ak
+mother-	SG.BEN 	buy-	PFV 	3.ABS-	PRS-	PL-	AUX.2.1.SG.ERG 	flower-	PL.ABS
+I have bought some flowers for mother
+
+
+
+ComitativeCase
+lmw
+Mithun (1999:204-5) FROM Callaghan (1963: 96-98)
+Lake Miwok has ten case enclitics. The comitative indicates accompaniment.
+kaʔáppi -	ni      kawícaj
+father-	COM   I.am.walking
+I am walking with my father
+
+
+
+ContablativeCase
+arc
+Kibrik (1998:470-1)
+NO_COMMENT
+aɪnš-	li-	raš
+apple-	SG-CONTABL
+from near the apple
+
+
+
+ContallativeCase
+arc
+Kibrik (1998:470-1)
+NO_COMMENT
+aɪnš-	li-	rši
+apple-	SG-CONTALL
+towards near the apple
+
+
+
+ConterminativeCase
+
+
+ContlativeCase
+arc
+Kibrik (1998:470-1)
+NO_COMMENT
+aɪnš-	li-	rak
+apple-	SG-CONTLAT
+in the vicinity of the apple
+
+
+
+DativeCase
+trk
+Blake (2001:87, 119) FROM Comrie (1989:132-6, 175-6)
+Here the nominative is zero-marked. Also, in this language nonspecific objects do not take the accusative case.
+Müdür 	Hasan -	a 	mektu -	u 	göster -	di
+director-	NOM 	Hasan-	DAT 	letter-	ACC 	show-	PST
+The director showed the letter to Hasan
+
+
+
+DelativeCase
+
+
+ElativeCase
+fin
+Kiparsky (2001:316)
+NO_COMMENT
+karhu -	sta
+bear-	ELAT
+out of the bear
+
+
+
+ErgativeCase, DirectObject, SingularNumber, FirstPerson, PastTense
+pjt
+Blake (2001: 27) FROM Bowe (1990: 49)
+In Pitjantjatjara, the ergative case applies to the subject, 'paluru', and not the object, 'rni'.
+Paluru=rni tjitji tjukutjuku-ngku nya-ngu
+3.SG.ERG=1.SG.OBJ child small-ERG see-PST
+He saw me when he was a small child.
+
+EssiveCase
+fin
+Kiparsky (2001:316)
+NO_COMMENT
+karhu -	na
+bear-	ESS
+at the bear
+
+EssiveCase
+lmw
+Mithun (1999:204-5) FROM Callaghan (1963: 96-98)
+Lake Miwok has ten case enclitics, illustrated in the examples. The locative indicates location. 
+réej 	húukewa=m mola
+king 	front=LOC he.is.standing
+He's standing in front of the king
+
+
+
+GenitiveCase
+lmw
+Mithun (1999:204-5)  FROM Callaghan (1963: 96-98)
+Lake Miwok has ten case enclitics, illustrated in the examples. The genitive identifies possessors.
+ʔóle=n 	ṣúluk
+coyote=GEN 	skin
+coyote skin
+
+
+
+IllativeCase
+arc
+Kibrik (1998:470-1)
+NO_COMMENT
+aɪnš-	l-	a-	k
+apple-	SG-ILL
+into the apple
+
+
+
+InablativeCase
+arc
+Kibrik (1998:470-1)
+NO_COMMENT
+aɪnš-	l-	a-	ŝ
+apple-	SG-INABL
+from within the apple
+
+
+
+InallativeCase
+arc
+Kibrik (1998:470-1)
+NO_COMMENT
+aɪnš-	li-	aši
+apple-	SG-INALL
+towards inside the apple
+
+
+
+InessiveCase
+arc
+Kibrik (1998:470-1)
+NO_COMMENT
+aɪnš-	li-	a
+apple-	SG-INESS
+inside the apple
+
+
+
+InstrumentalCase
+lmw
+Mithun (1999:204-5)  FROM Callaghan (1963: 96-98)
+Lake Miwok has ten case enclitics, illustrated in the examples. The instrumental indicates 'by means of' or 'with'.
+ṭumáj=tu
+stick=INS
+(I hit him) with a stick.
+
+
+
+InterablativeCase
+arc
+Kibrik (1998:470-1)
+NO_COMMENT
+aɪnš-	li-	qɪaŝ
+apple-	SG-INTRABL
+from between the apple
+
+
+
+InterallativeCase
+arc
+Kibrik (1998:470-1)
+NO_COMMENT
+aɪnš-	li-	um-	če- qɪaši 
+apple-	PL-INTRALL
+towards between the apples
+
+
+
+InteressiveCase
+arc
+Kibrik (1998:470-1)
+NO_COMMENT
+aɪnš-	um-	če-	qɪ
+apple-	PL-INTRESS
+between the apples
+
+
+
+InterlativeCase
+arc
+Kibrik (1998:470-1)
+NO_COMMENT
+aɪnš-	l-	qɪak
+apple-	SG-INTRLAT
+towards the middle of the apple
+
+
+
+InterminativeCase
+
+
+InterterminativeCase
+
+
+IntertranslativeCase
+arc
+Kibrik (1998:470-1)
+NO_COMMENT
+aɪnš-	li-	qIaXut
+apple-	SG.INTRTRANS
+along the region over the apple
+
+
+
+IntranslativeCase
+arc
+Kibrik (1998:470-1)
+NO_COMMENT
+aɪnš-	li-	aXut
+apple-	SG-INTRANS
+along the region over the apple
+
+
+
+LativeCase
+cjc
+Good (2003:23)
+NO_COMMENT
+Malika 	loomax 	hwal 	‘a 	jeelara 	oahwa 	‘a 	joessara
+Malika 	mountain-	LAT 	up 	and 	GEN-	ascend- SENSE.PST	down 	and 	GEN-	descend- SENSE.PST
+Malika climbed up and down the mountain
+
+
+
+LocationalCase
+
+
+MalefactiveCase
+
+
+
+
+PartitiveCase
+hun
+Moravcsik (1978:261)
+Here the suffix marked as PART is the same suffix used to mark the Ablative case in Hungarian.
+evett a sütemény-ből
+ate.3.SG the pastry-PART
+S/he ate some of the pastry.
+
+
+PerlativeCase
+
+
+PossessedCase
+
+SubablativeCase
+arc
+Kibrik (1998:470-1)
+NO_COMMENT
+aɪnš-	li-	L'aš
+apple-	SG-SUBABL
+from under the apple
+
+
+
+SuballativeCase
+arc
+Kibrik (1998:470-1)
+NO_COMMENT
+aɪnš-	li-	L'aši
+apple-	SG-SUBALL
+towards under the apple
+
+
+
+SubessiveCase
+arc
+Kibrik (1998:470-1)
+NO_COMMENT
+aɪnš-	li-	ʟ́
+apple-	SG-SUBESS
+under the apple
+
+
+
+SublativeCase
+arc
+Kibrik (1998:470-1)
+NO_COMMENT
+aɪnš-	li-	L'ak
+apple-	SG-SUBLAT
+towards the underneath of the apple
+
+
+
+SubterminativeCase
+
+
+SubtranslativeCase
+arc
+Kibrik (1998:470-1)
+NO_COMMENT
+aɪnš-	li-	L'aXut
+apple-	SG-SUBTRANS
+along the region over the apple
+
+SuperablativeCase
+arc
+Kibrik (1998:470-1)
+NO_COMMENT
+aɪnš-	li-	t̄iš
+apple-	SG-SUPRABL
+from over the apple
+
+SuperallativeCase
+arc
+Kibrik (1998:470-1)
+NO_COMMENT
+aɪnš-	li-	t̄iši  
+apple-	SG-SUPRALL
+towards over the apple
+
+
+
+SuperessiveCase
+arc
+Kibrik (1998:470-1)
+NO_COMMENT
+aɪnš-	li-t
+apple-	SG-SUPRESS
+on the apple
+
+SuperlativeCase
+arc
+Kibrik (1998:470-1)
+NO_COMMENT
+aɪnš-	li-	t̄- iš
+apple-	SG-SUPRLAT
+onto the apple
+
+
+SuperterminativeCase
+
+
+SupertranslativeCase
+arc
+Kibrik (1998:470-1)
+NO_COMMENT
+aɪnš-	li-	t̄iXut
+apple-	SG-SUPRTRANS
+along the region over the apple
+
+
+
+TerminativeCase
+
+
+TranslativeCase
+
+
+VocativeCase
+lmw
+Mithun (1999:206) FROM Callaghan (1963: 121)
+Lake Miwok has ten case enclitics, illustrated in the examples. In the vocative example, the gram marked as VOC is specific to 'mother'. Other kinship terms have their own special vocative forms.
+ʔunú -	u 	ʔujée
+mother-	VOC 	come.here
+Mother, come here!
+
+
+
+
+
+#Evaluatives 
+
+PejorativeEvaluative
+
+
+PreferredEvaluative
+
+
+#Evidentials 
+
+AssumptiveEvidentiality
+tue
+Palmer (2001:36) FROM Barnes (1984) FROM Malone (1988)
+In Tuyuca, the assumptive mood signals an assumption with no evidence.
+díiga 	apé-	hīyi
+soccer 	play-	3.SG.PST.ASSMP
+He played soccer (I assume, but I have seen no evidence of this)
+
+
+
+AuditoryEvidential
+faa
+Palmer (2001:38) FROM Foley (1986)
+This example illustrates an Auditory Evidential.
+pe -	ra -	rakae
+come-	CUST-	AUD
+[I hear] it coming.
+
+
+
+DeductiveEvidentiality
+tue
+Palmer (2001:36) FROM Barnes (1984) FROM Malone (1988)
+In Tuyuca,  the deductive mood signals an assumption with evidence.
+díiga 	apé -	yi
+soccer 	play-	3.SG.PST.DEDUCT
+He played soccer (I have seen evidence that he played, but I did not see him play)
+
+
+
+DirectEvidentiality
+wyb
+Palmer (2001:36) FROM Donaldson (1980)
+Palmer refers to the Direct Evidential as Sensory Evidential.
+ŋindu-	gara 		girambiyi
+you-	NOM-	SENSE 	sick-	PST
+One can see you were sick
+
+
+
+FolkloreEvidentiality
+arc
+Kibrik (1998:470-1)
+Palmer refers to the folklore evidential as a general knowledge evidential.
+čhéemul-	ʔma
+rain.fell-	FOLK
+It rained (that's an established fact)
+
+
+
+HearsayEvidentiality
+arc
+Kibrik (1998:470-1)
+The hearsay evidential in this language appears to subsume Second and Thirdhand Evidentials. 
+čhéemul -	ʔdo
+rain.fell-	HSY
+It rained (I was told)
+
+
+
+IndirectEvidentiality
+wyb
+Palmer (2001:36) FROM Donaldson (1980)
+Palmer refers the  indirect evidential as the 'reported' or 'linguistic evidential'
+ŋindu -	dhan 	girambiyi
+you-	NOM-	INDEVD 	sick-	PST
+You are said to have been sick
+
+
+
+InferentialEvidentiality
+arc
+Kibrik (1998:470-1)
+The third example illustrates the inferential Evidential.
+čhéemul-	ʔka
+rain.fell-	INFEVD
+It rained (everything is wet)
+
+
+
+OtherSourceEvidentiality
+
+
+OtherThanVisualEvidentiality
+
+
+SecondHandEvidentiality
+faa
+Palmer (2001:41) FROM Foley (1986) FROM May (1980)
+'Hearsay from a known source' is equivalent to a Secondhand Evidential in this language.
+pe -	sa -	ripo
+come-	PST-    SECHAND	
+[I've heard] it's coming
+
+
+VisualEvidentiality
+faa
+Palmer (2001:38) FROM Foley (1986)
+This Fasu example illustrates a Visual Evidential.
+a -	pe -	re
+VIS-	come-	VIS
+[I see] it coming.
+
+
+
+#Force 
+
+ActionalForce
+
+
+CommissiveForce
+wyb
+Palmer (2001:36)
+Commisive encodes that the speaker promises or threatens to perform some action (Palmer 2001: 10, 72). 
+waŋa:y - ndu - gal  dhagurma - gu   yana - y - aga 
+NEG-     2.NOM-PL   cemetery-  DAT  go-   COMM-IRR  
+You shall none of you go to the cemetery 
+
+
+
+DeclarativeForce
+
+
+HortatoryForce
+sht
+Mithin (1999:499) FROM Silver (1966)
+This is an example of the hortative in Shastan.
+tá-hu·sáʔ
+HORT.1.SG- talk
+Let me talk!
+
+
+ImperativeForce
+fuv 
+McIntosh (1984:140) 
+In Nigerian Fulfulde, the imperative expresses a peremptory command to begin an action that has not yet been started, with an implied 2ndPerson subject.
+njoo?-ee        
+sit-IMP  
+Sit down (pl)!
+
+
+
+InformationalForce
+tur
+Blake (2001:87, 119) FROM Comrie (1989:132-6, 175-6)
+Informational verbs often have subjects which are agents, and nominal objects that are dative; the subject communicates knowledge to the object. 
+Müdür 		Hasan -	a 	mektu -	u 	göster -	di
+director.NOM 	Hasan-	DAT 	letter-	ACC 	show-	PST
+The director showed the letter to Hasan
+
+
+
+InterrogativeForce
+ygr
+Haiman (1980:47, 140-1)
+These examples illustrate a reportedly binary, future/non-future tense system. Interlinear glosses are constructed here based on Haiman's discussion of verb stem alternations and their structures. Haiman reports that in Hua, Non-future tense is indicated by the lack of an auxiliary. This example is a Non-future tense with Interrogative Mood.
+hu -	ve
+do-	1.Q.SG
+Did I do?
+
+
+
+JussiveForce
+spa
+Givon (1984:303-319)
+The jussive, or subjunctive, mode is found in complements of epistemic and manipulative verbs.
+espero que  no  venga
+hope-I that NEG come-SBJV
+'I hope that he won't come'
+
+SpeculativeForce
+inb
+Palmer (2001:27-28) FROM Levinsohn (1975)
+Speculative encodes the fact that the speaker considers, or 'entertains', the content of the expression. That is, it is in the realm of possibility, though the speaker does not necessarilty believe it. 
+yuyanacurca -	sica 	chica 	cajita 	huamra
+they.were.thinking-	DEDUCT 	that 	be 	child
+I suppose they were thinking he was a child (speculated)
+
+#VolitiveMode
+VolitiveForce
+sht
+Mithun (1999:499) 
+Volitive mode encodes that the speaker is willing to perform some action. 
+t̓á - hu·sáʔ
+VOL.1.SG - talk  
+I'll talk 
+
+
+#Genders 
+
+AnimateGender, SingularNumber
+bla
+Mithun (1999:99) FROM Frantz (1991:8-9)
+Blackfoot example of singular number and animate gender.
+nínaa-wa
+man-SG.ANIM
+man
+
+AnimateGender, PluralNumber
+bla
+Mithun (1999:99) FROM Frantz (1991:8-9)
+Blackfoot example of plural number and animate gender.
+nína-iksi
+man-PL.ANIM
+man
+
+
+
+
+
+ArabicNumeralGender
+heb
+Glinert (1989:80-81)
+Masculine and feminine cardinal numerals usually go with masculine and feminine nouns, respectively. These nouns may be explicit or just implied.
+bikʃu xamiʃa tikim ve-hevénu ʃiʃa
+asked.3.PL 5.M bags.M  brought.1.PL 6.M
+They asked for 5 bags and we brought 6.
+
+
+
+FeminineGender
+chh
+Mithun (1999:97) FROM Hymes (1955:90-131)
+In Chinook, some stems can take either masculine, feminine, or neuter prefixes, with concordant semantic impact on the word. Other stems take only one gender affix. The semantic basis for this classification is not completely transparent, but some tendencies do occur, e.g. large animals tend to be masculine while small ones tend to be feminine; qualities tend to be masculine while plants and related implements tend to be feminine; many neuter nouns are mass nouns
+a-qaɬxíla
+F-crab
+crab
+
+
+
+#HumanGender
+#ath
+#Givon (1984:107)
+#Humanity is a common property of an agent.
+#John yejai  ta'é-ni-se
+#John   window break-ASP
+#John broke the window
+#
+##find Givon
+
+
+InanimateGender
+bla
+Mithun (1999:99) FROM Frantz (1991:8-9)
+Blackfoot example of inanimate gender.
+ómahksíkimi-yi
+lake-SG.INANIM
+lake
+
+
+MasculineGender
+chh
+Mithun (1999:96-7) FROM Hymes (1955:90-131)
+In Chinook, some stems can take either masculine, feminine, or neuter prefixes, with concordant semantic impact on the word. Other stems take only one gender affix. The semantic basis for this classification is not completely transparent, but some tendencies do occur, e.g. large animals tend to be masculine while small ones tend to be feminine; qualities tend to be masculine while plants and related implements tend to be feminine; many neuter nouns are mass nouns
+i -	qʔiúqt
+M-	old.person
+old man
+
+NeuterGender
+rus
+NO_CITATION
+Russian has three genders: masculine, feminine and neuter.
+nov-    oe      taksi
+new-    N.SG.NOM     taxi.N.SG.NOM
+a new taxi
+
+NeuterGender, RomanNumeralGender
+gup
+Evans (2003: 202)
+The Kunwinjku dialect of Bininj Gun-wok has a four-way gender distinction: masculine, feminine, vegetable, and neuter. It is the most conservative dialect in this respect. In Evans's (2003) grammar, the neuter category is listed as containing the following types of nouns: most parts of animals and plants, some parts of the landscape, weather and sea, time measures, languages and speech, country and place-based social categories.
+kun-wardde  kun-mak
+IV-rock N-good
+good rock
+
+
+MasculineGender, RomanNumberalGender
+gup
+Evans (2003: 202)
+The Kunwinjku dialect of Bininj Gun-wok has a four-way gender distinction: masculine, feminine, vegetable, and neuter. It is the most conservative dialect in this respect. 
+na-rangem    na-mak
+I-boy   M-good
+good boy
+
+FeminineGender, RomanNumberalGender
+gup
+Evans (2003: 202)
+The Kunwinjku dialect of Bininj Gun-wok has a four-way gender distinction: masculine, feminine, vegetable, and neuter. It is the most conservative dialect in this respect. 
+ngal-kohbanj    ngal-mak
+II-old.woman    F-good
+good old woman
+
+VegetableGender, RomanNumberalGender
+gup
+Evans (2003: 202)
+The Kunwinjku dialect of Bininj Gun-wok has a four-way gender distinction: masculine, feminine, vegetable, and neuter. It is the most conservative dialect in this respect. 
+man-me  man-mak
+III-food    VEG-good
+good food
+
+
+#Modalities 
+
+#AbilitativeModality
+#lis
+#Palmer (2001:77)
+#GeneralAbilitive is a very frequently occurring modality which encodes that the agent is able to perform some action. The conditions are external to the agent. 
+#ása nya ami khwa bala -  a̪ 
+#Asa TOP field hoe no.hindrance - DEC  
+#Asa is free to hoe fields 
+#
+#find Palmer
+
+
+ConditionalPhysicalAbilitiveModality
+
+
+DeonticModality
+
+
+EpistemicModality
+
+
+EpistemicNecessityModality
+ami
+Palmer (2001:5) FROM Roberts (1990)
+This example demonstrates epistemic necessity, also known as necessary truth or presupposed truth, in that this statement presupposes that the pig will run out. 
+ho 	bu -	busal -	eb 	age 	qo -	qag -	an
+pig 	SIM-	run.out-	3.SG.DS.IRR 	3.PL 	hit-	3.PL.FUT
+They will kill the pig as it runs out
+
+
+
+EpistemicPossibilityModality
+
+
+MentalAbilitiveModality
+lis
+Palmer (2001:77) FROM Hope (1974)
+MentalAbilitive encodes an internal condition of ability, whereby the agent has the mental capacity to perform some action.
+ása nya ami khwa kwú -  a̪ 
+Asa TOP field hoe mentally.able - DEC  
+Asa is able (knows how) to hoe fields 
+
+
+
+NecessityModality
+gle 
+Noonan (1994:280)
+The necessitative passive is a passive in Irish Gaelic in which the preposition 'with' is used, and a semantic meaning of necessity is added.
+bhí  sí   le    beacán     a   cheannach       
+was  she  with  mushrooms  to  buy.NOM  
+She had/was to buy mushrooms.
+
+
+
+ObligativeModality
+lis
+Palmer (2001:72)
+Obligative is a very common modal category and encodes that the subject is required to perform the action expressed by the predicate.
+ása nya ami  khwa  wa̪ -   wa̪ 
+Asa  TOP field hoe OBLIG- DEC  
+It is obligatory for Asa to hoe fields 
+
+PermissiveModality
+lis
+Palmer (2001:72)
+Permissive encodes that the subject has permission to perform the action expressed by the predicate.
+ása nya ami khwa da̪ -  a̪ 
+Asa TOP field hoe PERMIS-DEC  
+It is acceptable for Asa to hoe fields 
+
+
+PhysicalAbilitiveModality
+lis
+Palmer (2001:77)
+PhysicalAbilitive encodes an internal condition of ability, whereby the agent has the physical capacity to perform some action.
+ása nya ami khwa kwú - a̪ 
+Asa TOP field hoe able-DEC  
+Asa is physically able to hoe fields 
+
+
+PossibilityModality
+
+
+WeakObligativeModality
+
+
+#Number 
+
+DualNumber
+djd  
+Schultze-Berndt (2000:92) 
+A dual morpheme refers to exactly two.
+nanggayan guny-bi-yarluga? 
+who 2.DU.A.3.SG.P-FUT-poke 
+Who do you two want to spear?
+
+
+
+GeneralNumber
+bsw
+Corbett(2000:11)
+General number refers to a noun without reference to a number; it is outside the number system.
+lúban-jaa foofe
+lion-GENRL watched-1-SG
+I watched lion.
+
+
+
+GreaterPaucalNumber
+
+
+GreaterPluralNumber
+gae
+Corbett(2000:37)
+Greater plural implies excessive number.
+abida-nawi
+pig-GREATPL
+very many pigs
+
+
+
+MultalNumber
+
+
+PaucalNumber
+bsw
+Corbett(2000:11)
+Paucal also known as 'lesser paucal' or 'small paucal' number refers to a few members of a specific class.
+luban-jaa foofe
+lion-PAUC watched-1-SG
+I watched a few lions
+
+
+
+PluralNumber
+
+
+SeveralNumber
+
+SingularNumber
+arc
+Kibrik (1998:470-1)
+Singular number is number that refers to one member of a designated class (Crystal 1980: 245)
+aɪnš-	li-	a
+apple-	SG-INESS
+inside the apple
+
+
+
+
+SmallPaucalNumber
+
+
+TrialNumber
+alo
+Corbett (2002:21) FROM Ladig and Ladig (1990)
+Corbett refers to this language as one with a 'true' trial. That is, there is a morpheme that refers to precisely three, as opposed to some reported trials that seem to have a paucal function.
+Duma 	hima 	aridu 	naʔa
+house 	that 	1.TRIAL.EXCL 	own.it
+We three own that house.
+
+
+
+#Persons 
+
+FirstPerson
+fuv
+McIntosh (1984:141) 
+In Nigerian Fulfulde, the exhortative is similar to the imperative command, except is only used with 1stPerson and 3rd person subject, expresses a peremptory command to begin an action that has not yet begun.
+'en-njoo?-oo    
+1stPersonPlural-sit-HORT  
+Let's sit down!
+
+
+
+FirstPersonExclusive
+yap
+Siewierska (2003:142)
+First person exclusive refers to the participants referred to but not the hearer.
+Ku gu guy-eew
+PRF 1.EXCL see-3.DUAL
+We saw it.
+
+
+FirstPersonInclusive
+woe
+Siewierska (2003:142)
+First person inclusive refers to the hearer in addition to the speaker.
+Geel me   gaang si      bel lag
+you  and  I     1.PL.INCL will go
+You and I will go.
+
+
+SecondPerson
+fuv
+McIntosh (1984:109) 
+NO_COMMENT
+a-ronnd-aake    
+2-load-MID 
+You put a head-load on yourself.
+
+ThirdPerson
+pol
+Siewierska (1988:267) 
+NO_COMMENT
+pociag  zatrzyma?       sie     
+train  stopped.3.SG  REFL  
+The train stopped.
+
+ThirdPersonObviative
+crk
+Corbett (2000:277)
+Some languages divide the third person into proximate and obviative; the proximate is for entity closer to the center of attention, while the obviativeif more background.
+sīsīp-a
+duck-OBV
+that duck
+
+ThirdPersonProximative
+crk
+Corbett (2000:277)
+Some languages divide the third person into proximate and obviative; the proximate is for entity closer to the center of attention, while the obviativeif more background.
+sīsīp
+duck-PROX
+this duck
+
+
+#Polarities 
+
+NegativePolarity
+rus
+Givon (1984:341)
+This is an example of neutral negation in Russian.
+Ivan jego ne ubil
+I.   him  NEG killed
+Ivan didn't killed him
+
+PossitivePolarity
+rus
+Givon (1984:341)
+This is an example of a possitive, also known as affirmative statement, which contains no marker of negation. 
+Ivan jego ubil
+Ivan him killed
+Ivan killed him
+
+
+#Sizes 
+
+AugmentativeSize
+
+
+DiminuativeSize
+
+
+#Voices 
+
+AbsolutiveAntipassiveVoice
+
+
+ActiveVoice
+fuv 
+McIntosh (1984:109) 
+In Nigerian Fulfulde, the active voice is associated with transitivity, when the action is performed by an agent (subject) on another participant (object), or with intransitivity.
+mi-ronnd-ii-ma  
+1-load-ACT-2 
+I put a head-load on you.
+
+
+
+AgentDeletionPassiveVoice
+ute 
+Givon (1988:419) in Shibatani (1988) 
+The object of the active in Ute retains its old case-marking in the passive, the subject of the active cannot appear in the passive clause, and the passive tends to be semantically active.
+sivaatu-ci  paxá-xa 
+goat-OBJ  kill-ANTIP 
+The goat was killed. (by some unspecified person)
+
+
+
+AntiCausativeVoice
+pol
+Siewierska (1988:267) in Shibatani (1988) 
+An intransitive verb in Polish is derived from a basically transitive one with the direct object of the transitive verb corresponding to the subject of the intransitive.
+pociag  zatrzyma?       sie     
+train  stopped.3.SG  REFL  
+The train stopped.
+
+
+
+AntiPassiveVoice
+mam
+Klaiman (1991:229) FROM England (1985:212) 
+In Northern Mam, the transitive subject takes on properties typical of the basic object.  Since in an ergative language the same morphological behaviors accrue to transitive object (P) as to intransitive subject (A), one effect of antipassivization is to dissociate the transitive subject (A) from its usual case assignment, the ergative, and reassign it the absolutive. (RN=relational noun)
+ma      Ø       tzyuu-n cheep   t-i?j   ch'it   
+tense  3.SG.ABS  grab-ANTIP  José   3.SG.ERG-P.RN  bird  
+José  grabbed the bird.
+
+
+
+ApplicativeVoice
+mam 
+England 1983:103 
+In Northern Mam, the applicative derives transitive stems from noun roots.
+si?-wa  
+firewood-APPL 
+gather firewood
+
+
+
+CausativeVoice
+
+
+DeponentMiddleVoice
+
+
+DirectVoice
+crk
+Klaiman (1991:32) FROM Wolfart (1973:25) 
+In Plains Cree, the direct voice signals that the action proceeds in an ontologically salient way, i.e. that salience is assigned to nominals based on their referen'ts relative real-world capacities to control situations.
+ni-sekih-a-nan  atim    
+1-scare-theme.DIRV-1.PL  dog  
+We scare the dog.
+
+
+
+FocusAntipassiveVoice
+kek
+Klaiman (1991:236) FROM Berinstein (1985:236) 
+In Q'eqchi', the focus antipassive locks the P or logical object (basic absolutive) nominal from being assigned Focus salience.  Topic salience is available for assignment to various arguments, including the P, but Focus salience is always assigned to A, and is therefore inaccessible to P or any other nominal.
+li      tumin   la?in    x-in-q'eu-o-c   a?cu-e   r-e     
+the  money.TOP  1.FOC  tense-3.SG.ABS-give-ANTIP-aspect  2.SG.ABS-DAT.RN  3.SG.ERG-DAT.RN  
+The money, I was the one who gave it to you.
+
+
+
+IncorporatingAntipassiveVoice
+kek 
+Klaiman (1991:232) FROM Berinstein (1985:219) 
+In Q'eqchi',  the incorporating antipassive locks the P or logical object (basic absolutive) nominal from being assigned Focus salience. This correlates with the P's morphosyntactic downgrading, whereby it becomes insusceptible to any informational salience assignment.
+x-e'-sic'-o-c   cape    li      cui?nk   
+tense-3.PL.ABS-pick-ANTIP-aspect  coffee  the  men  
+The men picked coffee.
+
+
+
+InverseVoice
+crk
+Klaiman (1991:32) FROM Wolfart (1973:25) 
+In Plains Cree, the inverse voice signals when actions proceed from ontologically less salient to more salient participants.
+ni-sekih-iko-nan        atim    
+1-scare-theme.INV-1.PL  dog  
+The dog scares us.
+
+
+
+LocativePassiveVoice
+tix
+Klaiman (1991:17) FROM Allen, Gardiner and Frantz (1984:304-5) 
+In Southern Tiwa, the locative passive is an oblique locative nominal that assumes the subject relation.
+in-seuan-wan-ban        (na)    
+1.SG/3.SG.ANIM-man-come-PST  (I)  
+The man came to me
+
+
+
+NecessitativePassiveVoice
+gle 
+Noonan (1994:280) in Fox and Hopper (1994) 
+The necessitative passive is a passive in Irish Gaelic in which the preposition 'with' is used, and a semantic meaning of necessity is added.
+bhí     sí      le      beacán  a       cheannach       
+was  she  with  mushrooms  to  buy.NOM  
+She had/was to buy mushrooms.
+
+
+#check
+#NonAbsolutiveAntipassiveVoice
+#kek 
+#Klaiman (1991:232) FROM Berinstein (1985:219) 
+#In Q'eqchi', the non-absolutive antipassive is an antipassive in which the P or logical object is overtly downgraded.
+#Eb  li   cui?nk   x-e'-sic'-o-c                         r-e     li      cape    
+#PL  the  man      tense-3.PL.ABS-pick-ANTIPASSIVE-aspect  3.SG.ERG-DAT.RN  the  coffee  
+#The man picked the coffee.
+
+
+
+NonPromotionalInverseVoice
+
+
+NucleonicMiddleVoice
+
+
+ObliquePassiveVoice
+lez
+Haspelmath (1993:207)
+NO_COMMENT
+Gilaabur-u-nfermahamišaluggügünaamuq'-da-c
+now.they-OBL-GEN.farm.forever.behind.stay-FUT-NEG
+Now their farm will not stay behind forever.
+
+
+PassiveVoice
+mam 
+Klaiman (1991:229) FROM England (1985:201) 
+In Northern Mam, the logical nonsubject takes on properties typical of the basic object.
+ma      Ø-tx'eem-at     tzee?   t-u?n   cheep   
+tense  3.SG.ABS-cut-PASS  tree  3.SG.ERG-by.RN  José  
+The tree was cut by José.
+
+
+PersonalPassiveVoice
+ixi 
+Klaiman (1991:244) FROM Ayres (1983:22) 
+In Nebaj Ixil, the personal passive is a passive in which the argument mapped to Object in a basic structural configuration assumes the Subject relation in a corresponding nonbasic configuration.
+kat     il-ax   Ø       naj     ta?n    ixoj    
+aspect  see-PASS  3.SG.ABS  he  by  she  
+He was seen by her.
+
+
+PlainMiddleVoice
+fuv
+McIntosh (1984:109) 
+In Nigerian, the middle voice is associated with reflexivity and with borrowed verbal roots that would be semantically more compatible with ActiveVoice.
+a-ronnd-aake    
+2-load-MID 
+You put a head-load on yourself.
+
+PragmaticInverseVoice
+yak 
+Givon (1994:24) 
+In Yakima, if the agent is more topical than the patient, the direct-active clause is used.  If norm is reversed and the patient is more topical, the inverse clause is used.
+ku      pá-'?n-a        pch'íimya-n     piyáp-in        
+and  INV-tell-PAST  wild.cat-OBJ  elder.brother-OBV  
+And the elder brother [OBV] told the wild cat [PROX].
+
+
+ProgressivePassiveVoice 
+gle 
+Noonan (1994:280) 
+The progressive passive is a passive in Irish Gaelic in which the preposition 'at' is used, and a semantic meaning of progressive tense is found.
+bhí     sí      ag      ceannach        beacán  
+was  she  at  buy.NOM  mushrooms.GEN  
+She was collecting mushrooms.
+
+
+PromotionalInverseVoice
+
+
+ReciprocalMiddleVoice
+grc
+Klaiman (1998:32)
+A typical function of the middle in Greek is to indicate an identity relation between the subject (or more properly, the source argument) and the direct object (or more properly, the undergoer). That is, a middle voice verb may convey reflexive or reciprocal activity.
+lou-omai
+wash-MID.1.SG
+I wash myself
+
+
+
+ReferentialVoice
+
+
+ReflexiveMiddleVoice
+
+
+ReflexivePassiveVoice
+hrv 
+Siewierska (1988:259) FROM Spalatin (1973:121) 
+A Passive construction in Croatian which contains reflexive markings.
+ku?a    se      gradila dva     mjeseca (*ljudima)      
+house  REFL  built.3.SG  two  months  (*people.INS)  
+The house was built in two months (by people)/They built the house in two months.
+
+
+
+SemanticInverseVoice
+yak
+Givon (1994:23) 
+In Yakima, if the agent outranks the patient on the relevant generic topic hierarchy, the direct-active clause is used.  If the relevant norm is reversed and the patient outranks the agent on the relevant hierarchy, the inverse clause is used.
+i-q'ínu-sha-ash ?wínsh-n?m      
+3/NOM-see-IPFV-me  man-OBV  
+The man [OBV] sees me [PROX].

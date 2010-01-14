@@ -1,0 +1,805 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns="http://www.linguistics-ontology.org/bibliography/person.rdf#"
+    xml:base="http://www.linguistics-ontology.org/bibliography/person.rdf"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:bibtex="http://zeitkunst.org/bibtex/0.1/bibtex.owl#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:biblio="http://www.linguistics-ontology.org/bibliography/bibliography.owl#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+	<biblio:author rdf:about="#J.Barnes">
+		<rdfs:label>J.Barnes</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#MichaelNoonan">
+		<rdfs:label>MichaelNoonan</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#AnnaSiewierska">
+		<rdfs:label>AnnaSiewierska</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#SimonC.Dik">
+		<rdfs:label>SimonC.Dik</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#W.Miller">
+		<rdfs:label>W.Miller</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#ScottDelancey">
+		<rdfs:label>ScottDelancey</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#SándorHervey">
+		<rdfs:label>SándorHervey</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#KathleenGlasgow">
+		<rdfs:label>KathleenGlasgow</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#NicholasEvans">
+		<rdfs:label>NicholasEvans</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#CharlesRolandOsborne">
+		<rdfs:label>CharlesRolandOsborne</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#MarioA.Pei">
+		<rdfs:label>MarioA.Pei</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#FrankGaynor">
+		<rdfs:label>FrankGaynor</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#G.Corbett">
+		<rdfs:label>G.Corbett</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#JudithL.Klavans">
+		<rdfs:label>JudithL.Klavans</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#TerryCrowley">
+		<rdfs:label>TerryCrowley</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#RobinClark">
+		<rdfs:label>RobinClark</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#StevenA.Jacobson">
+		<rdfs:label>StevenA.Jacobson</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#CarlPollard">
+		<rdfs:label>CarlPollard</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#IvanA.Sag">
+		<rdfs:label>IvanA.Sag</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#DavidCrystal">
+		<rdfs:label>DavidCrystal</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#J.T.Roberts">
+		<rdfs:label>J.T.Roberts</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#J.Haiman">
+		<rdfs:label>J.Haiman</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#T.Givon">
+		<rdfs:label>T.Givon</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#IanRoberts">
+		<rdfs:label>IanRoberts</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#FerdinanddeSaussure">
+		<rdfs:label>FerdinanddeSaussure</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#ThomasA.Sebeok">
+		<rdfs:label>ThomasA.Sebeok</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#BarryJ.Blake">
+		<rdfs:label>BarryJ.Blake</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#E.R.Hope">
+		<rdfs:label>E.R.Hope</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#A.E.Kibrik">
+		<rdfs:label>A.E.Kibrik</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#PaulJHopper">
+		<rdfs:label>PaulJHopper</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#PeterCole">
+		<rdfs:label>PeterCole</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#MichaelCysouw">
+		<rdfs:label>MichaelCysouw</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#M.Mithun">
+		<rdfs:label>M.Mithun</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#TalmyGivón">
+		<rdfs:label>TalmyGivón</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#ÖstenDahl">
+		<rdfs:label>ÖstenDahl</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#VivekaVelupillai">
+		<rdfs:label>VivekaVelupillai</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#TimFarrell">
+		<rdfs:label>TimFarrell</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#J.Granberry">
+		<rdfs:label>J.Granberry</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#GrahamR.McKay">
+		<rdfs:label>GrahamR.McKay</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#M.Bernsten">
+		<rdfs:label>M.Bernsten</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#J.Nimbkar">
+		<rdfs:label>J.Nimbkar</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#N.Faust">
+		<rdfs:label>N.Faust</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#BeatricePrimus">
+		<rdfs:label>BeatricePrimus</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#R.L.Trask">
+		<rdfs:label>R.L.Trask</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#ÖstenDahl">
+		<rdfs:label>ÖstenDahl</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#B.J.Allen">
+		<rdfs:label>B.J.Allen</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#D.B.Gardiner">
+		<rdfs:label>D.B.Gardiner</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#D.G.Frantz">
+		<rdfs:label>D.G.Frantz</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#MaryMcIntosh">
+		<rdfs:label>MaryMcIntosh</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#ClaudioMasolo">
+		<rdfs:label>ClaudioMasolo</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#StefanoBorgo">
+		<rdfs:label>StefanoBorgo</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#AldoGangemi">
+		<rdfs:label>AldoGangemi</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#NicolaGuarin">
+		<rdfs:label>NicolaGuarin</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#C.Callaghan">
+		<rdfs:label>C.Callaghan</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#W.Chafe">
+		<rdfs:label>W.Chafe</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#F.R.Palmer">
+		<rdfs:label>F.R.Palmer</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#TalmyGivón">
+		<rdfs:label>TalmyGivón</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#MikeMaxwell">
+		<rdfs:label>MikeMaxwell</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#GarySimons">
+		<rdfs:label>GarySimons</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#LarryHayashi">
+		<rdfs:label>LarryHayashi</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#M.Saltarelli">
+		<rdfs:label>M.Saltarelli</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#M.Azkarate">
+		<rdfs:label>M.Azkarate</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#J.Mugane">
+		<rdfs:label>J.Mugane</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#LauriHakulinen">
+		<rdfs:label>LauriHakulinen</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#GennaroChierchia">
+		<rdfs:label>GennaroChierchia</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#SallyMcConnell-Ginet">
+		<rdfs:label>SallyMcConnell-Ginet</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#V.P.Nedjalkov">
+		<rdfs:label>V.P.Nedjalkov</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#G.A.Otaina">
+		<rdfs:label>G.A.Otaina</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#A.A.Xoldovic">
+		<rdfs:label>A.A.Xoldovic</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#JoanBybee">
+		<rdfs:label>JoanBybee</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#G.Stone">
+		<rdfs:label>G.Stone</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#M.Ross">
+		<rdfs:label>M.Ross</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#J.Bybee">
+		<rdfs:label>J.Bybee</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#R.Perkins">
+		<rdfs:label>R.Perkins</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#W.Pagliuca">
+		<rdfs:label>W.Pagliuca</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#LauraA.Michaelis">
+		<rdfs:label>LauraA.Michaelis</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#B.Comrie">
+		<rdfs:label>B.Comrie</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#EdwardL.Keenan">
+		<rdfs:label>EdwardL.Keenan</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#MariaKeenan">
+		<rdfs:label>MariaKeenan</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#J.C.Anceaux">
+		<rdfs:label>J.C.Anceaux</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#B.Comrie">
+		<rdfs:label>B.Comrie</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#PaulSchachter">
+		<rdfs:label>PaulSchachter</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#PeterLadefoged">
+		<rdfs:label>PeterLadefoged</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#S.M.Khaidakov">
+		<rdfs:label>S.M.Khaidakov</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#S.M.Khaidakov">
+		<rdfs:label>S.M.Khaidakov</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#D.Frantz">
+		<rdfs:label>D.Frantz</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#DavidCrystal">
+		<rdfs:label>DavidCrystal</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#F.Klein">
+		<rdfs:label>F.Klein</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#G.D.Wijayawardhana">
+		<rdfs:label>G.D.Wijayawardhana</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#DayaWickramasinghe">
+		<rdfs:label>DayaWickramasinghe</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#TheodoraBynon">
+		<rdfs:label>TheodoraBynon</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#H.C.Wolfart">
+		<rdfs:label>H.C.Wolfart</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#J.F.Carroll">
+		<rdfs:label>J.F.Carroll</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#M.H.Klaiman">
+		<rdfs:label>M.H.Klaiman</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#E.Loeweke">
+		<rdfs:label>E.Loeweke</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#J.May">
+		<rdfs:label>J.May</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#JackRichards">
+		<rdfs:label>JackRichards</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#JohnPlatt">
+		<rdfs:label>JohnPlatt</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#HeidiWeber">
+		<rdfs:label>HeidiWeber</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#LevZirkov">
+		<rdfs:label>LevZirkov</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#AnnaSiewierska">
+		<rdfs:label>AnnaSiewierska</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#W.Leman">
+		<rdfs:label>W.Leman</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#JeffGood">
+		<rdfs:label>JeffGood</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#IlahFleming">
+		<rdfs:label>IlahFleming</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#R.C.Caughley">
+		<rdfs:label>R.C.Caughley</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#JoanL.Bybee">
+		<rdfs:label>JoanL.Bybee</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#JohnLyons">
+		<rdfs:label>JohnLyons</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#H.Hoijer">
+		<rdfs:label>H.Hoijer</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#M.Donohue">
+		<rdfs:label>M.Donohue</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#CharlesLi">
+		<rdfs:label>CharlesLi</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#SandraThompson">
+		<rdfs:label>SandraThompson</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#WilliamFrawley">
+		<rdfs:label>WilliamFrawley</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#S.Silver">
+		<rdfs:label>S.Silver</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#T.Donaldson">
+		<rdfs:label>T.Donaldson</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#G.R.Prost">
+		<rdfs:label>G.R.Prost</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#P.Kiparsky">
+		<rdfs:label>P.Kiparsky</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#W.A.Foley">
+		<rdfs:label>W.A.Foley</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#M.Axelrod">
+		<rdfs:label>M.Axelrod</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#DickHayward">
+		<rdfs:label>DickHayward</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#M.H.Klaiman">
+		<rdfs:label>M.H.Klaiman</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#StuartM.Shieber">
+		<rdfs:label>StuartM.Shieber</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#GabriellaHermon">
+		<rdfs:label>GabriellaHermon</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#RandolphQuirk">
+		<rdfs:label>RandolphQuirk</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#SidneyGreenbaum">
+		<rdfs:label>SidneyGreenbaum</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#GeoffreyLeech">
+		<rdfs:label>GeoffreyLeech</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#JanSvartik">
+		<rdfs:label>JanSvartik</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#JohnLyons">
+		<rdfs:label>JohnLyons</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#U.Mosel">
+		<rdfs:label>U.Mosel</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#E.Hovdhaugen">
+		<rdfs:label>E.Hovdhaugen</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#B.GeorgeHewitt">
+		<rdfs:label>B.GeorgeHewitt</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#J.RandolphValentine">
+		<rdfs:label>J.RandolphValentine</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#R.R.K.Hartmann">
+		<rdfs:label>R.R.K.Hartmann</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#F.C.Stork">
+		<rdfs:label>F.C.Stork</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#D.Hymes">
+		<rdfs:label>D.Hymes</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#C.L.Ebeling">
+		<rdfs:label>C.L.Ebeling</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#MasayoshiShibatani">
+		<rdfs:label>MasayoshiShibatani</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#P.B.Naylor">
+		<rdfs:label>P.B.Naylor</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#R.E.Asher">
+		<rdfs:label>R.E.Asher</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#NoraEngland">
+		<rdfs:label>NoraEngland</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#JensHolt">
+		<rdfs:label>JensHolt</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#MarcelCohen">
+		<rdfs:label>MarcelCohen</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#AlanCruse">
+		<rdfs:label>AlanCruse</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#LindaB.Forrest">
+		<rdfs:label>LindaB.Forrest</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#ArnoldM.Zwicky">
+		<rdfs:label>ArnoldM.Zwicky</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#PeterHugoeMatthews">
+		<rdfs:label>PeterHugoeMatthews</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#L.Buszard-Welcher">
+		<rdfs:label>L.Buszard-Welcher</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#AliceSchlichter">
+		<rdfs:label>AliceSchlichter</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#T.Payne">
+		<rdfs:label>T.Payne</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#MasayoshiShibatani">
+		<rdfs:label>MasayoshiShibatani</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#MatthewBaerman">
+		<rdfs:label>MatthewBaerman</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#DunstanBrown">
+		<rdfs:label>DunstanBrown</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#GrevilleCorbett">
+		<rdfs:label>GrevilleCorbett</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#BarryJ.Blake">
+		<rdfs:label>BarryJ.Blake</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#WilliamCroft">
+		<rdfs:label>WilliamCroft</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#S.M.Khaidakov">
+		<rdfs:label>S.M.Khaidakov</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#M.Fortescue">
+		<rdfs:label>M.Fortescue</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#GeorgeH.Matthews">
+		<rdfs:label>GeorgeH.Matthews</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#T.Malone">
+		<rdfs:label>T.Malone</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#W.D.Ladig">
+		<rdfs:label>W.D.Ladig</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#C.J.Ladig">
+		<rdfs:label>C.J.Ladig</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#H.M.Bromley">
+		<rdfs:label>H.M.Bromley</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#J.Dayley">
+		<rdfs:label>J.Dayley</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#J.Hetzron">
+		<rdfs:label>J.Hetzron</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#PeterJacobs">
+		<rdfs:label>PeterJacobs</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#I.Reed">
+		<rdfs:label>I.Reed</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#O.Miyaoka">
+		<rdfs:label>O.Miyaoka</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#S.Jacobsen">
+		<rdfs:label>S.Jacobsen</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#P.Afcan">
+		<rdfs:label>P.Afcan</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#M.Krauss">
+		<rdfs:label>M.Krauss</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#P.Gärdenfors">
+		<rdfs:label>P.Gärdenfors</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#D.N.S.Bhat">
+		<rdfs:label>D.N.S.Bhat</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#A.Berinstein">
+		<rdfs:label>A.Berinstein</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#J.F.Foster">
+		<rdfs:label>J.F.Foster</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#B.Comrie">
+		<rdfs:label>B.Comrie</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#S.R.Anderson">
+		<rdfs:label>S.R.Anderson</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#L.H.Babby">
+		<rdfs:label>L.H.Babby</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#R.D.Brecht">
+		<rdfs:label>R.D.Brecht</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#I.Muravyova">
+		<rdfs:label>I.Muravyova</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#S.H.Levinsohn">
+		<rdfs:label>S.H.Levinsohn</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#WilliamH.JacobsenJr.">
+		<rdfs:label>WilliamH.JacobsenJr.</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#CharlesRandriamasimanana">
+		<rdfs:label>CharlesRandriamasimanana</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#WilliamSeiter">
+		<rdfs:label>WilliamSeiter</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#GeorgeAaronBroadwell">
+		<rdfs:label>GeorgeAaronBroadwell</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#E.O.Ashton">
+		<rdfs:label>E.O.Ashton</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#E.M.K.Mulira">
+		<rdfs:label>E.M.K.Mulira</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#E.G.M.Ndawula">
+		<rdfs:label>E.G.M.Ndawula</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#A.N.Tucker">
+		<rdfs:label>A.N.Tucker</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#LouisHjelmslev">
+		<rdfs:label>LouisHjelmslev</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#W.Shipley">
+		<rdfs:label>W.Shipley</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#HansReichenbach">
+		<rdfs:label>HansReichenbach</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#ChristopherD.Manning">
+		<rdfs:label>ChristopherD.Manning</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#G.Corbett">
+		<rdfs:label>G.Corbett</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#OttoJespersen">
+		<rdfs:label>OttoJespersen</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#JudithM.Knott">
+		<rdfs:label>JudithM.Knott</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#RobertL.Oswalt">
+		<rdfs:label>RobertL.Oswalt</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#JohnM.Anderson">
+		<rdfs:label>JohnM.Anderson</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#P.Munro">
+		<rdfs:label>P.Munro</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#KennethL.Pike">
+		<rdfs:label>KennethL.Pike</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#E.Pike">
+		<rdfs:label>E.Pike</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#SusumuKuno">
+		<rdfs:label>SusumuKuno</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#RobertM.W.Dixon">
+		<rdfs:label>RobertM.W.Dixon</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#RobertM.W.Dixon">
+		<rdfs:label>RobertM.W.Dixon</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#DavidCrystal">
+		<rdfs:label>DavidCrystal</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#L.Spalatin">
+		<rdfs:label>L.Spalatin</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#RobertM.W.Dixon">
+		<rdfs:label>RobertM.W.Dixon</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#DavidCrystal">
+		<rdfs:label>DavidCrystal</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#WolfLeslau">
+		<rdfs:label>WolfLeslau</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#RichardPittman">
+		<rdfs:label>RichardPittman</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#HarlandKerr">
+		<rdfs:label>HarlandKerr</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#DunstanBrown">
+		<rdfs:label>DunstanBrown</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#GrevilleG.Corbett">
+		<rdfs:label>GrevilleG.Corbett</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#CaroleTiberius">
+		<rdfs:label>CaroleTiberius</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#CharlesBally">
+		<rdfs:label>CharlesBally</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#AlbertSechehaye">
+		<rdfs:label>AlbertSechehaye</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#ArnoldSpencerZwicky">
+		<rdfs:label>ArnoldSpencerZwicky</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#WilliamBright">
+		<rdfs:label>WilliamBright</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#WendyWilkins">
+		<rdfs:label>WendyWilkins</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#J.Bybee">
+		<rdfs:label>J.Bybee</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#S.Fleischman">
+		<rdfs:label>S.Fleischman</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#MartinHaspelmath">
+		<rdfs:label>MartinHaspelmath</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#MatthewDryer">
+		<rdfs:label>MatthewDryer</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#DavidGil">
+		<rdfs:label>DavidGil</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#BernardComrie">
+		<rdfs:label>BernardComrie</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#J.Bybee">
+		<rdfs:label>J.Bybee</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#S.Fleischman">
+		<rdfs:label>S.Fleischman</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#WallaceChafe">
+		<rdfs:label>WallaceChafe</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#JohannaNichols">
+		<rdfs:label>JohannaNichols</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#MasayoshiShibatani">
+		<rdfs:label>MasayoshiShibatani</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#A.Spencer">
+		<rdfs:label>A.Spencer</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#A.Zwicky">
+		<rdfs:label>A.Zwicky</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#TalmyGivón">
+		<rdfs:label>TalmyGivón</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#B.Comrie">
+		<rdfs:label>B.Comrie</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#G.Corbett">
+		<rdfs:label>G.Corbett</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#AndrewSpencer">
+		<rdfs:label>AndrewSpencer</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#ArnoldM.Zwicky">
+		<rdfs:label>ArnoldM.Zwicky</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#TimothyShopen">
+		<rdfs:label>TimothyShopen</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#WilliamJ.Hardcastle">
+		<rdfs:label>WilliamJ.Hardcastle</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#JohnLaver">
+		<rdfs:label>JohnLaver</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#BarbaraFox">
+		<rdfs:label>BarbaraFox</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#PaulJ.Hopper">
+		<rdfs:label>PaulJ.Hopper</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#CarolTenny">
+		<rdfs:label>CarolTenny</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#JamesPustejovsky">
+		<rdfs:label>JamesPustejovsky</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#MasayoshiShibatani">
+		<rdfs:label>MasayoshiShibatani</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#WilliamFrawley">
+		<rdfs:label>WilliamFrawley</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#FransPlank">
+		<rdfs:label>FransPlank</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#D.C.Bennett">
+		<rdfs:label>D.C.Bennett</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#T.Bynon">
+		<rdfs:label>T.Bynon</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#B.G.Hewitt">
+		<rdfs:label>B.G.Hewitt</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#JohnLynch">
+		<rdfs:label>JohnLynch</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#WallaceChafe">
+		<rdfs:label>WallaceChafe</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#JohannaNichols">
+		<rdfs:label>JohannaNichols</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#A.Spencer">
+		<rdfs:label>A.Spencer</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#A.Zwicky">
+		<rdfs:label>A.Zwicky</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#WallaceChafe">
+		<rdfs:label>WallaceChafe</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#JohannaNichols">
+		<rdfs:label>JohannaNichols</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#D.C.Bennett">
+		<rdfs:label>D.C.Bennett</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#T.Bynon">
+		<rdfs:label>T.Bynon</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#B.G.Hewitt">
+		<rdfs:label>B.G.Hewitt</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#WallaceChafe">
+		<rdfs:label>WallaceChafe</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#JohannaNichols">
+		<rdfs:label>JohannaNichols</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#WilliamD.Davies">
+		<rdfs:label>WilliamD.Davies</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#StanleyDubinsky">
+		<rdfs:label>StanleyDubinsky</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#D.C.Bennett">
+		<rdfs:label>D.C.Bennett</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#T.Bynon">
+		<rdfs:label>T.Bynon</rdfs:label>
+	</biblio:author>
+	<biblio:author rdf:about="#B.G.Hewitt">
+		<rdfs:label>B.G.Hewitt</rdfs:label>
+	</biblio:author>
+</rdf:RDF>

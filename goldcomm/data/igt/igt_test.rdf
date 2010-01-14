@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Ontology [
+<!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+<!ENTITY owl2 "http://www.w3.org/2006/12/owl2#" >
+<!ENTITY dc "http://purl.org/dc/elements/1.1/" >
+<!ENTITY owl11 "http://www.w3.org/2006/12/owl11#" >
+<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+<!ENTITY owl2xml "http://www.w3.org/2006/12/owl2-xml#" >
+<!ENTITY owl11xml "http://www.w3.org/2006/12/owl11-xml#" >
+<!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+<!ENTITY gold "http://purl.org/linguistics/gold/" >
+<!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+<!ENTITY lang "http://www.linguistics-ontology.org/languages/">
+<!ENTITY english "http://www.linguistics-ontology.org/english/">
+]>
+<rdf:RDF xmlns="http://www.linguistics-ontology.org/data/Leipzig_examples.rdf#"	
+    xml:base="http://www.linguistics-ontology.org/data/Leipzig_examples.rdf"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:gold="http://purl.org/linguistics/gold/"
+    xmlns:english="http://www.linguistics-ontology.org/english/">
+    
+	<gold:IGT  rdf:about="igt_example_1">
+		<gold:hasSourceLine rdf:resource="genid00"/>
+		<gold:hasGlosses>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="&english;they"/>
+				<rdf:_2 rdf:resource="&english;in"/>
+				<rdf:_3 rdf:resource="&english;Jakarta" />
+				<rdf:_4 rdf:resource="&english;now" />
+			</rdf:Seq>
+		</gold:hasGlosses>
+		<gold:hasTranslationLine rdf:resource="genid100"/>				
+	</gold:IGT>
+	
+					
+			<rdf:Description rdf:about="genid00">
+				<gold:inLanguage rdf:resource="&lang;ind"/>
+				<rdf:type rdf:resource="&gold;Clause"/>
+				<rdf:type rdf:resource="&gold;OrthographicSentence"/>
+				<gold:orthographicRep rdf:datatype="&xsd;string">Mereka di Jakarta  sekarang.</gold:orthographicRep>
+				<gold:constituents>
+					<rdf:Seq>
+						<rdf:_1 rdf:resource="genid2"/>			
+						<rdf:_2 rdf:resource="genid3"/>			
+						<rdf:_3 rdf:resource="genid4"/>			
+						<rdf:_4 rdf:resource="genid5"/>			
+					</rdf:Seq>
+				</gold:constituents>
+				<gold:freeTranslation rdf:resource="genid100"/>
+			</rdf:Description>	
+	
+	
+    
+    
+    
+	<rdf:Description rdf:about="genid2">
+		<gold:inLanguage rdf:resource="&lang;ind"/>
+		<rdf:type rdf:resource="&gold;SyntacticWord"/>
+		<rdf:type rdf:resource="&gold;OrthographicWord"/>
+		<gold:orthographicRep rdf:datatype="&xsd;string">Mereka</gold:orthographicRep>
+		<gold:freeTranslation rdf:resource="&english;they"/>
+	</rdf:Description>
+	
+    
+    
+    <rdf:Description rdf:about="genid3">
+    	<gold:inLanguage rdf:resource="&lang;ind"/>
+    	<rdf:type rdf:resource="&gold;SyntacticWord"/>
+    	<rdf:type rdf:resource="&gold;OrthographicWord"/>
+    	<gold:orthographicRep rdf:datatype="&xsd;string">di</gold:orthographicRep>
+    	<gold:freeTranslation rdf:resource="&english;in"/>
+    </rdf:Description>
+
+
+	<rdf:Description rdf:about="genid4">
+		<gold:inLanguage rdf:resource="&lang;ind"/>
+		<rdf:type rdf:resource="&gold;SyntacticWord"/>
+		<rdf:type rdf:resource="&gold;OrthographicWord"/>
+		<gold:orthographicRep rdf:datatype="&xsd;string">Jarkarta</gold:orthographicRep>
+		<gold:freeTranslation rdf:resource="&english;Jakarta"/>
+	</rdf:Description>
+	
+	
+	<rdf:Description rdf:about="genid5">
+		<gold:inLanguage rdf:resource="&lang;ind"/>
+		<rdf:type rdf:resource="&gold;SyntacticWord"/>
+		<rdf:type rdf:resource="&gold;OrthographicWord"/>
+		<gold:orthographicRep rdf:datatype="&xsd;string">sekarang</gold:orthographicRep>
+		<gold:freeTranslation rdf:resource="&english;now"/>
+	</rdf:Description>
+	
+	<gold:OrthographicSentence rdf:about="genid100">
+		<gold:orthographicRep rdf:datatype="&xsd;string">They are in Jakarta now.</gold:orthographicRep>	
+	</gold:OrthographicSentence>
+	
+
+	<!-->    Gila abur-u-n ferma hamišaluǧ güǧüna amuq’-da-č.
+		now they-OBL-GEN farm forever behind stay-FUT-NEG
+		‘Now their farm will not stay behind forever.’
+	</-->
+		
+
+	<rdf:Description rdf:about="exapmle00">
+		<rdf:type rdf:resource="&gold;OrthographicSentence"/>
+		<rdf:type rdf:resource="&gold;Clause"/>
+		<gold:inLanguage rdf:resource="&lang;lez"/>
+		<gold:orthographicRep rdf:datatype="&xsd;string">Gila abur-u-n ferma hamišaluǧ güǧüna amuq’-da-č.</gold:orthographicRep>
+		<gold:constituents>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="genid10"/>			
+				<rdf:_2 rdf:resource="genid11"/>			
+				<rdf:_3 rdf:resource="genid12"/>			
+				<rdf:_4 rdf:resource="genid13"/>
+				<rdf:_4 rdf:resource="genid14"/>			
+				<rdf:_4 rdf:resource="genid15"/>			
+			</rdf:Seq>
+		</gold:constituents>
+		<gold:freeTranslation rdf:resource="genid200"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="genid10">
+		<rdf:type rdf:resource="&gold;OrthographicWord"/>
+		<rdf:type rdf:resource="&gold;SyntacticWord"/>
+		<gold:inLanguage rdf:resource="&lang;lez"/>
+		<gold:orthographicRep rdf:datatype="&xsd;string">Gila</gold:orthographicRep>
+		<gold:literalTranslation rdf:resource="&english;now"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="genid11">
+		<rdf:type rdf:resource="&gold;OrthographicWord"/>
+		<rdf:type rdf:resource="&gold;SyntacticWord"/>
+		<gold:inLanguage rdf:resource="&lang;lez"/>
+		<gold:orthographicRep rdf:datatype="&xsd;string">abur-u-n</gold:orthographicRep>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="genid12">
+		<rdf:type rdf:resource="&gold;OrthographicWord"/>
+		<rdf:type rdf:resource="&gold;SyntacticWord"/>
+		<gold:inLanguage rdf:resource="&lang;lez"/>
+		<gold:orthographicRep rdf:datatype="&xsd;string">ferma</gold:orthographicRep>
+		<gold:literalTranslation rdf:resource="&english;farm"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="genid13">
+		<rdf:type rdf:resource="&gold;OrthographicWord"/>
+		<rdf:type rdf:resource="&gold;SyntacticWord"/>
+		<gold:inLanguage rdf:resource="&lang;lez"/>
+		<gold:orthographicRep rdf:datatype="&xsd;string">hamišaluǧ</gold:orthographicRep>
+		<gold:literalTranslation rdf:resource="&english;forever"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="genid14">
+		<rdf:type rdf:resource="&gold;OrthographicWord"/>
+		<rdf:type rdf:resource="&gold;SyntacticWord"/>
+		<gold:inLanguage rdf:resource="&lang;lez"/>
+		<gold:orthographicRep rdf:datatype="&xsd;string">güǧüna</gold:orthographicRep>
+		<gold:literalTranslation rdf:resource="&english;behind"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="genid15">
+		<rdf:type rdf:resource="&gold;OrthographicWord"/>
+		<rdf:type rdf:resource="&gold;SyntacticWord"/>
+		<gold:inLanguage rdf:resource="&lang;lez"/>
+		<gold:orthographicRep rdf:datatype="&xsd;string">amuq’-da-č</gold:orthographicRep>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="genid16">
+		<rdf:type rdf:resource="&gold;Root"/>
+		<gold:inLanguage rdf:resource="&lang;lez"/>
+		<gold:orthographicRep rdf:datatype="&xsd;string">abur</gold:orthographicRep>
+		<gold:literalTranslation rdf:resource="&english;they"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="genid17">
+		<rdf:type rdf:resource="&gold;Suffix"/>
+		<gold:inLanguage rdf:resource="&lang;lez"/>
+		<gold:orthographicRep rdf:datatype="&xsd;string">u</gold:orthographicRep>
+		<gold:hasProperty rdf:resource="&gold;OBLIQUE"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="genid18">
+		<rdf:type rdf:resource="&gold;Suffix"/>
+		<gold:inLanguage rdf:resource="&lang;lez"/>
+		<gold:orthographicRep rdf:datatype="&xsd;string">n</gold:orthographicRep>
+		<gold:hasProperty rdf:resource="&gold;GENITIVE"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="genid19">
+		<rdf:type rdf:resource="&gold;Root"/>
+		<gold:inLanguage rdf:resource="&lang;lez"/>
+		<gold:orthographicRep rdf:datatype="&xsd;string">amuq’</gold:orthographicRep>
+		<gold:literalTranslation rdf:resource="&english;stay"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="genid20">
+		<rdf:type rdf:resource="&gold;Suffix"/>
+		<gold:inLanguage rdf:resource="&lang;lez"/>
+		<gold:orthographicRep rdf:datatype="&xsd;string">da</gold:orthographicRep>
+		<gold:hasProperty rdf:resource="&gold;FUTURE"/>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="genid21">
+		<rdf:type rdf:resource="&gold;Suffix"/>
+		<gold:inLanguage rdf:resource="&lang;lez"/>
+		<gold:orthographicRep rdf:datatype="&xsd;string">č</gold:orthographicRep>
+		<gold:hasProperty rdf:resource="&gold;NEGATIVE"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="genid200">
+		<rdf:type rdf:resource="&gold;OrthographicSentence"/>
+		<rdf:type rdf:resource="&gold;Clause"/>
+		<gold:inLanguage rdf:resource="&lang;eng"/>
+		<gold:orthographicRep rdf:datatype="&xsd;string">Now their farm will not stay behind forever.</gold:orthographicRep>
+	</rdf:Description>
+	
+<!-->
+palasi=lu niuirtur=lu
+priest=and shopkeeper=and
+'both the priest and the shopkeeper' 
+</-->
+	<rdf:Description rdf:about="exapmle30">
+		<rdf:type rdf:resource="&gold;Phrase"/>
+		<rdf:type rdf:resource="&gold;OrthographicPhrase"/>
+		<gold:inLanguage rdf:resource="&lang;kal"/>
+		<gold:orthographicRep rdf:datatype="&xsd;string">palasilu niuirturlu</gold:orthographicRep>
+		<gold:constituents>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="genid31"/>			
+				<rdf:_2 rdf:resource="genid32"/>			
+			</rdf:Seq>
+		</gold:constituents>
+		<gold:freeTranslation rdf:resource="genid300"/>
+	</rdf:Description>
+
+	<rdf:Description rdf:about="genid31">
+		<rdf:type rdf:resource="&gold;OrthographicWord"/>
+		<rdf:type rdf:resource="&gold;Phrase"/>
+		<gold:inLanguage rdf:resource="&lang;kal"/>
+		<gold:orthographicRep rdf:datatype="&xsd;string">palasilu</gold:orthographicRep>
+		<gold:constituents>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="genid33"/>			
+				<rdf:_2 rdf:resource="genid34"/>			
+			</rdf:Seq>
+		</gold:constituents>	
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="genid32">
+		<rdf:type rdf:resource="&gold;OrthographicWord"/>
+		<rdf:type rdf:resource="&gold;Phrase"/>
+		<gold:inLanguage rdf:resource="&lang;kal"/>
+		<gold:orthographicRep rdf:datatype="&xsd;string">niuirturlu</gold:orthographicRep>
+		<gold:constituents>
+			<rdf:Seq>
+				<rdf:_1 rdf:resource="genid35"/>			
+				<rdf:_2 rdf:resource="genid36"/>			
+			</rdf:Seq>
+		</gold:constituents>	
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="genid33">
+		<rdf:type rdf:resource="&gold;SyntacticWord"/>
+		<rdf:type rdf:resource="&gold;OrthographicPart"/>
+		<gold:inLanguage rdf:resource="&lang;kal"/>
+		<gold:orthographicRep rdf:datatype="&xsd;string">palasi</gold:orthographicRep>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="genid34">
+		<rdf:type rdf:resource="&gold;SyntacticWord"/>
+		<rdf:type rdf:resource="&gold;OrthographicPart"/>
+		<gold:inLanguage rdf:resource="&lang;kal"/>
+		<gold:orthographicRep rdf:datatype="&xsd;string">lu</gold:orthographicRep>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="genid35">
+		<rdf:type rdf:resource="&gold;SyntacticWord"/>
+		<rdf:type rdf:resource="&gold;OrthographicPart"/>
+		<gold:inLanguage rdf:resource="&lang;kal"/>
+		<gold:orthographicRep rdf:datatype="&xsd;string">niuirtur</gold:orthographicRep>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="genid36">
+		<rdf:type rdf:resource="&gold;SyntacticWord"/>
+		<rdf:type rdf:resource="&gold;OrthographicPart"/>
+		<gold:inLanguage rdf:resource="&lang;kal"/>
+		<gold:orthographicRep rdf:datatype="&xsd;string">lu</gold:orthographicRep>
+	</rdf:Description>
+	
+	<rdf:Description rdf:about="genid300">
+		<rdf:type rdf:resource="&gold;OrthographicPhrase"/>
+		<rdf:type rdf:resource="&gold;Phrase"/>
+		<gold:inLanguage rdf:resource="&lang;eng"/>
+		<gold:orthographicRep rdf:datatype="&xsd;string">both the priest and the shopkeeper</gold:orthographicRep>
+	</rdf:Description>
+	
+
+
+</rdf:RDF>

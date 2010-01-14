@@ -1,0 +1,121 @@
+#semantic roles
+
+Agent 
+dak 
+Foster (1979:499-500) from Frawley (1992:204) 
+In Dakota, the agent is the deliberate, potent, active instigator of the predicate: the primary involved doer.  Normally the agent is human, and agency is therefore often connected with volition, will, intentionality, and responsibility.
+wa-ka-h?        
+I.Agt-OuterForce-sore  
+I gave myself a sore by doing something/I did the sore.
+
+# not on emeld webpage - contains ?
+Author
+scs
+Delancey (1984) from Frawley (1992:207) 
+In North Slavey, the author is when the primary executor of an act has all the characteristics of an agent, but is not the direct cause of the act, the argument is the author.  The distinction between agent and author is made to accommodate differences in participation between those arguments that carry out acts for reasons internal to the arguments (agents) and those that carry out acts for noninternal reasons.  Semantically authors fall on a gradient between agents and instruments.
+k?túé'  k'é     lán?-we 
+liquor  ???  die-3Per  
+Liquor killed him/her/She/he died from liquor.
+
+Instrument 
+niu 
+Seiter (1979:28-38) from Frawley (1992:209) 
+In Niue, if an argument is the means by which a predicate is carried out, it has the thematic role instrument.  Unlike agents and authors, instruments must be acted on by something else in order to participate in the situation; their energy source is external to them.
+ko      e       tohitohi        a       au      aki     e       titipi  
+Pres  Erg  write  Abs  I  Instr  Abs  knife  
+I'm writing with a knife ('carving').
+
+Patient 
+tgl 
+Frawley (1992:212) 
+In Tagalog, if an argument undergoes, is changed by, or is directly affected by a predicate, it is a patient.  This choice of terminology reflects the fact that a patient suffers the situation, or comes out changed as a result of the action of the predicate. The patient is the primary recipient of the event.
+binsang-Ø       ng      lalake  ang     baso    
+broke-Pat/Topic  Actor  man  Topic  glass  
+The man broke the glass/The glass, it's what the man broke.
+
+# not on emeld webpage - contains ?
+Experiencer 
+kan
+Hermon (1984:200-9) from Frawley (1992:215) 
+In Kannada, if a predicate affects the internal state or constitution of an argument, then the argument has the thematic role experiencer. Because internally affected entities have to have an internal state to register the effect, experiencers frequently turn out to be human, or at least animate.  But because what counts as an internal state is fuzzy and may be construed differently by a culture or domain of discourse, experiencers are not necessarily animate.
+S?ma-nige       t?nu    tumba   ish?a   
+Soma-DAT  self  much  liking  
+Soma is very fond of himself.
+
+
+# not on emeld webpage - contains ?
+Benefactive 
+niu
+Seiter (1979:32) from Frawley (1992:217) 
+In Niue, the benefactive is used for a recipient that derives actions or entities from the actions of another.  Benefactives typically require an agent elsewhere in the predication.
+Gahua   a       au      ma      e       tagata  k?      
+work  Abs  I  Ben  Abs  mab  that  
+I work for that man.
+
+Theme 
+cho 
+Broadwell (1988:124) from Frawley (1992:219) 
+In Choctaw, a theme is used in the prototypical situation of motion, some entity is displaced as the result of an initiators influence and moves from some resting point along a trajectory, often to another resting point.  The displaced entity is the theme of the predication of displacement.
+iyat    ii-tahah        
+go  we-complete/theme  
+We went.
+
+Source 
+kal 
+Fortescue (1984:214) from Frawley (1992:220) 
+In Greenlandic Inuktitut, the source role signals the object displaced in a predication.  It is also common for a language to make reference to the point of origin of displacement, this argument is the source.
+Fari-mit        allagar-si-vuq  
+Fari-Source  letter-get-3Per  
+He got a letter from Fari.
+
+# not on emeld webpage - contains ?
+Goal 
+cmn 
+Li and Thompson (1981:399) from Frawley (1992:223) 
+In Mandarin Chinese, the goal is the destination of a predication.  The endpoints of events, are not restricted to motion predicates.
+t?      zài     zhu?zi  shang   tiào    
+3Per  at  table  on  jump  
+S/he is jumping onto the table.
+
+Locative 
+kal 
+Fortescue (1984:232-3) from Frawley (1992:225) 
+In Greenlandic Inuktitut, the argument that denotes the spatial position of the of the predicate is the locative; it is the site of the predication, or its static position.
+qiqirtar-su-up  assu-a-ni       
+island-big-Rel  windward-its-Loc  
+on the windward side of the big island.
+
+Reason 
+nwi
+Lynch (1982:41) from Frawley (1992:226) 
+In Southwest Tanna, the reason role is the argument that denotes the prior conditions of a predication. Reasons are connected to the intentions of the agent and as such rely on prior events themselves for their existence.  Reasons may thus be said to link other events to a predication by means of the motivation of an agent.
+i-ak-a-mha      tukw    kamaam  
+I-Pres-Prog-sick  Reason  fish  
+I am sick from the fish.
+
+Purpose 
+kal
+Fortescue (1984:218) from Frawley (1992:226) 
+In Greenlandic Inuktitut, the purpose role thematically codes the result or consequence of a predicate.  An argument with this role is the purpose.
+aalisar-nir-mut aturtu-ssa-t    
+fish-Nom-Purp  equipment-Fut-Pl  
+Fishing equipment/equipment that will be used for fishing.
+
+
+Categorical
+wyb
+Palmer (2001:83) FROM Donaldson (1980)
+In Wangaaybuwan-Ngiyambaa,
+waŋa:y -	ba: -	na 	yana -	nhi
+NEG-	ASSERT-	3.ABS 	walk-	PST
+He didn't walk (again).
+
+Categorical
+wyb
+Palmer (2001:83) FROM Donaldson (1980)
+In Wangaaybuwan-Ngiyambaa,  
+guni:m -	baa -	nu: 	balu -	y -	aga
+mother-	ABS-	CATEGORIALASSERT-	2.OBL 	die-	COMM-	IRREAL
+Your mother is bound to die.
+
+

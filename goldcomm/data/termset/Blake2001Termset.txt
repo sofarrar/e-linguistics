@@ -1,0 +1,85 @@
+#The termset from Blake (2001)
+#
+#abbreviation | local name | gold concept uri
+prpart present participle  
+purp purpose, purposive
+recip recipient
+refl reflexive 
+rel relative, relative case
+S subject, sentence 
+sg singular
+sing singular
+ss same subject
+subj subject
+trans translative
+V verb
+voc vocative
+VP verb phrase
+1 first person
+2 second person
+3 third person 
+A agent
+ab abessive
+abl ablative
+abs absolutive
+acc accusative
+agt agent  
+all allative
+ap antipassive  
+aux auxiliary
+ben beneficiary, benefactive
+caus causative
+com comitative
+COR correspondent      
+dat dative
+decl declension
+DO direct object
+ds different subject
+du dual
+el elative
+erg ergative
+evid evidential
+exp experiencer
+f feminine
+fa future actor
+fem feminine
+fin finite
+fut future
+gen genitive
+ger gerundive
+ia instrumental advancement
+ill illative
+imp imperative
+impf  imperfect, imperfective
+in inessive
+inc inclusive
+inch inchoative
+inf infinitive
+inst instrumental
+int interrogative
+IO indirect object  
+loc locative
+m masculine
+mabl modal ablative
+masc masculine
+neut neuter
+nm nominaliser
+nom nominative
+NP noun phrase     
+npst non-past
+O object
+obl oblique
+obv obviative
+P patient
+par partitive
+part participle
+pass passive
+pat patient
+perf perfect, perfective
+pl plural
+plur plural
+poss possessor
+ppart past participle
+pperf pluperfect
+pres  present tense
+prep proprietive

@@ -1,0 +1,172 @@
+#The termset from Spencer and Zwicky (1998)
+#
+#abbreviation | local name | gold concept uri
+l monosyllabic
+2D second daughter
+2P second position clitic
+2 disyllabic
+2W second word clitic
+A adjective
+ABL ablative
+abl ablative
+ABS absolutive
+abs absolutive
+ACC accusative
+acc accusative  
+act active
+ADJ adjective
+adj adjective
+AFF affix 
+AFFPRT affirmative particle
+AG agreement marker
+Agr agreement
+AgrP Agreement Phrase
+ALL allative
+all allative
+AOR aorist
+aor aorist
+appl applicative
+arg argument
+art article
+asp aspect
+assoc associative
+ATR Advanced Tongue Root
+AUCM augmentative
+aux auxiliary
+ben Benefactive
+C consonant
+C complementizer
+COMP   complementizer
+CAUS causative
+circ circumstantial
+CL classifier
+cl  clitic
+cond conditional
+CONN connective, connector
+cn   connective, connector 
+CP complementizer phrase
+D determiner  
+DAT dative
+DEF   definite
+dem demonstrative
+det  determiner
+DIM diminutive
+DIST distributive
+DO direct object
+DP Determiner Phrase
+DS different subject
+du dual
+DUR  durative 
+ECP Empty Category Principle 
+emph emphatic
+ERG ergative
+ex external argument
+excl exclusive
+FEM feminine 
+foc focus  
+Ft foot
+FUT future 
+fv final vowel
+GEN genitive
+GF grammatical function
+H heavy syllable 
+H high tone
+hab habitual
+IC intrinsic classification
+IC Inherent Classification  
+IMPER imperative  
+IMPF imperfect
+IMP imperfect 
+INC incorporated
+INCH inchoative  
+incl inclusive 
+indic indicative  
+INF infinitive
+INFL inflectional node
+INST Instrumental
+int internal argument
+inter interrogative
+INTER interrogative particle  
+intr intransitive
+IO indirect object 
+IP Inflection phrase  
+irr irrealis
+L light syllable
+L low tone
+LOC locative
+m masculine
+MASC masculine
+frp feminine realis past
+med medial
+n neuter
+n noun
+ns noun suffix
+NEG negation
+NEGPRT negative particle
+NEUT neuter 
+nm nominal
+NP noun phrase
+nrp neuter realis past present  
+NUM number  
+OBJ object
+OBL oblique
+OM object marker
+P preposition
+PASS passive
+PER person 
+perf perfect 
+PL plural
+pos possessor 
+pos possessive
+POSS possessor
+POSS possessive
+pred predicate 
+prep prepositional case
+pres present
+PRO  pronoun  
+prog progressive
+prox proximal  
+PRT particle
+prtc particle 
+PrWd prosodic word 
+pt potential topic
+punct punctual
+Q question 
+recip reciprocal
+Red Reduplication
+redup reduplicated
+REEL reflexive
+reflex reflexive
+REL relative
+rem remote
+rev reversative
+rf realis future
+rp realis past
+rp realis present 
+sec asp secondary aspect
+SG singular  
+Sgt singulative
+SM subject marker
+SOV Subject—Object—Verb word order
+Spec Specifier 
+SS same subject switch reference
+stat stative
+SUB subject
+SUBJ subject
+SUBJ subjunctive
+subjun subjunctive
+subord subordinator
+SUFF suffix 
+TNS tense
+TP Tense Phrase
+tr transitive
+trans transitive
+V vowel
+V verb
+V2 verb second
+vic verbal inflectional clitic
+VOS Verb—Object-Subject word order
+VP verb phrase 
+VR verb root
+VR verb radical
+Y/N   Yes/No question

@@ -1,0 +1,4 @@
+On Linux please run:
+
+sudo python setup.py install
+

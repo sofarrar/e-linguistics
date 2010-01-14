@@ -1,0 +1,284 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY owl11 "http://www.w3.org/2006/12/owl11#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY owl11xml "http://www.w3.org/2006/12/owl11-xml#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY oats "http://www.linguistics-ontology.org/ns/0.1/oats.owl#" >
+]>
+
+
+
+
+
+<!-- Axioms: 56 -->
+
+<Ontology xmlns="http://www.w3.org/2006/12/owl11-xml#"
+     xml:base="http://www.w3.org/2006/12/owl11-xml#"
+     xmlns:oats="http://www.linguistics-ontology.org/ns/0.1/oats.owl#"
+     xmlns:owl11="http://www.w3.org/2006/12/owl11#"
+     xmlns:owl11xml="http://www.w3.org/2006/12/owl11-xml#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     URI="http://www.linguistics-ontology.org/ns/0.1/oats.owl">
+    <SubClassOf>
+        <OWLClass URI="&oats;TranscriptionSystem"/>
+        <OWLClass URI="&owl;Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <OWLClass URI="&oats;Impressionistic"/>
+        <OWLClass URI="&oats;TranscriptionSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <OWLClass URI="&oats;Grapheme"/>
+        <OWLClass URI="&owl;Thing"/>
+    </SubClassOf>
+    <Declaration>
+        <OWLClass URI="&oats;Systematic"/>
+    </Declaration>
+    <SubClassOf>
+        <OWLClass URI="&oats;Phonemic"/>
+        <OWLClass URI="&oats;Transcription"/>
+    </SubClassOf>
+    <Declaration>
+        <OWLClass URI="&oats;TranscriptionInLadefogedPhonetics"/>
+    </Declaration>
+    <ObjectPropertyDomain>
+        <ObjectProperty URI="&oats;isMemberOf"/>
+        <OWLClass URI="&oats;TranscriptionSystem"/>
+    </ObjectPropertyDomain>
+    <Declaration>
+        <OWLClass URI="&oats;Phonemic"/>
+    </Declaration>
+    <EntityAnnotation>
+        <OWLClass URI="&oats;Phonemic"/>
+        <Annotation annotationURI="&rdfs;comment">
+            <Constant
+                >A phonemic transcription represents the signal at the level of the phoneme. Phonemic transcription may use the International Phonetic Alphabet (IPA) or a practical orthography.</Constant>
+        </Annotation>
+    </EntityAnnotation>
+    <EntityAnnotation>
+        <OWLClass URI="&oats;Transcription"/>
+        <Annotation annotationURI="&rdfs;comment">
+            <Constant
+                >A transcription is a written representation of an audio or visual signal. (OLAC Linguistic Data Type Vocabulary - http://www.language-archives.org/REC/type-20020628.html)</Constant>
+        </Annotation>
+    </EntityAnnotation>
+    <EntityAnnotation>
+        <OWLClass URI="&oats;Musical"/>
+        <Annotation annotationURI="&rdfs;comment">
+            <Constant
+                >A musical transcription represents music.</Constant>
+        </Annotation>
+    </EntityAnnotation>
+    <SubClassOf>
+        <OWLClass URI="&oats;Abugida"/>
+        <OWLClass URI="&oats;Alphabetic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <OWLClass URI="&oats;Document"/>
+        <OWLClass URI="&owl;Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <OWLClass URI="&oats;TranscriptionInLadefogedPhonetics"/>
+        <OWLClass URI="&owl;Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <OWLClass URI="&oats;Transcription"/>
+        <OWLClass URI="&owl;Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <OWLClass URI="&oats;Logographic"/>
+        <OWLClass URI="&oats;WritingSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <OWLClass URI="&oats;Phonetic"/>
+        <OWLClass URI="&oats;Transcription"/>
+    </SubClassOf>
+    <SubClassOf>
+        <OWLClass URI="&oats;Featural"/>
+        <OWLClass URI="&oats;WritingSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <OWLClass URI="&oats;Gylph"/>
+        <OWLClass URI="&owl;Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <OWLClass URI="&oats;Gestural"/>
+        <OWLClass URI="&oats;Transcription"/>
+    </SubClassOf>
+    <SubClassOf>
+        <OWLClass URI="&oats;ISO-8859-1"/>
+        <OWLClass URI="&oats;CharacterEncoding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <OWLClass URI="&oats;WritingSystem"/>
+        <OWLClass URI="&owl;Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <OWLClass URI="&oats;CharacterEncoding"/>
+        <OWLClass URI="&owl;Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <OWLClass URI="&oats;Syllabic"/>
+        <OWLClass URI="&oats;WritingSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <OWLClass URI="&oats;Musical"/>
+        <OWLClass URI="&oats;Transcription"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <OWLClass URI="&oats;Character"/>
+        <Individual URI="&oats;0042"/>
+    </ClassAssertion>
+    <SubClassOf>
+        <OWLClass URI="&oats;Orthographic"/>
+        <OWLClass URI="&oats;Transcription"/>
+    </SubClassOf>
+    <EntityAnnotation>
+        <OWLClass URI="&oats;Kinesic"/>
+        <Annotation annotationURI="&rdfs;comment">
+            <Constant
+                >A kinesic transcription represents eye, face, and body movements. Kinesic transcriptions represent systematic uses of facial expressions, body language, and eye gaze that are used to communicate meaning.</Constant>
+        </Annotation>
+    </EntityAnnotation>
+    <Declaration>
+        <OWLClass URI="&oats;Impressionistic"/>
+    </Declaration>
+    <SubClassOf>
+        <OWLClass URI="&oats;Unicode"/>
+        <OWLClass URI="&oats;CharacterEncoding"/>
+    </SubClassOf>
+    <SubClassOf>
+        <OWLClass URI="&oats;Comparative"/>
+        <OWLClass URI="&oats;Systematic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <OWLClass URI="&oats;Prosodic"/>
+        <OWLClass URI="&oats;Transcription"/>
+    </SubClassOf>
+    <SubClassOf>
+        <OWLClass URI="&oats;Phonemic"/>
+        <OWLClass URI="&oats;Systematic"/>
+    </SubClassOf>
+    <EntityAnnotation>
+        <OWLClass URI="&oats;Grapheme"/>
+        <Annotation annotationURI="&rdfs;comment">
+            <Constant
+                >The smallest meaningful contrastive unit in a writing system.</Constant>
+        </Annotation>
+    </EntityAnnotation>
+    <EntityAnnotation>
+        <OWLClass URI="&oats;Character"/>
+        <Annotation annotationURI="&rdfs;comment">
+            <Constant
+                >The computational representation of a grapheme.</Constant>
+        </Annotation>
+    </EntityAnnotation>
+    <ClassAssertion>
+        <OWLClass URI="&oats;Grapheme"/>
+        <Individual URI="&oats;B"/>
+    </ClassAssertion>
+    <EntityAnnotation>
+        <OWLClass URI="&oats;Orthographic"/>
+        <Annotation annotationURI="&rdfs;comment">
+            <Constant
+                >An orthographic transcription uses a standard or conventional orthography. Orthographic transcriptions differ from phonemic transcriptions that use a practical orthography in that they include orthographic conventions for punctuation, capitalization, etc.</Constant>
+        </Annotation>
+    </EntityAnnotation>
+    <SubClassOf>
+        <OWLClass URI="&oats;Systematic"/>
+        <OWLClass URI="&oats;TranscriptionSystem"/>
+    </SubClassOf>
+    <EntityAnnotation>
+        <OWLClass URI="&oats;Prosodic"/>
+        <Annotation annotationURI="&rdfs;comment">
+            <Constant
+                >The resource includes prosodic transcription. A prosodic transcription is a symbolic record of intonation, stress, tone or other suprasegmental features that is expressed independently of regular phonetic transcription.</Constant>
+        </Annotation>
+    </EntityAnnotation>
+    <SubClassOf>
+        <OWLClass URI="&oats;Alphabetic"/>
+        <OWLClass URI="&oats;WritingSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <OWLClass URI="&oats;Abjad"/>
+        <OWLClass URI="&oats;Alphabetic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <OWLClass URI="&oats;Allophonic"/>
+        <OWLClass URI="&oats;Systematic"/>
+    </SubClassOf>
+    <ObjectPropertyAssertion>
+        <ObjectProperty URI="&oats;hasTranscriptionSystem"/>
+        <Individual URI="&oats;IPA"/>
+        <Individual URI="&oats;IPA"/>
+    </ObjectPropertyAssertion>
+    <SubClassOf>
+        <OWLClass URI="&oats;Simple"/>
+        <OWLClass URI="&oats;Systematic"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <OWLClass URI="&oats;Grapheme"/>
+        <Individual URI="&oats;A"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <OWLClass URI="&oats;TranscriptionSystem"/>
+        <Individual URI="&oats;IPA"/>
+    </ClassAssertion>
+    <SubClassOf>
+        <OWLClass URI="&oats;Shapeme"/>
+        <OWLClass URI="&owl;Thing"/>
+    </SubClassOf>
+    <EntityAnnotation>
+        <OWLClass URI="&oats;Gestural"/>
+        <Annotation annotationURI="&rdfs;comment">
+            <Constant
+                >The resource includes gestural transcription.</Constant>
+        </Annotation>
+    </EntityAnnotation>
+    <EntityAnnotation>
+        <OWLClass URI="&oats;Shapeme"/>
+        <Annotation annotationURI="&rdfs;comment">
+            <Constant
+                >A group of homoglypic graphemes from different scripts.</Constant>
+        </Annotation>
+    </EntityAnnotation>
+    <SubClassOf>
+        <OWLClass URI="&oats;Character"/>
+        <OWLClass URI="&owl;Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <OWLClass URI="&oats;Impressionistic"/>
+        <OWLClass URI="&oats;TranscriptionInLadefogedPhonetics"/>
+    </SubClassOf>
+    <EntityAnnotation>
+        <OWLClass URI="&oats;Phonetic"/>
+        <Annotation annotationURI="&rdfs;comment">
+            <Constant
+                >A phonetic transcription represents the signal at the phonetic level. Phonetic transcription may be narrow or broad, and will typically use the International Phonetic Alphabet (IPA) in a standard encoding (e.g. Unicode-IPA or SAMPA). Phonological transcriptions are also classified here.</Constant>
+        </Annotation>
+    </EntityAnnotation>
+    <ClassAssertion>
+        <OWLClass URI="&oats;Character"/>
+        <Individual URI="&oats;0041"/>
+    </ClassAssertion>
+    <SubClassOf>
+        <OWLClass URI="&oats;Kinesic"/>
+        <OWLClass URI="&oats;Transcription"/>
+    </SubClassOf>
+    <SubClassOf>
+        <OWLClass URI="&oats;Systematic"/>
+        <OWLClass URI="&oats;TranscriptionInLadefogedPhonetics"/>
+    </SubClassOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty URI="&oats;hasTranscriptionSystem"/>
+        <OWLClass URI="&oats;TranscriptionSystem"/>
+    </ObjectPropertyDomain>
+</Ontology>

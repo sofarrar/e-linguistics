@@ -1,0 +1,699 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY owl11 "http://www.w3.org/2006/12/owl11#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY owl11xml "http://www.w3.org/2006/12/owl11-xml#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY Ontology1206233678680 "http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#"
+     xml:base="http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl"
+     xmlns:owl11="http://www.w3.org/2006/12/owl11#"
+     xmlns:owl11xml="http://www.w3.org/2006/12/owl11-xml#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:Ontology1206233678680="http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#">
+    <owl:Ontology rdf:about=""/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#AllOthers -->
+
+    <owl:Class rdf:about="#AllOthers">
+        <rdfs:subClassOf rdf:resource="#Central"/>
+        <rdfs:subClassOf rdf:resource="#ModalVoice"/>
+        <rdfs:subClassOf rdf:resource="#Oral"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#Alveolar -->
+
+    <owl:Class rdf:about="#Alveolar">
+        <rdfs:subClassOf rdf:resource="#Coronal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#Aperture -->
+
+    <owl:Class rdf:about="#Aperture">
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#ApproximantVowel -->
+
+    <owl:Class rdf:about="#ApproximantVowel">
+        <rdfs:subClassOf rdf:resource="#Aperture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#Back -->
+
+    <owl:Class rdf:about="#Back">
+        <rdfs:subClassOf rdf:resource="#Backness"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#Backness -->
+
+    <owl:Class rdf:about="#Backness">
+        <rdfs:subClassOf rdf:resource="#ApproximantVowel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#Bilabial -->
+
+    <owl:Class rdf:about="#Bilabial">
+        <rdfs:subClassOf rdf:resource="#Labial"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#Central -->
+
+    <owl:Class rdf:about="#Central">
+        <rdfs:subClassOf rdf:resource="#Laterality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#Coronal -->
+
+    <owl:Class rdf:about="#Coronal">
+        <rdfs:subClassOf rdf:resource="#Place"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#Dental -->
+
+    <owl:Class rdf:about="#Dental">
+        <rdfs:subClassOf rdf:resource="#Coronal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#Dorsal -->
+
+    <owl:Class rdf:about="#Dorsal">
+        <rdfs:subClassOf rdf:resource="#Place"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#Eh -->
+
+    <owl:Class rdf:about="#Eh">
+        <rdfs:subClassOf rdf:resource="#MidLow"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#Fricative -->
+
+    <owl:Class rdf:about="#Fricative">
+        <rdfs:subClassOf rdf:resource="#Aperture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#Front -->
+
+    <owl:Class rdf:about="#Front">
+        <rdfs:subClassOf rdf:resource="#Backness"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#GlottalStricture -->
+
+    <owl:Class rdf:about="#GlottalStricture">
+        <rdfs:subClassOf rdf:resource="#Laryngeal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#Height -->
+
+    <owl:Class rdf:about="#Height">
+        <rdfs:subClassOf rdf:resource="#ApproximantVowel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#High -->
+
+    <owl:Class rdf:about="#High">
+        <rdfs:subClassOf rdf:resource="#Height"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#Labial -->
+
+    <owl:Class rdf:about="#Labial">
+        <rdfs:subClassOf rdf:resource="#Place"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#Labiodental -->
+
+    <owl:Class rdf:about="#Labiodental">
+        <rdfs:subClassOf rdf:resource="#Labial"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#Laryngeal -->
+
+    <owl:Class rdf:about="#Laryngeal">
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#Lateral -->
+
+    <owl:Class rdf:about="#Lateral">
+        <rdfs:subClassOf rdf:resource="#Laterality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#Laterality -->
+
+    <owl:Class rdf:about="#Laterality">
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#Low -->
+
+    <owl:Class rdf:about="#Low">
+        <rdfs:subClassOf rdf:resource="#Height"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#Mid -->
+
+    <owl:Class rdf:about="#Mid">
+        <rdfs:subClassOf rdf:resource="#Height"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#MidHigh -->
+
+    <owl:Class rdf:about="#MidHigh">
+        <rdfs:subClassOf rdf:resource="#Height"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#MidLow -->
+
+    <owl:Class rdf:about="#MidLow">
+        <rdfs:subClassOf rdf:resource="#Height"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#ModalVoice -->
+
+    <owl:Class rdf:about="#ModalVoice">
+        <rdfs:subClassOf rdf:resource="#GlottalStricture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#Nasal -->
+
+    <owl:Class rdf:about="#Nasal">
+        <rdfs:subClassOf rdf:resource="#Nasality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#Nasality -->
+
+    <owl:Class rdf:about="#Nasality">
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#NonSibilant -->
+
+    <owl:Class rdf:about="#NonSibilant">
+        <rdfs:subClassOf rdf:resource="#Fricative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#Oral -->
+
+    <owl:Class rdf:about="#Oral">
+        <rdfs:subClassOf rdf:resource="#Nasality"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#PalatoAlveolar -->
+
+    <owl:Class rdf:about="#PalatoAlveolar">
+        <rdfs:subClassOf rdf:resource="#Coronal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#Place -->
+
+    <owl:Class rdf:about="#Place">
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#PostAlveolar -->
+
+    <owl:Class rdf:about="#PostAlveolar">
+        <rdfs:subClassOf rdf:resource="#Coronal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#Rounded -->
+
+    <owl:Class rdf:about="#Rounded">
+        <rdfs:subClassOf rdf:resource="#Rounding"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#Rounding -->
+
+    <owl:Class rdf:about="#Rounding">
+        <rdfs:subClassOf rdf:resource="#ApproximantVowel"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#Sibilant -->
+
+    <owl:Class rdf:about="#Sibilant">
+        <rdfs:subClassOf rdf:resource="#Fricative"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#Unrounded -->
+
+    <owl:Class rdf:about="#Unrounded">
+        <rdfs:subClassOf rdf:resource="#Rounding"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#Velar -->
+
+    <owl:Class rdf:about="#Velar">
+        <rdfs:subClassOf rdf:resource="#Dorsal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#Voiceless -->
+
+    <owl:Class rdf:about="#Voiceless">
+        <rdfs:subClassOf rdf:resource="#GlottalStricture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#WontAcceptSchwa -->
+
+    <owl:Class rdf:about="#WontAcceptSchwa">
+        <rdfs:subClassOf rdf:resource="#Mid"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#WontTakeAE -->
+
+    <owl:Class rdf:about="#WontTakeAE">
+        <rdfs:subClassOf rdf:resource="#Low"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#WontTakeAllOthers -->
+
+    <owl:Class rdf:about="#WontTakeAllOthers">
+        <rdfs:subClassOf rdf:resource="#ModalVoice"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#WontTakeOpenO -->
+
+    <owl:Class rdf:about="#WontTakeOpenO">
+        <rdfs:subClassOf rdf:resource="#Rounded"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#WontTakeP -->
+
+    <owl:Class rdf:about="#WontTakeP">
+        <rdfs:subClassOf rdf:resource="#WontTakeVoiceless"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#WontTakeScriptA -->
+
+    <owl:Class rdf:about="#WontTakeScriptA">
+        <rdfs:subClassOf rdf:resource="#Back"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#WontTakeVoiceless -->
+
+    <owl:Class rdf:about="#WontTakeVoiceless">
+        <rdfs:subClassOf rdf:resource="#GlottalStricture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#d -->
+
+    <owl:Class rdf:about="#d">
+        <rdfs:subClassOf rdf:resource="#Alveolar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#e&#618; -->
+
+    <owl:Class rdf:about="#e&#618;">
+        <rdfs:subClassOf rdf:resource="#Front"/>
+        <rdfs:subClassOf rdf:resource="#MidHigh"/>
+        <rdfs:subClassOf rdf:resource="#Unrounded"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#f -->
+
+    <owl:Class rdf:about="#f">
+        <rdfs:subClassOf rdf:resource="#Labiodental"/>
+        <rdfs:subClassOf rdf:resource="#NonSibilant"/>
+        <rdfs:subClassOf rdf:resource="#WontTakeVoiceless"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#g -->
+
+    <owl:Class rdf:about="#g">
+        <rdfs:subClassOf rdf:resource="#Velar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#i -->
+
+    <owl:Class rdf:about="#i">
+        <rdfs:subClassOf rdf:resource="#Front"/>
+        <rdfs:subClassOf rdf:resource="#High"/>
+        <rdfs:subClassOf rdf:resource="#Unrounded"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#k -->
+
+    <owl:Class rdf:about="#k">
+        <rdfs:subClassOf rdf:resource="#Velar"/>
+        <rdfs:subClassOf rdf:resource="#WontTakeVoiceless"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#l -->
+
+    <owl:Class rdf:about="#l">
+        <rdfs:subClassOf rdf:resource="#Alveolar"/>
+        <rdfs:subClassOf rdf:resource="#Lateral"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#m -->
+
+    <owl:Class rdf:about="#m">
+        <rdfs:subClassOf rdf:resource="#Bilabial"/>
+        <rdfs:subClassOf rdf:resource="#Nasal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#n -->
+
+    <owl:Class rdf:about="#n">
+        <rdfs:subClassOf rdf:resource="#Alveolar"/>
+        <rdfs:subClassOf rdf:resource="#Nasal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#o&#650; -->
+
+    <owl:Class rdf:about="#o&#650;">
+        <rdfs:subClassOf rdf:resource="#Back"/>
+        <rdfs:subClassOf rdf:resource="#MidHigh"/>
+        <rdfs:subClassOf rdf:resource="#Rounded"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#p -->
+
+    <owl:Class rdf:about="#p">
+        <rdfs:subClassOf rdf:resource="#Bilabial"/>
+        <rdfs:subClassOf rdf:resource="#WontTakeVoiceless"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#r -->
+
+    <owl:Class rdf:about="#r">
+        <rdfs:subClassOf rdf:resource="#PostAlveolar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#s -->
+
+    <owl:Class rdf:about="#s">
+        <rdfs:subClassOf rdf:resource="#Alveolar"/>
+        <rdfs:subClassOf rdf:resource="#Sibilant"/>
+        <rdfs:subClassOf rdf:resource="#WontTakeVoiceless"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#t -->
+
+    <owl:Class rdf:about="#t">
+        <rdfs:subClassOf rdf:resource="#Alveolar"/>
+        <rdfs:subClassOf rdf:resource="#WontTakeVoiceless"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#u -->
+
+    <owl:Class rdf:about="#u">
+        <rdfs:subClassOf rdf:resource="#Back"/>
+        <rdfs:subClassOf rdf:resource="#High"/>
+        <rdfs:subClassOf rdf:resource="#Rounded"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#v -->
+
+    <owl:Class rdf:about="#v">
+        <rdfs:subClassOf rdf:resource="#Labiodental"/>
+        <rdfs:subClassOf rdf:resource="#NonSibilant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#z -->
+
+    <owl:Class rdf:about="#z">
+        <rdfs:subClassOf rdf:resource="#Alveolar"/>
+        <rdfs:subClassOf rdf:resource="#Sibilant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#&#230; -->
+
+    <owl:Class rdf:about="#&#230;">
+        <rdfs:subClassOf rdf:resource="#Front"/>
+        <rdfs:subClassOf rdf:resource="#Low"/>
+        <rdfs:subClassOf rdf:resource="#Unrounded"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#&#240; -->
+
+    <owl:Class rdf:about="#&#240;">
+        <rdfs:subClassOf rdf:resource="#Dental"/>
+        <rdfs:subClassOf rdf:resource="#NonSibilant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#&#331; -->
+
+    <owl:Class rdf:about="#&#331;">
+        <rdfs:subClassOf rdf:resource="#Nasal"/>
+        <rdfs:subClassOf rdf:resource="#Velar"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#&#593; -->
+
+    <owl:Class rdf:about="#&#593;">
+        <rdfs:subClassOf rdf:resource="#Back"/>
+        <rdfs:subClassOf rdf:resource="#Low"/>
+        <rdfs:subClassOf rdf:resource="#Unrounded"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#&#596; -->
+
+    <owl:Class rdf:about="#&#596;">
+        <rdfs:subClassOf rdf:resource="#Back"/>
+        <rdfs:subClassOf rdf:resource="#MidLow"/>
+        <rdfs:subClassOf rdf:resource="#Rounded"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#&#601; -->
+
+    <owl:Class rdf:about="#&#601;">
+        <rdfs:subClassOf rdf:resource="#Mid"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#&#603; -->
+
+    <owl:Class rdf:about="#&#603;">
+        <rdfs:subClassOf rdf:resource="#Front"/>
+        <rdfs:subClassOf rdf:resource="#MidLow"/>
+        <rdfs:subClassOf rdf:resource="#Unrounded"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#&#604; -->
+
+    <owl:Class rdf:about="#&#604;">
+        <rdfs:subClassOf rdf:resource="#Mid"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#&#618; -->
+
+    <owl:Class rdf:about="#&#618;">
+        <rdfs:subClassOf rdf:resource="#Front"/>
+        <rdfs:subClassOf rdf:resource="#MidHigh"/>
+        <rdfs:subClassOf rdf:resource="#Unrounded"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#&#643; -->
+
+    <owl:Class rdf:about="#&#643;">
+        <rdfs:subClassOf rdf:resource="#PalatoAlveolar"/>
+        <rdfs:subClassOf rdf:resource="#Sibilant"/>
+        <rdfs:subClassOf rdf:resource="#WontTakeVoiceless"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#&#650; -->
+
+    <owl:Class rdf:about="#&#650;">
+        <rdfs:subClassOf rdf:resource="#Back"/>
+        <rdfs:subClassOf rdf:resource="#MidHigh"/>
+        <rdfs:subClassOf rdf:resource="#Rounded"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#&#658; -->
+
+    <owl:Class rdf:about="#&#658;">
+        <rdfs:subClassOf rdf:resource="#PalatoAlveolar"/>
+        <rdfs:subClassOf rdf:resource="#Sibilant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/ontologies/2008/2/Ontology1206233678680.owl#&#952; -->
+
+    <owl:Class rdf:about="#&#952;">
+        <rdfs:subClassOf rdf:resource="#Dental"/>
+        <rdfs:subClassOf rdf:resource="#NonSibilant"/>
+        <rdfs:subClassOf rdf:resource="#WontTakeVoiceless"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <owl:Class rdf:about="&owl;Thing"/>
+</rdf:RDF>

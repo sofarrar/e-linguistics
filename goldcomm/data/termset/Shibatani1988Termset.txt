@@ -1,0 +1,92 @@
+#The termset from Shibatani (1988)
+#
+#abbreviation | local name | gold concept uri
+
+
+ABL ablative 
+DS directional suffix
+ABS absolutive
+DU dualis
+ACC accusative
+ACT active, actor 
+E ergative
+ADES adessive 
+EMP emphatic pronoun
+ADV adverb 
+EMPH emphatic pronoun
+AF actor focus
+ERG ergative
+AFF affective 
+EXCL exclusive
+AGR agreement
+ANTI antipassive 
+FEM feminine
+AOR aorist 
+FUT future
+AP antipassive
+APPR apprehensional 
+GEN genitive
+ASP aspect 
+GF goal focus
+AUX auxiliary
+IF instrumental focus
+BF benefactive focus 
+IMP imperfective
+IMPERF imperfect
+C controller   
+IMPF imperfective
+CAUS causative 
+INCL inclusive
+CLASS classifier
+INDEF indefinitive
+COMP complementizer 
+INF infinitive
+COMPL complement 
+INSTR instrumental
+CONJ conjunction 
+INT intransitive
+COP copula 
+IO   indirect object
+IRR  irrealis
+DAT dative
+DEST destinative 
+LIG ligature
+DF directional focus 
+LINK linking particle
+LN linking particle
+DO direct object 
+LOC locative
+MASC masculine 
+PURP purposive
+NEG  negative  
+NOM nominative   
+RED reduplicative
+NOMI   nominalizer
+REFL reflexive
+NONFUT nonfuture
+REP repetitive
+SG singular
+OBL Oblique
+STAT stative
+OF object focus 
+SUB subject
+SUBJ subject
+PART partitive   
+SUBJNTV subjunctive
+PASS passive 
+TNS tense
+PAST past
+PERF perfective   
+TOP topic
+PL plural
+TRANS transitive  
+POS possessive 
+UNM unmarked
+PR possessor
+PRED Predicate
+1SG first person singular
+2SG second person singular
+3SG third person singular
+PROH prohibitive 
+PTCL particle
+PTCPL participle 

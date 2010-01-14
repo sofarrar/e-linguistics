@@ -1,0 +1,22 @@
+GOLDComm/gold/cope/features/
+----------------------------
+
+This folder contains phonetic feature structure COPES in OWL. It also
+contains several Excel (.xls) spreadsheets with the feature sets
+represented by those feature matrices. Phonetic definitions (and
+pointers to examples) are provided in phonetics-definitions.odt
+(NeoOffice).
+
+
+Contents:
+
+BatesEtAl2007.xls - Bates et al feature set
+LadefogedMaddieson1996.owl 
+ladefoged-phonetics2006.owl 
+features.xls - Bruce Hayes UCLA feature set (http://www.linguistics.ucla.edu/people/hayes/120a/#features)
+phonetics-definitions.odt - Definitions of phonetic stuff
+ChomskyHalle1968-1995-176.xls - SPE feature set
+ladefoged-course-phonetic2006-274.owl
+phonetics.owl
+Hayes_UCLA_featureset.owl
+ladefoged-course-phonetics2006.owl

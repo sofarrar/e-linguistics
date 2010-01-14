@@ -1,0 +1,1 @@
+In order to build the documentation, you must have sphinx installed. After building, upload the contents of _build/html/ to the eltk website.

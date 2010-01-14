@@ -1,0 +1,296 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY terms "http://purl.org/dc/terms/" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY owl2xml "http://www.w3.org/2006/12/owl2-xml#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY olac "http://purl.org/linguistics/olac/" >
+]>
+
+
+<rdf:RDF xmlns="http://purl.org/linguistics/olac/#"
+     xml:base="http://purl.org/linguistics/olac/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:olac="http://purl.org/linguistics/olac/">
+    <owl:Ontology rdf:about="">
+        <owl:imports rdf:resource="http://purl.org/dc/terms/"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/contributor -->
+
+    <owl:ObjectProperty rdf:about="&terms;contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/subject -->
+
+    <owl:ObjectProperty rdf:about="&terms;subject"/>
+    
+
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#annotator -->
+
+    <owl:ObjectProperty rdf:about="#annotator">
+        <rdfs:subPropertyOf rdf:resource="&terms;contributor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#author -->
+
+    <owl:ObjectProperty rdf:about="#author">
+        <rdfs:subPropertyOf rdf:resource="&terms;contributor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#compiler -->
+
+    <owl:ObjectProperty rdf:about="#compiler">
+        <rdfs:subPropertyOf rdf:resource="&terms;contributor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#consultant -->
+
+    <owl:ObjectProperty rdf:about="#consultant">
+        <rdfs:subPropertyOf rdf:resource="&terms;contributor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#data_inputter -->
+
+    <owl:ObjectProperty rdf:about="#data_inputter">
+        <rdfs:subPropertyOf rdf:resource="&terms;contributor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#depositor -->
+
+    <owl:ObjectProperty rdf:about="#depositor">
+        <rdfs:subPropertyOf rdf:resource="&terms;contributor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#developer -->
+
+    <owl:ObjectProperty rdf:about="#developer">
+        <rdfs:subPropertyOf rdf:resource="&terms;contributor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#editor -->
+
+    <owl:ObjectProperty rdf:about="#editor">
+        <rdfs:subPropertyOf rdf:resource="&terms;contributor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#illustrator -->
+
+    <owl:ObjectProperty rdf:about="#illustrator">
+        <rdfs:subPropertyOf rdf:resource="&terms;contributor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#interpreter -->
+
+    <owl:ObjectProperty rdf:about="#interpreter">
+        <rdfs:subPropertyOf rdf:resource="&terms;contributor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#interviewer -->
+
+    <owl:ObjectProperty rdf:about="#interviewer">
+        <rdfs:subPropertyOf rdf:resource="&terms;contributor"/>
+    </owl:ObjectProperty>
+    
+
+  
+
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#participant -->
+
+    <owl:ObjectProperty rdf:about="#participant">
+        <rdfs:subPropertyOf rdf:resource="&terms;contributor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#performer -->
+
+    <owl:ObjectProperty rdf:about="#performer">
+        <rdfs:subPropertyOf rdf:resource="&terms;contributor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#photographer -->
+
+    <owl:ObjectProperty rdf:about="#photographer">
+        <rdfs:subPropertyOf rdf:resource="&terms;contributor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#recorder -->
+
+    <owl:ObjectProperty rdf:about="#recorder">
+        <rdfs:subPropertyOf rdf:resource="&terms;contributor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#research_participant -->
+
+    <owl:ObjectProperty rdf:about="#research_participant">
+        <rdfs:subPropertyOf rdf:resource="&terms;contributor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#researcher -->
+
+    <owl:ObjectProperty rdf:about="#researcher">
+        <rdfs:subPropertyOf rdf:resource="&terms;contributor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#responder -->
+
+    <owl:ObjectProperty rdf:about="#responder">
+        <rdfs:subPropertyOf rdf:resource="&terms;contributor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#signer -->
+
+    <owl:ObjectProperty rdf:about="#signer">
+        <rdfs:subPropertyOf rdf:resource="&terms;contributor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#singer -->
+
+    <owl:ObjectProperty rdf:about="#singer">
+        <rdfs:subPropertyOf rdf:resource="&terms;contributor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#speaker -->
+
+    <owl:ObjectProperty rdf:about="#speaker">
+        <rdfs:subPropertyOf rdf:resource="&terms;contributor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#sponsor -->
+
+    <owl:ObjectProperty rdf:about="#sponsor">
+        <rdfs:subPropertyOf rdf:resource="&terms;contributor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#transcriber -->
+
+    <owl:ObjectProperty rdf:about="#transcriber">
+        <rdfs:subPropertyOf rdf:resource="&terms;contributor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#translator -->
+
+    <owl:ObjectProperty rdf:about="#translator">
+        <rdfs:subPropertyOf rdf:resource="&terms;contributor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+    
+
+   
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <owl:Class rdf:about="&owl;Thing"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf# -->
+
+    <owl:Thing rdf:about="#"/>
+    
+
+
+   
+
+    
+
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 2.2.1.1138) http://owlapi.sourceforge.net -->
+

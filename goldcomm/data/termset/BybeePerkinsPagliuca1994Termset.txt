@@ -1,0 +1,116 @@
+#The termset from Bybee, Perkins and Pagliuca (1994)
+#
+#abbreviation | local name | gold concept uri
+
+ABL ablative
+DIF direct information flow
+ABS absolutive
+ACC accusative 
+EMP emphatic
+AFF affirmative
+ERG ergative
+AG agentive 
+EX DUR excessive duration
+ALL allative 
+EXCL exclusive
+ANT anterior 
+EXPER experiential
+ANT CONT anterior continuing 
+F feminine
+FAM familiar
+AP absolutive pluralizer
+FREQ frequentative
+FUT future
+ART article 
+GEN genitive
+AUX auxiliary
+GER gerund
+AUX-I auxiliary-inflected 
+GNOM gnomic
+AUX-U auxiliary uninflected
+GOAL goal
+HAB habitual
+CAUS causative   
+HOD hodiernal
+CERT certain   
+HYPO hypothetical
+CF counterfactual
+IFUT indefinite future
+CIF contrary information flow
+INFL inflectional
+IMM immediate
+CNJ conjunction 
+IMF imperative
+COMP completive
+IMPF imperfective  
+CONC concessive
+IMPRS impersonal
+COND conditional 
+INCHO inchoative
+CONJ conjunctive
+IND indicative
+CONT continuative 
+INDF indefinite
+D dual
+INF infinitive
+DAT dative
+INFER inferential
+DEF definite 
+INTEN intentional
+DERIV derivational 
+TNTR intransitive
+IRR irrealis 
+REDUP reduplication
+LOC locative 
+REFL reflexive
+M masculine
+REL relative
+MOD modal
+REM remote
+NCL noun class
+RESULT resultative
+NEG negative
+S singular
+NI non—identical
+SBJ subject
+NM nominalizer
+SIM ACT simultaneous action
+NOM nominative
+NONPAST non-past
+SP sentence particle
+OBJ object
+STAT stative
+OBL   obligation 
+STCH stem change
+OPT optative
+SUB   subordinate
+P plural noun 
+SUBJ subjunctive
+PART participle 
+SUPP suffix
+PARTCL   particle
+TEMP temporal
+PASS passive 
+TNCH tone change
+PAST past 
+TR transitive
+PERF perfective 
+VN verbal noun
+P—HOD pre—hodiernal
+I first person
+PL plural verb
+IE first person
+POSS A possessive
+POT potential
+2 second person
+PRE prefix
+3 third person
+PREP preposition
+PRES present
+PROB probability
+PROG  progressive
+PROH prohibitive
+PROT protasis
+PURP purposive boundary inform
+REAL reality
+REC reciprocal

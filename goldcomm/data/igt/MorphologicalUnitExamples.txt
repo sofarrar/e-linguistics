@@ -1,0 +1,56 @@
+Transitivizer 
+mam 
+England 1983:102 
+In Northern Mam, the transitivizer derives transitive stems from positional roots, with the meaning put or leave in the position described by the root.
+mutz-b'aa       
+upside_down-TRANSITIVIZER  
+put upside down
+
+
+Intransitivizer 
+mam 
+England 1983:115 
+In Northern Mam, the intransitivizer derives intransitive stems.
+kyaq-b'a        
+red-INTRANSITIVIZER  
+put upside down
+
+
+
+Processive 
+mam 
+England 1983:108 
+In Northern Mam, the processive derives transitive stems from transitive and intransitive stems, adding the meaning 'go and do it'.
+b'iitza-kj      
+sing-PROCESSIVE  
+Go and sing.
+
+
+Repetitive 
+mam 
+England 1983:107 
+In Northern Mam, the repetitive derives transitive stems from transitive roots and stems, and positional roots, adding the meaning repetitive to the action.
+qej-najee?      
+lie_down-REPETITIVE  
+Lie down every little while
+
+
+
+Versive 
+mam 
+England 1983:111 
+In Northern Mam, the versive derives intransitive stems from adjectives, with the meaning become or take on the quality of the adjective.
+saq-ax  
+white-VERSIVE  
+become white
+
+
+Processive Imperative 
+mam 
+England 1983:109 
+In Northern Mam, the processive imperative derives transitive stems from transitive and intransitive stems, adding ‘go' and the imperative to the meaning.
+qee-?latz       
+run-PROCESSIVE.IMPERATIVE  
+Go and run!
+
+

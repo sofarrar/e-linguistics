@@ -1,0 +1,838 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY owl11 "http://www.w3.org/2006/12/owl11#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY owl11xml "http://www.w3.org/2006/12/owl11-xml#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY phonetics "http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#"
+     xml:base="http://www.linguistics-ontology.org/ns/0.1/phonetics.owl"
+     xmlns:owl11="http://www.w3.org/2006/12/owl11#"
+     xmlns:phonetics="http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#"
+     xmlns:owl11xml="http://www.w3.org/2006/12/owl11-xml#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#">
+    <owl:Ontology rdf:about=""/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#ASDFASDF -->
+
+    <owl:DatatypeProperty rdf:about="#ASDFASDF"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#AcousticFeature -->
+
+    <owl:Class rdf:about="#AcousticFeature">
+        <rdfs:subClassOf rdf:resource="#PhoneticFeature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#AcousticFeatureValue -->
+
+    <owl:Class rdf:about="#AcousticFeatureValue">
+        <rdfs:subClassOf rdf:resource="#PhoneticFeatureValue"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#AirstreamFeature -->
+
+    <owl:Class rdf:about="#AirstreamFeature">
+        <rdfs:subClassOf rdf:resource="#ArticulatoryFeature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#AirstreamValue -->
+
+    <owl:Class rdf:about="#AirstreamValue">
+        <rdfs:subClassOf rdf:resource="#ArticulatoryFeatureValue"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#AnteriorFeature -->
+
+    <owl:Class rdf:about="#AnteriorFeature">
+        <rdfs:subClassOf rdf:resource="#CoronalFeature"/>
+        <rdfs:comment
+            >A subclass of CoronalFeature which specifies the upper passive articulator on the roof of the mouth (Ladefoged 1997, p. 597).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#AnteriorValue -->
+
+    <owl:Class rdf:about="#AnteriorValue">
+        <rdfs:subClassOf rdf:resource="#CoronalValue"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#ApicalityFeature -->
+
+    <owl:Class rdf:about="#ApicalityFeature">
+        <rdfs:subClassOf rdf:resource="#CoronalFeature"/>
+        <rdfs:comment
+            >A subclass of CoronalFeature which specifies the action of the lower, active articulator, ie which part of the tounge is used in articulation (Ladefoged 1997, p. 597).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#ApicalityValue -->
+
+    <owl:Class rdf:about="#ApicalityValue">
+        <rdfs:subClassOf rdf:resource="#CoronalValue"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#ArticulatoryFeature -->
+
+    <owl:Class rdf:about="#ArticulatoryFeature">
+        <rdfs:subClassOf rdf:resource="#PhoneticFeature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#ArticulatoryFeatureValue -->
+
+    <owl:Class rdf:about="#ArticulatoryFeatureValue">
+        <rdfs:subClassOf rdf:resource="#PhoneticFeatureValue"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#BacknessFeature -->
+
+    <owl:Class rdf:about="#BacknessFeature">
+        <rdfs:subClassOf rdf:resource="#DorsalFeature"/>
+        <rdfs:comment
+            >The class of features describing sounds based on the relative horizontal position of the tongue. Note, Ladefoged refers to this feature as Back.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#BacknessValue -->
+
+    <owl:Class rdf:about="#BacknessValue">
+        <rdfs:subClassOf rdf:resource="#DorsalValue"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#BuccalFeature -->
+
+    <owl:Class rdf:about="#BuccalFeature">
+        <rdfs:subClassOf rdf:resource="#PlaceFeature"/>
+        <rdfs:comment
+            >A subclass of place features roughly referring to positions inside the mouth (Ladefoged 1997, p. 606).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#BuccalValue -->
+
+    <owl:Class rdf:about="#BuccalValue">
+        <rdfs:subClassOf rdf:resource="#PlaceValue"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#CoronalFeature -->
+
+    <owl:Class rdf:about="#CoronalFeature">
+        <rdfs:subClassOf rdf:resource="#BuccalFeature"/>
+        <rdfs:comment>???</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#CoronalValue -->
+
+    <owl:Class rdf:about="#CoronalValue">
+        <rdfs:subClassOf rdf:resource="#BuccalValue"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#DorsalFeature -->
+
+    <owl:Class rdf:about="#DorsalFeature">
+        <rdfs:subClassOf rdf:resource="#BuccalFeature"/>
+        <rdfs:comment
+            >The class of features associated with sounds made with the body of the tongue (Ladefoged 1997, p. 601). Almost all vowels can be described using subclasses of this feature.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#DorsalValue -->
+
+    <owl:Class rdf:about="#DorsalValue">
+        <rdfs:subClassOf rdf:resource="#BuccalValue"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#GlottalMovementFeature -->
+
+    <owl:Class rdf:about="#GlottalMovementFeature">
+        <rdfs:subClassOf rdf:resource="#LaryngealFeature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#GlottalMovementValue -->
+
+    <owl:Class rdf:about="#GlottalMovementValue">
+        <rdfs:subClassOf rdf:resource="#LaryngealValue"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#GlottalStrictureFeature -->
+
+    <owl:Class rdf:about="#GlottalStrictureFeature">
+        <rdfs:subClassOf rdf:resource="#LaryngealFeature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#GlottalStrictureValue -->
+
+    <owl:Class rdf:about="#GlottalStrictureValue">
+        <rdfs:subClassOf rdf:resource="#LaryngealValue"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#GlottalTimingFeature -->
+
+    <owl:Class rdf:about="#GlottalTimingFeature">
+        <rdfs:subClassOf rdf:resource="#LaryngealFeature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#GlottalTimingValue -->
+
+    <owl:Class rdf:about="#GlottalTimingValue">
+        <rdfs:subClassOf rdf:resource="#LaryngealValue"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#HeightFeature -->
+
+    <owl:Class rdf:about="#HeightFeature">
+        <rdfs:subClassOf rdf:resource="#DorsalFeature"/>
+        <rdfs:comment
+            >The class of features describing sounds based on the relative vertical position of the tongue. Note, Ladefoged refers to this feature as High.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#HeightValue -->
+
+    <owl:Class rdf:about="#HeightValue">
+        <rdfs:subClassOf rdf:resource="#DorsalValue"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#LabialFeature -->
+
+    <owl:Class rdf:about="#LabialFeature">
+        <rdfs:subClassOf rdf:resource="#PlaceFeature"/>
+        <rdfs:comment
+            >The class of features associated with characteristics of labial articulations (Ladefoged 1997, p. 594).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#LabialValue -->
+
+    <owl:Class rdf:about="#LabialValue">
+        <rdfs:subClassOf rdf:resource="#PlaceValue"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#LaryngealFeature -->
+
+    <owl:Class rdf:about="#LaryngealFeature">
+        <rdfs:subClassOf rdf:resource="#ArticulatoryFeature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#LaryngealValue -->
+
+    <owl:Class rdf:about="#LaryngealValue">
+        <rdfs:subClassOf rdf:resource="#ArticulatoryFeatureValue"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#LateralFeature -->
+
+    <owl:Class rdf:about="#LateralFeature">
+        <rdfs:subClassOf rdf:resource="#BuccalFeature"/>
+        <rdfs:comment
+            >???air is release through side of the mouth.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#LateralValue -->
+
+    <owl:Class rdf:about="#LateralValue">
+        <rdfs:subClassOf rdf:resource="#BuccalValue"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#MannerFeature -->
+
+    <owl:Class rdf:about="#MannerFeature">
+        <rdfs:subClassOf rdf:resource="#SupraLaryngealFeature"/>
+        <rdfs:comment
+            >focus on the active articulator and how the airstream is obstructed ???</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#MannerValue -->
+
+    <owl:Class rdf:about="#MannerValue">
+        <rdfs:subClassOf rdf:resource="#SupraLaryngealValue"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#NasalityFeature -->
+
+    <owl:Class rdf:about="#NasalityFeature">
+        <rdfs:subClassOf rdf:resource="#SupraLaryngealFeature"/>
+        <rdfs:comment
+            >The class of features  used to characterize the degree to which air  escapes through the nose.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#NasalityValue -->
+
+    <owl:Class rdf:about="#NasalityValue">
+        <rdfs:subClassOf rdf:resource="#SupraLaryngealValue"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#PhoneticFeature -->
+
+    <owl:Class rdf:about="#PhoneticFeature">
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#PhoneticFeatureValue -->
+
+    <owl:Class rdf:about="#PhoneticFeatureValue">
+        <rdfs:subClassOf rdf:resource="&owl;Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#PlaceFeature -->
+
+    <owl:Class rdf:about="#PlaceFeature">
+        <rdfs:subClassOf rdf:resource="#SupraLaryngealFeature"/>
+        <rdfs:comment
+            >The superclass of features that specify the location of the articulators (Ladefoged 1997, p. 594).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#PlaceValue -->
+
+    <owl:Class rdf:about="#PlaceValue">
+        <rdfs:subClassOf rdf:resource="#SupraLaryngealValue"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#PulmonicFeature -->
+
+    <owl:Class rdf:about="#PulmonicFeature">
+        <rdfs:subClassOf rdf:resource="#AirstreamFeature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#PulmonicValue -->
+
+    <owl:Class rdf:about="#PulmonicValue">
+        <rdfs:subClassOf rdf:resource="#AirstreamValue"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#RadicalFeature -->
+
+    <owl:Class rdf:about="#RadicalFeature">
+        <rdfs:subClassOf rdf:resource="#PlaceFeature"/>
+        <rdfs:comment
+            >The class of place features  used to classifiy articulatory gestures made with the root of the tongue (Ladefoged 1997, p. 603).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#RadicalValue -->
+
+    <owl:Class rdf:about="#RadicalValue">
+        <rdfs:subClassOf rdf:resource="#PlaceValue"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#StrictureFeature -->
+
+    <owl:Class rdf:about="#StrictureFeature">
+        <rdfs:subClassOf rdf:resource="#MannerFeature"/>
+        <rdfs:comment
+            >A subclass of MannerFeature used to distinguish the way 
+
+???
+
+lenition phenomena (Ladefoged 1997, p. 604).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#StrictureValue -->
+
+    <owl:Class rdf:about="#StrictureValue">
+        <rdfs:subClassOf rdf:resource="#MannerValue"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#SupraLaryngealFeature -->
+
+    <owl:Class rdf:about="#SupraLaryngealFeature">
+        <rdfs:subClassOf rdf:resource="#ArticulatoryFeature"/>
+        <rdfs:comment rdf:datatype="&xsd;string"
+            >focus on the active articulator</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#SupraLaryngealValue -->
+
+    <owl:Class rdf:about="#SupraLaryngealValue">
+        <rdfs:subClassOf rdf:resource="#ArticulatoryFeatureValue"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#TrillFeature -->
+
+    <owl:Class rdf:about="#TrillFeature">
+        <rdfs:subClassOf rdf:resource="#MannerFeature"/>
+        <rdfs:comment
+            >A subclass of MannerFeature used to distinguish the various types of trills.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#TrillValue -->
+
+    <owl:Class rdf:about="#TrillValue">
+        <rdfs:subClassOf rdf:resource="#MannerValue"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#VelaricFeature -->
+
+    <owl:Class rdf:about="#VelaricFeature">
+        <rdfs:subClassOf rdf:resource="#AirstreamFeature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#VelaricValue -->
+
+    <owl:Class rdf:about="#VelaricValue">
+        <rdfs:subClassOf rdf:resource="#AirstreamValue"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#VoicingFeature -->
+
+    <owl:Class rdf:about="#VoicingFeature">
+        <rdfs:subClassOf rdf:resource="#LaryngealFeature"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#VoicingValue -->
+
+    <owl:Class rdf:about="#VoicingValue">
+        <rdfs:subClassOf rdf:resource="#LaryngealValue"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <owl:Class rdf:about="&owl;Thing"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#ALVEOLAR -->
+
+    <AnteriorValue rdf:about="#ALVEOLAR">
+        <rdfs:comment
+            >An instance of AnteriorValue characterizing sounds produced with the alveolar ridge as the passive articulator (Ladefoged 1997, p. 598).</rdfs:comment>
+    </AnteriorValue>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#APICAL -->
+
+    <ApicalityValue rdf:about="#APICAL">
+        <rdfs:comment
+            >An instance of ApicalityValue characterizing sounds produced by the tip of the tongue (Ladefoged 1997, p. 596).</rdfs:comment>
+    </ApicalityValue>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#APPROXIMANT -->
+
+    <StrictureValue rdf:about="#APPROXIMANT"/>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#ASPIRATED -->
+
+    <GlottalTimingValue rdf:about="#ASPIRATED"/>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#BACK -->
+
+    <BacknessValue rdf:about="#BACK">
+        <rdfs:comment
+            >An instance of BacknessValue characterizing sounds produced with the tongue  near the back of the mouth.</rdfs:comment>
+    </BacknessValue>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#BREATHY -->
+
+    <GlottalStrictureValue rdf:about="#BREATHY"/>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#CENTRAL -->
+
+    <BacknessValue rdf:about="#CENTRAL">
+        <rdfs:comment
+            >An instance of BacknessValue characterizing sounds produced with the tongue  near the center of the mouth (along the front-back dimension).</rdfs:comment>
+    </BacknessValue>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#CENTRAL_ESCAPE -->
+
+    <LateralValue rdf:about="#CENTRAL_ESCAPE">
+        <rdfs:comment
+            >An instance of LateralValue used to characterize sounds produced with a release of air through the center of the mouth. Note, Ladefoged refers to this value as central.</rdfs:comment>
+    </LateralValue>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#CLOSED -->
+
+    <GlottalStrictureValue rdf:about="#CLOSED"/>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#COMPRESSED -->
+
+    <LabialValue rdf:about="#COMPRESSED">
+        <rdfs:comment
+            >One of the three instances of LabialValue that can be associated with instances of LabialFeature, involving lip compression. 
+???
+involving the vertical movement of one lip towards the other. Such a feature value is associated with a normal bilabial stop. .</rdfs:comment>
+    </LabialValue>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#CREAKY -->
+
+    <GlottalStrictureValue rdf:about="#CREAKY"/>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#DENTAL -->
+
+    <AnteriorValue rdf:about="#DENTAL">
+        <rdfs:comment
+            >An instance of AnteriorValue characterizing sounds produced with the area behind the teeth but in front of the center of the alveolar ridge as the passive articulator (Ladefoged 1997, p. 597).</rdfs:comment>
+    </AnteriorValue>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#FRICATIVE -->
+
+    <StrictureValue rdf:about="#FRICATIVE"/>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#FRONT -->
+
+    <BacknessValue rdf:about="#FRONT">
+        <rdfs:comment
+            >An instance of BacknessValue characterizing sounds produced with the tongue  near the front of the mouth.</rdfs:comment>
+    </BacknessValue>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#HIGH -->
+
+    <HeightValue rdf:about="#HIGH">
+        <rdfs:comment
+            >An instance of HeightValue characterizing sounds produced with the tongue  near the top of the mouth.</rdfs:comment>
+    </HeightValue>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#LAMINAL -->
+
+    <ApicalityValue rdf:about="#LAMINAL">
+        <rdfs:comment
+            >An instance of ApicalityValue characterizing sounds produced by the blade of the tongue  (Ladefoged 1997, p. 596).</rdfs:comment>
+    </ApicalityValue>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#LATERAL_ESCAPE -->
+
+    <LateralValue rdf:about="#LATERAL_ESCAPE">
+        <rdfs:comment
+            >??? An instance of LateralValue used to characterize sounds produced with a release of air through the sides of the mouth. Note, Ladefoged refers to this value as lateral.</rdfs:comment>
+    </LateralValue>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#LOW -->
+
+    <HeightValue rdf:about="#LOW">
+        <rdfs:comment
+            >An instance of HeightValue characterizing sounds produced with the tongue  near the bottom of the mouth</rdfs:comment>
+    </HeightValue>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#MID -->
+
+    <HeightValue rdf:about="#MID">
+        <rdfs:comment
+            >An instance of HeightValue characterizing sounds produced with the tongue  near the mid-part of the mouth (along the vertical dimension).</rdfs:comment>
+    </HeightValue>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#MINUS_ATR -->
+
+    <RadicalValue rdf:about="#MINUS_ATR">
+        <rdfs:comment
+            >An instance of RadicalValue characterizing sounds made with the tongue root ??? [in neutral position??? epiglotal?].</rdfs:comment>
+    </RadicalValue>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#MINUS_CLICK -->
+
+    <VelaricValue rdf:about="#MINUS_CLICK"/>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#MINUS_FORTIS -->
+
+    <PulmonicValue rdf:about="#MINUS_FORTIS"/>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#MINUS_NASAL -->
+
+    <NasalityValue rdf:about="#MINUS_NASAL">
+        <rdfs:comment
+            >An instance of  NasalValue used to characterize sounds produced with no air escaping through the nose.</rdfs:comment>
+    </NasalityValue>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#MODAL_VOICE -->
+
+    <GlottalStrictureValue rdf:about="#MODAL_VOICE"/>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#PLUS_ATR -->
+
+    <RadicalValue rdf:about="#PLUS_ATR">
+        <rdfs:comment
+            >An instance of RadicalValue characterizing sounds made with advanced tongue root.</rdfs:comment>
+    </RadicalValue>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#PLUS_CLICK -->
+
+    <VelaricValue rdf:about="#PLUS_CLICK"/>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#PLUS_FORTIS -->
+
+    <PulmonicValue rdf:about="#PLUS_FORTIS"/>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#PLUS_NASAL -->
+
+    <NasalityValue rdf:about="#PLUS_NASAL">
+        <rdfs:comment
+            >An instance of  NasalValue used to characterize sounds produced by air escaping through the nose.</rdfs:comment>
+    </NasalityValue>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#POSTALVEOLAR -->
+
+    <AnteriorValue rdf:about="#POSTALVEOLAR">
+        <rdfs:comment
+            >An instance of AnteriorValue characterizing sounds produced with the area just behind the center of the alveolar ridge as the passive articulator (Ladefoged 1997, p. 597).</rdfs:comment>
+    </AnteriorValue>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#PROTRUDED -->
+
+    <LabialValue rdf:about="#PROTRUDED">
+        <rdfs:comment
+            >???
+
+One of the three instances of LabialValue that can be associated with instances of LabialFeature, </rdfs:comment>
+    </LabialValue>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#RETRACTED -->
+
+    <LabialValue rdf:about="#RETRACTED">
+        <rdfs:comment
+            >???
+
+One of the three instances of LabialValue that can be associated with instances of LabialFeature, involving compression without necessarily drawing the corners of the lips forward.</rdfs:comment>
+    </LabialValue>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#STOP -->
+
+    <StrictureValue rdf:about="#STOP">
+        <rdf:type rdf:resource="#TrillValue"/>
+    </StrictureValue>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#SUBLAMINAL -->
+
+    <ApicalityValue rdf:about="#SUBLAMINAL">
+        <rdfs:comment
+            >An instance of ApicalityValue characterizing sounds produced by the underside of the tip of the tongue  (Ladefoged 1997, p. 596).</rdfs:comment>
+    </ApicalityValue>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#TAP -->
+
+    <TrillValue rdf:about="#TAP"/>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#TRILL -->
+
+    <TrillValue rdf:about="#TRILL"/>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#UNASPIRATED -->
+
+    <GlottalTimingValue rdf:about="#UNASPIRATED"/>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#VOICED -->
+
+    <VoicingValue rdf:about="#VOICED"/>
+    
+
+
+    <!-- http://www.linguistics-ontology.org/ns/0.1/phonetics.owl#VOICELESS -->
+
+    <GlottalStrictureValue rdf:about="#VOICELESS">
+        <rdf:type rdf:resource="#VoicingValue"/>
+    </GlottalStrictureValue>
+</rdf:RDF>

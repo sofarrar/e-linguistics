@@ -1,0 +1,492 @@
+\documentclass[]{article}
+\usepackage{robbib}
+\usepackage{tipa}
+\usepackage{ucs}
+\usepackage[utf8x]{inputenc}
+\usepackage{graphicx}
+
+\usepackage{covington}
+\usepackage{verbatim}
+
+\title{The e-Linguistics Toolkit (ELTK) Tutorial}
+\author{Steven Moran\\Department of Linguistics, University of Washington \\stiv@u.washington.edu\\\\(draft version)}
+
+\begin{document}
+\maketitle
+
+\textbf{Keywords:} ELTK, linguistics, legacy data, data conversion, tutorial
+
+\newpage
+
+\begin{abstract}
+\noindent Abstract if needed
+\end{abstract}
+
+\newpage
+\section*{Acknowledgements}
+We would like to gratefully acknowledge the National Science Foundation for its support og \textit{Implementing the GOLD Community of Practice: Laying the Foundations for a 
+Linguistics Cyberinfrastructure}, grant BCS-0720670.
+
+\newpage
+\addcontentsline{toc}{section}{Acknowledgements}
+\newpage
+\addcontentsline{toc}{section}{Abbreviations}
+\tableofcontents
+\newpage
+
+\section*{Abbreviations}\label{abbreviations}
+\begin{table}[h]
+%\caption{Abbreviations used in the text}
+%\begin{left}
+\begin{tabular}[t]{ll}
+Abbrevs & if needed \\
+\end{tabular}
+%\end{left}
+\end{table}
+
+\newpage
+
+\listoftables
+\listoffigures
+
+\newpage
+
+% BEGIN TUTORIAL ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\section{Introduction}\label{sec:introduction}
+This is under-development tutorial for using the e-Linguistics Toolkit (ELTK) \cite{FarrarMoran08}. The toolkit addresses 
+
+data interoperability in terms of encoding, format, and content
+
+data manipulation (validation and merging)
+
+data transformation to various working formats
+
+leveraging NLP techniques to serve the whole of linguistics
+
+
+This document is organized as follows. Section \ref{sec:introduction} provides and overview of the ELTK and describes challenges (\ref{sec:legacy}), ontological resources (\ref{sec:ontological}) and Uniform Resource Identifiers (\ref{sec:uris}). Section \ref{sec:install} provides installation and setup instructions and an overview of the ELTK's anatomy (\ref{sec:eltk_anatomy}).
+
+\begin{comment}
+\subsection{Additional Resources}
+Do we need any additional resources?
+\end{comment}
+
+\subsection{Legacy data challenges}\label{sec:legacy}
+% just an overview
+Goals...
+
+\subsection{Ontological resources}\label{sec:ontological}
+Description of PURLs, GOLD, etc.
+
+\subsection{Uniform Resource Identifiers (URIs)}\label{sec:uris}
+% I also think a section on how we've structured our URIs is essential - they need to know what is located where, etc. Hell, I can't even keep that straight with as often as you change your mind.
+
+\subsection{RDF for linguists}
+Benefits and why to use the data model...
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Installation and Setup}\label{sec:install}
+The latest version of the e-Linguistics Toolkit (ELTK) can be downloaded from http://e-linguistics.org/downloads/. To take advantage of all of the ELTK's functionality, several software packages must be installed and configured on your machine. 
+
+These include the Jpype package, available at http://jpype.sourceforge.net/, and the OWLAPI, available at http://owlapi.sourceforge.net/. 
+
+What to download...
+
+
+
+\subsection{Version of Python to use}
+Python 2.5 
+
+\subsection{Packages required}
+
+\subsubsection{OWLAPI}
+``The OWL API is a Java interface and implementation for the W3C Web Ontology Language OWL. The latest version of the API is focused towards OWL 2 which encompasses, OWL-Lite, OWL-DL and some elements of OWL-Full.''
+
+http://owlapi.sourceforge.net/
+
+
+\subsubsection{Jpype}
+
+``JPype is an effort to allow python programs full access to java class libraries. This is achieved not through re-implementing Python, as Jython/JPython has done, but rather through interfacing at the native level in both Virtual Machines.''
+
+http://jpype.sourceforge.net/
+
+\subsubsection{RDFLib}
+``RDFLib is a Python library for working with RDF, a simple yet powerful language for representing information.''
+
+http://rdflib.net/
+
+
+
+\subsection{Configuring paths}
+
+Settings tests/examples:
+-----------------------
+test\_jpype.y: tests the jpype installation
+test\_owlapi.py: tests the owlapi installation
+owlapi\_examples.py: runs several examples from the OWLAPI
+
+
+\subsection{Ubuntu 8}
+
+Download the toolkit... Design of the toolkit...
+
+INSTRUCTIONS FOR GETTING THE ELTK PACKAGE UP AND RUNNING
+-----------------------------------------------------------------
+
+(We plan to include instructions for Win and Mac soon.)
+
+---------
+Ubunutu 8
+---------
+
+1. download and unzip the eltk package to your working directory (you've probably already done this if you're reading this!)
+
+2. find your Python 2.5 site-packages and 'cd' to it. on Ubunutu 8, the site-packages directory is located here:
+
+cd /usr/lib/python2.5/site-packages
+
+3. next, create a symbolic link in your Python 2.5 site-packages directory to your working eltk directory. 
+
+sudo ln -s /path/to/eltk/  eltk
+
+where /path/to/ is the correct path to your eltk local version in its working directory. now within the site-packages directory, if you 'ls eltk' you s
+hould see the directory contents of your local working directory.
+
+
+JPype specific notes:
+---------------------
+
+-Linux users need to set their LD\_LIBRARY\_PATH variable  to their jvm library
+-also possible to change  jpype/\_linux.py
+
+
+Finding Python's sys.path
+----------------
+
+Pythong uses the 'sys.path' to locate modules. It is a list of directories that exist on the local machine. When importing packages in Python, sys.path
+ is recursively searched for the packages in each directory listed in the sys.path. 
+
+To view the sys.path, load the Python interactive interpreter:
+
+\$ python
+
+and then run these two commands:
+
+>>> import sys
+>>> print sys.path
+
+A list of directories should be printed to the terminal, e.g.
+
+['', '/usr/lib/python25.zip', '/usr/lib/python2.5', '/usr/lib/python2.5/plat-linux2', '/usr/lib/python2.5/lib-tk', '/usr/lib/python2.5/lib-dynload', '/
+usr/local/lib/python2.5/site-packages', '/usr/lib/python2.5/site-packages', '/usr/lib/python2.5/site-packages/Numeric', '/usr/lib/python2.5/site-packag
+es/PIL', '/usr/lib/python2.5/site-packages/gst-0.10', '/var/lib/python-support/python2.5', '/usr/lib/python2.5/site-packages/gtk-2.0', '/var/lib/python
+-support/python2.5/gtk-2.0']
+ 
+Python will search for packages/modules containing "\_\_init\_\_.py", which it can then import.
+
+
+
+
+\subsection{ELTK Anatomy}\label{sec:eltk_anatomy}
+% An overview of each package - taken from our paper (at this point)
+
+\subsubsection{Reader module}
+
+The first module can be used to transform legacy data and data in various working formats into an interoperable store. The transformation is according to encoding, form, and content. On the path to interoperability, all data are eventually transformed into Unicode. There are utilities to convert special ASCII character conventions used in Praat\footnote{http://www.fon.hum.uva.nl/praat/} (e.g., Praat internal codes) and Elan\footnote{http://www.lat-mpi.eu/tools/elan/} (e.g., XSAMPA) to Unicode IPA. Though not fully implemented, the ELTK will be able to detect the semantics of characters. This is a problem when processing data in arbitrary, often unknown encodings. For instance, the character $p$ might be used by a Russian linguist in transcribing  an $/r/$ phoneme. 
+
+In terms of form, the ELTK translates among various working formats such as Praat \textit{TextGrid} files, Elan \textit{eaf} files, and data in plain text files. At the moment Leipzig-style glossing in plain text format is recognized. Several fundamental data types are handled, including lexicons, interlinear glossed text, paradigms, feature structures, and bibliographic citations. For example, the ELTK uses an in-house built Web scaper to harvest linguistically-related bibliographic references from selected Web sites that allow Web crawling. Extracted citations are written to a Bibtex file, loaded into the BibtexReader, and are then transformed into an RDF store where each bibliographical entry is identified with a URI. We have chosen Bibtex because it is a plain text non-proprietary format for marking up bibliographic data. It is widely used and third party software makes it possible to include Bibtex bibliographies in popular word processors, such as Word. Also, an OWL specification for Bibtex already exists \cite{Knouf2004}, which we make use of.
+
+As for content, all linguistic units and labels are mapped to the GOLD \cite{FarrarLangendoen2003} namespace in a supervised manner. For instance, $PST$ and $Past$ would both be mapped to \textit{gold:PastTense}. Functionality is included to create mapping tables of annotation symbols and their corresponding GOLD concepts. As the content issue is perhaps one of the most problematic, how to map annotation symbols to concepts is still on-going research.
+
+The ELTK uses the popular Natural Language Toolkit (NLTK)\footnote{http://nltk.org/doc/}; it is in fact modeled somewhat after the NLTK as its name suggests. The ELTK depends on the NLTK, for example, in order to parse the translation line in interlinear glossed text. The ELTK also uses the ISO 639-3 / Ethnologue 15 language codes. We require that each data element processed by the ELTK be linked to a particular 3-letter code, indentified by particular URIs. 
+
+\subsubsection{Ontology module}
+
+The functionality of the second module is to manage (store and merge) the transformed data. This module interfaces with both a database and various ontologies. For this purpose, the ELTK relies heavily on the RDFLib\footnote{http://rdflib.net/} Python library for manipulating RDF. 
+
+At the core of the ELTK is the idea of a Uniform Resource Identifier (URI) \cite{Berners-LeeFieldingMasinter1998}. URIs are used to ensure that everything that a linguist refers to is uniquely identifiable. In keeping with this, the ELTK emphasizes URIs for everything: authors, bibliographical entries, data instances, as well as linguistic concepts and relations. Second, the ELTK uses the data model of the Resource Description Framework (RDF) \cite{LassilaSwick1999}. These two technologies are at the heart of the Semantic Web, a much debated and often misunderstood enterprise. The major misunderstanding is that ``the Web community will do it for me''. But as nearly a decade of Semantic Web buzz has taught us, no one is going to transform the current Web into semantically interoperable resources, that is, except for individual Web communities. We have embraced these technologies in part because they are being accepted by major players in software development such as IBM, Microsoft, and Hewlett-Packard \cite{HP2003}. But also, the simplicity of the data model appeals to our discipline, namely that many of our fundamental data structures can be easily adapted to fit into the RDF subject-predicate-object model. But the primary reason why we believe the Semantic Web movement is ultimately achievable is that it emphasizes ontologies as the key to content interoperability. As such, we have designed the ELTK to be compatible with the General Ontology for Linguistic Description (GOLD) \cite{FarrarLangendoen2003}. GOLD is just one possible ontology for the ELTK, and we hope that other ontologies will soon be available for the purposes of e-Linguistics.
+
+\subsubsection{Display Module}
+
+Finally, the third module is responsible for the creation of various output formats. These include various recommended best-practice XML formats such as \cite{BowHughesBird2003}. But importantly, the ELTK is able to output working formats, e.g., in the form of \textit{TextGrid} and \textit{eaf} files, even when the input source has a completely different structure. The module can also output fundamental linguistic data types using various presentation formats including HTML, \LaTeX, and PDF.
+
+\subsubsection{Examples}
+
+The examples directory contains
+
+This directory (eltk/examples/) contains a number of example scripts that illustrate how to use the ELTK.
+
+Settings tests/examples:
+-----------------------
+test\_jpype.y: tests the jpype installation
+test\_owlapi.py: tests the owlapi installation
+owlapi\_examples.py: runs several examples from the OWLAPI
+
+
+ELTK examples:
+-------------
+-import\_ontology.py: shows how to import an OWL ontology's logical model (classes, individuals, properties) into the Python's OOP environment
+
+-build\_ontology.py: shows how to create an empty ontology and add a class 
+
+-convert\_bibtex.py: shows how to convert a bibtex file into RDF
+
+-convert\_character.py: illustrates a few conversions between character systems
+
+
+\subsubsection{Utils}
+The \textbf{utils} directory contains files for string processing, character conversion, managing merged RDF graphs and various conversion tables.
+
+\subsubsection{Unittest}
+The \textbf{unittest} directory contains unit tests for testing various modules.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Guides} % or topics
+% should be the real meat of the tutorial
+
+% -the tutorial should consist of a set of 'guides', or topics, whatever you want to call them.
+% -in general, create a guide for each module (as a starting point for code, see eltk/examples
+% -create one guide for converting each of our legacy formats: praat, elan, leipzig, bibtex...more?
+
+The guides provided here are intended to illustrate how a particular task can be accomplished. This directory (eltk/examples/) contains a number of example scripts that illustrate how to use the ELTK. In this section we will walk through these examples, highlighting legacy data conversion and working with ontologies.
+
+With e-Linguistics, reader modules are used to validate and transform phonemic and orthographic inventories into IPA\footnote{http://www.arts.gla.ac.uk/IPA/ipa.html} Unicode. The ontology module maps these resources to a central ontology and merges them into an RDF store. The ELTK can then be used to load these resources into the Python programming environment to query across the data. For example, the ELTK can be used to infer the phonemic and orthographic relationships between disparate writing systems, making queries such as, `show me all graphemes that are used to represent the phoneme \textbf{/\textipa{N}/}'. 
+
+
+\begin{comment}
+Looks like a very good outline for the tutorial. So we can get somethikng to Dwight, and others, in a reasonable amount of time, I'd suggest you spend the rest of
+your time on these sections only:
+
+3.1 Working with ontologies
+
+3.2 Legacy data conversion (but only  the following subsections)
+-bibtex
+-character conversions
+
+This should get you comfortable with using the meat of the toolkit and prepare you for the Phoible work. I'll spend time on the rest. And, if you have time, you might
+consider adding a section on installing on a Mac, which I think you did, right? I can cover the rest of Ubuntu8.
+
+I think for most of section 1, we can just paste in our paper, and then add to it gradually.
+
+Do you know the \verb{} command in Latex? It's a way to introduce small code snippets w/o having to use the full verbatim environment.
+
+test
+
+\end{comment}
+
+% One thing we should consider is explaining the crap and hassle about site-packages, where to figure configure this stuff; e.g. do you just need a symbolic link in site-packages -> to wherever your eltk files are? should you put the eltk files in the site-packages directory? etc. is it different for different operating systems? 
+% we could also explain the different for using 'import from', 'import x', etc. and how that is affected by code being in the site-package directory. 
+
+% A VERY QUICK WAY TO FIND THE site-packages DIRECTORY
+% python -c "from distutils.sysconfig import get_python_lib; print get_python_lib()"
+
+
+
+
+% STEVE START HERE...
+\subsection{Working with ontologies}\label{sec:working_with_ontologies}
+Example files that run the ELTK are under eltk/examples.
+
+Before you can use some of these examples, you must set up OWLAPI and JPype (see sections \ref{} and \ref{}). You must also set your OWLAPI_CLASSPATH variable in the eltk/configure.py file. 
+
+Also, make sure that you set a symbolic link within your Python site-packages. Otherwise you'll get an error like:
+
+Traceback (most recent call last):
+  File "test_owlapi.py", line 3, in <module>
+    from eltk.configure import OWLAPI_CLASSPATH
+ImportError: No module named eltk.configure
+
+
+
+
+
+Under eltk/examples:
+
+-build\_ontology.py: shows how to create an empty ontology and add a class 
+-import\_ontology.py: shows how to import an OWL ontology's logical model (classes, individuals, properties) into the Python's OOP environment
+
+
+See section \ref{sec:ontologies} for resources on ontology development.
+
+
+\begin{comment}
+-create a guide for working w. ontologies
+        -loading
+        -creating
+        -creating classes and instantiating (a la owlapi website)
+-create a guide for using owlapi, jpype in Py. (but don't spend a lot of time on this one)
+\end{comment}
+
+\subsubsection{Loading them into the Python environment}
+How to load ontologies into the Python environment with the ELTK...
+
+
+\subsubsection{Instantiating classes}
+How to instantiate classes...
+
+
+\subsubsection{Creating triples}
+How to create triples...
+
+
+
+\subsection{Legacy data conversion}
+The following sections present examples of how to convert legacy data to...
+
+
+\subsubsection{Praat}
+
+The PraatReader module...
+
+A class for parsing and processing Praat TextGrid files 
+
+This module will aid in reading Praat files. This aim is to populate an OWL ontology with instances extracted from the Praat file.                     
+                                                                                                                                                       
+NOTE:                                                                                                                                                  
+Though this file creates GOLD entities, the full functionality is not yet implemented. 
+
+
+
+\subsubsection{ELAN}
+The ELANReader module...
+
+
+\subsubsection{Leipzig Glossing Rules Format}
+The LeipzigReader module...
+ 
+
+\subsubsection{Bibtex}
+The BibexReader module...
+
+-convert\_bibtex.py: shows how to convert a bibtex file into RDF
+
+\subsubsection{Character conversion}
+-convert\_character.py: illustrates a few conversions between character systems
+
+\subsubsection{Termset conversion}
+The TermsetReader...
+
+
+
+\bibliographystyle{robbib}
+\bibliography{}
+\end{document}
+% end document ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+
+% BEGIN NOTES.....................................................................
+\begin{comment}
+
+The main thing w the tutorial is to get you fam. with the code and to let others know how to use it. It should be aimed at programmers for now. To be successful w. linguists, we'll need a GUI.
+
+-----------
+Format
+-----------
+
+-ideally, I'd like to see the format look like this:
+
+        http://nltk.org/doc/guides/drt.html
+
+-can you figure out how they did this?
+
+-have a look at epydoc and the lATEX option. You can create Latex code and then hand edit the tutorial. One possibility.
+
+----------
+Content
+---------
+
+-the tutorial should consist of a set of 'guides', or topics, whatever you want to call them.
+
+-in general, create a guide for each module (as a starting point for code, see eltk/examples
+
+-create one guide for converting each of our legacy formats: praat, elan, leipzig, bibtex...more?
+
+-create a guide for working w. ontologies
+        -loading
+        -creating
+        -creating classes and instantiating (a la owlapi website)
+-create a guide for using owlapi, jpype in Py. (but don't spend a lot of time on this one)
+
+ -the tutorial should consist of a set of 'guides', or topics, whatever you want to
+> call them.
+> 
+> -in general, create a guide for each module (as a starting point for 
+code, see
+> eltk/examples
+> 
+> -create one guide for converting each of our legacy formats: praat, 
+elan, leipzig,
+> bibtex...more?
+> 
+> -create a guide for working w. ontologies
+>       -loading
+>       -creating
+>       -creating classes and instantiating (a la owlapi website)
+> 
+> -create a guide for using owlapi, jpype in Py. (but don't spend a lot of 
+time on
+> this one
+
+\end{comment}
+
+\begin{comment}
+
+-stop fucking using your own classpath directories; use something generic in release code and throw an exception that's readable when they haven't set their classpath(s)
+
+not: OWLAPI\_CLASSPATH='/home/farrar/Apps/owlapi/owlapi-bin.jar:/home/farrar/Apps/owlapi/owlapi-src.jar'
+this: OWLAPI\_CLASSPATH='/path/to/owlapi/owlapi-bin.jar:/path/to/owlapi/owlapi-src.jar' 
+
+-stop using your own local files in our release
+
+physicalURI = URI.create("file:/home/farrar/svn_projects/GOLDComm/gold/gold-2008.owl")
+
+this files is full of your local file names
+
+-you shouldn't use symbolic links in the release - write release code if we're going to release it!:
+
+lrwxr-xr-x   1 stiv  staff      66 Dec 23 18:14 LeipzigTermset.txt -> /home/farrar/svn_projects/GOLDComm/gold/termset/LeipzigTermset.txt
+
+- test\_jpype.py
+
+should report something more substantial than (e.g. 'Your Jpype path is working'):
+
+Hello World!
+JVM activity report     :
+	classes loaded       : 30
+JVM has been shutdown
+
+- test_owlapi.py
+
+should report something more substantial than (throw an exception):
+
+Traceback (most recent call last):
+  File "test_owlapi.py", line 5, in <module>
+    from eltk.configure import OWLAPI_CLASSPATH
+ImportError: No module named eltk.configure
+
+
+- can we generate or link the file structure and contents to the tutorial somehow? e.g. epydoc style
+
+- what am i missing about running these example files??
+
+stivs-macbook-pro-15:Documents stiv$ pwd
+/Users/stiv/Documents
+stivs-macbook-pro-15:Documents stiv$ python eltk/examples/convert_character.py 
+Traceback (most recent call last):
+  File "eltk/examples/convert_character.py", line 2, in <module>
+    from eltk.utils.CharConverter import *
+ImportError: No module named eltk.utils.CharConverter
+
+- our Mac distribution should install into the site-packages directory like the NLTK does
+
+- we should write a grant to get support for the Toolkit above and beyond the GOLD realm (can you get RRF funding?); comp ling students would be great for tapping and paying to do development
+
+
+\end{comment}

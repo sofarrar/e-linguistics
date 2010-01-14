@@ -1,0 +1,755 @@
+gram	domain	identifier	descrip	lang_code
+1PL	number	PL	Plural	
+1PL	person	1	FirstPerson	
+1SG	number	SG	Singular	
+1SG	person	1	FirstPerson	
+1stExcl	person	1stExcl	FirstPersonExclusive	
+1stIncl	person	1stIncl	FirstPersonInclusive	
+2PL	person	2	SecondPerson	
+2PL	number	PL	Plural	
+2SG	number	SG	Singular	
+2SG	person	2	SecondPerson	
+3PL	person	3	ThirdPerson	
+3PL	number	PL	Plural	
+3SG	person	3	ThirdPerson	
+3SG	number	SG	Singular	
+ABS	case	ABS	AbsolutiveCase	
+ACC	case	ACC	AccusativeCase	
+ADJ	pos	ADJ	Adjective	
+ADV	pos	ADV	Adverb	
+ANTIP	voice	ANTIP	AntipassiveVoice	
+AOR	aspect	AOR	PerfectiveAspect	
+APPL	voice	APPL	ApplicativeVoice	
+ART	pos	ART	Article	
+AUX	pos	AUX	Auxilliary	
+CAUS	voice	CAUS	CausativeVoice	
+CL	clitic	CL	Clitic	
+CLF	classifier	CLF	Classifier	
+COMP	pos	COMP	Complementizer	
+COMPL	aspect	COMPL	CompletiveAspect	
+COP	pos	COP	Copula	
+DAT	case	DAT	DativeCase	
+DECL	modality	DECL	Declarative	
+DEM	pos	DEM	Demonstrative	
+DET	pos	DET	Determiner	
+DIMIN	size	dimin	Diminutive	
+DISTR	aspect	DISTR	DistributiveAspect	
+DUAL	number	DUAL	Dual	
+DUR	aspect	DUR	ProgressiveAspect	
+ERG	case	ERG	ErgativeCase	
+F	gender	F	Feminine	
+FEM	gender	FEM	Feminine	
+FOC	discourse	FOC	Focus	
+FUT	tense	FUT	FutureTense	
+GEN	case	GEN	GenitiveCase	
+HAB	aspect	HAB	HabitualAspect	
+HABIT	aspect	HABIT	HabitualAspect	
+IMP	mood	IMP	ImperativeMood	
+IMPF	aspect	IMPF	ImperfectiveAspect	
+INF	pos	INF	InfinitiveVerb	
+INSTR	case	INSTR	InstrumentalCase	
+IPFV	aspect	IPFV	ImperfectiveAspect	
+IRR	modality	IRREALIS	Irrealis	
+IRREALIS	modality	IRREALIS	Irrealis	
+LOC	case	LOC	LocativeCase	
+LOC	case	LOC	SpatialCase	
+M	gender	M	Masculine	
+MASC	gender	MASC	Masculine	
+NEG	polarity	NEG	Negative	
+NEUT	gender	NEUT	Neuter	
+NMLZ	pos	NMLZ	Nominalizer	
+NOM	case	NOM	NominativeCase	
+NONFUT	tense	NONFUT	NonFutureTense	
+NONPAST	tense	NONPAST	NonPastTense	
+NONPST	tense	NONPST	NonPastTense	
+NPST	tense	NPST	NonPastTense	
+NPT	tense	NPT	NonPastTense	
+OBJ	relation	OBJ	Object	
+OBL	objectproperty	OBL	ObliqueObject	
+OBV	person	OBV	ObviativePerson	
+Passive	voice	Passive	PassiveVoice	
+PASSIVE	voice	PASSIVE	PassiveVoice	
+PAST	tense	PAST	PastTense	
+PAUCAL	number	PAUCAL	Paucal	
+PERF	aspect	PERF	PerfectiveAspect	
+PF	aspect	PF	PerfectiveAspect	
+PFV	aspect	PFV	PerfectiveAspect	
+PL	number	PL	Plural	
+POSS	case	POSS	PossessiveCase	
+PRED	pos	PRED	PredicativeVerb	
+PRES	tense	PRES	PresentTense	
+PROG	aspect	PROG	ProgressiveAspect	
+PROGR	aspect	PROGR	ProgressiveAspect	
+PROH	mood	PROH	ProhibitiveMood	
+PROHIB	mood	PROHIB	ProhibitiveMood	
+PROX	person	PROX	ProximatePerson	
+PRS	tense	PRS	PresentTense	
+PST	tense	PST	PastTense	
+QUOT	modality	QUOT	Quotative	
+REALIS	modality	REALIS	Realis	
+REFL	pos	REFL	ReflexivePronoun	
+REPET	aspect	REPET	IterativeAspect	
+SBJV	modality	SBJV	Subjunctive	
+SG	number	SG	Singular	
+SING	number	SING	Singular	
+SUBJ	relation	SUBJ	Subject	
+TOP	discourse	TOP	Topic	
+VOC	case	VOC	VocativeCase	
+WH	pos	WH	WH-word	
+2SGM	number	SG	Singular	ABV
+2SGM	gender	M	Masculine	ABV
+2SGM	person	2	SecondPerson	ABV
+FEMSG	gender	FEM	Feminine	ABV
+FEMSG	number	SG	Singular	ABV
+PRS	tense	PRS	PresentTense	ADY
+INST	case	INST	InstrumentalCase	AER
+PC	aspect	C	ContinuousAspect	AER
+PC	tense	P	PastTense	AER
+REMOTE	tense	REMOTE	RemotePastTense	AMI
+TODAY	tense	TODAY	HodiernalPastTense	AMI
+1ABS	case	ABS	AbsolutiveCase	ARB
+1ABS	person	1	FirstPerson	ARB
+CL	classifier	CL	Classifier	BNG
+1DAT	person	1	FirstPerson	BSQ
+1DAT	case	DAT	DativeCase	BSQ
+1ERG	person	1	FirstPerson	BSQ
+1ERG	case	ERG	ErgativeCase	BSQ
+3ERG	case	ERG	ErgativeCase	BSQ
+3ERG	person	3	ThirdPerson	BSQ
+3NOM	person	3	ThirdPerson	BSQ
+3NOM	case	NOM	NominativeCase	BSQ
+3plDAT	case	DAT	DativeCase	BSQ
+3plDAT	person	3	ThirdPerson	BSQ
+3plDAT	number	pl	Plural	BSQ
+CL	classifier	CL	Classifier	CHN
+1sgOBJ	number	sg	Singular	CKT
+1sgOBJ	objectproperty	OBJ	DirectObject	CKT
+1sgOBJ	person	1	FirstPerson	CKT
+1sgSUBJ	person	1	FirstPerson	CKT
+1sgSUBJ	objectproperty	SUBJ	Subject	CKT
+1sgSUBJ	number	sg	Singular	CKT
+NOM	pos	NOM	Nominalizer	CNG
+obv	person	obv	ObviativePerson	CRL
+prox	person	prox	ProximatePerson	CRL
+1p	person	1p	FirstPerson	DBL
+2p	person	2p	SecondPerson	DBL
+ANTI	voice	ANTI	AntipassiveVoice	DBL
+ANTIPASS	voice	ANTIPASS	AntipassiveVoice	DBL
+APM	voice	APM	AntipassiveVoice	DBL
+DEIC	discourse	DEIC	Deictic	DBL
+INST	case	INST	InstrumentalCase	DBL
+INST	case	INST	InstrumentalCase	DBL
+NFUT	tense	NFUT	NonFutureTense	DBL
+NOFUT	tense	NOFUT	NonFutureTense	DBL
+PURP	case	PURP	PurposiveCase	DBL
+TNS	tense	TNS	Tense	DBL
+CLITIC	clitic	CLITIC	Clitic	DDJ
+I	classifier	I	Classifier	DDO
+II	classifier	II	Classifier	DDO
+III	classifier	III	Classifier	DDO
+IV	classifier	IV	Classifier	DDO
+1aS	number	a	Plural	DIF
+1aS	person	1	FirstPerson	DIF
+1aS	relation	S	Subject	DIF
+ABL	case	ABL	AblativeCase	DJD
+ALL	case	ALL	AllativeCase	DJD
+POSREF	voice	REF	Reflexive	DNS
+POSREF	case	POSS	PossesiveCase	DNS
+POSSREFL	voice	REFL	Reflexive	DNS
+POSSREFL	case	POSS	PossesiveCase	DNS
+NOM	pos	NOM	Nominalizer	DUU
+NOM	pos	NOM	Nominalizer	EDO
+PRES	tense	PRES	PresentTense	FIN
+IMPF	tense	IMPF	SimplePastTense	FRN
+PERF	tense	PERF	RelativePastTense	FRN
+12PL	person	12	FirstPersonInclusive	GBC
+12PL	number	PL	Plural	GBC
+2GEN	case	GEN	GenitiveCase	GBC
+2GEN	person	2	SecondPerson	GBC
+3D	number	D	Dual	GBC
+3D	person	3	ThirdPerson	GBC
+ALLAT	case	ALLAT	AllativeCase	GBC
+PURP	case	PURP	PurposiveCase	GBC
+COMIT	case	COMIT	ComitativeCase	GCD
+INDIC	mood	INDIC	IndicativeMood	GCD
+INTRANS	pos	INTRANS	IntransitiveVerb	GCD
+TR	pos	TR	TransitiveVerb	GCD
+TRANS	pos	TRANS	TransitiveVerb	GCD
+3FUT	tense	FUT	FutureTense	GEO
+3FUT	person	3	ThirdPerson	GEO
+3PRES	person	3	ThirdPerson	GEO
+3PRES	tense	PRES	PresentTense	GEO
+ABL	case	ABL	AblativeCase	GNI
+2S	person	2	SecondPerson	GUE
+2S	number	S	Singular	GUE
+3sS	person	3	ThirdPerson	GUP
+3sS	number	s	Singular	GUP
+3sS	relation	S	Subject	GUP
+1sgNOM	person	1	FirstPerson	GYD
+1sgNOM	number	sg	Singular	GYD
+1sgNOM	case	NOM	NominativeCase	GYD
+3sgNOM	case	NOM	NominativeCase	GYD
+3sgNOM	person	3	ThirdPerson	GYD
+3sgNOM	number	sg	Singular	GYD
+ACT	voice	ACT	ActiveVoice	GYD
+MLOC	case	MLOC	LocativeCase	GYD
+NMZR	pos	NMZR	Nominalizer	GYD
+PROP	case	PROP	ProprietiveCase	GYD
+RECIP	voice	RECIP	ReciprocalMiddleVoice	GYD
+INF	pos	INF	InfinitiveVerb	HBR
+PRES	tense	PRES	PresentTense	HBR
+1	person	1	FirstPerson	HUA
+1p	person	1	FirstPerson	HUA
+1p	number	PL	Plural	HUA
+1s	person	1	FirstPerson	HUA
+1s	number	SING	Singular	HUA
+1S	number	SING	Singular	HUA
+1S	person	1	FirstPerson	HUA
+2	person	2	SecondPerson	HUA
+2f	person	2	SecondPerson	HUA
+2f	gender	FEM	Feminine	HUA
+2fs	number	SING	Singular	HUA
+2fs	gender	FEM	Feminine	HUA
+2fs	person	2	SecondPerson	HUA
+2m	number	2	SecondPerson	HUA
+2m	gender	MASC	Masculine	HUA
+2ms	number	SING	Singular	HUA
+2ms	gender	MASC	Masculine	HUA
+2ms	person	2	SecondPerson	HUA
+2p	person	2	SecondPerson	HUA
+2p	number	PL	Plural	HUA
+2pl	person	2	SecondPerson	HUA
+2pl	number	PL	Plural	HUA
+2sf	person	2	SecondPerson	HUA
+2sf	gender	FEM	Feminine	HUA
+2sf	number	SING	Singular	HUA
+2sm	person	2	SecondPerson	HUA
+2sm	gender	MASC	Masculine	HUA
+2sm	number	SING	Singular	HUA
+3	person	3	ThirdPerson	HUA
+3fm	gender	MASC	Masculine	HUA
+3fm	number	SING	Singular	HUA
+3fm	person	3	ThirdPerson	HUA
+3fs	gender	FEM	Feminine	HUA
+3fs	number	SING	Singular	HUA
+3fs	person	3	ThirdPerson	HUA
+3ms	person	3	ThirdPerson	HUA
+3ms	number	SING	Singular	HUA
+3ms	gender	MASC	Masculine	HUA
+3p	person	3	ThirdPerson	HUA
+3p	number	PL	Plural	HUA
+3PCompl	person	3	ThirdPerson	HUA
+3PCompl	number	PL	Plural	HUA
+3PCompl	POS	COMP	ComplementMarker	HUA
+3pl	number	PL	Plural	HUA
+3pl	person	3	ThirdPerson	HUA
+3PRel	person	3	ThirdPerson	HUA
+3PRel	number	PL	Plural	HUA
+3PRel	POS	REL	RelativeMarker	HUA
+3sg	number	SING	Singular	HUA
+3sg	person	3	ThirdPerson	HUA
+3sm	gender	MASC	Masculine	HUA
+3sm	number	SING	Singular	HUA
+3SM	person	3	ThirdPerson	HUA
+3SM	gender	MASC	Masculine	HUA
+3SM	number	SING	Singular	HUA
+3sm	person	3	ThirdPerson	HUA
+3SMRel	person	3	ThirdPerson	HUA
+3SMRel	gender	MASC	Masculine	HUA
+3SMRel	number	SING	Singular	HUA
+3SMRel	POS	REL	RelativeMarker	HUA
+4	person	4	FourthPerson	HUA
+A	classifier	VERBA	AFormVerb	HUA
+aFOC	discourse	FOC	FocusMarker	HUA
+B	classifier	VERBB	BFormVerb	HUA
+C	classifier	VERBC	CFormVerb	HUA
+CMPL	aspect	COMPL	CompletiveAspect	HUA
+Compl	POS	COMP	ComplementMarker	HUA
+COMPL	POS	COMP	ComplementMarker	HUA
+Cont	aspect	CONT	ContinuousAspect	HUA
+cop	POS	COP	Copula	HUA
+D	classifier	VERBD	DFormVerb	HUA
+DA	POS	DA	DaForm	HUA
+DD	POS	DET	DefiniteDeterminer	HUA
+DEF	POS	DET	DefiniteDeterminer	HUA
+DEP	POS	DEP	Dependent	HUA
+DL	POS	DET	DefiniteDeterminer	HUA
+DN	POS	DN	DerivedNominal	HUA
+Dn	POS	DN	DerivedNominal	HUA
+DO	POS	DO	DirectObject	HUA
+DU	number	DUAL	Dual	HUA
+EVE	mood	EVE	Eventual	HUA
+EVID	POS	EVID	EvidentialityMarker	HUA
+f	gender	FEM	Feminine	HUA
+FM	discourse	FOC	FocusMarker	HUA
+Gr1	classifier	GR1	Grade1Verb	HUA
+Gr2	classifier	GR2	Grade2Verb	HUA
+Gr3	classifier	GR3	Grade3Verb	HUA
+Gr4	classifier	GR4	Grade4Verb	HUA
+Gr6	classifier	GR6	Grade6Verb	HUA
+Gr7	classifier	GR7	Grade7Verb	HUA
+Gr8	classifier	GR8	Grade8Verb	HUA
+I	classifier	I	Classifier	HUA
+ICP	POS	ICP	IntransitiveCopyPronoun	HUA
+IDEO	classifier	IDEO	Ideophone	HUA
+II	classifier	II	Classifier	HUA
+III	classifier	III	Classifier	HUA
+IMPER	mood	IMP	ImperativeMood	HUA
+IMPERF	aspect	IMPF	ImperfectiveAspect	HUA
+INF	classifier	INF	Infinitive	HUA
+IOM	POS	IOM	IndirectObjectMarker	HUA
+IPFV	aspect	IMPF	ImperfectiveAspect	HUA
+Irr	classifier	IRR	Irregular	HUA
+IV	classifier	IV	Classifier	HUA
+IVN	classifier	I	Classifier	HUA
+IVN	POS	VN	VerbalNoun	HUA
+IX	classifier	GR9	Grade9Verb	HUA
+m	gender	MASC	Masculine	HUA
+MA	POS	MA	MaForm	HUA
+MOD	classifier	MOD	Modal	HUA
+ms	gender	MASC	Masculine	HUA
+ms	number	SING	Singular	HUA
+N	POS	N	Noun	HUA
+Neg	polarity	NEG	Negative	HUA
+neg	polarity	NEG	Negative	HUA
+p	number	PL	Plural	HUA
+pf	aspect	PERF	PerfectiveAspect	HUA
+pl	number	PL	Plural	HUA
+POT	aspect	POT	PotentialAspect	HUA
+PST	aspect	PERF	PerfectiveAspect	HUA
+Q	POS	Q	QuestionMorpheme	HUA
+Rcnt	aspect	CONT	ContinuousAspect	HUA
+REDUP	POS	REDUP	Reduplication	HUA
+REFLEX	POS	REFLEX	Reflexive	HUA
+REL	POS	REL	relativeMarker	HUA
+Rel	POS	REL	RelativeMarker	HUA
+RI	POS	RI	RelativeImperfective	HUA
+RP	POS	RP	RelativePerfective	HUA
+Rpf	POS	RP	RelativePerfective	HUA
+S	number	SING	Singular	HUA
+s	number	SING	Singular	HUA
+sf	number	SING	Singular	HUA
+sf	gender	FEM	Feminine	HUA
+sg	number	SING	Singular	HUA
+SP	aspect	RP	RelativePerfective	HUA
+SUB	mood	SUB	SubjunctiveMood	HUA
+V	classifier	V	Classifier	HUA
+VI	classifier	VI	Classifier	HUA
+VII	classifier	VII	Classifier	HUA
+VIII	classifier	VIII	Classifier	HUA
+VN	POS	VN	VerbalNoun	HUA
+X	classifier	X	Classifier	HUA
+CONTR	pos	CONTR	EmphaticPronoun	IBD
+DETpl	number	pl	Plural	IJO
+DETpl	pos	DET	Determiner	IJO
+CL	classifier	CL	Classifier	ITZ
+1dl	person	1	FirstPerson	JIG
+1dl	number	dl	Dual	JIG
+1dlInc	person	inc	FirstPersonInclusive	JIG
+1dlInc	number	dl	Dual	JIG
+1dlInc	person	1	FirstPerson	JIG
+1OBJ	objectproperty	OBJ	DirectObject	JIG
+1OBJ	person	1	FirstPerson	JIG
+1plInc	person	1	FirstPerson	JIG
+1plInc	person	inc	FirstPersonInclusive	JIG
+1plInc	number	pl	Plural	JIG
+1sgGEN	person	1	FirstPerson	JIG
+1sgGEN	number	sg	Singular	JIG
+1sgGEN	case	GEN	GenitiveCase	JIG
+2dl	number	dl	Dual	JIG
+2dl	person	2	SecondPerson	JIG
+2dlERG	number	dl	Dual	JIG
+2dlERG	case	ERG	ErgativeCase	JIG
+2dlERG	person	2	SecondPerson	JIG
+2dlIMPV	person	2	SecondPerson	JIG
+2dlIMPV	mood	IMPV	ImperativeMood	JIG
+2dlIMPV	number	dl	Dual	JIG
+2dlNOM	case	NOM	NominativeCase	JIG
+2dlNOM	person	2	SecondPerson	JIG
+2dlNOM	number	dl	Dual	JIG
+2plIMPV	mood	IMPV	ImperativeMood	JIG
+2plIMPV	number	pl	Dual	JIG
+2plIMPV	person	2	SecondPerson	JIG
+2sgSubj	objectproperty	Subj	Subject	JIG
+2sgSubj	person	2	SecondPerson	JIG
+2sgSubj	number	sg	Singular	JIG
+3dl	person	3	ThirdPerson	JIG
+3dl	number	dl	Dual	JIG
+ALL	case	ALL	AllativeCase	JIG
+anim	gender	anim	AnimateGender	JIG
+DIST	tense	DIST	Distant_PastTense	JIG
+dl	number	dl	Dual	JIG
+Exc	person	Exc	FirstPersonExclusive	JIG
+IMPV	mood	IMPV	ImperativeMood	JIG
+INST	case	INST	InstrumentalCase	JIG
+narr	voice	narr	Narrative_Voice	JIG
+NEGIMPV	mood	NEGIMPV	ImperativeMood	JIG
+CL	classifier	CL	Classifier	JPN
+1sgPAST	tense	PAST	PastTense	KJS
+1sgPAST	person	1	FirstPerson	KJS
+1sgPAST	number	sg	Singular	KJS
+1sgPRES	number	sg	Singular	KJS
+1sgPRES	person	1	FirstPerson	KJS
+1sgPRES	tense	PRES	PresentTense	KJS
+3sgFUT	person	3	ThirdPerson	KJS
+3sgFUT	tense	FUT	FutureTense	KJS
+3sgFUT	number	sg	Singular	KJS
+3sgPRES	person	3	ThirdPerson	KJS
+3sgPRES	tense	PRES	PresentTense	KJS
+3sgPRES	number	sg	Singular	KJS
+CL	classifier	CL	Classifier	KKN
+Clasf	classifier	Clasf	Classifier	KKN
+INTRS	pos	INTRS	IntransitiveVerb	KTG
+FP	pos	P	Adjective	LTN
+FP	tense	F	FutureTense	LTN
+II	pos	TI	Verb	MAC
+TI	pos	TI	Verb	MAC
+TRANS	pos	TRANS	TransitiveVerb	MEM
+DETsg	pos	DET	Determiner	MET
+DETsg	number	sg	Singular	MET
+PASTNEG	tense	PAST	PastTense	MPC
+PASTNEG	polarity	NEG	Negative	MPC
+PNEG	tense	P	PastTense	MPC
+PNEG	polarity	NEG	Negative	MPC
+3MA	gender	MA	Masculine	MPH
+3MA	person	3	ThirdPerson	MPH
+3D	number	D	Dual	MPJ
+3D	person	3	ThirdPerson	MPJ
+ABS	case	ABS	NonPossessedCase	NCI
+1sDAT	case	DAT	DativeCase	NEP
+1sDAT	number	S	Singular	NEP
+1sDAT	person	1	FirstPerson	NEP
+1sERG	number	S	Singular	NEP
+1sERG	case	ERG	ErgativeCase	NEP
+1sERG	person	1	FirstPerson	NEP
+1sNOM	person	1	FirstPerson	NEP
+1sNOM	number	S	Singular	NEP
+1sNOM	case	NOM	NominativeCase	NEP
+2sNOM	person	2	SecondPerson	NEP
+2sNOM	number	S	Singular	NEP
+2sNOM	case	NOM	NominativeCase	NEP
+3sDAT	person	3	ThirdPerson	NEP
+3sDAT	case	DAT	DativeCase	NEP
+3sDAT	number	s	Singular	NEP
+3sNPT	number	S	Singular	NEP
+3sNPT	person	3	ThirdPerson	NEP
+3sNPT	tense	NPT	NonPastTense	NEP
+3sPT	person	3	ThirdPerson	NEP
+3sPT	tense	PT	PastTense	NEP
+3sPT	number	S	Singular	NEP
+3du	person	3	ThirdPerson	NGK
+3du	number	du	Dual	NGK
+3POSSD	person	3	ThirdPerson	NGK
+3POSSD	case	POSSD	PossessedCase	NGK
+Ben	case	Ben	BenefactiveCase	NGK
+DU	number	DU	Dual	NGK
+RR	voice	RR	Reciprocal/ReflexiveMiddleVoice	NGK
+1OBJ	person	1	FirstPerson	NHN
+1OBJ	relation	OBJ	Object	NHN
+1POS	case	POS	PossessiveCase	NHN
+1POS	person	1	FirstPerson	NHN
+1SUJ	person	1	FirstPerson	NHN
+1SUJ	relation	SUJ	Subject	NHN
+2OBJ	person	2	ThirdPerson	NHN
+2OBJ	relation	OBJ	Object	NHN
+2SUJ	person	2	ThirdPerson	NHN
+2SUJ	relation	SUJ	Subject	NHN
+3OBJ	relation	OBJ	Object	NHN
+3OBJ	person	3	ThirdPerson	NHN
+3SUJ	person	3	ThirdPerson	NHN
+3SUJ	relation	SUJ	Subject	NHN
+ABS	case	ABS	NonPossessedCase	NHN
+AN	pos	AN	Enclitic	NHN
+AND	case	AND	AntidativeCase	NHN
+ANTIPAS	voice	ANTIPAS	AntipassiveVoice	NHN
+APL	voice	APL	ApplicativeVoice	NHN
+COM	aspect	COM	CompletiveAspect	NHN
+COP	pos	COP	Copula	NHN
+DET	pos	DET	Determiner	NHN
+DIR	case	DIR	DirectionalCase	NHN
+EV	evidential	EV	EvidentialValue	NHN
+IRRI	modality	IRRI	Irrealis	NHN
+LIG	pos	LIG	Ligature	NHN
+OBJ	relation	OBJ	Object	NHN
+PAH	evidential	PAH	AuditoryEvidential	NHN
+POS	case	POS	PossessiveCase	NHN
+PRET	tense	PRET	PreteriteTense	NHN
+PRON	pos	PRON	Pronoun	NHN
+SUJ	relation	SUJ	Subject	NHN
+V	pos		Verb	NHN
+1ms	gender	m	Masculine	NID
+1ms	person	1	FirstPerson	NID
+1ms	number	s	Singular	NID
+DYAD	classifier	DYAD	DyadicMorpheme	NID
+12pDAT	person	12	FirstPersonInclusive	NIG
+12pDAT	number	p	Plural	NIG
+12pDAT	case	DAT	DativeCase	NIG
+12pS	number	p	Plural	NIG
+12pS	person	12	FirstPersonInclusive	NIG
+12pS	objectproperty	S	Subject	NIG
+CONTIN	aspect	CONTIN	ContinuousAspect	NIG
+COPULA	pos	COPULA	Copula	NIG
+PA	tense	PA	PastTense	NIG
+2pREFL	person	2p	SecondPerson	NRR
+2pREFL	voice	REFL	Reflexive	NRR
+ABS	case	ABS	NonPossessedCase	PIA
+ART	pos	ART	Article	PIA
+CONJ	pos	CONJ	Conjunction	PIA
+CONT	aspect	CONT	ContinuativeAspect	PIA
+DEM	pos	DEM	Demonstrative	PIA
+DIM	size	DIM	Diminutive	PIA
+INTER	mood	INTER	Interogative	PIA
+OBVAUX	pos	AUX	Auxilliary	PIA
+OBVAUX	person	OBV	Obviative	PIA
+SUBJ	modality	SUBJ	Subjunctive	PIA
+USIT	aspect	USIT	UsitativeAspect	PIA
+DU	number	DU	Dual	PIT
+PURP	case	PURP	PurposiveCase	PIT
+future	tense	future	FutureTense	PRS
+3FUT	tense	FUT	FutureTense	QUZ
+3FUT	person	3	ThirdPerson	QUZ
+DYAD	classifier	DYAD	DyadicMorpheme	RIT
+DYAD	classifier	DYAD	DyadicMorpheme	RMB
+COPPST	tense	PST	PastTense	SLV
+COPPST	pos	COP	Verb	SLV
+IMPF	tense	IMPF	SimplePastTense	SPN
+PERF	tense	PERF	RelativePastTense	SPN
+PRET	tense	PRET	SimplePastTense	SPN
+AUXFUT	tense	FUT	FutureTense	SRC
+AUXFUT	pos	AUX	Verb	SRC
+AUXFUT2	pos	AUX	Verb	SRC
+AUXFUT2	tense	FUT2	FutureTense	SRC
+FsgACC	number	sg	Singular	SRC
+FsgACC	case	ACC	AccusativeCase	SRC
+FsgACC	gender	F	Feminine	SRC
+FsgDAT	gender	F	Feminine	SRC
+FsgDAT	case	DAT	DativeCase	SRC
+FsgDAT	number	sg	Singular	SRC
+MplNOM	gender	M	Masculine	SRC
+MplNOM	case	NOM	NominativeCase	SRC
+MplNOM	number	pl	Plural	SRC
+1plACC	person	1	FirstPerson	STR
+1plACC	number	pl	Plural	STR
+1plACC	case	ACC	AccusativeCase	STR
+2sgNOM	person	2	SecondPerson	STR
+2sgNOM	number	sg	Singular	STR
+2sgNOM	case	NOM	NominativeCase	STR
+3ABS	person	3	ThirdPerson	STR
+3ABS	case	ABS	AbsolutiveCase	STR
+3ERG	person	3	ThirdPerson	STR
+3ERG	case	ERG	ErgativeCase	STR
+3OBJ	objectproperty	OBJ	DirectObject	SWA
+3OBJ	person	3	ThirdPerson	SWA
+3SUBJ	person	3	ThirdPerson	SWA
+3SUBJ	objectproperty	SUBJ	Subject	SWA
+PRS	tense	PRS	PresentTense	TCV
+3plERG	number	pl	Plural	THD
+3plERG	case	ERG	ErgativeCase	THD
+3plERG	person	3	ThirdPerson	THD
+RECIP	voice	RECIP	ReciprocalMiddleVoice	THD
+1incSu	relation	Subj	Subject	WBP
+1incSu	person	1inc	FirstPersonInclusive	WBP
+1P	number	P	Plural	WBP
+1P	person	1	FirstPerson	WBP
+1plExcl	person	1	FirstPerson	WBP
+1plExcl	person	Excl	FirstPersonExclusive	WBP
+1plExcl	number	pl	Plural	WBP
+1sgO	person	1	FirstPerson	WBP
+1sgO	relation	O	Object	WBP
+1sgO	number	sg	Singular	WBP
+1sgOb	relation	Ob	Object	WBP
+1sgOb	person	1	FirstPerson	WBP
+1sgOb	number	sg	Singular	WBP
+1sgS	relation	S	Subject	WBP
+1sgS	person	1	FirstPerson	WBP
+1sgS	number	sg	Singular	WBP
+1sO	number	s	Singular	WBP
+1sO	relation	O	Object	WBP
+1sO	person	1	FirstPerson	WBP
+1sS	person	1	FirstPerson	WBP
+1sS	number	s	Singular	WBP
+1sS	number	S	Subject	WBP
+1subj	relation	subj	Subject	WBP
+1subj	person	1	FirstPerson	WBP
+2obj	relation	obj	Object	WBP
+2obj	person	2	SecondPerson	WBP
+2sgO	person	2	SecondPerson	WBP
+2sgO	number	sg	Singular	WBP
+2sgO	relation	O	Object	WBP
+2sgOb	person	2	SecondPerson	WBP
+2sgOb	relation	Ob	Object	WBP
+2sgOb	number	sg	Singular	WBP
+2SGOBJ	relation	OBJ	Object	WBP
+2SGOBJ	person	2	SecondPerson	WBP
+2SGOBJ	number	SG	Singular	WBP
+3Dat	case	Dat	DativeCase	WBP
+3Dat	person	3	ThirdPerson	WBP
+3dlSUBJ	relation	SUBJ	Subject	WBP
+3dlSUBJ	number	dl	Dual	WBP
+3dlSUBJ	person	3	ThirdPerson	WBP
+3ds	number	d	Dual	WBP
+3ds	person	3	ThirdPerson	WBP
+3ds	relation	s	Subject	WBP
+3Dual	number	Dual	Dual	WBP
+3Dual	person	3	ThirdPerson	WBP
+3plOb	number	pl	Plural	WBP
+3plOb	person	3	ThirdPerson	WBP
+3plOb	relation	Ob	Object	WBP
+3plObj	relation	Obj	Object	WBP
+3plObj	number	pl	Plural	WBP
+3plObj	person	3	ThirdPerson	WBP
+3plS	number	S	Subject	WBP
+3plS	person	3	ThirdPerson	WBP
+3plS	number	pl	Plural	WBP
+3plSUBJ	relation	SUBJ	Subject	WBP
+3plSUBJ	number	pl	Plural	WBP
+3plSUBJ	person	3	ThirdPerson	WBP
+3pO	number	p	Plural	WBP
+3pO	person	3	ThirdPerson	WBP
+3pO	relation	O	Object	WBP
+3pS	relation	S	Subject	WBP
+3pS	number	p	Plural	WBP
+3pS	person	3	ThirdPerson	WBP
+3sgDat	number	sg	Singular	WBP
+3sgDat	case	Dat	DativeCase	WBP
+3sgDat	person	3	ThirdPerson	WBP
+3SgO	number	Sg	Singular	WBP
+3SgO	relation	O	Object	WBP
+3SgO	person	3	ThirdPerson	WBP
+3sgSUBJ	person	3	ThirdPerson	WBP
+3sgSUBJ	relation	SUBJ	Subject	WBP
+3sgSUBJ	number	sg	Singular	WBP
+APASS	voice	APASS	AntipassiveVoice	WBP
+cause	voice	cause	CausativeVoice	WBP
+DU	number	DU	Dual	WBP
+El	case	El	ElativeCase	WBP
+ELAT	case	ELAT	ElativeCase	WBP
+EXCL	person	EXCL	FirstPersonExclusive	WBP
+FactC	pos	C	Complementizer	WBP
+Imperative	mood	Imperative	ImperativeMood	WBP
+INCH	aspect	INCH	InceptiveAspect	WBP
+Incho	aspect	Incho	InceptiveAspect	WBP
+INF	pos	INF	InfinitiveVerb	WBP
+INFIN	pos	INFIN	InfinitiveVerb	WBP
+NfactC	pos	C	Complementizer	WBP
+NP	tense	NP	NonPastTense	WBP
+NPAST	tense	NPAST	NonPastTense	WBP
+ObjC	pos	C	Complementizer	WBP
+ObjC	relation	Obj	Object	WBP
+ObvC	pos	C	Complementizer	WBP
+PART	case	PART	PartiveCase	WBP
+PastImpf	aspect	Impf	ImperfectiveAspect	WBP
+PastImpf	tense	Past	PastTense	WBP
+Pauc	number	Pauc	Paucal	WBP
+POSSs	relation	s	Subject	WBP
+POSSs	case	POSS	PossessiveCase	WBP
+PotC	case	Pot	PotentialCase	WBP
+PotC	pos	C	Complementizer	WBP
+PRESIMP	aspect	IMP	ImperfectiveAspect	WBP
+PRESIMP	tense	PRES	PresentTense	WBP
+PresImpf	aspect	Impf	ImperfectiveAspect	WBP
+PresImpf	tense	Pres	PresentTense	WBP
+REFLEX	voice	REFLEX	ReflexiveMiddleVoice	WBP
+RelC	pos	C	Complementizer	WBP
+RR	voice	RR	ReciprocalMiddleVoice	WBP
+SubjC	relation	Subj	Subject	WBP
+SubjC	pos	C	Complementizer	WBP
+Top	discourse	Top	Topic	WBP
+AP	voice	AP	AntipassiveVoice	WRG
+3pl	person	3	ThirdPerson	WRM
+3pl	number	pl	Plural	WRM
+NS	number	NS	NonSingular	WRM
+3NONSG	person	3	ThirdPerson	WRR
+DU	number	DU	Dual	WRR
+3NONSG	number	NONSG	NonSingular	WTT
+topic	discourse	topic	Topic	WYB
+ABS	case	ABS	NonPossessedCase	XNEV
+APPL	voice	APPL	ApplicativeVoice	XXX
+CAUS	voice	CAUS	CausativeVoice	XXX
+EMPH	voice	EMPH	EmphaticVoice	XXX
+PASSIVE	voice	PASSIVE	PassiveVoice	XXX
+POSS	case	POSS	PossesiveCase	XXX
+REFL	voice	REFL	Reflexive	XXX
+3NNOM	person	3	ThirdPerson	YAQ
+3NNOM	case	NNOM	ObliqueCase	YAQ
+3REFL	pos	REFL	ReflexivePronoun	YAQ
+3REFL	person	3	Thirdperson	YAQ
+ABS	case	ABS	NonPossessedCase	YAQ
+BENEF	case	BENEF	BenefactiveCase	YAQ
+COM	case	COM	ComitativeCase	YAQ
+COMPL	aspect	COMPL	CompletiveAspect	YAQ
+CONT	aspect	CONT	ContinuousAspect	YAQ
+DEM	pos	DEM	Demonstrative	YAQ
+DES	mood	DES	DesiderativeMood	YAQ
+DESID	mood	DESID	DesiderativeMood	YAQ
+DIR	case	DIR	LocationalCase	YAQ
+GER	pos	GER	Gerund	YAQ
+IMP	mood	IMP	ImperativeMood	YAQ
+INC	aspect	INC	InceptiveAspect	YAQ
+INCEP	aspect	INCEP	InceptiveAspect	YAQ
+IND	mood	IND	IndicativeMood	YAQ
+INSTR	case	INSTR	InstrumentalCase	YAQ
+INTR	pos	INTR	IntransitiveVerb	YAQ
+INTT	aspect	INTT	IntentiveAspect	YAQ
+NEG	polarity	NEG	Negative	YAQ
+NNOM	case	NNOM	ObliqueCase	YAQ
+PASS	voice	PASS	PassiveVoice	YAQ
+PASTC	aspect	C	ProgressiveAspect	YAQ
+PASTC	tense	PAST	PastTense	YAQ
+PPL	pos	PPL	Participle	YAQ
+REL	pos	REL	Relativizer	YAQ
+SUB	pos	SUB	SubordinatingConnective	YAQ
+TERM	aspect	TERM	TerminativeAspect	YAQ
+VERB	pos	VERB	Verb	YAQ
+1plA	person	1	FirstPerson	YEE
+1plA	number	pl	Plural	YEE
+1plA	case	A	AccusativeCase	YEE
+1plE	number	pl	Plural	YEE
+1plE	person	1	FirstPerson	YEE
+1plE	case	E	ErgativeCase	YEE
+1sgA	case	A	AccusativeCase	YEE
+1sgA	number	sg	Singular	YEE
+1sgA	person	1	FirstPerson	YEE
+1sgE	case	E	ErgativeCase	YEE
+1sgE	person	1	FirstPerson	YEE
+1sgE	number	sg	Singular	YEE
+2dlA	person	2	SecondPerson	YEE
+2dlA	number	dl	Dual	YEE
+2dlA	case	A	AccusativeCase	YEE
+2pcN	number	pc	Paucal	YEE
+2pcN	person	2	SecondPerson	YEE
+2pcN	case	N	NominativeCase	YEE
+2plA	number	pl	Plural	YEE
+2plA	person	2	SecondPerson	YEE
+2plA	case	A	AccusativeCase	YEE
+2plE	number	pl	Plural	YEE
+2plE	person	2	SecondPerson	YEE
+2plE	case	E	ErgativeCase	YEE
+2plN	person	2	SecondPerson	YEE
+2plN	number	pl	Plural	YEE
+2plN	case	N	NominativeCase	YEE
+2sgE	case	E	ErgativeCase	YEE
+2sgE	number	sg	Singular	YEE
+2sgE	person	2	SecondPerson	YEE
+2sgN	number	sg	Singular	YEE
+2sgN	person	2	SecondPerson	YEE
+2sgN	case	N	NominativeCase	YEE
+3dlN	number	dl	Dual	YEE
+3dlN	case	N	NominativeCase	YEE
+3dlN	person	3	ThirdPerson	YEE
+3plE	case	E	ErgativeCase	YEE
+3plE	person	3	ThirdPerson	YEE
+3plE	number	pl	Plural	YEE
+3plN	case	N	NominativeCase	YEE
+3plN	number	pl	Plural	YEE
+3plN	person	3	ThirdPerson	YEE
+3sgE	case	E	ErgativeCase	YEE
+3sgE	person	3	ThirdPerson	YEE
+3sgE	number	sg	Singular	YEE
+IVsg	number	sg	Singular	YEE
+IVsg	classifier	IV	Classifier	YEE
+NRFUT	tense	NRFUT	CloseFutureTense	YEE
+PAST	tense	PAST	PastTense	YEE
+REMOTE	tense	REMOTE	RemotePastTense	YEE
+CL	classifier	CL	Classifier	YUH
+COPULA	pos	COPULA	Copula	ZMU

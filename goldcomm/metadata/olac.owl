@@ -1,0 +1,682 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY terms "http://purl.org/dc/terms/" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY owl2xml "http://www.w3.org/2006/12/owl2-xml#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY olac "http://purl.org/linguistics/olac/" >
+]>
+
+
+<rdf:RDF xmlns="http://purl.org/linguistics/olac/#"
+     xml:base="http://purl.org/linguistics/olac/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:olac="http://purl.org/linguistics/olac/">
+    <owl:Ontology rdf:about="">
+        <owl:imports rdf:resource="http://purl.org/dc/terms/"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/terms/contributor -->
+
+    <owl:ObjectProperty rdf:about="&terms;contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/subject -->
+
+    <owl:ObjectProperty rdf:about="&terms;subject"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/type -->
+
+    <owl:ObjectProperty rdf:about="&terms;type"/>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#annotator -->
+
+    <owl:ObjectProperty rdf:about="#annotator">
+        <rdfs:subPropertyOf rdf:resource="&terms;contributor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#author -->
+
+    <owl:ObjectProperty rdf:about="#author">
+        <rdfs:subPropertyOf rdf:resource="&terms;contributor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#compiler -->
+
+    <owl:ObjectProperty rdf:about="#compiler">
+        <rdfs:subPropertyOf rdf:resource="&terms;contributor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#consultant -->
+
+    <owl:ObjectProperty rdf:about="#consultant">
+        <rdfs:subPropertyOf rdf:resource="&terms;contributor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#data_inputter -->
+
+    <owl:ObjectProperty rdf:about="#data_inputter">
+        <rdfs:subPropertyOf rdf:resource="&terms;contributor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#depositor -->
+
+    <owl:ObjectProperty rdf:about="#depositor">
+        <rdfs:subPropertyOf rdf:resource="&terms;contributor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#developer -->
+
+    <owl:ObjectProperty rdf:about="#developer">
+        <rdfs:subPropertyOf rdf:resource="&terms;contributor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#editor -->
+
+    <owl:ObjectProperty rdf:about="#editor">
+        <rdfs:subPropertyOf rdf:resource="&terms;contributor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#illustrator -->
+
+    <owl:ObjectProperty rdf:about="#illustrator">
+        <rdfs:subPropertyOf rdf:resource="&terms;contributor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#interpreter -->
+
+    <owl:ObjectProperty rdf:about="#interpreter">
+        <rdfs:subPropertyOf rdf:resource="&terms;contributor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#interviewer -->
+
+    <owl:ObjectProperty rdf:about="#interviewer">
+        <rdfs:subPropertyOf rdf:resource="&terms;contributor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#linguistic-field -->
+
+    <owl:ObjectProperty rdf:about="#linguistic-field">
+        <rdfs:subPropertyOf rdf:resource="&terms;subject"/>
+        <rdfs:range rdf:resource="#LinguisticField"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#linguistic-type -->
+
+    <owl:ObjectProperty rdf:about="#linguistic-type">
+        <rdfs:subPropertyOf rdf:resource="&terms;type"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#participant -->
+
+    <owl:ObjectProperty rdf:about="#participant">
+        <rdfs:subPropertyOf rdf:resource="&terms;contributor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#performer -->
+
+    <owl:ObjectProperty rdf:about="#performer">
+        <rdfs:subPropertyOf rdf:resource="&terms;contributor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#photographer -->
+
+    <owl:ObjectProperty rdf:about="#photographer">
+        <rdfs:subPropertyOf rdf:resource="&terms;contributor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#recorder -->
+
+    <owl:ObjectProperty rdf:about="#recorder">
+        <rdfs:subPropertyOf rdf:resource="&terms;contributor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#research_participant -->
+
+    <owl:ObjectProperty rdf:about="#research_participant">
+        <rdfs:subPropertyOf rdf:resource="&terms;contributor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#researcher -->
+
+    <owl:ObjectProperty rdf:about="#researcher">
+        <rdfs:subPropertyOf rdf:resource="&terms;contributor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#responder -->
+
+    <owl:ObjectProperty rdf:about="#responder">
+        <rdfs:subPropertyOf rdf:resource="&terms;contributor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#signer -->
+
+    <owl:ObjectProperty rdf:about="#signer">
+        <rdfs:subPropertyOf rdf:resource="&terms;contributor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#singer -->
+
+    <owl:ObjectProperty rdf:about="#singer">
+        <rdfs:subPropertyOf rdf:resource="&terms;contributor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#speaker -->
+
+    <owl:ObjectProperty rdf:about="#speaker">
+        <rdfs:subPropertyOf rdf:resource="&terms;contributor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#sponsor -->
+
+    <owl:ObjectProperty rdf:about="#sponsor">
+        <rdfs:subPropertyOf rdf:resource="&terms;contributor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#transcriber -->
+
+    <owl:ObjectProperty rdf:about="#transcriber">
+        <rdfs:subPropertyOf rdf:resource="&terms;contributor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#translator -->
+
+    <owl:ObjectProperty rdf:about="#translator">
+        <rdfs:subPropertyOf rdf:resource="&terms;contributor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#DiscourseType -->
+
+    <owl:Class rdf:about="#DiscourseType"/>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#LinguisticField -->
+
+    <owl:Class rdf:about="#LinguisticField">
+        <rdfs:subClassOf rdf:resource="&terms;Subject"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#LinguisticType -->
+
+    <owl:Class rdf:about="#LinguisticType"/>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#LinguisticField -->
+
+    <owl:Class rdf:about="#LinguisticField"/>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+    <owl:Class rdf:about="&owl;Thing"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf# -->
+
+    <owl:Thing rdf:about="#"/>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#anthropological_linguistics -->
+
+    <LinguisticField rdf:about="#anthropological_linguistics">
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </LinguisticField>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#applied_linguistics -->
+
+    <owl:Thing rdf:about="#applied_linguistics">
+        <rdf:type rdf:resource="#LinguisticField"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#cognitive_science -->
+
+    <LinguisticField rdf:about="#cognitive_science">
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </LinguisticField>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#computational_linguistics -->
+
+    <owl:Thing rdf:about="#computational_linguistics">
+        <rdf:type rdf:resource="#LinguisticField"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#dialogue -->
+
+    <DiscourseType rdf:about="#dialogue">
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </DiscourseType>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#discourse_analysis -->
+
+    <LinguisticField rdf:about="#discourse_analysis">
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </LinguisticField>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#drama -->
+
+    <DiscourseType rdf:about="#drama">
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </DiscourseType>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#forensic_linguistics -->
+
+    <LinguisticField rdf:about="#forensic_linguistics">
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </LinguisticField>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#formulaic_discourse -->
+
+    <owl:Thing rdf:about="#formulaic_discourse">
+        <rdf:type rdf:resource="#DiscourseType"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#general_linguistics -->
+
+    <owl:Thing rdf:about="#general_linguistics">
+        <rdf:type rdf:resource="#LinguisticField"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#historical_linguistics -->
+
+    <LinguisticField rdf:about="#historical_linguistics">
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </LinguisticField>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#history_of_linguistics -->
+
+    <owl:Thing rdf:about="#history_of_linguistics">
+        <rdf:type rdf:resource="#LinguisticField"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#interactive_discourse -->
+
+    <owl:Thing rdf:about="#interactive_discourse">
+        <rdf:type rdf:resource="#DiscourseType"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#language_acquisition -->
+
+    <owl:Thing rdf:about="#language_acquisition">
+        <rdf:type rdf:resource="#LinguisticField"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#language_description -->
+
+    <LinguisticType rdf:about="#language_description">
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </LinguisticType>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#language_documentation -->
+
+    <owl:Thing rdf:about="#language_documentation">
+        <rdf:type rdf:resource="#LinguisticField"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#language_play -->
+
+    <DiscourseType rdf:about="#language_play">
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </DiscourseType>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#lexicography -->
+
+    <LinguisticField rdf:about="#lexicography">
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </LinguisticField>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#lexicon -->
+
+    <owl:Thing rdf:about="#lexicon">
+        <rdf:type rdf:resource="#LinguisticType"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#linguistic_theories -->
+
+    <owl:Thing rdf:about="#linguistic_theories">
+        <rdf:type rdf:resource="#LinguisticField"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#linguistics_and_literature -->
+
+    <LinguisticField rdf:about="#linguistics_and_literature">
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </LinguisticField>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#ludic -->
+
+    <DiscourseType rdf:about="#ludic">
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </DiscourseType>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#mathematical_linguistics -->
+
+    <LinguisticField rdf:about="#mathematical_linguistics">
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </LinguisticField>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#morphology -->
+
+    <LinguisticField rdf:about="#morphology">
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </LinguisticField>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#narrative -->
+
+    <owl:Thing rdf:about="#narrative">
+        <rdf:type rdf:resource="#DiscourseType"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#neurolinguistics -->
+
+    <owl:Thing rdf:about="#neurolinguistics">
+        <rdf:type rdf:resource="#LinguisticField"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#oratory -->
+
+    <DiscourseType rdf:about="#oratory">
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </DiscourseType>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#philosophy_of_language -->
+
+    <owl:Thing rdf:about="#philosophy_of_language">
+        <rdf:type rdf:resource="#LinguisticField"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#phonetics -->
+
+    <LinguisticField rdf:about="#phonetics">
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </LinguisticField>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#phonology -->
+
+    <owl:Thing rdf:about="#phonology">
+        <rdf:type rdf:resource="#LinguisticField"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#pragmatics -->
+
+    <owl:Thing rdf:about="#pragmatics">
+        <rdf:type rdf:resource="#LinguisticField"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#primary_text -->
+
+    <owl:Thing rdf:about="#primary_text">
+        <rdf:type rdf:resource="#LinguisticType"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#procedural_discourse -->
+
+    <owl:Thing rdf:about="#procedural_discourse">
+        <rdf:type rdf:resource="#DiscourseType"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#psycholinguistics -->
+
+    <owl:Thing rdf:about="#psycholinguistics">
+        <rdf:type rdf:resource="#LinguisticField"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#report -->
+
+    <owl:Thing rdf:about="#report">
+        <rdf:type rdf:resource="#DiscourseType"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#semantics -->
+
+    <owl:Thing rdf:about="#semantics">
+        <rdf:type rdf:resource="#LinguisticField"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#singing -->
+
+    <DiscourseType rdf:about="#singing">
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </DiscourseType>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#sociolinguistics -->
+
+    <owl:Thing rdf:about="#sociolinguistics">
+        <rdf:type rdf:resource="#LinguisticField"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#syntax -->
+
+    <owl:Thing rdf:about="#syntax">
+        <rdf:type rdf:resource="#LinguisticField"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#text_and_corpus_linguistics -->
+
+    <LinguisticField rdf:about="#text_and_corpus_linguistics">
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </LinguisticField>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#translating_and_interpreting -->
+
+    <owl:Thing rdf:about="#translating_and_interpreting">
+        <rdf:type rdf:resource="#LinguisticField"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#typology -->
+
+    <owl:Thing rdf:about="#typology">
+        <rdf:type rdf:resource="#LinguisticField"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#unintelligle_speech -->
+
+    <owl:Thing rdf:about="#unintelligle_speech">
+        <rdf:type rdf:resource="#DiscourseType"/>
+    </owl:Thing>
+    
+
+
+    <!-- http://purl.org/linguistics/olac/olac.rdf#writing_systems -->
+
+    <LinguisticField rdf:about="#writing_systems">
+        <rdf:type rdf:resource="&owl;Thing"/>
+    </LinguisticField>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 2.2.1.1138) http://owlapi.sourceforge.net -->
+

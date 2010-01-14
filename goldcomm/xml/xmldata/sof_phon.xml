@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PhonStruct>
+
+<syllable stress="primary">
+    <onset>
+        <phoneme form="f0"/>
+    </onset>
+    <rhyme>
+        <nucleus>
+            <phoneme form="f1"/>
+        </nucleus>
+        <coda>
+            <phoneme form="f2"/>
+        </coda>
+    </rhyme>
+</syllable>
+
+<foot>
+    <syllable/>
+    <syllable/>
+    <syllable/>
+</foot>    
+    
+    <form id="f0" type="phonemic">l</form>    
+    <form id="f1" type="phonemic">e</form>    
+    <form id="f2" type="phonemic">t</form>    
+
+</PhonStruct>
+
+
+    <PhonemeInventory>
+        <Phoneme form="f1" type="consonant">
+            <Features>
+                <PhonFeat value="coronal"/>
+                <PhonFeat value="lateral"/>
+            </Features>
+        </Phoneme>
+        <Phoneme form="f1" type="vowel">
+            <Features>
+            <PhonFeat value="front"/>
+                </Features>
+        </Phoneme>
+    </PhonemeInventory>
+
+
+
+
+
