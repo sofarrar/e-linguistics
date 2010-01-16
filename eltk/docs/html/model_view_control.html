@@ -1,0 +1,157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Model-View-Control &mdash; ELTK v0.4 documentation</title>
+    <link rel="stylesheet" href="_static/sphinxdoc.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '0.4',
+        COLLAPSE_MODINDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="ELTK v0.4 documentation" href="index.html" />
+    <link rel="next" title="Bibliography" href="bibliography.html" />
+    <link rel="prev" title="JSON Utils" href="jsonutils.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="modindex.html" title="Global Module Index"
+             accesskey="M">modules</a> |</li>
+        <li class="right" >
+          <a href="bibliography.html" title="Bibliography"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="jsonutils.html" title="JSON Utils"
+             accesskey="P">previous</a> |</li>
+        <li><a href="contents.html">ELTK v0.4 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+            <h3><a href="contents.html">Table Of Contents</a></h3>
+            <ul>
+<li><a class="reference external" href="">Model-View-Control</a><ul>
+<li><a class="reference external" href="#model">Model</a></li>
+<li><a class="reference external" href="#view">View</a></li>
+<li><a class="reference external" href="#control">Control</a></li>
+<li><a class="reference external" href="#django">Django</a></li>
+</ul>
+</li>
+</ul>
+
+            <h4>Previous topic</h4>
+            <p class="topless"><a href="jsonutils.html"
+                                  title="previous chapter">JSON Utils</a></p>
+            <h4>Next topic</h4>
+            <p class="topless"><a href="bibliography.html"
+                                  title="next chapter">Bibliography</a></p>
+            <h3>This Page</h3>
+            <ul class="this-page-menu">
+              <li><a href="_sources/model_view_control.txt"
+                     rel="nofollow">Show Source</a></li>
+            </ul>
+          <div id="searchbox" style="display: none">
+            <h3>Quick search</h3>
+              <form class="search" action="search.html" method="get">
+                <input type="text" name="q" size="18" />
+                <input type="submit" value="Go" />
+                <input type="hidden" name="check_keywords" value="yes" />
+                <input type="hidden" name="area" value="default" />
+              </form>
+              <p class="searchtip" style="font-size: 90%">
+              Enter search terms or a module, class or function name.
+              </p>
+          </div>
+          <script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="model-view-control">
+<span id="id1"></span><h1>Model-View-Control<a class="headerlink" href="#model-view-control" title="Permalink to this headline">¶</a></h1>
+<p>Within the framework of <a class="reference external" href="http://purl.org/linguistics/e-linguistics">e-linguistics</a>, there are components that may be described in terms of the model-view-control design pattern. This provides a clear way to loosely couple the components into a cohesive whole, yet maintain modularity for each component.</p>
+<div class="section" id="model">
+<h2>Model<a class="headerlink" href="#model" title="Permalink to this headline">¶</a></h2>
+<p>Within the MVC pattern, the <em>model</em> refers to some data model typically expressed in a relational database. Within e-linguistics, the model is the  conceptualization of linguistic knowledge. In fact, the model consists of a knowledge level and a logical level (cf. Guarino 1995). First, there is the knowledge captured by the <a class="reference external" href="http://purl.org/linguistics/goldcomm">GOLD Community of Practice</a>, or GOLDComm for short. The knowledge itself is partitioned into an ontology (GOLD), (potentially several) subontologies called Community of Practice Extensions (COPEs) and an arbitrarily large collection of instance data, that instantiates GOLD and COPE concepts.</p>
+<p>On the logical level, there is the  abstract graph model of the <a class="reference external" href="http://ww.w3.org/RDF/">Resource Description Framework (RDF)</a>. The ontology and instance data, then, are expressed using the more basic subject-predicate-object model of RDF.  (It should be noted that linguistic knowledge could be expressed using some other logical structure.) The concrete serialization of the RDF model could be expressed in RDF/XML, N3 notation, an RDF database, etc. For the purposes of the current project, we will use RDF/XML to expose the structure of the data. This provides a &#8220;hook&#8221; for interoperability with other projects and tools. We will also make use of RDF databases, those optimized to work with the underlying RDF model.</p>
+</div>
+<div class="section" id="view">
+<h2>View<a class="headerlink" href="#view" title="Permalink to this headline">¶</a></h2>
+<p>With the MVC pattern, the <em>view</em> refers to data display. In e-linguistics the view consists of the various ways to visualize linguistics data. Lexical data, for instance, may be viewed as a structured entry with a headword and a definition, etymological info, etc. Data commonly expressed in structured paradigms may be given in tabular or interlinear form. Phonological descriptions may be given either as a simple collection of forms, or as a phonological rules.</p>
+</div>
+<div class="section" id="control">
+<h2>Control<a class="headerlink" href="#control" title="Permalink to this headline">¶</a></h2>
+<p>Control refers to how the user is able to drive the system in order to access the data for manipulation: changing, validating, viewing, etc. For the  <em>control</em> component, the various modules of the <a class="reference external" href="http://purl.org/linguistics/eltk">e-Linguistics Toolkit (ELTK)</a> are used. Specifically, the ELTK provides a mechanism (through Python&#8217;s metaclasses) to import GOLDComm&#8217;s content into the Python object-oriented programming platform. Classes, relations, and individuals from the GOLD ontology are translated into first order Python entities: classes, methods and instances. This way, the programmer (or application) can have <em>control</em> over the entire <em>model</em>. This allows for the efficient access to GOLDComm&#8217;s content without having to worry about its form or serialization. Direct manipulation of the model can provide for content validation of GOLDComm data. For instance, nouns in a particular language may not be associated with the locative case.</p>
+<p>Summary of ELTK&#8217;s functionality:</p>
+<blockquote>
+<ul class="simple">
+<li>model manipulation &#8211; access to GOLDComm&#8217;s content</li>
+<li>data migration &#8211; translation of un- or semi-structured data to GOLDComm</li>
+<li>content validation &#8211; verifying that data do not violate the conceptualization</li>
+<li>display &#8211; the creation of display structures for human consumption</li>
+</ul>
+</blockquote>
+</div>
+<div class="section" id="django">
+<h2>Django<a class="headerlink" href="#django" title="Permalink to this headline">¶</a></h2>
+<p>Finally, there is <a class="reference external" href="http://www.djangoproject.com">Django</a>, the Python web framework used to bring everything together as a cohesive unit. Django provides the means to build a website, facilitate web services, and access a db system. Django  itself resembles the MVC pattern, (see  <a class="reference external" href="http://www.djangobook.com/en/2.0/chapter05/">this explanation</a>). However, it is probably better described as a MTV pattern:</p>
+<blockquote>
+<ul class="simple">
+<li>Model &#8211; data access layer for getting at data expressed according to GOLDComm</li>
+<li>Template &#8211; data display component used to expose the data in various human friendly formats. HTML templates are used to accomplish this.</li>
+<li>View &#8211; the bridge between model and template</li>
+</ul>
+</blockquote>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="modindex.html" title="Global Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="bibliography.html" title="Bibliography"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="jsonutils.html" title="JSON Utils"
+             >previous</a> |</li>
+        <li><a href="contents.html">ELTK v0.4 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+      &copy; Copyright 2009, Scott Farrar, Steve Moran.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 0.6.2.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,197 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Store &mdash; ELTK v0.4 documentation</title>
+    <link rel="stylesheet" href="_static/sphinxdoc.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '0.4',
+        COLLAPSE_MODINDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="ELTK v0.4 documentation" href="index.html" />
+    <link rel="next" title="Miscellaneous Utilities" href="misc_utils.html" />
+    <link rel="prev" title="Graph Manager" href="graphmanager.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="modindex.html" title="Global Module Index"
+             accesskey="M">modules</a> |</li>
+        <li class="right" >
+          <a href="misc_utils.html" title="Miscellaneous Utilities"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="graphmanager.html" title="Graph Manager"
+             accesskey="P">previous</a> |</li>
+        <li><a href="contents.html">ELTK v0.4 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+            <h3><a href="contents.html">Table Of Contents</a></h3>
+            <ul>
+<li><a class="reference external" href="">Store</a><ul>
+<li><a class="reference external" href="#how-to-use-store">How to use store</a></li>
+</ul>
+</li>
+<li><a class="reference external" href="#module-eltk.store.utils">Store Utils</a></li>
+</ul>
+
+            <h4>Previous topic</h4>
+            <p class="topless"><a href="graphmanager.html"
+                                  title="previous chapter">Graph Manager</a></p>
+            <h4>Next topic</h4>
+            <p class="topless"><a href="misc_utils.html"
+                                  title="next chapter">Miscellaneous Utilities</a></p>
+            <h3>This Page</h3>
+            <ul class="this-page-menu">
+              <li><a href="_sources/store.txt"
+                     rel="nofollow">Show Source</a></li>
+            </ul>
+          <div id="searchbox" style="display: none">
+            <h3>Quick search</h3>
+              <form class="search" action="search.html" method="get">
+                <input type="text" name="q" size="18" />
+                <input type="submit" value="Go" />
+                <input type="hidden" name="check_keywords" value="yes" />
+                <input type="hidden" name="area" value="default" />
+              </form>
+              <p class="searchtip" style="font-size: 90%">
+              Enter search terms or a module, class or function name.
+              </p>
+          </div>
+          <script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="module-eltk.store.store">
+<span id="store"></span><h1>Store<a class="headerlink" href="#module-eltk.store.store" title="Permalink to this headline">¶</a></h1>
+<p>The store module is the gatekeeper for populating and maintaining the RDF store db.</p>
+<dl class="function">
+<dt id="eltk.store.store.addToStore">
+<tt class="descclassname">eltk.store.store.</tt><tt class="descname">addToStore</tt><big>(</big><em>rdf_tuple</em><big>)</big><a class="headerlink" href="#eltk.store.store.addToStore" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add an RDF graph to the store.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>graph_tuple</em> (tuple) &#8211; (url,raw_rdf)</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="eltk.store.store.getIdentifier">
+<tt class="descclassname">eltk.store.store.</tt><tt class="descname">getIdentifier</tt><big>(</big><em>graph</em><big>)</big><a class="headerlink" href="#eltk.store.store.getIdentifier" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the dc:identifier from a graph, given its location</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>graph</em> (rdflib.graph.Graph) &#8211; an input RDF graph</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">rdflib.URIRef.URIRef</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<div class="section" id="how-to-use-store">
+<h2>How to use store<a class="headerlink" href="#how-to-use-store" title="Permalink to this headline">¶</a></h2>
+<p>First create simple store with rdflib:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">store</span> <span class="o">=</span> <span class="n">plugin</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s">&#39;MySQL&#39;</span><span class="p">,</span> <span class="n">Store</span><span class="p">)()</span> <span class="c">#(&#39;GOLDComms_id&#39;)</span>
+</pre></div>
+</div>
+<p>You must convert the config string to one compatible with rdflib:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">rdflib_config_string</span> <span class="o">=</span> <span class="s">&#39;host=&#39;</span><span class="o">+</span><span class="n">STORE_CONFIG</span><span class="p">[</span><span class="s">&#39;host&#39;</span><span class="p">]</span><span class="o">+</span><span class="s">&#39;,user=&#39;</span><span class="o">+</span><span class="n">STORE_CONFIG</span><span class="p">[</span><span class="s">&#39;user&#39;</span><span class="p">]</span><span class="o">+</span><span class="s">&#39;,password=&#39;</span><span class="o">+</span><span class="n">STORE_CONFIG</span><span class="p">[</span><span class="s">&#39;password&#39;</span><span class="p">]</span><span class="o">+</span><span class="s">&#39;,db=&#39;</span><span class="o">+</span><span class="n">STORE_CONFIG</span><span class="p">[</span><span class="s">&#39;db&#39;</span><span class="p">]</span>
+</pre></div>
+</div>
+<p>Open the store:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">store</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">rdflib_config_string</span><span class="p">,</span> <span class="n">create</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Create a conjunctive graph using the store:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">cg</span> <span class="o">=</span> <span class="n">ConjunctiveGraph</span><span class="p">(</span><span class="n">store</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">print</span> <span class="nb">len</span><span class="p">(</span><span class="n">cg</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Show the results:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">results</span> <span class="o">=</span> <span class="n">sparqlQuery</span><span class="p">(</span><span class="s">&#39;SELECT  ?o WHERE {&lt;http://purl.org/linguistics/gold/</span><span class="si">%s</span><span class="s">&gt; rdfs:comment ?o }&#39;</span> <span class="o">%</span> <span class="s">&#39;VerbPhrase&#39;</span><span class="p">,</span><span class="n">cg</span><span class="p">)</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="k">for</span> <span class="n">r</span> <span class="ow">in</span> <span class="n">results</span><span class="p">:</span>
+<span class="gp">&gt;&gt;&gt; </span>   <span class="k">print</span> <span class="n">r</span><span class="p">[</span><span class="mf">0</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="module-eltk.store.utils">
+<h1>Store Utils<a class="headerlink" href="#module-eltk.store.utils" title="Permalink to this headline">¶</a></h1>
+<p>This utils module contains various useful functions concerning the store.</p>
+<dl class="function">
+<dt id="eltk.store.utils.resetDB">
+<tt class="descclassname">eltk.store.utils.</tt><tt class="descname">resetDB</tt><big>(</big><em>dbconfig</em><big>)</big><a class="headerlink" href="#eltk.store.utils.resetDB" title="Permalink to this definition">¶</a></dt>
+<dd><p>Reset a db and create a schema for the store.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>dbconfig</em> (dict) &#8211; a config dict</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="modindex.html" title="Global Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="misc_utils.html" title="Miscellaneous Utilities"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="graphmanager.html" title="Graph Manager"
+             >previous</a> |</li>
+        <li><a href="contents.html">ELTK v0.4 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+      &copy; Copyright 2009, Scott Farrar, Steve Moran.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 0.6.2.
+    </div>
+  </body>
+</html>

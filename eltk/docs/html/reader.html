@@ -1,0 +1,351 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Readers &mdash; ELTK v0.4 documentation</title>
+    <link rel="stylesheet" href="_static/sphinxdoc.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '0.4',
+        COLLAPSE_MODINDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="ELTK v0.4 documentation" href="index.html" />
+    <link rel="next" title="Data Display" href="display.html" />
+    <link rel="prev" title="Termset" href="termset.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="modindex.html" title="Global Module Index"
+             accesskey="M">modules</a> |</li>
+        <li class="right" >
+          <a href="display.html" title="Data Display"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="termset.html" title="Termset"
+             accesskey="P">previous</a> |</li>
+        <li><a href="contents.html">ELTK v0.4 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+            <h3><a href="contents.html">Table Of Contents</a></h3>
+            <ul>
+<li><a class="reference external" href="">Readers</a><ul>
+<li><a class="reference external" href="#module-eltk.reader.LinkedDataReader">LinkedDataReader</a></li>
+<li><a class="reference external" href="#module-eltk.reader.TermsetReader">TermsetReader</a></li>
+<li><a class="reference external" href="#module-eltk.reader.LeipzigReader">LeipzigReader</a></li>
+</ul>
+</li>
+</ul>
+
+            <h4>Previous topic</h4>
+            <p class="topless"><a href="termset.html"
+                                  title="previous chapter">Termset</a></p>
+            <h4>Next topic</h4>
+            <p class="topless"><a href="display.html"
+                                  title="next chapter">Data Display</a></p>
+            <h3>This Page</h3>
+            <ul class="this-page-menu">
+              <li><a href="_sources/reader.txt"
+                     rel="nofollow">Show Source</a></li>
+            </ul>
+          <div id="searchbox" style="display: none">
+            <h3>Quick search</h3>
+              <form class="search" action="search.html" method="get">
+                <input type="text" name="q" size="18" />
+                <input type="submit" value="Go" />
+                <input type="hidden" name="check_keywords" value="yes" />
+                <input type="hidden" name="area" value="default" />
+              </form>
+              <p class="searchtip" style="font-size: 90%">
+              Enter search terms or a module, class or function name.
+              </p>
+          </div>
+          <script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="module-eltk.reader.Reader">
+<span id="reader"></span><h1>Readers<a class="headerlink" href="#module-eltk.reader.Reader" title="Permalink to this headline">¶</a></h1>
+<p>The Reader module contains the base class for all data and linked data readers.</p>
+<dl class="class">
+<dt id="eltk.reader.Reader.Reader">
+<em class="property">
+class </em><tt class="descclassname">eltk.reader.Reader.</tt><tt class="descname">Reader</tt><a class="headerlink" href="#eltk.reader.Reader.Reader" title="Permalink to this definition">¶</a></dt>
+<dd><p>Reader is the abstract class subsuming all types of file readers. There are several subtypes of readers. Each time a new reader is created, a makeLinkedData method should be created.</p>
+<dl class="method">
+<dt id="eltk.reader.Reader.Reader.read">
+<tt class="descname">read</tt><big>(</big><em>filename</em><big>)</big><a class="headerlink" href="#eltk.reader.Reader.Reader.read" title="Permalink to this definition">¶</a></dt>
+<dd><p>The read method initializes a reader by passing it a filename.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>filename</em> &#8211; filename string</td>
+</tr>
+<tr class="field"><th class="field-name">Type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<div class="section" id="module-eltk.reader.LinkedDataReader">
+<h2>LinkedDataReader<a class="headerlink" href="#module-eltk.reader.LinkedDataReader" title="Permalink to this headline">¶</a></h2>
+<p>The LinkedDataReader module contains the LinkedDataReader class.</p>
+<dl class="class">
+<dt id="eltk.reader.LinkedDataReader.LinkedDataReader">
+<em class="property">
+class </em><tt class="descclassname">eltk.reader.LinkedDataReader.</tt><tt class="descname">LinkedDataReader</tt><a class="headerlink" href="#eltk.reader.LinkedDataReader.LinkedDataReader" title="Permalink to this definition">¶</a></dt>
+<dd><p>LinkedDataReader is a reader that is meant to process LinkedData resources, i.e., RDF+RDFS+OWL files.</p>
+<dl class="method">
+<dt id="eltk.reader.LinkedDataReader.LinkedDataReader.addAttr">
+<tt class="descname">addAttr</tt><big>(</big><big>)</big><a class="headerlink" href="#eltk.reader.LinkedDataReader.LinkedDataReader.addAttr" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="docutils">
+<dt>addAttr adds attributes to individuals. If the RDF graph contains:</dt>
+<dd>myindiv &#8211;pred&#8211;&gt; obj</dd>
+</dl>
+<p>then  add &#8216;obj&#8217; as the attribute called &#8216;pred&#8217;. Thus:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">myindiv</span><span class="o">.</span><span class="n">pred</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">obj</span>
+</pre></div>
+</div>
+<p>addAttr also adds triples to self.kb.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">None</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.reader.LinkedDataReader.LinkedDataReader.addFunc">
+<tt class="descname">addFunc</tt><big>(</big><big>)</big><a class="headerlink" href="#eltk.reader.LinkedDataReader.LinkedDataReader.addFunc" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="docutils">
+<dt>addFunc attaches various useful instance methods to each kb attribute:</dt>
+<dd><ul class="first last simple">
+<li>a function that returns all subclasses</li>
+<li>a function that returns all instances</li>
+</ul>
+</dd>
+</dl>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">None</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.reader.LinkedDataReader.LinkedDataReader.buildPyModel">
+<tt class="descname">buildPyModel</tt><big>(</big><big>)</big><a class="headerlink" href="#eltk.reader.LinkedDataReader.LinkedDataReader.buildPyModel" title="Permalink to this definition">¶</a></dt>
+<dd><p>buildPyModel iterates over all triples in Graph and converts to Python&#8217;s OOP model.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">eltk.kb.KBComponent.KBComponent</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.reader.LinkedDataReader.LinkedDataReader.parseGraph">
+<tt class="descname">parseGraph</tt><big>(</big><em>inputfile</em>, <em>identifier=''</em><big>)</big><a class="headerlink" href="#eltk.reader.LinkedDataReader.LinkedDataReader.parseGraph" title="Permalink to this definition">¶</a></dt>
+<dd><p>parseGraph is a wrapper around the rdflib.Graph.Graph class.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><em>inputfile</em> (str) &#8211; An input file location</li>
+<li><em>indentifier</em> (rdflib.URIRef.URIRef) &#8211; An identifier for the resource, can be null.</li>
+</ul>
+</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">rdflib.Graph.Graph</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<p>Here&#8217;s how to create a graph object and a Python KBComponent object:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">reader</span> <span class="o">=</span> <span class="n">LinkedDataReader</span><span class="p">()</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">GOLD_graph</span> <span class="o">=</span> <span class="n">reader</span><span class="o">.</span><span class="n">parseGraph</span><span class="p">(</span><span class="n">ELTK_HOME</span><span class="o">+</span><span class="s">&#39;/examples/inputfiles/gold-2009.owl&#39;</span><span class="p">)</span>
+
+<span class="gp">&gt;&gt;&gt; </span><span class="n">GOLD</span> <span class="o">=</span> <span class="n">reader</span><span class="o">.</span><span class="n">buildPyModel</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="module-eltk.reader.TermsetReader">
+<h2>TermsetReader<a class="headerlink" href="#module-eltk.reader.TermsetReader" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="eltk.reader.TermsetReader.TermsetReader">
+<em class="property">
+class </em><tt class="descclassname">eltk.reader.TermsetReader.</tt><tt class="descname">TermsetReader</tt><a class="headerlink" href="#eltk.reader.TermsetReader.TermsetReader" title="Permalink to this definition">¶</a></dt>
+<dd><p>TermsetReader is a type of Reader that processes termsets and returns Python objects.</p>
+<dl class="method">
+<dt id="eltk.reader.TermsetReader.TermsetReader.makeLinkedData">
+<tt class="descname">makeLinkedData</tt><big>(</big><em>filename</em>, <em>ns='http://purl.org/linguistics/data/'</em><big>)</big><a class="headerlink" href="#eltk.reader.TermsetReader.TermsetReader.makeLinkedData" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create a Termset object</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>uri</em> (rdflib.URIRef.URIRef) &#8211; a uri</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">eltk.kb.LinkedData.Termset</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<p>Here&#8217;s how to create a termset object:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">myreader</span><span class="o">=</span><span class="n">TermsetReader</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">termset</span> <span class="o">=</span> <span class="n">myreader</span><span class="o">.</span><span class="n">makeLinkedData</span><span class="p">(</span><span class="n">ELTK_HOME</span><span class="o">+</span><span class="s">&#39;/examples/inputfiles/LeipzigTermset.termset&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="module-eltk.reader.LeipzigReader">
+<h2>LeipzigReader<a class="headerlink" href="#module-eltk.reader.LeipzigReader" title="Permalink to this headline">¶</a></h2>
+<p>The LeipzigReader module is used to read a text file in Leipzig Glossing Rules format (with some additions). Here&#8217;s the expected input format:</p>
+<div class="highlight-python"><pre>GOLD concept name
+Ethnologue15 language code
+citation
+comment
+IGT line 1
+IGT line 2
+IGT line 3</pre>
+</div>
+<p>See &lt;eltk/examples/inputfiles/MorphosyntaxExamples.txt&gt;</p>
+<dl class="class">
+<dt id="eltk.reader.LeipzigReader.LeipzigReader">
+<em class="property">
+class </em><tt class="descclassname">eltk.reader.LeipzigReader.</tt><tt class="descname">LeipzigReader</tt><big>(</big><em>termset=None</em><big>)</big><a class="headerlink" href="#eltk.reader.LeipzigReader.LeipzigReader" title="Permalink to this definition">¶</a></dt>
+<dd><p>The reader for text in Leipzig IGT format (txt).</p>
+<dl class="method">
+<dt id="eltk.reader.LeipzigReader.LeipzigReader.instantiateIGT">
+<tt class="descname">instantiateIGT</tt><big>(</big><em>new_id</em>, <em>lang</em>, <em>source</em>, <em>gloss</em>, <em>translation</em><big>)</big><a class="headerlink" href="#eltk.reader.LeipzigReader.LeipzigReader.instantiateIGT" title="Permalink to this definition">¶</a></dt>
+<dd><p>instantiateIGT creates instances of GOLD entities and add them to new ontology model.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><em>new_ID</em> &#8211; a random id string</li>
+<li><em>land</em> &#8211; a 3 letter code</li>
+<li><em>source</em> (list) &#8211; a list of strings from line 1 of IGT</li>
+<li><em>gloss</em> (list) &#8211; a list of glossed from line 2 of IGT</li>
+<li><em>translation</em> (str) &#8211; a translation from line 3 of IGT</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.reader.LeipzigReader.LeipzigReader.makeLinkedData">
+<tt class="descname">makeLinkedData</tt><big>(</big><em>filename</em>, <em>ns='http://purl.org/linguistics/data/'</em><big>)</big><a class="headerlink" href="#eltk.reader.LeipzigReader.LeipzigReader.makeLinkedData" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><em>filename</em> (str) &#8211; a filename string</li>
+<li><em>ns</em> (str) &#8211; a namespace string</li>
+</ul>
+</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">eltk.kb.KBComponent</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<p>Here&#8217;s how to create IGT using the LeipzigReader. First, you need to read in the appropriate termset:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">termset_reader</span><span class="o">=</span><span class="n">TermsetReader</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">termset</span> <span class="o">=</span> <span class="n">termset_reader</span><span class="o">.</span><span class="n">makeLinkedData</span><span class="p">(</span><span class="n">ELTK_HOME</span><span class="o">+</span><span class="s">&#39;/examples/inputfiles/LeipzigTermset.termset&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Next, create a reader and create some LinkedData:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">myreader</span> <span class="o">=</span> <span class="n">LeipzigReader</span><span class="p">(</span><span class="n">termset</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">mykb</span> <span class="o">=</span> <span class="n">myreader</span><span class="o">.</span><span class="n">makeLinkedData</span><span class="p">(</span><span class="n">ELTK_HOME</span><span class="o">+</span><span class="s">&#39;/examples/inputfiles/MorphosyntaxExamples.txt&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>And now you can build an RDF graph:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">mykb_graph</span> <span class="o">=</span> <span class="n">mykb</span><span class="o">.</span><span class="n">buildRDFGraph</span><span class="p">(</span><span class="s">&#39;http://purl.org/linguistics/data/LeipzigData.rdf&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">mykb_graph</span><span class="o">.</span><span class="n">serialize</span><span class="p">(</span><span class="n">ELTK_HOME</span><span class="o">+</span><span class="s">&#39;/examples/outputfiles/LeipzigData.rdf&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="modindex.html" title="Global Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="display.html" title="Data Display"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="termset.html" title="Termset"
+             >previous</a> |</li>
+        <li><a href="contents.html">ELTK v0.4 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+      &copy; Copyright 2009, Scott Farrar, Steve Moran.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 0.6.2.
+    </div>
+  </body>
+</html>

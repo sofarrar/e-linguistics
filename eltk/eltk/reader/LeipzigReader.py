@@ -6,15 +6,15 @@
 # URL: <http://e-linguistics.org>
 # For license information, see LICENSE.TXT
 """
-The LeipzigReader module is used to read a text file in Leipzig Glossing Rules format (with some additions). Here's the expected input format:
+The LeipzigReader module is used to read a text file in Leipzig Glossing Rules format (with some additions). Here's the expected input format::
 
-GOLD concept name
-Ethnologue15 language code
-citation
-comment
-IGT line 1
-IGT line 2
-IGT line 3
+    GOLD concept name
+    Ethnologue15 language code
+    citation
+    comment
+    IGT line 1
+    IGT line 2
+    IGT line 3
 
 See <eltk/examples/inputfiles/MorphosyntaxExamples.txt>
 """
@@ -38,7 +38,7 @@ GOLD = reader.buildPyModel()
 class LeipzigReader(Reader):
     
     """
-    The reader for Leipzig IGT.
+    The reader for text in Leipzig IGT format (txt).
     """
     
     def __init__(self,termset=None):
@@ -49,7 +49,11 @@ class LeipzigReader(Reader):
 
     def makeLinkedData(self,filename,ns='http://purl.org/linguistics/data/'):
         """
-        :returns: 
+        :param filename: a filename string
+        :type filename: str
+        :param ns: a namespace string
+        :type ns: str
+        :rtype: eltk.kb.KBComponent
         """
 
         self.ns = ns
@@ -133,7 +137,7 @@ class LeipzigReader(Reader):
 
     def instantiateIGT(self,new_id,lang,source,gloss,translation):
         """
-        Create instances of GOLD entities and add them to new ontology model
+        instantiateIGT creates instances of GOLD entities and add them to new ontology model.
 
         :type new_id: str
         :param new_ID: a random id string

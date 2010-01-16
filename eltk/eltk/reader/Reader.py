@@ -21,7 +21,7 @@ class Reader(object):
     #def __init__(self,filename):
     def read(self,filename):
         """
-        Initialize a reader by passing it a filename.
+        The read method initializes a reader by passing it a filename.
 
         :param filename: filename string
         :type: string

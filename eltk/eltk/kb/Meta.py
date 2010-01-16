@@ -7,11 +7,11 @@
 # URL: <http://purl.org/linguistics/eltk>
 # For license information, see LICENSE.TXT
 """
-The core of the ELTK is an interface to the combined data models of the Web Ontology Language (OWL), Resource Description Framework Schema (RDFS) and the Resource Description Framework(RDF). That is, using the ELTK, OWL+RDFS+RDF entities are  imported into the Python programming environment such that classes, properties and individuals are created and manipulated alongside Python classes, methods and instances. The goal, then, is to produce Python code that reﬂects the OWL+RDFS+RDF data model. In this way, the developer can simply use the model at hand (loaded via an ontology and various RDF data graphs), not worrying about ways to re-model OWL+RDFS+RDF in Python. This approach  seems quite natural for a Semantic Web effort and  may be characterized as a type of ontology-driven software design (cf. [KoideTakeda2006]_).
+The core of the ELTK is an interface to the combined data models of the Web Ontology Language (OWL), Resource Description Framework Schema (RDFS) and the Resource Description Framework(RDF). (In the documentation we refer to this combined data model as "OWL+RDFS+RDF".) That is, using the ELTK, OWL+RDFS+RDF entities are  imported into the Python programming environment such that classes, properties and individuals of OWL+RDFS+RDF are created and manipulated alongside Python classes, methods and instances. The goal, then, is to produce Python code that reﬂects the OWL+RDFS+RDF data model. In this way, the developer can simply use the model at hand (loaded via an ontology and various RDF data graphs), not worrying about ways to re-model OWL+RDFS+RDF in Python. This approach  seems quite natural for a Semantic Web effort and  may be characterized as a type of ontology-driven software design (cf. [KoideTakeda2006]_).
 
 In order to import the model into Python's OOP environment, we use **metaprogramming**, or the ability to write code to manipulate code. As inspired by [BabikHluchy2006]_, the OWL class hierarchy can be directly imported into the Python class hierarchy. 
 
-In general OWL+RDFS+RDF is conceptually similar to the object-oriented programming (OOP) paradigm as used in Python. Both OWL+RDFS+RDF and OOP allow for classes and subclasses, inheritance and limited multiple inheritance. RDFS:subClassOf is translated directly to Python class inheritance.  Object composition and class instantiation are also similar. RDF:type is translated to Python class instantiation. But the semantics of OWL+RDFS+RDF is inconsistent with that of Python's in a number of key aspects. For example in most OOP languages, a class instance can only belong to a single class. That is, in Python, the expression 'type(MyInstance)' can only yield a single class. This ensures the behavior of instances based on the associated methods and variables of the instantiated class. In OWL+RDFS+RDF, however, a single individual (corresponding to an instance in OOP) can instantiate multiple classes in the same knowledge base. Thus, to provide a linguistics example, a particular language can be an individual of both ``EndangeredLanguage`` and of ``Koiné`` at the same time. In the ELTK we manage to integrate this facet of OWL semantics in a fairly seamless way.
+In general OWL+RDFS+RDF is conceptually similar to the object-oriented programming (OOP) paradigm as used in Python. Both OWL+RDFS+RDF and OOP allow for classes and subclasses, inheritance and limited multiple inheritance. ``RDFS:subClassOf`` is translated directly to Python class inheritance.  Object composition and class instantiation are also similar. ``RDF:type`` is translated to Python class instantiation. But the semantics of OWL+RDFS+RDF is inconsistent with that of Python's in a number of key aspects. For example in most OOP languages, a class instance can only belong to a single class. That is, in Python, the expression ``type(MyInstance)`` can only yield a single class. This ensures the behavior of instances based on the associated methods and variables of the instantiated class. In OWL+RDFS+RDF, however, a single individual (corresponding to an instance in OOP) can instantiate multiple classes in the same knowledge base. Thus, to provide a linguistics example, a particular language can be an individual of both ``EndangeredLanguage`` and of ``Koiné`` at the same time. In the ELTK we manage to integrate this facet of OWL semantics in a fairly seamless way.
 """
 import __builtin__
 from new import instancemethod
@@ -46,8 +46,10 @@ class RDFSResource(type):
 
 
 class RDFSClass(type):
+    """
+    RDFSClass represents the notion of class in the RDFS world. OWLClass is a direct sub-type in the meta-taxonomy.
+    """
     __metaclass__ = RDFSResource
-    
     
     uri = URIRef(u'http://www.w3.org/2000/01/rdf-schema#Class')
 
@@ -182,7 +184,9 @@ class OWLClass(type):
 
 
 class RDFProperty(type):
-    
+    """
+    RDFProperty represents the notion of property in the RDF world. 
+    """
     __metaclass__ = RDFSResource
     
     uri = URIRef(u'http://www.w3.org/1999/02/22-rdf-syntax-ns#type')

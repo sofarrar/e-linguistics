@@ -1,0 +1,302 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>SPARQL utils &mdash; ELTK v0.4 documentation</title>
+    <link rel="stylesheet" href="_static/sphinxdoc.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '0.4',
+        COLLAPSE_MODINDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="ELTK v0.4 documentation" href="index.html" />
+    <link rel="next" title="JSON Utils" href="jsonutils.html" />
+    <link rel="prev" title="Miscellaneous Utilities" href="misc_utils.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="modindex.html" title="Global Module Index"
+             accesskey="M">modules</a> |</li>
+        <li class="right" >
+          <a href="jsonutils.html" title="JSON Utils"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="misc_utils.html" title="Miscellaneous Utilities"
+             accesskey="P">previous</a> |</li>
+        <li><a href="contents.html">ELTK v0.4 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+            <h4>Previous topic</h4>
+            <p class="topless"><a href="misc_utils.html"
+                                  title="previous chapter">Miscellaneous Utilities</a></p>
+            <h4>Next topic</h4>
+            <p class="topless"><a href="jsonutils.html"
+                                  title="next chapter">JSON Utils</a></p>
+            <h3>This Page</h3>
+            <ul class="this-page-menu">
+              <li><a href="_sources/sparql.txt"
+                     rel="nofollow">Show Source</a></li>
+            </ul>
+          <div id="searchbox" style="display: none">
+            <h3>Quick search</h3>
+              <form class="search" action="search.html" method="get">
+                <input type="text" name="q" size="18" />
+                <input type="submit" value="Go" />
+                <input type="hidden" name="check_keywords" value="yes" />
+                <input type="hidden" name="area" value="default" />
+              </form>
+              <p class="searchtip" style="font-size: 90%">
+              Enter search terms or a module, class or function name.
+              </p>
+          </div>
+          <script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="module-eltk.utils.sparql">
+<span id="sparql"></span><h1>SPARQL utils<a class="headerlink" href="#module-eltk.utils.sparql" title="Permalink to this headline">¶</a></h1>
+<p>The sparql module contains several functions that wrap commonly used SPARQL queries in Python code.</p>
+<dl class="function">
+<dt id="eltk.utils.sparql.getABoxTriples">
+<tt class="descclassname">eltk.utils.sparql.</tt><tt class="descname">getABoxTriples</tt><big>(</big><em>graph</em><big>)</big><a class="headerlink" href="#eltk.utils.sparql.getABoxTriples" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return all triples in a graph&#8217;</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>graph</em> (rdflib.graph.Graph) &#8211; the graph to search</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">list</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="eltk.utils.sparql.getBaseClasses">
+<tt class="descclassname">eltk.utils.sparql.</tt><tt class="descname">getBaseClasses</tt><big>(</big><em>graph</em>, <em>cls_uri</em><big>)</big><a class="headerlink" href="#eltk.utils.sparql.getBaseClasses" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><em>graph</em> (rdflib.Graph.Graph) &#8211; the relevant graph to process</li>
+<li><em>cls_uri</em> (rdflib.URIRef.URIRef) &#8211; the URI of the particular class</li>
+</ul>
+</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">list</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="eltk.utils.sparql.getComments">
+<tt class="descclassname">eltk.utils.sparql.</tt><tt class="descname">getComments</tt><big>(</big><em>graph</em>, <em>uri_string</em><big>)</big><a class="headerlink" href="#eltk.utils.sparql.getComments" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return all comments associated with some URI</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><em>graph</em> (rdflib.Graph.Graph) &#8211; the graph to search</li>
+<li><em>uri_string</em> (str) &#8211; a URI of some concept</li>
+</ul>
+</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">list</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="eltk.utils.sparql.getIndividuals">
+<tt class="descclassname">eltk.utils.sparql.</tt><tt class="descname">getIndividuals</tt><big>(</big><em>graph</em><big>)</big><a class="headerlink" href="#eltk.utils.sparql.getIndividuals" title="Permalink to this definition">¶</a></dt>
+<dd><p>getIndividuals returns a dictionary where keys are URIRefs of individuals and values are lists of types (ie OWL class URIs)</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>graph</em> (rdflib.graph.Graph) &#8211; the relevant graph to process</td>
+</tr>
+<tr class="field"><th class="field-name">Returns:</th><td class="field-body">(keys)  individual URIs, (values) lists of types, OWL class URIs</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">dict</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="eltk.utils.sparql.getOWLClasses">
+<tt class="descclassname">eltk.utils.sparql.</tt><tt class="descname">getOWLClasses</tt><big>(</big><em>graph</em><big>)</big><a class="headerlink" href="#eltk.utils.sparql.getOWLClasses" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return all OWL Classes in a graph&#8217;</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>graph</em> (rdflib.graph.Graph) &#8211; the graph to search</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">list</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="eltk.utils.sparql.getOWLDatatypeProperties">
+<tt class="descclassname">eltk.utils.sparql.</tt><tt class="descname">getOWLDatatypeProperties</tt><big>(</big><em>graph</em><big>)</big><a class="headerlink" href="#eltk.utils.sparql.getOWLDatatypeProperties" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return all OWL DataProperties in a graph&#8217;</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>graph</em> (rdflib.graph.Graph) &#8211; the graph to search</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">list</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="eltk.utils.sparql.getOWLObjectProperties">
+<tt class="descclassname">eltk.utils.sparql.</tt><tt class="descname">getOWLObjectProperties</tt><big>(</big><em>graph</em><big>)</big><a class="headerlink" href="#eltk.utils.sparql.getOWLObjectProperties" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return all OWL ObjectProperties in a graph&#8217;</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>graph</em> (rdflib.graph.Graph) &#8211; the graph to search</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">list</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="eltk.utils.sparql.getSubClasses">
+<tt class="descclassname">eltk.utils.sparql.</tt><tt class="descname">getSubClasses</tt><big>(</big><em>graph</em>, <em>cls_uri</em><big>)</big><a class="headerlink" href="#eltk.utils.sparql.getSubClasses" title="Permalink to this definition">¶</a></dt>
+<dd><p>Given an rdflib.graph.Graph and a URIRef of some OWL class, return a list of subclasses</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><em>graph</em> (rdflib.graph.Graph) &#8211; the graph to search</li>
+<li><em>cls_uri</em> (rdflib.URIRef.URIRef) &#8211; </li>
+</ul>
+</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">list</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="eltk.utils.sparql.getUnitBasedOnForm">
+<tt class="descclassname">eltk.utils.sparql.</tt><tt class="descname">getUnitBasedOnForm</tt><big>(</big><em>graph</em>, <em>form</em><big>)</big><a class="headerlink" href="#eltk.utils.sparql.getUnitBasedOnForm" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return linguistic units accordings to a particular form</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><em>graph</em> (rdflib.graph.Graph) &#8211; the relevant graph</li>
+<li><em>form</em> (str) &#8211; the form to search for</li>
+</ul>
+</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">list</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="eltk.utils.sparql.sparqlQuery">
+<tt class="descclassname">eltk.utils.sparql.</tt><tt class="descname">sparqlQuery</tt><big>(</big><em>sparql_string</em>, <em>context</em><big>)</big><a class="headerlink" href="#eltk.utils.sparql.sparqlQuery" title="Permalink to this definition">¶</a></dt>
+<dd><p>sparqlQuery is a wrapper function for making queries over specific contexts within the store.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><em>sparql_string</em> (str) &#8211; Well formed SPARQL query</li>
+<li><em>context</em> (rdflib.Graph.Graph) &#8211; A graph</li>
+</ul>
+</td>
+</tr>
+<tr class="field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">A list of tuples containing the results</p>
+</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">list</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="modindex.html" title="Global Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="jsonutils.html" title="JSON Utils"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="misc_utils.html" title="Miscellaneous Utilities"
+             >previous</a> |</li>
+        <li><a href="contents.html">ELTK v0.4 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+      &copy; Copyright 2009, Scott Farrar, Steve Moran.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 0.6.2.
+    </div>
+  </body>
+</html>

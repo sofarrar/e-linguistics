@@ -1,0 +1,456 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Miscellaneous Utilities &mdash; ELTK v0.4 documentation</title>
+    <link rel="stylesheet" href="_static/sphinxdoc.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '0.4',
+        COLLAPSE_MODINDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="ELTK v0.4 documentation" href="index.html" />
+    <link rel="next" title="SPARQL utils" href="sparql.html" />
+    <link rel="prev" title="Store" href="store.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="modindex.html" title="Global Module Index"
+             accesskey="M">modules</a> |</li>
+        <li class="right" >
+          <a href="sparql.html" title="SPARQL utils"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="store.html" title="Store"
+             accesskey="P">previous</a> |</li>
+        <li><a href="contents.html">ELTK v0.4 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+            <h3><a href="contents.html">Table Of Contents</a></h3>
+            <ul>
+<li><a class="reference external" href="">Miscellaneous Utilities</a><ul>
+<li><a class="reference external" href="#latex-tipa-related">LaTeX TIPA related</a></li>
+<li><a class="reference external" href="#uri-related">URI related</a></li>
+<li><a class="reference external" href="#linguistics-utilities">Linguistics utilities</a></li>
+</ul>
+</li>
+</ul>
+
+            <h4>Previous topic</h4>
+            <p class="topless"><a href="store.html"
+                                  title="previous chapter">Store</a></p>
+            <h4>Next topic</h4>
+            <p class="topless"><a href="sparql.html"
+                                  title="next chapter">SPARQL utils</a></p>
+            <h3>This Page</h3>
+            <ul class="this-page-menu">
+              <li><a href="_sources/misc_utils.txt"
+                     rel="nofollow">Show Source</a></li>
+            </ul>
+          <div id="searchbox" style="display: none">
+            <h3>Quick search</h3>
+              <form class="search" action="search.html" method="get">
+                <input type="text" name="q" size="18" />
+                <input type="submit" value="Go" />
+                <input type="hidden" name="check_keywords" value="yes" />
+                <input type="hidden" name="area" value="default" />
+              </form>
+              <p class="searchtip" style="font-size: 90%">
+              Enter search terms or a module, class or function name.
+              </p>
+          </div>
+          <script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="module-eltk.utils.functions">
+<span id="misc-utils"></span><h1>Miscellaneous Utilities<a class="headerlink" href="#module-eltk.utils.functions" title="Permalink to this headline">¶</a></h1>
+<p>The functions module contains various utility functions, mostly for string processing, IGT element detection (redup. forms, clitic forms, etc), and tipa latex clean-up functions.</p>
+<div class="section" id="latex-tipa-related">
+<h2>LaTeX TIPA related<a class="headerlink" href="#latex-tipa-related" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="eltk.utils.functions.printTipaList">
+<tt class="descclassname">eltk.utils.functions.</tt><tt class="descname">printTipaList</tt><big>(</big><em>list</em><big>)</big><a class="headerlink" href="#eltk.utils.functions.printTipaList" title="Permalink to this definition">¶</a></dt>
+<dd><p>Given a list, returns a concatenated string of its elements, each enclosed 
+in &#8216;        extipa{...}.&#8217;</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>list</em> (list) &#8211; any list</td>
+</tr>
+<tr class="field"><th class="field-name">Returns:</th><td class="field-body">returns a concatenated string of list elements</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">str</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="eltk.utils.functions.tipaClean">
+<tt class="descclassname">eltk.utils.functions.</tt><tt class="descname">tipaClean</tt><big>(</big><em>s</em><big>)</big><a class="headerlink" href="#eltk.utils.functions.tipaClean" title="Permalink to this definition">¶</a></dt>
+<dd><p>Fixes some issues with tipa package in latex, e.g. filling in spaces and 
+merging commands with {}&#8217;s, e.g.,   extsuperscript{}a to    extsuperscript{a}</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>s</em> (str) &#8211; a string with possible ill-formed tipa</td>
+</tr>
+<tr class="field"><th class="field-name">Returns:</th><td class="field-body">returns a formatted string containing correct tipa code</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">str</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="eltk.utils.functions.formatEscapes">
+<tt class="descclassname">eltk.utils.functions.</tt><tt class="descname">formatEscapes</tt><big>(</big><em>s</em><big>)</big><a class="headerlink" href="#eltk.utils.functions.formatEscapes" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns a string with an extra slash in front of Python&#8217;s escape char&#8217;s</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>s</em> (string) &#8211; any string</td>
+</tr>
+<tr class="field"><th class="field-name">Returns:</th><td class="field-body">a string with an extra slash in front of Python&#8217;s escape char&#8217;s</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="uri-related">
+<h2>URI related<a class="headerlink" href="#uri-related" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="eltk.utils.functions.quote">
+<tt class="descclassname">eltk.utils.functions.</tt><tt class="descname">quote</tt><big>(</big><em>string</em><big>)</big><a class="headerlink" href="#eltk.utils.functions.quote" title="Permalink to this definition">¶</a></dt>
+<dd><p>Converts special characters to &#8216;%&#8217; forms: %xx%xx. This is used to convert URI strings because they have to be in ASCII.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>string</em> (str) &#8211; a URI string</td>
+</tr>
+<tr class="field"><th class="field-name">Returns:</th><td class="field-body">a URI string with special char&#8217;s converted to %xx%xx format.</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="eltk.utils.functions.findNum">
+<tt class="descclassname">eltk.utils.functions.</tt><tt class="descname">findNum</tt><big>(</big><em>s</em><big>)</big><a class="headerlink" href="#eltk.utils.functions.findNum" title="Permalink to this definition">¶</a></dt>
+<dd><p>Find the first decimal number within an  arbitrary string</p>
+<p>FIX: does not return integers and throws error if no decimal found.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>s</em> (string) &#8211; a string possibly containing digits</td>
+</tr>
+<tr class="field"><th class="field-name">Returns:</th><td class="field-body">a Decimal object</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">Decimal</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="eltk.utils.functions.getLocalName">
+<tt class="descclassname">eltk.utils.functions.</tt><tt class="descname">getLocalName</tt><big>(</big><em>uri</em><big>)</big><a class="headerlink" href="#eltk.utils.functions.getLocalName" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the local part of a URI string; works with either according to slash or hash namespace conventions</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>uri</em> (unicode) &#8211; unicode obj representing a URI</td>
+</tr>
+<tr class="field"><th class="field-name">Returns:</th><td class="field-body">the local part of the URI string</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">unicode</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="eltk.utils.functions.getNamespace">
+<tt class="descclassname">eltk.utils.functions.</tt><tt class="descname">getNamespace</tt><big>(</big><em>uri</em><big>)</big><a class="headerlink" href="#eltk.utils.functions.getNamespace" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns  namespace part of a URI; works with either according to slash or hash namespace conventions.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>uri</em> (unicode) &#8211; a unicode obj representing a URI</td>
+</tr>
+<tr class="field"><th class="field-name">Returns:</th><td class="field-body">the namespace part of the URI string</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">unicode</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="eltk.utils.functions.findQuoted">
+<tt class="descclassname">eltk.utils.functions.</tt><tt class="descname">findQuoted</tt><big>(</big><em>s</em><big>)</big><a class="headerlink" href="#eltk.utils.functions.findQuoted" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the contents of double quoted material.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>s</em> (string) &#8211; a string containing double quotes</td>
+</tr>
+<tr class="field"><th class="field-name">Returns:</th><td class="field-body">returns the string between quotes</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="linguistics-utilities">
+<h2>Linguistics utilities<a class="headerlink" href="#linguistics-utilities" title="Permalink to this headline">¶</a></h2>
+<p>These functions moved here from Leipzig reader. They are mostly used to process IGT.</p>
+<dl class="function">
+<dt id="eltk.utils.functions.validate">
+<tt class="descclassname">eltk.utils.functions.</tt><tt class="descname">validate</tt><big>(</big><em>lingunits</em>, <em>glosses</em>, <em>translation</em><big>)</big><a class="headerlink" href="#eltk.utils.functions.validate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Prints a warning to stdout if number of source items does not
+match number of gloss items.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><em>lingunits</em> (list) &#8211; units from line 1 of IGT</li>
+<li><em>glosses</em> (list) &#8211; units from line 2 of IGT</li>
+<li><em>translation</em> (str) &#8211; translation string from line 3 of IGT</li>
+</ul>
+</td>
+</tr>
+<tr class="field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">pass or fail</p>
+</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">boolean</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="eltk.utils.functions.makeID">
+<tt class="descclassname">eltk.utils.functions.</tt><tt class="descname">makeID</tt><big>(</big><em>string=''</em><big>)</big><a class="headerlink" href="#eltk.utils.functions.makeID" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns an randomly generated id, e.g., from &#8216;blah&#8217;, generate &#8216;blah2345&#8217;.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>string</em> (string) &#8211; the prefix</td>
+</tr>
+<tr class="field"><th class="field-name">Returns:</th><td class="field-body">a random id string</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="eltk.utils.functions.parseIGTWord">
+<tt class="descclassname">eltk.utils.functions.</tt><tt class="descname">parseIGTWord</tt><big>(</big><em>s</em><big>)</big><a class="headerlink" href="#eltk.utils.functions.parseIGTWord" title="Permalink to this definition">¶</a></dt>
+<dd><p>Custom splitter when string is mixed with the following delimiters &#8216;-&#8216;, &#8216;=&#8217;, and &#8216;~&#8217;, as is common within words of IGT lines. White space and &#8216;.&#8217; are not considered delimiters.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>s</em> (string) &#8211; A string containing IGT delimiters</td>
+</tr>
+<tr class="field"><th class="field-name">Returns:</th><td class="field-body">list of items to which the delimiters apply</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">list</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="eltk.utils.functions.parseIGTLine">
+<tt class="descclassname">eltk.utils.functions.</tt><tt class="descname">parseIGTLine</tt><big>(</big><em>line</em><big>)</big><a class="headerlink" href="#eltk.utils.functions.parseIGTLine" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns an arrary (list of lists) of items within a line of IGT. (Does not assign a linguistics category to any of the items).</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>line</em> (string) &#8211; A string containing a line of IG</td>
+</tr>
+<tr class="field"><th class="field-name">Returns:</th><td class="field-body">list of items/words in the line of IGT</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">list</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="eltk.utils.functions.normalizeLine">
+<tt class="descclassname">eltk.utils.functions.</tt><tt class="descname">normalizeLine</tt><big>(</big><em>line</em><big>)</big><a class="headerlink" href="#eltk.utils.functions.normalizeLine" title="Permalink to this definition">¶</a></dt>
+<dd><p>Normalize the string, getting rid of extra spaces, tabs, etc.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>line</em> (string) &#8211; A typical line of IGT</td>
+</tr>
+<tr class="field"><th class="field-name">Returns:</th><td class="field-body">A normalized line</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="eltk.utils.functions.findClitics">
+<tt class="descclassname">eltk.utils.functions.</tt><tt class="descname">findClitics</tt><big>(</big><em>word</em><big>)</big><a class="headerlink" href="#eltk.utils.functions.findClitics" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a list of clitics for words containing =&#8217;s as delimiters. Strategy is to locate the stem based on relative length.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>word</em> (string) &#8211; A word with =&#8217;s delimiters</td>
+</tr>
+<tr class="field"><th class="field-name">Returns:</th><td class="field-body">A list of clitic forms</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">list</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="eltk.utils.functions.findRedups">
+<tt class="descclassname">eltk.utils.functions.</tt><tt class="descname">findRedups</tt><big>(</big><em>word</em><big>)</big><a class="headerlink" href="#eltk.utils.functions.findRedups" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a list of reduplicated morphemes for words containing ~&#8217;s as delimiters.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>word</em> (string) &#8211; A word with ~&#8217;s delimiters</td>
+</tr>
+<tr class="field"><th class="field-name">Returns:</th><td class="field-body">The reduplicated form</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">string</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="eltk.utils.functions.findInfixes">
+<tt class="descclassname">eltk.utils.functions.</tt><tt class="descname">findInfixes</tt><big>(</big><em>word</em><big>)</big><a class="headerlink" href="#eltk.utils.functions.findInfixes" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a list of infix forms, those surrounded by &lt;...&gt;&#8217;s.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>word</em> (string) &#8211; A word with infixes delimited by &lt;...&gt;&#8217;s</td>
+</tr>
+<tr class="field"><th class="field-name">Returns:</th><td class="field-body">list of infix forms</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">list</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="eltk.utils.functions.unpack">
+<tt class="descclassname">eltk.utils.functions.</tt><tt class="descname">unpack</tt><big>(</big><em>l</em>, <em>delimiter=''</em><big>)</big><a class="headerlink" href="#eltk.utils.functions.unpack" title="Permalink to this definition">¶</a></dt>
+<dd><p>Recursive function: Returns a string by concatenating all elements of a list. Inserts a space between material from each list element, and removes any delimiters, e.g., &#8216;-&#8216;. For example, [[&#8216;abc&#8217;],[&#8216;c&#8217;],[&#8216;d-&#8216;,&#8217;e&#8217;]] returns &#8216;abc c de&#8217;</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><em>l</em> (list) &#8211; A list of lists of strings</li>
+<li><em>delimiter</em> (str) &#8211; include a final delimiter, e.g., &#8216;-&#8216;, default is &#8216;&#8217;.</li>
+</ul>
+</td>
+</tr>
+<tr class="field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">concatenated string of all list contents</p>
+</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">string</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="modindex.html" title="Global Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="sparql.html" title="SPARQL utils"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="store.html" title="Store"
+             >previous</a> |</li>
+        <li><a href="contents.html">ELTK v0.4 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+      &copy; Copyright 2009, Scott Farrar, Steve Moran.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 0.6.2.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,238 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>KBComponent &mdash; ELTK v0.4 documentation</title>
+    <link rel="stylesheet" href="_static/sphinxdoc.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '0.4',
+        COLLAPSE_MODINDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="ELTK v0.4 documentation" href="index.html" />
+    <link rel="next" title="Termset" href="termset.html" />
+    <link rel="prev" title="Meta" href="meta.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="modindex.html" title="Global Module Index"
+             accesskey="M">modules</a> |</li>
+        <li class="right" >
+          <a href="termset.html" title="Termset"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="meta.html" title="Meta"
+             accesskey="P">previous</a> |</li>
+        <li><a href="contents.html">ELTK v0.4 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+            <h3><a href="contents.html">Table Of Contents</a></h3>
+            <ul>
+<li><a class="reference external" href="">KBComponent</a><ul>
+<li><a class="reference external" href="#background">Background</a></li>
+<li><a class="reference external" href="#module-eltk.kb.KBComponent">Chunks of knowledge</a></li>
+<li><a class="reference external" href="#illustration-of-usage">Illustration of usage</a></li>
+<li><a class="reference external" href="#methods">Methods</a></li>
+</ul>
+</li>
+</ul>
+
+            <h4>Previous topic</h4>
+            <p class="topless"><a href="meta.html"
+                                  title="previous chapter">Meta</a></p>
+            <h4>Next topic</h4>
+            <p class="topless"><a href="termset.html"
+                                  title="next chapter">Termset</a></p>
+            <h3>This Page</h3>
+            <ul class="this-page-menu">
+              <li><a href="_sources/kbcomponent.txt"
+                     rel="nofollow">Show Source</a></li>
+            </ul>
+          <div id="searchbox" style="display: none">
+            <h3>Quick search</h3>
+              <form class="search" action="search.html" method="get">
+                <input type="text" name="q" size="18" />
+                <input type="submit" value="Go" />
+                <input type="hidden" name="check_keywords" value="yes" />
+                <input type="hidden" name="area" value="default" />
+              </form>
+              <p class="searchtip" style="font-size: 90%">
+              Enter search terms or a module, class or function name.
+              </p>
+          </div>
+          <script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="kbcomponent">
+<span id="id1"></span><h1>KBComponent<a class="headerlink" href="#kbcomponent" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="background">
+<h2>Background<a class="headerlink" href="#background" title="Permalink to this headline">¶</a></h2>
+<p>In order to understand the design of the knowledge base component of the ELTK, we provide a brief explanation of how data and ontologies are used within knowledge engineering, especially in the context of <a class="reference external" href="http://dl.kr.org/">Description Logics</a> and related languages such as the Web Ontology Language (OWL). Knowledge bases in the Description Logic world consist of two logically separate components:</p>
+<blockquote>
+<ul class="simple">
+<li>the ontology proper (called the TBox)</li>
+<li>the various assertions about concepts from the ontology (called the ABox)</li>
+</ul>
+</blockquote>
+<p>So, the standard description of such a knowledge base (KB) is  KB = &lt;TBox, ABox&gt;, where TBox is a set of classes and relations and ABox is a set of assertions about instances of classes.  For example, the fact that <tt class="docutils literal"><span class="pre">all</span> <span class="pre">syntactic</span> <span class="pre">words</span> <span class="pre">are</span> <span class="pre">syntactic</span> <span class="pre">units</span></tt> belongs to the TBox. But some bit of knowledge, e.g., the formula describing that a particular syntactic word has a particular prefix, belongs in the ABox. Furthermore, since we&#8217;re dealing with <a class="reference external" href="http://linkeddata.org">Linked Data</a>, the situation is a bit more complex. Namely, the TBox-ABox distinction is muddied since both sorts of statements can exist in a single Linked Data resource. To capture the mixing of TBox and ABox, we use the notion of a &#8220;KB component&#8221;, which can contain either type. It can also contain TBox statements from different ontologies. This kind of assumption is built in to the RDF, Semantic Web architecture.</p>
+</div>
+<div class="section" id="module-eltk.kb.KBComponent">
+<h2>Chunks of knowledge<a class="headerlink" href="#module-eltk.kb.KBComponent" title="Permalink to this headline">¶</a></h2>
+<p>The KBComponent module is  used to create some part of a knowledge base (i.e., a TBox or ABox). The KBComponent module provides a way to create a conceptualization of (some part of) the linguistics domain.  The module is used together with the Meta module (containing metaclasses) to bring an ontological conceptualization into the Python OOP framework. The implementation consists of a 2-layered model: the OWL+RDFS+RDF data model (a graph model) and Python&#8217;s OOP model.</p>
+<dl class="class">
+<dt id="eltk.kb.KBComponent.KBComponent">
+<em class="property">
+class </em><tt class="descclassname">eltk.kb.KBComponent.</tt><tt class="descname">KBComponent</tt><big>(</big><em>identifier=''</em><big>)</big><a class="headerlink" href="#eltk.kb.KBComponent.KBComponent" title="Permalink to this definition">¶</a></dt>
+<dd>An instance of the  KBComponent class is a knowledge base (component) expressed in the Python OOP model. That is, it is a kind of &#8216;context&#8217;, because there could be multiple KB components and they need  not interact or refer to one another&#8217;s contents. Using Description Logic terminology, a KBComponent could be either an ABox or TBox, or possibily a mixture, as allowed in the Semantic Web effort, by design.</dd></dl>
+
+</div>
+<div class="section" id="illustration-of-usage">
+<h2>Illustration of usage<a class="headerlink" href="#illustration-of-usage" title="Permalink to this headline">¶</a></h2>
+<p>Here&#8217;s how to create a knowledge base component:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">eltk.kb.KBComponent</span> <span class="kn">import</span> <span class="n">KBComponent</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">eltk.kb.Meta</span> <span class="kn">import</span> <span class="o">*</span>
+</pre></div>
+</div>
+<p>Create the KBComponent, and then some classes and properties:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">mykb</span> <span class="o">=</span> <span class="n">KBComponent</span><span class="p">(</span><span class="n">URIRef</span><span class="p">(</span><span class="s">&#39;http://foo.org/myid&#39;</span><span class="p">))</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">Word</span> <span class="o">=</span> <span class="n">Meta</span><span class="o">.</span><span class="n">OWLClass</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="s">u&#39;http://blah.org/Word&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">w</span> <span class="o">=</span> <span class="n">Word</span><span class="p">(</span><span class="s">u&#39;w&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">hasConstituent</span> <span class="o">=</span> <span class="n">Meta</span><span class="o">.</span><span class="n">OWLObjectProperty</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="s">u&#39;http://purl.org/linguistics/gold#hasConstituent&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">Morpheme</span> <span class="o">=</span> <span class="n">Meta</span><span class="o">.</span><span class="n">OWLClass</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="s">u&#39;http://blah.org/Morpheme&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">m1</span> <span class="o">=</span> <span class="n">Morpheme</span><span class="p">(</span><span class="s">u&#39;http://blah.org/m1&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">m2</span> <span class="o">=</span> <span class="n">Morpheme</span><span class="p">(</span><span class="s">u&#39;http://purl.org/linguistics/gold#m2&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>And add a statement to the KBComponent:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">mykb</span> <span class="o">+=</span> <span class="p">(</span><span class="n">w</span><span class="p">,</span> <span class="n">hasConstituent</span><span class="p">,</span> <span class="n">m1</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>The statement is in the form of a triple, and is equivalent to this:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">mykb</span> <span class="o">+=</span> <span class="n">hasConstituent</span><span class="p">(</span><span class="n">w</span><span class="p">,</span> <span class="n">m1</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>See <a class="reference external" href="meta.html"><em>Meta</em></a> for an explanation of how particular instances of classes and properties are created.</p>
+</div>
+<div class="section" id="methods">
+<h2>Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h2>
+<p>Here are the methods associated with KBComponent.</p>
+<dl class="method">
+<dt id="eltk.kb.KBComponent.KBComponent.getOWLClasses">
+<tt class="descclassname">KBComponent.</tt><tt class="descname">getOWLClasses</tt><big>(</big><big>)</big><a class="headerlink" href="#eltk.kb.KBComponent.KBComponent.getOWLClasses" title="Permalink to this definition">¶</a></dt>
+<dd><p>getOWLClasses returns only entities that are classes.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">list</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.kb.KBComponent.KBComponent.buildRDFGraph">
+<tt class="descclassname">KBComponent.</tt><tt class="descname">buildRDFGraph</tt><big>(</big><em>identifier=''</em><big>)</big><a class="headerlink" href="#eltk.kb.KBComponent.KBComponent.buildRDFGraph" title="Permalink to this definition">¶</a></dt>
+<dd><p>buildRDFGraph creates an RDFLib graph object.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>identifier</em> (unicode) &#8211; the identifier string for the graph</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">rdflib.Graph.Graph</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.kb.KBComponent.KBComponent.getTermMeaning">
+<tt class="descclassname">KBComponent.</tt><tt class="descname">getTermMeaning</tt><big>(</big><em>term_string</em><big>)</big><a class="headerlink" href="#eltk.kb.KBComponent.KBComponent.getTermMeaning" title="Permalink to this definition">¶</a></dt>
+<dd><p>Given some abbreviation, e.g., &#8216;PST&#8217;, or full form, e.g., &#8216;past tense&#8217;, return the GOLD URI indicated by that string.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>term_string</em> (str) &#8211; the string representation (abbreviation or full form) of the term</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">rdflib.URIRef.URIRef</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.kb.KBComponent.KBComponent.renderJSON">
+<tt class="descclassname">KBComponent.</tt><tt class="descname">renderJSON</tt><big>(</big><em>roots</em><big>)</big><a class="headerlink" href="#eltk.kb.KBComponent.KBComponent.renderJSON" title="Permalink to this definition">¶</a></dt>
+<dd><p>renderJSON is a utility method to output a JSON rep of the KB.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>root</em> (OWLClass) &#8211; The particular root class to from which to generate JSON</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">str</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<p>Depending on the contents of a particular <a title="eltk.kb.KBComponent.KBComponent" class="reference internal" href="#eltk.kb.KBComponent.KBComponent"><tt class="xref docutils literal"><span class="pre">KBComponent</span></tt></a>, several methods could be applicable.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="modindex.html" title="Global Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="termset.html" title="Termset"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="meta.html" title="Meta"
+             >previous</a> |</li>
+        <li><a href="contents.html">ELTK v0.4 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+      &copy; Copyright 2009, Scott Farrar, Steve Moran.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 0.6.2.
+    </div>
+  </body>
+</html>

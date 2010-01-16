@@ -8,5 +8,5 @@
 # For license information, see LICENSE.TXT
 
 """
-The ontology package contains the Meta and KBComponent modules. These modules are used together to import the OWL+RDFS+RDF data model into the Python OOP environment. 
+The KB (knowledge base) package contains the Meta and KBComponent modules. These modules are used together to import the OWL+RDFS+RDF data model into the Python OOP environment. 
 """

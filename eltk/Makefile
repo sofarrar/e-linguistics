@@ -1,6 +1,6 @@
 PYTHON = python
 
-.PHONY: usage all doc clean clean_code clean_up test
+.PHONY: usage all clean clean_code clean_up test
 
 usage:
 	@echo "make dist -- Build distributions (output to dist/)"
@@ -38,6 +38,14 @@ checksums:
 	md5 dist/nltk-$(VERSION).tar.gz
 	openssl sha1 dist/nltk-$(VERSION).tar.gz
 	openssl rmd160 dist/nltk-$(VERSION).tar.gz
+
+
+###############
+# DOCS
+# ##############
+#
+
+
 ########################################################################
 # CLEAN
 ########################################################################
@@ -53,3 +61,6 @@ clean_code:
 	rm -f `find . -name '*.pyo'`
 	rm -f `find . -name '*~'`
 	rm -f MANIFEST # regenerate manifest from MANIFEST.in
+
+
+

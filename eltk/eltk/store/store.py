@@ -46,6 +46,10 @@ from eltk.utils.sparql import *
 def getIdentifier(graph):
     """
     Return the dc:identifier from a graph, given its location
+    
+    :param graph: an input RDF graph 
+    :type graph: rdflib.graph.Graph
+    :rtype: rdflib.URIRef.URIRef
     """
 
     for t in graph.predicate_objects():

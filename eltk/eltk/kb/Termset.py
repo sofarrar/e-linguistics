@@ -7,7 +7,7 @@
 # URL: <http://purl.org/linguistics/eltk>
 # For license information, see LICENSE.TXT
 """
-Termset module
+Termset is the Python data structure equivalent of  ``termset graphs`` which are logical components of the GOLD Community Model. Put simply, they contain term-concept mappings, e.g., "PST"--gold:PastTense. A termset contains a  set of scientific 'terms' used as part of an annotation system, usually the standard terms from a particular linguistic theory or community of practice. A term is a specific string representing a concept within some scientific domain. Terms may have a standard orthographic representation such as "past tense" or an abbreviation such as "PST".
 """
 
 from eltk.namespace import GOLDNS
@@ -17,6 +17,10 @@ from eltk.kb.KBComponent import KBComponent
 
 from eltk.reader.LinkedDataReader import LinkedDataReader
 from eltk.config import ELTK_HOME
+
+
+
+
 reader = LinkedDataReader()
 GOLD_graph = reader.parseGraph(ELTK_HOME+'/examples/inputfiles/gold-2008.owl')
 GOLD = reader.buildPyModel()
@@ -25,17 +29,17 @@ GOLD = reader.buildPyModel()
 
 class Termset(KBComponent):
     """
-    Termset is the Python data structure equivalent of  termset graphs. A termset contains a  set of scientific 'terms' used as part of an annotation system, usually the standard terms from a particular linguistic theory or community of practice. A term is a specific string representing a concept within some scientific domain. Terms may have a standard orthographic representation such as 'past tense' or an abbreviation such as 'PST'.
+    Termset is the class representing a termset.    
     """
    
     def getTermMeaning(self,term_string):
         """
         Given some abbreviation, e.g., 'PST', or full form, e.g., 'past tense', return the GOLD URI indicated by that string.
         
-        :param string_rep: the string representation (abbreviation or full form) of the term 
-        :type string_rep: string
+        :param term_string: the string representation (abbreviation or full form) of the term 
+        :type term_string: string
         :returns: the URI of the GOLD concept represented by the string
-        :rtype: URIRef
+        :rtype: rdflib.URIRef.URIRef
         """ 
         term = ''
 

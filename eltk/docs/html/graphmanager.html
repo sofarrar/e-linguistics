@@ -1,0 +1,835 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Graph Manager &mdash; ELTK v0.4 documentation</title>
+    <link rel="stylesheet" href="_static/sphinxdoc.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '0.4',
+        COLLAPSE_MODINDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="ELTK v0.4 documentation" href="index.html" />
+    <link rel="next" title="Store" href="store.html" />
+    <link rel="prev" title="Character Converter" href="charconverter.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="modindex.html" title="Global Module Index"
+             accesskey="M">modules</a> |</li>
+        <li class="right" >
+          <a href="store.html" title="Store"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="charconverter.html" title="Character Converter"
+             accesskey="P">previous</a> |</li>
+        <li><a href="contents.html">ELTK v0.4 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+            <h4>Previous topic</h4>
+            <p class="topless"><a href="charconverter.html"
+                                  title="previous chapter">Character Converter</a></p>
+            <h4>Next topic</h4>
+            <p class="topless"><a href="store.html"
+                                  title="next chapter">Store</a></p>
+            <h3>This Page</h3>
+            <ul class="this-page-menu">
+              <li><a href="_sources/graphmanager.txt"
+                     rel="nofollow">Show Source</a></li>
+            </ul>
+          <div id="searchbox" style="display: none">
+            <h3>Quick search</h3>
+              <form class="search" action="search.html" method="get">
+                <input type="text" name="q" size="18" />
+                <input type="submit" value="Go" />
+                <input type="hidden" name="check_keywords" value="yes" />
+                <input type="hidden" name="area" value="default" />
+              </form>
+              <p class="searchtip" style="font-size: 90%">
+              Enter search terms or a module, class or function name.
+              </p>
+          </div>
+          <script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="module-eltk.utils.GraphManager">
+<span id="graphmanager"></span><h1>Graph Manager<a class="headerlink" href="#module-eltk.utils.GraphManager" title="Permalink to this headline">¶</a></h1>
+<p>This module is used to interact with a set of merged RDF/OWL graphs.</p>
+<dl class="class">
+<dt id="eltk.utils.GraphManager.GraphManager">
+<em class="property">
+class </em><tt class="descclassname">eltk.utils.GraphManager.</tt><tt class="descname">GraphManager</tt><big>(</big><em>graphs</em><big>)</big><a class="headerlink" href="#eltk.utils.GraphManager.GraphManager" title="Permalink to this definition">¶</a></dt>
+<dd><p>GraphManager takes a list of RDF and OWL files, merges them, and provides convenience methods for extracting data from the (combined) graph. Note: It contains GOLD specific funtion calls. Also, when the documentation refers to &#8216;object&#8217; this should be interpreted by the user as the object node within the graph (subject predicate object) entity relations and not &#8216;object&#8217; in the sense of OOP. Also, the term &#8216;subject&#8217; should be considered the &#8216;subject&#8217; node.</p>
+<dl class="method">
+<dt id="eltk.utils.GraphManager.GraphManager.getAddress">
+<tt class="descname">getAddress</tt><big>(</big><em>subject</em><big>)</big><a class="headerlink" href="#eltk.utils.GraphManager.GraphManager.getAddress" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a list of subjects that match rdf:type bibtex:hasAddress</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>subject</em> (str) &#8211; a URI</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">list</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.utils.GraphManager.GraphManager.getArticles">
+<tt class="descname">getArticles</tt><big>(</big><big>)</big><a class="headerlink" href="#eltk.utils.GraphManager.GraphManager.getArticles" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a list of subjects that match rdf:type bibtex:Article</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">list</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.utils.GraphManager.GraphManager.getAuthorList">
+<tt class="descname">getAuthorList</tt><big>(</big><em>subject</em><big>)</big><a class="headerlink" href="#eltk.utils.GraphManager.GraphManager.getAuthorList" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a list of subjects that match rdf:type biblio:hasAuthorList</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>subject</em> (str) &#8211; a URI</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">list</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.utils.GraphManager.GraphManager.getAuthors">
+<tt class="descname">getAuthors</tt><big>(</big><em>subject</em><big>)</big><a class="headerlink" href="#eltk.utils.GraphManager.GraphManager.getAuthors" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a list of authors that match the subject and biblio:hasAuthorList, e.g.:</p>
+<ul class="simple">
+<li>s: rdf:about=&#8221;http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Leman1980&#8221;</li>
+<li>p: biblio:hasAuthorList</li>
+</ul>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>subject</em> (str) &#8211; a URI</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">list</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.utils.GraphManager.GraphManager.getBibtexPublicationType">
+<tt class="descname">getBibtexPublicationType</tt><big>(</big><big>)</big><a class="headerlink" href="#eltk.utils.GraphManager.GraphManager.getBibtexPublicationType" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns a list of rdflib.Literal.Literal objects</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">list</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.utils.GraphManager.GraphManager.getBookTitle">
+<tt class="descname">getBookTitle</tt><big>(</big><em>subject</em><big>)</big><a class="headerlink" href="#eltk.utils.GraphManager.GraphManager.getBookTitle" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a list of subjects that match rdf:type bibtex:hasBookTitle</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>subject</em> (str) &#8211; a URI</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">list</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.utils.GraphManager.GraphManager.getBooks">
+<tt class="descname">getBooks</tt><big>(</big><big>)</big><a class="headerlink" href="#eltk.utils.GraphManager.GraphManager.getBooks" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a list of subjects that match rdf:type bibtex:Book</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">list</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.utils.GraphManager.GraphManager.getChapter">
+<tt class="descname">getChapter</tt><big>(</big><em>subject</em><big>)</big><a class="headerlink" href="#eltk.utils.GraphManager.GraphManager.getChapter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a list of subjects that match rdf:type bibtex:hasChapter</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>subject</em> (str) &#8211; a URI</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">list</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.utils.GraphManager.GraphManager.getCitations">
+<tt class="descname">getCitations</tt><big>(</big><em>subject</em><big>)</big><a class="headerlink" href="#eltk.utils.GraphManager.GraphManager.getCitations" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a list of objects where the subject parameter matches the biblio[&#8220;hasCitation&#8221;] predicate</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>subject</em> (str) &#8211; a URI</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">list</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.utils.GraphManager.GraphManager.getCitationsBibtexAddress">
+<tt class="descname">getCitationsBibtexAddress</tt><big>(</big><em>subject</em><big>)</big><a class="headerlink" href="#eltk.utils.GraphManager.GraphManager.getCitationsBibtexAddress" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a list of objects where the subject parameter matches the biblio[&#8220;hasAddress&#8221;] predicate</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>subject</em> (str) &#8211; a URI</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">list</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.utils.GraphManager.GraphManager.getCitationsBibtexAuthors">
+<tt class="descname">getCitationsBibtexAuthors</tt><big>(</big><em>subject</em><big>)</big><a class="headerlink" href="#eltk.utils.GraphManager.GraphManager.getCitationsBibtexAuthors" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get object matches of a graph given a tuple (subject, biblio:hasAuthorList). The subject passed it needs to be a string and not a rdflib.URI object.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>subject</em> (str) &#8211; subject passed it needs to be a string and not a rdflib.URI object</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">list</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.utils.GraphManager.GraphManager.getCitationsBibtexComment">
+<tt class="descname">getCitationsBibtexComment</tt><big>(</big><em>subject</em><big>)</big><a class="headerlink" href="#eltk.utils.GraphManager.GraphManager.getCitationsBibtexComment" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a list of objects where the subject parameter matches the rdfs[&#8220;comment&#8221;] predicate</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>subject</em> (str) &#8211; a URI</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">list</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.utils.GraphManager.GraphManager.getCitationsBibtexEditors">
+<tt class="descname">getCitationsBibtexEditors</tt><big>(</big><em>subject</em><big>)</big><a class="headerlink" href="#eltk.utils.GraphManager.GraphManager.getCitationsBibtexEditors" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a list of objects where the subject parameter matches the biblio[&#8220;hasEditorList&#8221;] predicate</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>subject</em> (str) &#8211; a URI</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">list</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.utils.GraphManager.GraphManager.getCitationsBibtexEntry">
+<tt class="descname">getCitationsBibtexEntry</tt><big>(</big><em>subject</em><big>)</big><a class="headerlink" href="#eltk.utils.GraphManager.GraphManager.getCitationsBibtexEntry" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a list of objects where the subject parameter matches the biblio[&#8220;hasEntry&#8221;] predicate</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>subject</em> (str) &#8211; a URI</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">list</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.utils.GraphManager.GraphManager.getCitationsBibtexJournal">
+<tt class="descname">getCitationsBibtexJournal</tt><big>(</big><em>subject</em><big>)</big><a class="headerlink" href="#eltk.utils.GraphManager.GraphManager.getCitationsBibtexJournal" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a list of objects where the subject parameter matches the biblio[&#8220;hasJournal&#8221;] predicate</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>subject</em> (str) &#8211; a URI</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">list</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.utils.GraphManager.GraphManager.getCitationsBibtexPublicationYear">
+<tt class="descname">getCitationsBibtexPublicationYear</tt><big>(</big><em>subject</em><big>)</big><a class="headerlink" href="#eltk.utils.GraphManager.GraphManager.getCitationsBibtexPublicationYear" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get object matches of a graph given a tuple (subject, biblio:hasBookTitle). The subject passed it needs to be a string and not a rdflib.URI object.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>subject</em> (str) &#8211; subject passed it needs to be a string and not a rdflib.URI object</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">list</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.utils.GraphManager.GraphManager.getCitationsBibtexPublisher">
+<tt class="descname">getCitationsBibtexPublisher</tt><big>(</big><em>subject</em><big>)</big><a class="headerlink" href="#eltk.utils.GraphManager.GraphManager.getCitationsBibtexPublisher" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a list of objects where the subject parameter matches the biblio[&#8220;hasPublisher&#8221;] predicate</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>subject</em> (str) &#8211; a URI</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">list</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.utils.GraphManager.GraphManager.getCitationsBibtexSeries">
+<tt class="descname">getCitationsBibtexSeries</tt><big>(</big><em>subject</em><big>)</big><a class="headerlink" href="#eltk.utils.GraphManager.GraphManager.getCitationsBibtexSeries" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a list of objects where the subject parameter matches the biblio[&#8220;hasSeries&#8221;] predicate</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>subject</em> (str) &#8211; a URI</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">list</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.utils.GraphManager.GraphManager.getCitationsBibtexTitle">
+<tt class="descname">getCitationsBibtexTitle</tt><big>(</big><em>subject</em><big>)</big><a class="headerlink" href="#eltk.utils.GraphManager.GraphManager.getCitationsBibtexTitle" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get object matches of a graph given a tuple (subject, biblio:hasBookTitle). The subject passed it needs to be a string and not a rdflib.URI object.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>subject</em> (str) &#8211; subject passed it needs to be a string and not a rdflib.URI object</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">list</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.utils.GraphManager.GraphManager.getCitationsBibtexVolume">
+<tt class="descname">getCitationsBibtexVolume</tt><big>(</big><em>subject</em><big>)</big><a class="headerlink" href="#eltk.utils.GraphManager.GraphManager.getCitationsBibtexVolume" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a list of objects where the subject parameter matches the biblio[&#8220;hasVolume&#8221;] predicate</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>subject</em> (str) &#8211; a URI</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">list</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.utils.GraphManager.GraphManager.getCitationsPages">
+<tt class="descname">getCitationsPages</tt><big>(</big><em>subject</em><big>)</big><a class="headerlink" href="#eltk.utils.GraphManager.GraphManager.getCitationsPages" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a list of objects where the subject parameter matches the biblio[&#8220;hasPageInformation&#8221;] predicate</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>subject</em> (str) &#8211; a URI</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">list</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.utils.GraphManager.GraphManager.getClasses">
+<tt class="descname">getClasses</tt><big>(</big><big>)</big><a class="headerlink" href="#eltk.utils.GraphManager.GraphManager.getClasses" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns all subjects that match rdfs:type predicates and owl:Class objects. Returns a list of type rdflib.Literal.Literal.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">list</td>
+</tr>
+<tr class="field"><th class="field-name">Returns:</th><td class="field-body">a list of rdflib.URIRef.URIRef objects</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.utils.GraphManager.GraphManager.getDescription">
+<tt class="descname">getDescription</tt><big>(</big><em>subject</em><big>)</big><a class="headerlink" href="#eltk.utils.GraphManager.GraphManager.getDescription" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gets each class&#8217; rdfs:comment. Takes a list of subjects. Returns a list of lists of rdflib.Literals, which are of type list, e.g.
+[rdflib.Literal(&#8216;Verbalizer is the class of category changing units that change nouns into verbs.&#8217;, language=None, datatype=None)]. Print on an rdflib.Literal prints the URI.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>subject</em> (str) &#8211; a URI</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">list</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.utils.GraphManager.GraphManager.getDescriptions">
+<tt class="descname">getDescriptions</tt><big>(</big><em>l</em><big>)</big><a class="headerlink" href="#eltk.utils.GraphManager.GraphManager.getDescriptions" title="Permalink to this definition">¶</a></dt>
+<dd><p>Gets each class&#8217; rdfs:comment. Takes a list of subjects. Returns a list of lists of rdflib.Literals, which are of type list, e.g.
+[rdflib.Literal(&#8216;Verbalizer is the class of category changing units that change nouns into verbs.&#8217;, language=None, datatype=None)]</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>l</em> (list) &#8211; a list of subject nodes</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">list</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.utils.GraphManager.GraphManager.getEditorList">
+<tt class="descname">getEditorList</tt><big>(</big><em>subject</em><big>)</big><a class="headerlink" href="#eltk.utils.GraphManager.GraphManager.getEditorList" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a list of subjects that match rdf:type biblio:hasEditorList</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>subject</em> (str) &#8211; a URI</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">list</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.utils.GraphManager.GraphManager.getInCollections">
+<tt class="descname">getInCollections</tt><big>(</big><big>)</big><a class="headerlink" href="#eltk.utils.GraphManager.GraphManager.getInCollections" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a list of subjects that match rdf:type bibtex:InCollection</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">list</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.utils.GraphManager.GraphManager.getInProceedings">
+<tt class="descname">getInProceedings</tt><big>(</big><big>)</big><a class="headerlink" href="#eltk.utils.GraphManager.GraphManager.getInProceedings" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a list of subjects that match rdf:type bibtex:InProceedings</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">list</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.utils.GraphManager.GraphManager.getJournal">
+<tt class="descname">getJournal</tt><big>(</big><em>subject</em><big>)</big><a class="headerlink" href="#eltk.utils.GraphManager.GraphManager.getJournal" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a list of subjects that match rdf:type bibtex:hasJournal</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>subject</em> (str) &#8211; a URI</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">list</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.utils.GraphManager.GraphManager.getLabel">
+<tt class="descname">getLabel</tt><big>(</big><em>subject</em><big>)</big><a class="headerlink" href="#eltk.utils.GraphManager.GraphManager.getLabel" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a list of objects where the subject parameter matches the rdfs[&#8220;label&#8221;] predicate</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>subject</em> (str) &#8211; a URI</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">list</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.utils.GraphManager.GraphManager.getLabels">
+<tt class="descname">getLabels</tt><big>(</big><em>l</em><big>)</big><a class="headerlink" href="#eltk.utils.GraphManager.GraphManager.getLabels" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a list of objects where the subject parameter matches the rdfs[&#8220;label&#8221;] predicate</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>l</em> (list) &#8211; a list of subject (strs) as URIs</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">list</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.utils.GraphManager.GraphManager.getLength">
+<tt class="descname">getLength</tt><big>(</big><big>)</big><a class="headerlink" href="#eltk.utils.GraphManager.GraphManager.getLength" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return length of (merged) graph(s).</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">int</td>
+</tr>
+<tr class="field"><th class="field-name">Returns:</th><td class="field-body">length of the graph</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.utils.GraphManager.GraphManager.getMiscs">
+<tt class="descname">getMiscs</tt><big>(</big><big>)</big><a class="headerlink" href="#eltk.utils.GraphManager.GraphManager.getMiscs" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a list of subjects that match rdf:type bibtex:Misc</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">list</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.utils.GraphManager.GraphManager.getPages">
+<tt class="descname">getPages</tt><big>(</big><em>subject</em><big>)</big><a class="headerlink" href="#eltk.utils.GraphManager.GraphManager.getPages" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a list of subjects that match rdf:type bibtex:hasPages</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>subject</em> (str) &#8211; a URI</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">list</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.utils.GraphManager.GraphManager.getPhdTheses">
+<tt class="descname">getPhdTheses</tt><big>(</big><big>)</big><a class="headerlink" href="#eltk.utils.GraphManager.GraphManager.getPhdTheses" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a list of subjects that match rdf:type bibtex:PhDThesis</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">list</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.utils.GraphManager.GraphManager.getPredicateObjects">
+<tt class="descname">getPredicateObjects</tt><big>(</big><em>subject</em><big>)</big><a class="headerlink" href="#eltk.utils.GraphManager.GraphManager.getPredicateObjects" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a list of predicate and object tuples for a given subject</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>subject</em> (str) &#8211; a URI</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">list</td>
+</tr>
+<tr class="field"><th class="field-name">Returns:</th><td class="field-body">a list of predicate and object tuples that match the</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.utils.GraphManager.GraphManager.getPublisher">
+<tt class="descname">getPublisher</tt><big>(</big><em>subject</em><big>)</big><a class="headerlink" href="#eltk.utils.GraphManager.GraphManager.getPublisher" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a list of subjects that match rdf:type bibtex:hasPublisher</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>subject</em> (str) &#8211; a URI</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">list</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.utils.GraphManager.GraphManager.getSeq">
+<tt class="descname">getSeq</tt><big>(</big><em>subject</em><big>)</big><a class="headerlink" href="#eltk.utils.GraphManager.GraphManager.getSeq" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns a sequence of objects that match the subject parameter and rdf:_1</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>subject</em> (str) &#8211; a URI</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">list</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.utils.GraphManager.GraphManager.getSeqs">
+<tt class="descname">getSeqs</tt><big>(</big><em>bnode</em><big>)</big><a class="headerlink" href="#eltk.utils.GraphManager.GraphManager.getSeqs" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a list of predicates_object tuples that have a bnode</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>bnode</em> (str) &#8211; a URI</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">list</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.utils.GraphManager.GraphManager.getSubClasses">
+<tt class="descname">getSubClasses</tt><big>(</big><em>subject</em><big>)</big><a class="headerlink" href="#eltk.utils.GraphManager.GraphManager.getSubClasses" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns a list of rdflib.URIRef objects that contains the subClassOf relations for the passed in subject.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>subject</em> (str) &#8211; a URI</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">list</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.utils.GraphManager.GraphManager.getSubjectObjects">
+<tt class="descname">getSubjectObjects</tt><big>(</big><em>predicate</em><big>)</big><a class="headerlink" href="#eltk.utils.GraphManager.GraphManager.getSubjectObjects" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns a list of (subject, object) tuples for the given predicate. The predicate may be passed as either a uri or as a tuple of (uri_prefix, concept).</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>predicate</em> (str) &#8211; a URI</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">list</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.utils.GraphManager.GraphManager.getTechReports">
+<tt class="descname">getTechReports</tt><big>(</big><big>)</big><a class="headerlink" href="#eltk.utils.GraphManager.GraphManager.getTechReports" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a list of subjects that match rdf:type bibtex:TechReport</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">list</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.utils.GraphManager.GraphManager.getTitle">
+<tt class="descname">getTitle</tt><big>(</big><em>subject</em><big>)</big><a class="headerlink" href="#eltk.utils.GraphManager.GraphManager.getTitle" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a list of subjects that match rdf:type bibtex:Title</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>subject</em> (str) &#8211; a URI</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">list</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.utils.GraphManager.GraphManager.getVolume">
+<tt class="descname">getVolume</tt><big>(</big><em>subject</em><big>)</big><a class="headerlink" href="#eltk.utils.GraphManager.GraphManager.getVolume" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a list of subjects that match rdf:type bibtex:hasVolume</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>subject</em> (str) &#8211; a URI</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">list</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.utils.GraphManager.GraphManager.getYear">
+<tt class="descname">getYear</tt><big>(</big><em>subject</em><big>)</big><a class="headerlink" href="#eltk.utils.GraphManager.GraphManager.getYear" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return a list of subjects that match rdf:type bibtex:hasYear</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>subject</em> (str) &#8211; a URI</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">list</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.utils.GraphManager.GraphManager.isDefinedBy">
+<tt class="descname">isDefinedBy</tt><big>(</big><big>)</big><a class="headerlink" href="#eltk.utils.GraphManager.GraphManager.isDefinedBy" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns a list of of (rdflib.URIRef, rdflib.URIRef) tuples for (subject, object) defined by the predicate rdfs:isDefinedBy.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">list</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.utils.GraphManager.GraphManager.printGraph">
+<tt class="descname">printGraph</tt><big>(</big><big>)</big><a class="headerlink" href="#eltk.utils.GraphManager.GraphManager.printGraph" title="Permalink to this definition">¶</a></dt>
+<dd>Print the graph</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="modindex.html" title="Global Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="store.html" title="Store"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="charconverter.html" title="Character Converter"
+             >previous</a> |</li>
+        <li><a href="contents.html">ELTK v0.4 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+      &copy; Copyright 2009, Scott Farrar, Steve Moran.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 0.6.2.
+    </div>
+  </body>
+</html>

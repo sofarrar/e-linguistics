@@ -1,8 +1,8 @@
-The e-Linguistics  Toolkit (ELTK)   e-linguistics.org
+The e-Linguistics  Toolkit (ELTK)   http://purl.org/linguistics/eltk
+
 
 Authors:Scott Farrar <farrar@u.washington.edu>
         Steven Moran <stiv@u.washington.edu>
-        Bill McNeill <billmcn@u.washington.edu>
 
 Copyright (C) 2008--2009 ELTK Project
 

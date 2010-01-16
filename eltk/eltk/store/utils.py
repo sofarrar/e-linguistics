@@ -19,6 +19,9 @@ from eltk.config import STORE_CONFIG
 def resetDB(dbconfig):
     """
     Reset a db and create a schema for the store.
+
+    :param dbconfig: a config dict
+    :type dbconfig: dict
     """
     
     host = dbconfig['host']

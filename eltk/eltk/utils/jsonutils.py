@@ -26,10 +26,12 @@ GOLD = reader.buildPyModel()
  
 
 
-"""
-The ComplexEncoder class is an extension that creates JSON compatible with the javascript Extjs.TreePanel class.
-"""
+
 class ComplexEncoder(json.JSONEncoder):
+    """
+    The ComplexEncoder class is an extension that creates JSON compatible with the javascript Extjs.TreePanel class.
+    """
+    
     def default(self, obj):
         
         #if the obj is a class
@@ -66,7 +68,8 @@ class ComplexEncoder(json.JSONEncoder):
     
     def makeInstance(self,inst):
         """
-        Necessary so that JSON doens't turn everything into a string during a recursive dump.
+        makeInstance is necessary so that JSON doens't turn everything into a string during a recursive dump.
+        
         :param inst: an instance of an OWLClass
         :type inst: OWLClass
         :rtype: dict

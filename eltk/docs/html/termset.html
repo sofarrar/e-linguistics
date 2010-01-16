@@ -1,0 +1,157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Termset &mdash; ELTK v0.4 documentation</title>
+    <link rel="stylesheet" href="_static/sphinxdoc.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '0.4',
+        COLLAPSE_MODINDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="ELTK v0.4 documentation" href="index.html" />
+    <link rel="next" title="Readers" href="reader.html" />
+    <link rel="prev" title="KBComponent" href="kbcomponent.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="modindex.html" title="Global Module Index"
+             accesskey="M">modules</a> |</li>
+        <li class="right" >
+          <a href="reader.html" title="Readers"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="kbcomponent.html" title="KBComponent"
+             accesskey="P">previous</a> |</li>
+        <li><a href="contents.html">ELTK v0.4 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+            <h3><a href="contents.html">Table Of Contents</a></h3>
+            <ul>
+<li><a class="reference external" href="">Termset</a><ul>
+<li><a class="reference external" href="#module-eltk.kb.Termset">Background</a></li>
+<li><a class="reference external" href="#contents">Contents</a></li>
+<li><a class="reference external" href="#illustration-of-usage">Illustration of usage</a></li>
+</ul>
+</li>
+</ul>
+
+            <h4>Previous topic</h4>
+            <p class="topless"><a href="kbcomponent.html"
+                                  title="previous chapter">KBComponent</a></p>
+            <h4>Next topic</h4>
+            <p class="topless"><a href="reader.html"
+                                  title="next chapter">Readers</a></p>
+            <h3>This Page</h3>
+            <ul class="this-page-menu">
+              <li><a href="_sources/termset.txt"
+                     rel="nofollow">Show Source</a></li>
+            </ul>
+          <div id="searchbox" style="display: none">
+            <h3>Quick search</h3>
+              <form class="search" action="search.html" method="get">
+                <input type="text" name="q" size="18" />
+                <input type="submit" value="Go" />
+                <input type="hidden" name="check_keywords" value="yes" />
+                <input type="hidden" name="area" value="default" />
+              </form>
+              <p class="searchtip" style="font-size: 90%">
+              Enter search terms or a module, class or function name.
+              </p>
+          </div>
+          <script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="termset">
+<span id="id1"></span><h1>Termset<a class="headerlink" href="#termset" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="module-eltk.kb.Termset">
+<h2>Background<a class="headerlink" href="#module-eltk.kb.Termset" title="Permalink to this headline">¶</a></h2>
+<p>Termset is the Python data structure equivalent of  <tt class="docutils literal"><span class="pre">termset</span> <span class="pre">graphs</span></tt> which are logical components of the GOLD Community Model. Put simply, they contain term-concept mappings, e.g., &#8220;PST&#8221;&#8211;gold:PastTense. A termset contains a  set of scientific &#8216;terms&#8217; used as part of an annotation system, usually the standard terms from a particular linguistic theory or community of practice. A term is a specific string representing a concept within some scientific domain. Terms may have a standard orthographic representation such as &#8220;past tense&#8221; or an abbreviation such as &#8220;PST&#8221;.</p>
+</div>
+<div class="section" id="contents">
+<h2>Contents<a class="headerlink" href="#contents" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="eltk.kb.Termset.Termset">
+<em class="property">
+class </em><tt class="descclassname">eltk.kb.Termset.</tt><tt class="descname">Termset</tt><big>(</big><em>identifier=''</em><big>)</big><a class="headerlink" href="#eltk.kb.Termset.Termset" title="Permalink to this definition">¶</a></dt>
+<dd><p>Termset is the class representing a termset.</p>
+<dl class="method">
+<dt id="eltk.kb.Termset.Termset.getTermMeaning">
+<tt class="descname">getTermMeaning</tt><big>(</big><em>term_string</em><big>)</big><a class="headerlink" href="#eltk.kb.Termset.Termset.getTermMeaning" title="Permalink to this definition">¶</a></dt>
+<dd><p>Given some abbreviation, e.g., &#8216;PST&#8217;, or full form, e.g., &#8216;past tense&#8217;, return the GOLD URI indicated by that string.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>term_string</em> (string) &#8211; the string representation (abbreviation or full form) of the term</td>
+</tr>
+<tr class="field"><th class="field-name">Returns:</th><td class="field-body">the URI of the GOLD concept represented by the string</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">rdflib.URIRef.URIRef</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="illustration-of-usage">
+<h2>Illustration of usage<a class="headerlink" href="#illustration-of-usage" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="modindex.html" title="Global Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="reader.html" title="Readers"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="kbcomponent.html" title="KBComponent"
+             >previous</a> |</li>
+        <li><a href="contents.html">ELTK v0.4 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+      &copy; Copyright 2009, Scott Farrar, Steve Moran.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 0.6.2.
+    </div>
+  </body>
+</html>

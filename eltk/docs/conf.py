@@ -38,7 +38,7 @@ master_doc = 'contents'
 
 # General information about the project.
 project = u'ELTK'
-copyright = u'2009, Scott Farrar, Steve Moran, Bill McNeill'
+copyright = u'2009, Scott Farrar, Steve Moran'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -173,7 +173,7 @@ htmlhelp_basename = 'ELTKdoc'
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
   ('index', 'ELTK.tex', u'ELTK Documentation',
-   u'Scott Farrar, Steve Moran, Bill McNeill', 'manual'),
+   u'Scott Farrar, Steve Moran', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of

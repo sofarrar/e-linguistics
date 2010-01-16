@@ -88,9 +88,8 @@ class GraphManager:
         Gets each class' rdfs:comment. Takes a list of subjects. Returns a list of lists of rdflib.Literals, which are of type list, e.g.
         [rdflib.Literal('Verbalizer is the class of category changing units that change nouns into verbs.', language=None, datatype=None)]. Print on an rdflib.Literal prints the URI.
 
-        :type subject: str
         :param subject: a URI
-
+        :type subject: str
         :rtype: list
         """
         return list(self.g.objects(subject, self.rdfs["comment"]))
@@ -100,13 +99,11 @@ class GraphManager:
         Gets each class' rdfs:comment. Takes a list of subjects. Returns a list of lists of rdflib.Literals, which are of type list, e.g.
         [rdflib.Literal('Verbalizer is the class of category changing units that change nouns into verbs.', language=None, datatype=None)]
 
-        :type l: list
+
         :param l: a list of subject nodes
+        :type l: list
 
         :rtype: list
-        :return: a list of lists of rdflib.Literals, which are of type list, e.g.
-        [rdflib.Literal('Verbalizer is the class of category changing units that change nouns into verbs.', language=None, datatype=None)]        
-
         """
         results = []
         for i in l:
@@ -328,9 +325,9 @@ class GraphManager:
         """ 
         Return a list of subjects that match rdf:type biblio:hasAuthorList
 
-        :type subject: str
         :param subject: a URI
-        :rtype list
+        :type subject: str
+        :rtype: list
         """
         return list(self.g.objects(subject, self.biblio["hasAuthorList"]))
 
@@ -531,8 +528,9 @@ class GraphManager:
     def getAuthors(self, subject):
         """
         Return a list of authors that match the subject and biblio:hasAuthorList, e.g.:
-        s: rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Leman1980"
-        p: biblio:hasAuthorList
+
+        - s: rdf:about="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Leman1980"
+        - p: biblio:hasAuthorList
 
         :type subject: str
         :param subject: a URI

@@ -53,15 +53,20 @@ def getSubClasses(self):
 class LinkedDataReader(Reader):
 
     """
-    LinkedDataReader is one type of Reader.
+    LinkedDataReader is a reader that is meant to process LinkedData resources, i.e., RDF+RDFS+OWL files.
     """
 
 
     def parseGraph(self,inputfile,identifier=''):
     
         """
-        returns:
-        rtype:
+        parseGraph is a wrapper around the rdflib.Graph.Graph class.
+        
+        :param inputfile: An input file location
+        :type inputfile: str
+        :param indentifier: An identifier for the resource, can be null.
+        :type indentifier: rdflib.URIRef.URIRef
+        :rtype: rdflib.Graph.Graph
         """
 
         #create a graph with declared identifier
@@ -108,7 +113,11 @@ class LinkedDataReader(Reader):
     def buildPyModel(self):
         """
         buildPyModel iterates over all triples in Graph and converts to Python's OOP model.
+
+        :rtype: eltk.kb.KBComponent.KBComponent
         """
+
+
         #main loop to add OWL classes and object/data properties to KBComponent as attributes
         #
         #loop over subjects in triples (same as looping over triples) 
@@ -267,13 +276,17 @@ class LinkedDataReader(Reader):
     #
     def addAttr(self):
         """
-        Add attributes to individuals. If the RDF graph contains:
+        addAttr adds attributes to individuals. If the RDF graph contains:
             myindiv --pred--> obj
-        then  add 'obj' as the attribute called 'pred'. Thus
+        then  add 'obj' as the attribute called 'pred'. Thus:
+        
         >>> myindiv.pred
         >>> obj
 
-        Also, add triples to self.kb.
+        addAttr also adds triples to self.kb.
+        
+        
+        :rtype: None
         """
         
         #iterate over all attributes 
@@ -332,9 +345,13 @@ class LinkedDataReader(Reader):
 
     def addFunc(self):
         """
-        Attaches various useful instance methods to each kb attribute:
-            -a function that returns all subclasses
-            -a function that returns all instances
+        addFunc attaches various useful instance methods to each kb attribute:
+            - a function that returns all subclasses
+            
+            - a function that returns all instances
+        
+        
+        :rtype: None
         """
         #iterate over all attributes
         for attribute in self.kb.__dict__.iteritems():

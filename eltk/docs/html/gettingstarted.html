@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Getting started with the ELTK &mdash; ELTK v0.4 documentation</title>
+    <link rel="stylesheet" href="_static/sphinxdoc.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '0.4',
+        COLLAPSE_MODINDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="ELTK v0.4 documentation" href="index.html" />
+    <link rel="next" title="Meta" href="meta.html" />
+    <link rel="prev" title="ELTK documentation" href="contents.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="modindex.html" title="Global Module Index"
+             accesskey="M">modules</a> |</li>
+        <li class="right" >
+          <a href="meta.html" title="Meta"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="contents.html" title="ELTK documentation"
+             accesskey="P">previous</a> |</li>
+        <li><a href="contents.html">ELTK v0.4 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+            <h3><a href="contents.html">Table Of Contents</a></h3>
+            <ul>
+<li><a class="reference external" href="">Getting started with the ELTK</a><ul>
+<li><a class="reference external" href="#module-eltk.kb.__init__">Data manipulation</a></li>
+<li><a class="reference external" href="#module-eltk.reader.__init__">Data migration</a></li>
+<li><a class="reference external" href="#module-eltk.display">Data display</a></li>
+</ul>
+</li>
+</ul>
+
+            <h4>Previous topic</h4>
+            <p class="topless"><a href="contents.html"
+                                  title="previous chapter">ELTK documentation</a></p>
+            <h4>Next topic</h4>
+            <p class="topless"><a href="meta.html"
+                                  title="next chapter">Meta</a></p>
+            <h3>This Page</h3>
+            <ul class="this-page-menu">
+              <li><a href="_sources/gettingstarted.txt"
+                     rel="nofollow">Show Source</a></li>
+            </ul>
+          <div id="searchbox" style="display: none">
+            <h3>Quick search</h3>
+              <form class="search" action="search.html" method="get">
+                <input type="text" name="q" size="18" />
+                <input type="submit" value="Go" />
+                <input type="hidden" name="check_keywords" value="yes" />
+                <input type="hidden" name="area" value="default" />
+              </form>
+              <p class="searchtip" style="font-size: 90%">
+              Enter search terms or a module, class or function name.
+              </p>
+          </div>
+          <script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="getting-started-with-the-eltk">
+<span id="gettingstarted"></span><h1>Getting started with the ELTK<a class="headerlink" href="#getting-started-with-the-eltk" title="Permalink to this headline">¶</a></h1>
+<p>The ELTK is intended:</p>
+<blockquote>
+<ul class="simple">
+<li>to manipulate linguistics data</li>
+<li>to translate un- or semi-structured data into <a class="reference external" href="http://www.w3.org/RDF/">RDF</a> (according to an ontology)</li>
+<li>to expose RDF data in various display forms (e.g., HTML or PDF)</li>
+<li>to provide the basis for web frameworks and services for linguistics</li>
+</ul>
+</blockquote>
+<p>This section outlines each of these broad aims by giving a general description. Specific uses of ELTK code are given in later sections.</p>
+<div class="section" id="module-eltk.kb.__init__">
+<h2>Data manipulation<a class="headerlink" href="#module-eltk.kb.__init__" title="Permalink to this headline">¶</a></h2>
+<p>The KB (knowledge base) package contains the Meta and KBComponent modules. These modules are used together to import the OWL+RDFS+RDF data model into the Python OOP environment.</p>
+</div>
+<div class="section" id="module-eltk.reader.__init__">
+<h2>Data migration<a class="headerlink" href="#module-eltk.reader.__init__" title="Permalink to this headline">¶</a></h2>
+<p>Various readers are used to migrate  so-called &#8220;legacy data&#8221;, ie files that are not yet in a format compatible with the GOLD Community of Practice&#8212;those that contain no semantic markup. For each type of legacy data file/format, a new reader class will need to be written. For instance, there are readers for:</p>
+<blockquote>
+<ul class="simple">
+<li>Praat TextGrid files</li>
+<li>Elan eaf files</li>
+<li>Leipzig Glossing Rules (in plain txt format)</li>
+<li>simple termsets in CVS format (author terms mapped to GOLD URIs)</li>
+<li>BibTeX files</li>
+</ul>
+</blockquote>
+<p>Quite separate in terms of functionality is the reader for LinkedData.</p>
+</div>
+<div class="section" id="module-eltk.display">
+<h2>Data display<a class="headerlink" href="#module-eltk.display" title="Permalink to this headline">¶</a></h2>
+<p>Once the data are migrated to an interoperable RDF format, various display structures (dictionaries, interlinear glossed text, tabular paradigms) are then needed for rendering. For instance, it is of little use to display raw RDF code as the result of a data search. Instead we opt for display formats such as formatted HTML, PDF, etc.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="modindex.html" title="Global Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="meta.html" title="Meta"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="contents.html" title="ELTK documentation"
+             >previous</a> |</li>
+        <li><a href="contents.html">ELTK v0.4 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+      &copy; Copyright 2009, Scott Farrar, Steve Moran.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 0.6.2.
+    </div>
+  </body>
+</html>

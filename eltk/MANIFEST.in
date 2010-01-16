@@ -2,3 +2,6 @@ include LICENSE.txt
 include INSTALL.txt
 include README.txt
 include eltk/examples/inputfiles/*
+include docs/html/*
+include docs/html/_sources/* 
+include docs/html/_static/* 

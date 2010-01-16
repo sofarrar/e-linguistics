@@ -7,7 +7,7 @@
 # URL: <http://purl.org/linguistics/eltk>
 # For license information, see LICENSE.TXT 
 """
-The sparql module contains several functions that wrap commonly used SPARQL queries.
+The sparql module contains several functions that wrap commonly used SPARQL queries in Python code.
 """
 
 from rdflib import RDF,RDFS
@@ -47,7 +47,13 @@ def sparqlQuery(sparql_string,context):
 
 
 def getBaseClasses(graph,cls_uri):
-    
+    """
+    :param graph: the relevant graph to process
+    :type graph: rdflib.Graph.Graph
+    :param cls_uri: the URI of the particular class
+    :type cls_uri: rdflib.URIRef.URIRef
+    :rtype: list
+    """
     baseclasses = []
 
     ns = dict(rdf=RDF.RDFNS,rdfs=RDFS.RDFSNS,owl=OWLNS)
@@ -63,10 +69,11 @@ def getSubClasses(graph,cls_uri):
     """
     Given an rdflib.graph.Graph and a URIRef of some OWL class, return a list of subclasses
     
-    :param graph:
-    :type rdflib.graph.Graph
+    
+    :param graph: the graph to search
+    :type graph: rdflib.graph.Graph
     :param cls_uri:
-    :type rdflib.URIRef.URIRef:
+    :type cls_uri: rdflib.URIRef.URIRef
     :rtype: list
     """
     subclasses = []
@@ -83,8 +90,8 @@ def getIndividuals(graph):
     """
     getIndividuals returns a dictionary where keys are URIRefs of individuals and values are lists of types (ie OWL class URIs)
     
-    :param graph:
-    :
+    :param graph: the relevant graph to process
+    :type graph: rdflib.graph.Graph
     :returns: (keys)  individual URIs, (values) lists of types, OWL class URIs 
     :rtype: dict
     """
@@ -121,8 +128,9 @@ def getOWLClasses(graph):
     """
     Return all OWL Classes in a graph'
     
-    :param graph:
-    :type rdflib.graph.Graph:
+    
+    :param graph: the graph to search
+    :type graph: rdflib.graph.Graph
     :rtype: list
     """
     classes=[]
@@ -139,8 +147,9 @@ def getComments(graph,uri_string):
     """
     Return all comments associated with some URI
     
-    :param graph:
-    :type rdflib.graph.Graph:
+    
+    :param graph: the graph to search
+    :type graph: rdflib.Graph.Graph
     :param uri_string: a URI of some concept
     :type uri_string: str
     :rtype: list
@@ -164,8 +173,9 @@ def getOWLObjectProperties(graph):
     """
     Return all OWL ObjectProperties in a graph'
     
-    :param graph:
-    :type rdflib.graph.Graph:
+    
+    :param graph: the graph to search
+    :type graph: rdflib.graph.Graph
     :rtype: list
     """
     object_props=[]
@@ -183,8 +193,8 @@ def getOWLDatatypeProperties(graph):
     """
     Return all OWL DataProperties in a graph'
     
-    :param graph:
-    :type rdflib.graph.Graph:
+    :param graph: the graph to search
+    :type graph: rdflib.graph.Graph
     :rtype: list
     """   
     data_props=[]
@@ -207,8 +217,8 @@ def getABoxTriples(graph):
     """
     Return all triples in a graph'
     
-    :param graph:
-    :type rdflib.graph.Graph:
+    :param graph: the graph to search
+    :type graph: rdflib.graph.Graph
     :rtype: list
     """
 
@@ -228,8 +238,10 @@ def getUnitBasedOnForm(graph,form):
     """
     Return linguistic units accordings to a particular form 
     
-    :param graph:
-    :type rdflib.graph.Graph:
+    :param graph: the relevant graph
+    :type graph: rdflib.graph.Graph
+    :param form: the form to search for
+    :type form: str
     :rtype: list
     """
 

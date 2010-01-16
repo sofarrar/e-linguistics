@@ -1,0 +1,195 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Character Converter &mdash; ELTK v0.4 documentation</title>
+    <link rel="stylesheet" href="_static/sphinxdoc.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '0.4',
+        COLLAPSE_MODINDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="ELTK v0.4 documentation" href="index.html" />
+    <link rel="next" title="Graph Manager" href="graphmanager.html" />
+    <link rel="prev" title="Data Display" href="display.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="modindex.html" title="Global Module Index"
+             accesskey="M">modules</a> |</li>
+        <li class="right" >
+          <a href="graphmanager.html" title="Graph Manager"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="display.html" title="Data Display"
+             accesskey="P">previous</a> |</li>
+        <li><a href="contents.html">ELTK v0.4 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+            <h3><a href="contents.html">Table Of Contents</a></h3>
+            <ul>
+<li><a class="reference external" href="">Character Converter</a><ul>
+<li><a class="reference external" href="#illustration-of-usage">Illustration of usage</a></li>
+</ul>
+</li>
+</ul>
+
+            <h4>Previous topic</h4>
+            <p class="topless"><a href="display.html"
+                                  title="previous chapter">Data Display</a></p>
+            <h4>Next topic</h4>
+            <p class="topless"><a href="graphmanager.html"
+                                  title="next chapter">Graph Manager</a></p>
+            <h3>This Page</h3>
+            <ul class="this-page-menu">
+              <li><a href="_sources/charconverter.txt"
+                     rel="nofollow">Show Source</a></li>
+            </ul>
+          <div id="searchbox" style="display: none">
+            <h3>Quick search</h3>
+              <form class="search" action="search.html" method="get">
+                <input type="text" name="q" size="18" />
+                <input type="submit" value="Go" />
+                <input type="hidden" name="check_keywords" value="yes" />
+                <input type="hidden" name="area" value="default" />
+              </form>
+              <p class="searchtip" style="font-size: 90%">
+              Enter search terms or a module, class or function name.
+              </p>
+          </div>
+          <script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="module-eltk.utils.CharConverter">
+<span id="charconverter"></span><h1>Character Converter<a class="headerlink" href="#module-eltk.utils.CharConverter" title="Permalink to this headline">¶</a></h1>
+<p>The character conversion module is used to  convert between any two string conventions, e.g., unicode ipa and praat symbols. It is useful in converting Praat TextGrid annotation to LaTeX (and onto PDF). It is also useful for converting any data not in Unicode to Unicode IPA. Unicode IPA refers to IPA symbols encoded in UTF-8. There is the CharConverter class itself, its constructor and the convert method.</p>
+<div class="section" id="illustration-of-usage">
+<h2>Illustration of usage<a class="headerlink" href="#illustration-of-usage" title="Permalink to this headline">¶</a></h2>
+<p>Here&#8217;s how to create a converter from XSampa (e.g., used in  Elan) to unicode IPA:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">elan_converter</span><span class="o">=</span><span class="n">CharConverter</span><span class="p">(</span><span class="s">&#39;xsampa&#39;</span><span class="p">,</span><span class="s">&#39;uni&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Now convert a string in XSampa to Unicode IPA:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">elan_converter</span><span class="o">.</span><span class="n">convert</span><span class="p">(</span><span class="s">&#39;kO nEnE Oku&#39;</span><span class="p">)</span>
+<span class="go">&#39;k\xc9\x94 n\xc9\x9bn\xc9\x9b \xc9\x94ku&#39;</span>
+</pre></div>
+</div>
+<p>In order to see the results, use a print statement:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="k">print</span> <span class="n">elan_converter</span><span class="o">.</span><span class="n">convert</span><span class="p">(</span><span class="s">&#39;kO nEnE Oku&#39;</span><span class="p">)</span>
+<span class="go">kɔ nɛnɛ ɔku</span>
+</pre></div>
+</div>
+<p>The converter can be used for common latex escape characters as well.</p>
+<dl class="data">
+<dt id="eltk.utils.CharConverter.latex_charmap">
+<tt class="descclassname">eltk.utils.CharConverter.</tt><tt class="descname">latex_charmap</tt><a class="headerlink" href="#eltk.utils.CharConverter.latex_charmap" title="Permalink to this definition">¶</a></dt>
+<dd>Another dictionary is used for conversion to LaTex. Keys are common characters used in latex docs, e.g., ö. Values are list which include the corresponding latex escape character, e.g, &#8220;{o}. The ipa_charmap is not used because many of the common latex characters are not IPA.</dd></dl>
+
+<p>The usage is the same:</p>
+<div class="highlight-python"><div class="highlight"><pre><span class="gp">&gt;&gt;&gt; </span><span class="n">latex_converter</span><span class="o">=</span><span class="n">CharConverter</span><span class="p">(</span><span class="s">&#39;uni&#39;</span><span class="p">,</span><span class="s">&#39;latex&#39;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">print</span> <span class="n">latex_converter</span><span class="o">.</span><span class="n">convert</span><span class="p">(</span><span class="s">&#39;ü&#39;</span><span class="p">)</span>
+<span class="go">\&quot;{u}</span>
+</pre></div>
+</div>
+<dl class="data">
+<dt id="eltk.utils.CharConverter.ipa_charmap">
+<tt class="descclassname">eltk.utils.CharConverter.</tt><tt class="descname">ipa_charmap</tt><a class="headerlink" href="#eltk.utils.CharConverter.ipa_charmap" title="Permalink to this definition">¶</a></dt>
+<dd><p>The data source for the character converterm. Keys are ipa unicode objects, and values are  lists of symbols:</p>
+<p>unicode: [informal name, tipa, praat, xsampa]</p>
+<p>For example:</p>
+<div class="highlight-python"><pre>'ɖ':['vd retroflex plosive','\:d','\d.','d`']</pre>
+</div>
+<p>Thus, &#8216;:d&#8217; is the tipa symbol used for the voiced retroflex plosive.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.utils.CharConverter.CharConverter.__init__">
+<tt class="descclassname">CharConverter.</tt><tt class="descname">__init__</tt><big>(</big><em>self</em>, <em>source</em>, <em>target</em><big>)</big><a class="headerlink" href="#eltk.utils.CharConverter.CharConverter.__init__" title="Permalink to this definition">¶</a></dt>
+<dd><p>Creates an instance of a character converter. Source is a string:  &#8216;uni&#8217;, &#8216;name&#8217;, &#8216;tipa&#8217;, &#8216;praat&#8217;, &#8216;xsampa&#8217;, or &#8216;latex&#8217;. Target is also a string, one of: &#8216;uni&#8217;,&#8217;name&#8217;,&#8217;tipa&#8217;,&#8217;praat&#8217;,&#8217;xsampa&#8217;,or &#8216;latex&#8217;.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><em>source</em> (string) &#8211; &#8216;uni&#8217;, &#8216;name&#8217;, &#8216;tipa&#8217;,&#8217;praat&#8217;, &#8216;xsampa&#8217;, or &#8216;latex&#8217;</li>
+<li><em>target</em> (unicode, string) &#8211; &#8216;uni&#8217;, &#8216;name&#8217;, &#8216;tipa&#8217;,&#8217;praat&#8217;, &#8216;xsampa&#8217;, or &#8216;latex&#8217;</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="method">
+<dt id="eltk.utils.CharConverter.CharConverter.convert">
+<tt class="descclassname">CharConverter.</tt><tt class="descname">convert</tt><big>(</big><em>string</em>, <em>string</em><big>)</big><a class="headerlink" href="#eltk.utils.CharConverter.CharConverter.convert" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns a new string by replacing string w. a new value based on map. String is the a string to be converted.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field"><th class="field-name">Parameter:</th><td class="field-body"><em>string</em> (string) &#8211; string to be converted</td>
+</tr>
+<tr class="field"><th class="field-name">Return type:</th><td class="field-body">unicode</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="modindex.html" title="Global Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="graphmanager.html" title="Graph Manager"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="display.html" title="Data Display"
+             >previous</a> |</li>
+        <li><a href="contents.html">ELTK v0.4 documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+      &copy; Copyright 2009, Scott Farrar, Steve Moran.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 0.6.2.
+    </div>
+  </body>
+</html>

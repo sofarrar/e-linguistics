@@ -27,6 +27,7 @@ setup(
     packages=['eltk',
               'eltk.kb',
               'eltk.display',
+              'eltk.store',
               'eltk.examples',
               'eltk.reader',
               'eltk.utils',

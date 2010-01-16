@@ -1,4 +1,12 @@
 On Linux please run:
 
+Download the latest release, e.g., eltk-0.4.tar.gz.
+
+Place that file in some directory.
+
+tar zxf eltk-0.4.tar.gz
+
+cd eltk-0.4
+
 sudo python setup.py install
 

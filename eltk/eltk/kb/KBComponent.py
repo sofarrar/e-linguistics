@@ -67,7 +67,9 @@ class KBComponent(object):
 
     def getOWLClasses(self):
         """
-        Returns only entities that are classes.
+        getOWLClasses returns only entities that are classes.
+        
+        :rtype: list
         """
         classes = []
         for attr in dir(self):
@@ -86,8 +88,8 @@ class KBComponent(object):
         """
         buildRDFGraph creates an RDFLib graph object.
         
-        :param ident: the identifier string for the graph
-        :type ident: unicode
+        :param identifier: the identifier string for the graph
+        :type identifier: unicode
         :rtype: rdflib.Graph.Graph
         """
         
@@ -130,10 +132,9 @@ class KBComponent(object):
         """
         Given some abbreviation, e.g., 'PST', or full form, e.g., 'past tense', return the GOLD URI indicated by that string.
         
-        :param string_rep: the string representation (abbreviation or full form) of the term 
-        :type string_rep: string
-        :returns: the URI of the GOLD concept represented by the string
-        :rtype: URIRef
+        :param term_string: the string representation (abbreviation or full form) of the term 
+        :type term_string: str
+        :rtype: rdflib.URIRef.URIRef
         """ 
         term = ''
 
@@ -157,7 +158,15 @@ class KBComponent(object):
 
         
 
-    def renderJSON(self,root):
+    def renderJSON(self,roots):
+        
+        """
+        renderJSON is a utility method to output a JSON rep of the KB. 
+        
+        :param root: The particular root class to from which to generate JSON
+        :type root: OWLClass 
+        :rtype: str
+        """
         
         JSON_string = ''
 
@@ -211,8 +220,9 @@ if __name__=='__main__':
      
 
     mykb += (w,hasConstituent,m1)
-    mykb += (w,hasConstituent,m2)
-  
+    #mykb += (w,hasConstituent,m2)
+    mykb += hasConstituent(w,m2)
+
     #returns a list of (pred,obj) pairs
     print mykb[w]
     
@@ -237,60 +247,4 @@ if __name__=='__main__':
     mykb_graph = mykb.buildRDFGraph(u'http://purl.org/linguistics/foo')
     mykb_graph.serialize('foo.rdf')
 
-    #############################################
 
-   
-
-
-
-
-
-
-
-##############DEAD CODE#################
-"""
-        for attr in dir(self):
-            
-
-            x = getattr(self,attr)
-            
-            ############CLASSES##########################
-            #add triples of type: ( x rdf:type owl:Class )
-            if type(x) == Meta.OWLClass:
-                
-
-                graph.add((URIRef(x.uri),URIRef(RDF.RDFNS+'type'),URIRef(OWLNS+'Class')))
-                #add triples of type: (x rdfs:subClassOf XYZ) 
-                for base in x.__bases__:
-                    
-                    if base is not object:
-                        
-                        graph.add((URIRef(x.uri),RDFSNS['subClassOf'],URIRef(base.uri)))
-    
-
-            ############OBJECTPROPs########################
-            #add triples of type: ( x rdf:type owl:ObjectProperty )
-            elif type(x) == Meta.OWLObjectProperty:
-                
-                graph.add((URIRef(x.uri),URIRef(RDF.RDFNS+'type'),URIRef(OWLNS+'ObjectProperty')))
-
-            ###########DATATYPEPROPs######################
-            #add triples of type: ( x rdf:type owl:DatatypeProperty )
-            elif type(x) == Meta.OWLDatatypeProperty:
-               
-                graph.add((URIRef(x.uri),URIRef(RDF.RDFNS+'type'),URIRef(OWLNS+'DatatypeProperty')))
-
-            ###########INDIVs#############################
-            #
-            elif type(type(x)) == Meta.OWLClass:
-                
-                #add triples of type: ( INDIV rdf:type gold:XYZ )
-                for t in Meta.getType(x):
-                    
-                    graph.add((URIRef(x.uri),URIRef(RDF.RDFNS+'type'),URIRef(t.uri)))
-                
-                #add arbitrary triples
-
-                #for pred in x.__dict__.iteritems():
-                #    print type(pred)
-"""

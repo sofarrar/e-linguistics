@@ -4,7 +4,9 @@
 #from rdflib.namespace import Namespace
 from rdflib.Namespace import Namespace
 
-#various widely used namespaces
+"""
+Various widely used namespaces are listed in the namespaces module.
+"""
 
 OWLNS=Namespace("http://www.w3.org/2002/07/owl#")
 LINGNS=Namespace("http://purl.org/linguistics/")

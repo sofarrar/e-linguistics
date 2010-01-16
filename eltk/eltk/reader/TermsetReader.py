@@ -35,7 +35,7 @@ GOLD = reader.buildPyModel()
 
 class TermsetReader(Reader):
     """
-    TermsetReader is one type of Reader.
+    TermsetReader is a type of Reader that processes termsets and returns Python objects.
     """
     
 
@@ -127,13 +127,8 @@ if __name__ == '__main__':
     
     myreader=TermsetReader()
 
-
     termset = myreader.makeLinkedData(ELTK_HOME+'/examples/inputfiles/LeipzigTermset.termset')
     
-    
-
-
-
 
     print termset.getTermMeaning('copula').name
     print termset.getTermMeaning('PST').name

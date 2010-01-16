@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:gold="http://purl.org/linguistics/gold#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="w">
+    <gold:hasConstituent rdf:resource="http://purl.org/linguistics/gold#m2"/>
+    <gold:hasConstituent rdf:resource="http://blah.org/m1"/>
+    <gold:orthographicRep>blah</gold:orthographicRep>
+  </rdf:Description>
+</rdf:RDF>

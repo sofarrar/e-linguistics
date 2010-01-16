@@ -3,964 +3,964 @@
    xmlns:gold="http://purl.org/linguistics/gold#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/negation/negative">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#NegativePolarity"/>
-    <gold:orthographicRep>negation/negative</gold:orthographicRep>
-    <gold:abbreviation>NEG</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/still_tense">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#StillTense"/>
-    <gold:orthographicRep>still tense</gold:orthographicRep>
-    <gold:abbreviation>STIL</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/termset/mytermset">
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/negation/negative"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/allative"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/dative"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/absolutive"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/vocative"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/perfect"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/perfective"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/question_particle/marker"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/still_tense"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/elative_case"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/vegetable_gender"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/subessive_case"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/dual"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/iterative_aspect"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/inablative_case"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/classifier"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/declarative"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/goal"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/contlative_case"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/simultaneous_aspect"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/aversive_case"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/general_number"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/indirect_evidentiality"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/paucal_number"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/suballative_case"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/in-locative_case"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/intransitive"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/completive"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/benefactive"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/direct_evidential"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/imperative"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/abessive_case"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/commissive_force"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/inessive_case"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/middle_voice"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/relative"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/inanimate_gender"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/imperfective"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/locative"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/instrumental"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/inallative_case"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/sublative_case"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/object"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/subjunctive"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/active_voice"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/masculine"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/progressive"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/predicative"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/conditional"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/prohibitive"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/irrealis"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/direct_evidentiality"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/reflexive"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/subtranslative_case"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/accusative"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/interablative_case"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/genitive"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/agent"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/past"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/optative_mood"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/superessive_case"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/feminine"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/inverse_voice"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/demonstrative"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/copula"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/second-hand_evidentiality"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/focus"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/patient"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/essive_case"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/subablative_case"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/hortative_force"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/indicative"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/illative_case"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/singular"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/supertranslative_case"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/hearsay_evidentiality"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/assumptive_evidentiality"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/auxiliary"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/ergative"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/obligative_modality"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/present"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/deductive_evidentiality"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/durative"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/trial_number"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/participle"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/future"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/oblique"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/adverbial"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/neuter"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/interallative_case"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/volitive_force"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/nominalizer/nominalization"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/adjective"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/antipassive"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/complementizer"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/interlative_case"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/reciprocal"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/ablative"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/auditory_evidentiality"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/applicative"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/non-past_tense"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/superablative_case"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/partitive_case"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/plural"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/contablative_case"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/recent_tense"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/contallative_case"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/article"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/interessive_case"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/first_person"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/second_person"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/subject"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/transitive"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/nominative"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/converb"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/superallative_case"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/inceptive_aspect"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/greater_plural"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/visual_evidentiality"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/third_person"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/intranslative_case"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/superlative_case"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/topic"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/direct_voice"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/passive"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/permissive_modality"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/inferential_evidentiality"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/intertranslative_case"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/adessive_case"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/quotative"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/determiner"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/habitual_aspect"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/comitative"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/distributive"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/animate_gender"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/lative_case"/>
-    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/third_person_obviative"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/dative">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#DativeCase"/>
-    <gold:orthographicRep>dative</gold:orthographicRep>
-    <gold:abbreviation>DAT</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/absolutive">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#AbsolutiveCase"/>
-    <gold:orthographicRep>absolutive</gold:orthographicRep>
-    <gold:abbreviation>ABS</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/vocative">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#VocativeCase"/>
-    <gold:orthographicRep>vocative</gold:orthographicRep>
-    <gold:abbreviation>VOC</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/perfect">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#PerfectTense"/>
-    <gold:orthographicRep>perfect</gold:orthographicRep>
-    <gold:abbreviation>PRF</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/perfective">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#PerfectiveAspect"/>
-    <gold:orthographicRep>perfective</gold:orthographicRep>
-    <gold:abbreviation>PFV</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/question_particle/marker">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#InterrogativeOperator"/>
-    <gold:orthographicRep>question particle/marker</gold:orthographicRep>
-    <gold:abbreviation>Q</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/allative">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#AllativeCase"/>
-    <gold:orthographicRep>allative</gold:orthographicRep>
-    <gold:abbreviation>ALL</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/elative_case">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#ElativeCase"/>
-    <gold:orthographicRep>elative case</gold:orthographicRep>
-    <gold:abbreviation>ELAT</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/vegetable_gender">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#VegetableGender"/>
-    <gold:orthographicRep>vegetable gender</gold:orthographicRep>
-    <gold:abbreviation>VEG</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/subessive_case">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#SubessiveCase"/>
-    <gold:orthographicRep>subessive case</gold:orthographicRep>
-    <gold:abbreviation>SUBESS</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/illative_case">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#IllativeCase"/>
-    <gold:orthographicRep>illative case</gold:orthographicRep>
-    <gold:abbreviation>ILL</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/iterative_aspect">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#IterativeAspect"/>
-    <gold:orthographicRep>iterative aspect</gold:orthographicRep>
-    <gold:abbreviation>ITR</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/inablative_case">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#InablativeCase"/>
-    <gold:orthographicRep>inablative case</gold:orthographicRep>
-    <gold:abbreviation>INABL</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/classifier">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#Classifier"/>
-    <gold:orthographicRep>classifier</gold:orthographicRep>
-    <gold:abbreviation>CLF</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/declarative">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#DeclarativeForce"/>
-    <gold:orthographicRep>declarative</gold:orthographicRep>
-    <gold:abbreviation>DECL</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/goal">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#goal"/>
-    <gold:orthographicRep>goal</gold:orthographicRep>
-    <gold:abbreviation>GOAL</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/contlative_case">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#ContlativeCase"/>
-    <gold:orthographicRep>contlative case</gold:orthographicRep>
-    <gold:abbreviation>CONTLAT</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/simultaneous_aspect">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#SimultaneousAspect"/>
-    <gold:orthographicRep>simultaneous aspect</gold:orthographicRep>
-    <gold:abbreviation>SIM</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/aversive_case">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#AversiveCase"/>
-    <gold:orthographicRep>aversive case</gold:orthographicRep>
-    <gold:abbreviation>AVS</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/conditional">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#ConditionalModality"/>
-    <gold:orthographicRep>conditional</gold:orthographicRep>
-    <gold:abbreviation>COND</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/indirect_evidentiality">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#IndirectEvidentiality"/>
-    <gold:orthographicRep>indirect evidentiality</gold:orthographicRep>
-    <gold:abbreviation>INDEVD</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/paucal_number">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#PaucalNumber"/>
-    <gold:orthographicRep>paucal number</gold:orthographicRep>
-    <gold:abbreviation>PAUC</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/suballative_case">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#SuballativeCase"/>
-    <gold:orthographicRep>suballative case</gold:orthographicRep>
-    <gold:abbreviation>SUBALL</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/in-locative_case">
-    <gold:orthographicRep>in-locative case</gold:orthographicRep>
-    <gold:abbreviation>IN</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/intransitive">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#IntransitiveVerb"/>
-    <gold:orthographicRep>intransitive</gold:orthographicRep>
-    <gold:abbreviation>INTR</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/completive">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#CompletiveAspect"/>
-    <gold:orthographicRep>completive</gold:orthographicRep>
-    <gold:abbreviation>COMPL</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/middle_voice">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#PlainMiddleVoice"/>
-    <gold:orthographicRep>middle voice</gold:orthographicRep>
-    <gold:abbreviation>MID</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/imperative">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#ImperativeForce"/>
-    <gold:orthographicRep>imperative</gold:orthographicRep>
-    <gold:abbreviation>IMP</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/abessive_case">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#AbessiveCase"/>
-    <gold:orthographicRep>abessive case</gold:orthographicRep>
-    <gold:abbreviation>ABESS</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/inverse_voice">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#InverseVoice"/>
-    <gold:orthographicRep>inverse voice</gold:orthographicRep>
-    <gold:abbreviation>INV</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/inessive_case">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#InessiveCase"/>
-    <gold:orthographicRep>inessive case</gold:orthographicRep>
-    <gold:abbreviation>INESS</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/benefactive">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#BenefactiveCase"/>
-    <gold:orthographicRep>benefactive</gold:orthographicRep>
-    <gold:abbreviation>BEN</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/antipassive">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#AntiPassiveVoice"/>
-    <gold:orthographicRep>antipassive</gold:orthographicRep>
-    <gold:abbreviation>ANTIP</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/inanimate_gender">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#InanimateGender"/>
-    <gold:orthographicRep>inanimate gender</gold:orthographicRep>
-    <gold:abbreviation>INANIM</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/imperfective">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#ImperfectiveAspect"/>
-    <gold:orthographicRep>imperfective</gold:orthographicRep>
-    <gold:abbreviation>IPFV</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/locative">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#LocativeCase"/>
-    <gold:orthographicRep>locative</gold:orthographicRep>
-    <gold:abbreviation>LOC</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/instrumental">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#InstrumentalCase"/>
-    <gold:orthographicRep>instrumental</gold:orthographicRep>
-    <gold:abbreviation>INS</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/subject">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#subject"/>
-    <gold:orthographicRep>subject</gold:orthographicRep>
-    <gold:abbreviation>SBJ</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/inallative_case">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#InallativeCase"/>
-    <gold:orthographicRep>inallative case</gold:orthographicRep>
-    <gold:abbreviation>INALL</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/sublative_case">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#SublativeCase"/>
-    <gold:orthographicRep>sublative case</gold:orthographicRep>
-    <gold:abbreviation>SUBLAT</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/object">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#Object"/>
-    <gold:orthographicRep>object</gold:orthographicRep>
-    <gold:abbreviation>OBJ</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/assumptive_evidentiality">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#AssumptiveEvidentiality"/>
-    <gold:orthographicRep>assumptive evidentiality</gold:orthographicRep>
-    <gold:abbreviation>ASSMP</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/subjunctive">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#SubjunctiveMood"/>
-    <gold:orthographicRep>subjunctive</gold:orthographicRep>
-    <gold:abbreviation>SBJV</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/active_voice">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#ActiveVoice"/>
-    <gold:orthographicRep>active voice</gold:orthographicRep>
-    <gold:abbreviation>ACT</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/topic">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#TopicProperty"/>
-    <gold:orthographicRep>topic</gold:orthographicRep>
-    <gold:abbreviation>TOP</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/progressive">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#ProgressiveAspect"/>
-    <gold:orthographicRep>progressive</gold:orthographicRep>
-    <gold:abbreviation>PROG</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/predicative">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#Predicative"/>
-    <gold:orthographicRep>predicative</gold:orthographicRep>
-    <gold:abbreviation>PRED</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/general_number">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#GeneralNumber"/>
-    <gold:orthographicRep>general number</gold:orthographicRep>
-    <gold:abbreviation>GENRL</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/prohibitive">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#ProhibitiveMood"/>
-    <gold:orthographicRep>prohibitive</gold:orthographicRep>
-    <gold:abbreviation>PROH</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/reciprocal">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#ReciprocalPronoun"/>
-    <gold:orthographicRep>reciprocal</gold:orthographicRep>
-    <gold:abbreviation>RECP</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/reflexive">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#ReflexivePronoun"/>
-    <gold:orthographicRep>reflexive</gold:orthographicRep>
-    <gold:abbreviation>REFL</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/subtranslative_case">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#SubtranslativeCase"/>
-    <gold:orthographicRep>subtranslative case</gold:orthographicRep>
-    <gold:abbreviation>SUBTRANS</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/accusative">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#AccusativeCase"/>
-    <gold:orthographicRep>accusative</gold:orthographicRep>
-    <gold:abbreviation>ACC</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/interablative_case">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#InterablativeCase"/>
-    <gold:orthographicRep>interablative case</gold:orthographicRep>
-    <gold:abbreviation>INTRABL</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/genitive">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#GenitiveCase"/>
-    <gold:orthographicRep>genitive</gold:orthographicRep>
-    <gold:abbreviation>GEN</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/agent">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#agent"/>
-    <gold:orthographicRep>agent</gold:orthographicRep>
-    <gold:abbreviation>A</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/past">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#PastTense"/>
-    <gold:orthographicRep>past</gold:orthographicRep>
-    <gold:abbreviation>PST</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/optative_mood">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#OptativeMood"/>
-    <gold:orthographicRep>optative mood</gold:orthographicRep>
-    <gold:abbreviation>OPT</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/superessive_case">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#SuperessiveCase"/>
-    <gold:orthographicRep>superessive case</gold:orthographicRep>
-    <gold:abbreviation>SUPRESS</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/feminine">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#FeminineGender"/>
-    <gold:orthographicRep>feminine</gold:orthographicRep>
-    <gold:abbreviation>F</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/demonstrative">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#Demonstrative"/>
-    <gold:orthographicRep>demonstrative</gold:orthographicRep>
-    <gold:abbreviation>DEM</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/copula">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#Copula"/>
-    <gold:orthographicRep>copula</gold:orthographicRep>
-    <gold:abbreviation>COP</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/second-hand_evidentiality">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#SecondHandEvidentiality"/>
-    <gold:orthographicRep>second-hand evidentiality</gold:orthographicRep>
-    <gold:abbreviation>SECHAND</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/focus">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#FocusProperty"/>
-    <gold:orthographicRep>focus</gold:orthographicRep>
-    <gold:abbreviation>FOC</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/patient">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#patient"/>
-    <gold:orthographicRep>patient</gold:orthographicRep>
-    <gold:abbreviation>P</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/essive_case">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#EssiveCase"/>
-    <gold:orthographicRep>essive case</gold:orthographicRep>
-    <gold:abbreviation>ESS</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/subablative_case">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#SubablativeCase"/>
-    <gold:orthographicRep>subablative case</gold:orthographicRep>
-    <gold:abbreviation>SUBABL</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/non-past_tense">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#NonPastTense"/>
-    <gold:orthographicRep>non-past tense</gold:orthographicRep>
-    <gold:abbreviation>NPST</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/indicative">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#IndicativeMood"/>
-    <gold:orthographicRep>indicative</gold:orthographicRep>
-    <gold:abbreviation>IND</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/dual">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#DualNumber"/>
-    <gold:orthographicRep>dual</gold:orthographicRep>
-    <gold:abbreviation>DU</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/singular">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#SingularNumber"/>
-    <gold:orthographicRep>singular</gold:orthographicRep>
-    <gold:abbreviation>SG</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/supertranslative_case">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#SupertranslativeCase"/>
-    <gold:orthographicRep>supertranslative case</gold:orthographicRep>
-    <gold:abbreviation>SUPRTRANS</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/hearsay_evidentiality">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#HearsayEvidentiality"/>
-    <gold:orthographicRep>hearsay evidentiality</gold:orthographicRep>
-    <gold:abbreviation>HSY</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/commissive_force">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#CommissiveForce"/>
-    <gold:orthographicRep>commissive force</gold:orthographicRep>
-    <gold:abbreviation>COMM</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/direct_evidentiality">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#DirectEvidentiality"/>
-    <gold:orthographicRep>direct evidentiality</gold:orthographicRep>
-    <gold:abbreviation>SENSE</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/auxiliary">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#Auxiliary"/>
-    <gold:orthographicRep>auxiliary</gold:orthographicRep>
-    <gold:abbreviation>AUX</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/ergative">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#ErgativeCase"/>
-    <gold:orthographicRep>ergative</gold:orthographicRep>
-    <gold:abbreviation>ERG</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/obligative_modality">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#ObligativeModality"/>
-    <gold:orthographicRep>obligative modality</gold:orthographicRep>
-    <gold:abbreviation>OBLIG</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/present">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#PresentTense"/>
-    <gold:orthographicRep>present</gold:orthographicRep>
-    <gold:abbreviation>PRS</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/deductive_evidentiality">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#DeductiveEvidentiality"/>
-    <gold:orthographicRep>deductive evidentiality</gold:orthographicRep>
-    <gold:abbreviation>DEDUCT</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/durative">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#DurativeAspect"/>
-    <gold:orthographicRep>durative</gold:orthographicRep>
-    <gold:abbreviation>DUR</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/trial_number">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#TrialNumber"/>
-    <gold:orthographicRep>trial number</gold:orthographicRep>
-    <gold:abbreviation>TRIAL</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/participle">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#Participle"/>
-    <gold:orthographicRep>participle</gold:orthographicRep>
-    <gold:abbreviation>PTCP</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/future">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#FutureTense"/>
-    <gold:orthographicRep>future</gold:orthographicRep>
-    <gold:abbreviation>FUT</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/oblique">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#ObliqueCase"/>
-    <gold:orthographicRep>oblique</gold:orthographicRep>
-    <gold:abbreviation>OBL</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/adverbial">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#Adverbial"/>
-    <gold:orthographicRep>adverbial</gold:orthographicRep>
-    <gold:abbreviation>ADV</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/interallative_case">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#InterallativeCase"/>
-    <gold:orthographicRep>interallative case</gold:orthographicRep>
-    <gold:abbreviation>INTRALL</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/volitive_force">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#VolitiveForce"/>
-    <gold:orthographicRep>volitive force</gold:orthographicRep>
-    <gold:abbreviation>VOL</gold:abbreviation>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/complementizer">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#Complementizer"/>
+    <gold:abbreviation>COMP</gold:abbreviation>
+    <gold:orthographicRep>complementizer</gold:orthographicRep>
     <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/linguistics/data/term/nominalizer/nominalization">
     <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#Nominalizer"/>
-    <gold:orthographicRep>nominalizer/nominalization</gold:orthographicRep>
     <gold:abbreviation>NMLZ</gold:abbreviation>
+    <gold:orthographicRep>nominalizer/nominalization</gold:orthographicRep>
     <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/adjective">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#Adjectival"/>
-    <gold:orthographicRep>adjective</gold:orthographicRep>
-    <gold:abbreviation>ADJ</gold:abbreviation>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/oblique">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#ObliqueCase"/>
+    <gold:abbreviation>OBL</gold:abbreviation>
+    <gold:orthographicRep>oblique</gold:orthographicRep>
     <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/relative">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#Relativizer"/>
-    <gold:orthographicRep>relative</gold:orthographicRep>
-    <gold:abbreviation>REL</gold:abbreviation>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/abessive_case">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#AbessiveCase"/>
+    <gold:abbreviation>ABESS</gold:abbreviation>
+    <gold:orthographicRep>abessive case</gold:orthographicRep>
     <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/complementizer">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#Complementizer"/>
-    <gold:orthographicRep>complementizer</gold:orthographicRep>
-    <gold:abbreviation>COMP</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/interlative_case">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#InterlativeCase"/>
-    <gold:orthographicRep>interlative case</gold:orthographicRep>
-    <gold:abbreviation>INTRLAT</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/irrealis">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#IrrealisMood"/>
-    <gold:orthographicRep>irrealis</gold:orthographicRep>
-    <gold:abbreviation>IRR</gold:abbreviation>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/imperative">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#ImperativeForce"/>
+    <gold:abbreviation>IMP</gold:abbreviation>
+    <gold:orthographicRep>imperative</gold:orthographicRep>
     <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/linguistics/data/term/ablative">
     <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#AblativeCase"/>
-    <gold:orthographicRep>ablative</gold:orthographicRep>
     <gold:abbreviation>ABL</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/auditory_evidentiality">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#AuditoryEvidentiality"/>
-    <gold:orthographicRep>auditory evidentiality</gold:orthographicRep>
-    <gold:abbreviation>AUD</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/applicative">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#ApplicativeVoice"/>
-    <gold:orthographicRep>applicative</gold:orthographicRep>
-    <gold:abbreviation>APPL</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/hortative_force">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#HortatoryForce"/>
-    <gold:orthographicRep>hortative force</gold:orthographicRep>
-    <gold:abbreviation>HORT</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/superablative_case">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#SuperablativeCase"/>
-    <gold:orthographicRep>superablative case</gold:orthographicRep>
-    <gold:abbreviation>SUPRABL</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/partitive_case">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#PartitiveCase"/>
-    <gold:orthographicRep>partitive case</gold:orthographicRep>
-    <gold:abbreviation>PART</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/plural">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#PluralNumber"/>
-    <gold:orthographicRep>plural</gold:orthographicRep>
-    <gold:abbreviation>PL</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/contablative_case">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#ContablativeCase"/>
-    <gold:orthographicRep>contablative case</gold:orthographicRep>
-    <gold:abbreviation>CONTABL</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/recent_tense">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#RecentTense"/>
-    <gold:orthographicRep>recent tense</gold:orthographicRep>
-    <gold:abbreviation>REC</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/distributive">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#DistributiveAspect"/>
-    <gold:orthographicRep>distributive</gold:orthographicRep>
-    <gold:abbreviation>DISTR</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/contallative_case">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#ContallativeCase"/>
-    <gold:orthographicRep>contallative case</gold:orthographicRep>
-    <gold:abbreviation>CONTALL</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/article">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#Article"/>
-    <gold:orthographicRep>article</gold:orthographicRep>
-    <gold:abbreviation>ART</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/interessive_case">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#InteressiveCase"/>
-    <gold:orthographicRep>interessive case</gold:orthographicRep>
-    <gold:abbreviation>INTRESS</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/first_person">
-    <gold:hasMeaning rdf:resource="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Crystal1997_1790"/>
-    <gold:orthographicRep>first person</gold:orthographicRep>
-    <gold:abbreviation>1</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/direct_evidential">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#DirectEvidentiality"/>
-    <gold:orthographicRep>direct evidential</gold:orthographicRep>
-    <gold:abbreviation>DIREVD</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/second_person">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#SecondPerson"/>
-    <gold:orthographicRep>second person</gold:orthographicRep>
-    <gold:abbreviation>2</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/transitive">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#TransitiveVerb"/>
-    <gold:orthographicRep>transitive</gold:orthographicRep>
-    <gold:abbreviation>TR</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/nominative">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#NominativeCase"/>
-    <gold:orthographicRep>nominative</gold:orthographicRep>
-    <gold:abbreviation>NOM</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/converb">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#ConVerb"/>
-    <gold:orthographicRep>converb</gold:orthographicRep>
-    <gold:abbreviation>CVB</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/superallative_case">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#SuperallativeCase"/>
-    <gold:orthographicRep>superallative case</gold:orthographicRep>
-    <gold:abbreviation>SUPRALL</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/inceptive_aspect">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#InceptiveAspect"/>
-    <gold:orthographicRep>inceptive aspect</gold:orthographicRep>
-    <gold:abbreviation>INCP</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/greater_plural">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#GreaterPlural"/>
-    <gold:orthographicRep>greater plural</gold:orthographicRep>
-    <gold:abbreviation>GREATPL</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/visual_evidentiality">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#VisualEvidentiality"/>
-    <gold:orthographicRep>visual evidentiality</gold:orthographicRep>
-    <gold:abbreviation>VIS</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/third_person">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#ThirdPerson"/>
-    <gold:orthographicRep>third person</gold:orthographicRep>
-    <gold:abbreviation>3</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/intranslative_case">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#IntranslativeCase"/>
-    <gold:orthographicRep>intranslative case</gold:orthographicRep>
-    <gold:abbreviation>INTRANS</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/superlative_case">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#SuperlativeCase"/>
-    <gold:orthographicRep>superlative case</gold:orthographicRep>
-    <gold:abbreviation>SUPRLAT</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/masculine">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#MasculineGender"/>
-    <gold:orthographicRep>masculine</gold:orthographicRep>
-    <gold:abbreviation>M</gold:abbreviation>
-    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/direct_voice">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#DirectVoice"/>
-    <gold:orthographicRep>direct voice</gold:orthographicRep>
-    <gold:abbreviation>DIRV</gold:abbreviation>
+    <gold:orthographicRep>ablative</gold:orthographicRep>
     <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/linguistics/data/term/passive">
     <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#PassiveVoice"/>
-    <gold:orthographicRep>passive</gold:orthographicRep>
     <gold:abbreviation>PASS</gold:abbreviation>
+    <gold:orthographicRep>passive</gold:orthographicRep>
     <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/inferential_evidentiality">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#InferentialEvidentiality"/>
-    <gold:orthographicRep>inferential evidentiality</gold:orthographicRep>
-    <gold:abbreviation>INFEVD</gold:abbreviation>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/contlative_case">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#ContlativeCase"/>
+    <gold:abbreviation>CONTLAT</gold:abbreviation>
+    <gold:orthographicRep>contlative case</gold:orthographicRep>
     <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/intertranslative_case">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#IntertranslativeCase"/>
-    <gold:orthographicRep>intertranslative case</gold:orthographicRep>
-    <gold:abbreviation>INTRTRANS</gold:abbreviation>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/reciprocal">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#ReciprocalPronoun"/>
+    <gold:abbreviation>RECP</gold:abbreviation>
+    <gold:orthographicRep>reciprocal</gold:orthographicRep>
     <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/linguistics/data/term/adessive_case">
     <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#AdessiveCase"/>
-    <gold:orthographicRep>adessive case</gold:orthographicRep>
     <gold:abbreviation>ADESS</gold:abbreviation>
+    <gold:orthographicRep>adessive case</gold:orthographicRep>
     <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/quotative">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#SecondHandEvidentiality"/>
-    <gold:orthographicRep>quotative</gold:orthographicRep>
-    <gold:abbreviation>QUOT</gold:abbreviation>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/future">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#FutureTense"/>
+    <gold:abbreviation>FUT</gold:abbreviation>
+    <gold:orthographicRep>future</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/present">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#PresentTense"/>
+    <gold:abbreviation>PRS</gold:abbreviation>
+    <gold:orthographicRep>present</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/masculine">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#MasculineGender"/>
+    <gold:abbreviation>M</gold:abbreviation>
+    <gold:orthographicRep>masculine</gold:orthographicRep>
     <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/linguistics/data/term/determiner">
     <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#Determiner"/>
-    <gold:orthographicRep>determiner</gold:orthographicRep>
     <gold:abbreviation>DET</gold:abbreviation>
+    <gold:orthographicRep>determiner</gold:orthographicRep>
     <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/habitual_aspect">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#HabitualAspect"/>
-    <gold:orthographicRep>habitual aspect</gold:orthographicRep>
-    <gold:abbreviation>HAB</gold:abbreviation>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/superablative_case">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#SuperablativeCase"/>
+    <gold:abbreviation>SUPRABL</gold:abbreviation>
+    <gold:orthographicRep>superablative case</gold:orthographicRep>
     <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/comitative">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#ComitativeCase"/>
-    <gold:orthographicRep>comitative</gold:orthographicRep>
-    <gold:abbreviation>COM</gold:abbreviation>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/allative">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#AllativeCase"/>
+    <gold:abbreviation>ALL</gold:abbreviation>
+    <gold:orthographicRep>allative</gold:orthographicRep>
     <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/neuter">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#NeuterGender"/>
-    <gold:orthographicRep>neuter</gold:orthographicRep>
-    <gold:abbreviation>N</gold:abbreviation>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/irrealis">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#IrrealisMood"/>
+    <gold:abbreviation>IRR</gold:abbreviation>
+    <gold:orthographicRep>irrealis</gold:orthographicRep>
     <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/animate_gender">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#AnimateGender"/>
-    <gold:orthographicRep>animate gender</gold:orthographicRep>
-    <gold:abbreviation>ANIM</gold:abbreviation>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/instrumental">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#InstrumentalCase"/>
+    <gold:abbreviation>INS</gold:abbreviation>
+    <gold:orthographicRep>instrumental</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/deductive_evidentiality">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#DeductiveEvidentiality"/>
+    <gold:abbreviation>DEDUCT</gold:abbreviation>
+    <gold:orthographicRep>deductive evidentiality</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/non-past_tense">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#NonPastTense"/>
+    <gold:abbreviation>NPST</gold:abbreviation>
+    <gold:orthographicRep>non-past tense</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/feminine">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#FeminineGender"/>
+    <gold:abbreviation>F</gold:abbreviation>
+    <gold:orthographicRep>feminine</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/partitive_case">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#PartitiveCase"/>
+    <gold:abbreviation>PART</gold:abbreviation>
+    <gold:orthographicRep>partitive case</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/prohibitive">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#ProhibitiveMood"/>
+    <gold:abbreviation>PROH</gold:abbreviation>
+    <gold:orthographicRep>prohibitive</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/subject">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#subject"/>
+    <gold:abbreviation>SBJ</gold:abbreviation>
+    <gold:orthographicRep>subject</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/still_tense">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#StillTense"/>
+    <gold:abbreviation>STIL</gold:abbreviation>
+    <gold:orthographicRep>still tense</gold:orthographicRep>
     <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/linguistics/data/term/permissive_modality">
     <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#PermissiveModality"/>
-    <gold:orthographicRep>permissive modality</gold:orthographicRep>
     <gold:abbreviation>PERMIS</gold:abbreviation>
+    <gold:orthographicRep>permissive modality</gold:orthographicRep>
     <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/lative_case">
-    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#LativeCase"/>
-    <gold:orthographicRep>lative case</gold:orthographicRep>
-    <gold:abbreviation>LAT</gold:abbreviation>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/superlative_case">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#SuperlativeCase"/>
+    <gold:abbreviation>SUPRLAT</gold:abbreviation>
+    <gold:orthographicRep>superlative case</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/vegetable_gender">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#VegetableGender"/>
+    <gold:abbreviation>VEG</gold:abbreviation>
+    <gold:orthographicRep>vegetable gender</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/dual">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#DualNumber"/>
+    <gold:abbreviation>DU</gold:abbreviation>
+    <gold:orthographicRep>dual</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/intransitive">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#IntransitiveVerb"/>
+    <gold:abbreviation>INTR</gold:abbreviation>
+    <gold:orthographicRep>intransitive</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/general_number">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#GeneralNumber"/>
+    <gold:abbreviation>GENRL</gold:abbreviation>
+    <gold:orthographicRep>general number</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/perfective">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#PerfectiveAspect"/>
+    <gold:abbreviation>PFV</gold:abbreviation>
+    <gold:orthographicRep>perfective</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/commissive_force">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#CommissiveForce"/>
+    <gold:abbreviation>COMM</gold:abbreviation>
+    <gold:orthographicRep>commissive force</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/suballative_case">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#SuballativeCase"/>
+    <gold:abbreviation>SUBALL</gold:abbreviation>
+    <gold:orthographicRep>suballative case</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/animate_gender">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#AnimateGender"/>
+    <gold:abbreviation>ANIM</gold:abbreviation>
+    <gold:orthographicRep>animate gender</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/habitual_aspect">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#HabitualAspect"/>
+    <gold:abbreviation>HAB</gold:abbreviation>
+    <gold:orthographicRep>habitual aspect</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/superessive_case">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#SuperessiveCase"/>
+    <gold:abbreviation>SUPRESS</gold:abbreviation>
+    <gold:orthographicRep>superessive case</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/nominative">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#NominativeCase"/>
+    <gold:abbreviation>NOM</gold:abbreviation>
+    <gold:orthographicRep>nominative</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/absolutive">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#AbsolutiveCase"/>
+    <gold:abbreviation>ABS</gold:abbreviation>
+    <gold:orthographicRep>absolutive</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/genitive">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#GenitiveCase"/>
+    <gold:abbreviation>GEN</gold:abbreviation>
+    <gold:orthographicRep>genitive</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/quotative">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#SecondHandEvidentiality"/>
+    <gold:abbreviation>QUOT</gold:abbreviation>
+    <gold:orthographicRep>quotative</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/active_voice">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#ActiveVoice"/>
+    <gold:abbreviation>ACT</gold:abbreviation>
+    <gold:orthographicRep>active voice</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/participle">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#Participle"/>
+    <gold:abbreviation>PTCP</gold:abbreviation>
+    <gold:orthographicRep>participle</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/second_person">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#SecondPerson"/>
+    <gold:abbreviation>2</gold:abbreviation>
+    <gold:orthographicRep>second person</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/interessive_case">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#InteressiveCase"/>
+    <gold:abbreviation>INTRESS</gold:abbreviation>
+    <gold:orthographicRep>interessive case</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/indirect_evidentiality">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#IndirectEvidentiality"/>
+    <gold:abbreviation>INDEVD</gold:abbreviation>
+    <gold:orthographicRep>indirect evidentiality</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/subessive_case">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#SubessiveCase"/>
+    <gold:abbreviation>SUBESS</gold:abbreviation>
+    <gold:orthographicRep>subessive case</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/greater_plural">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#GreaterPlural"/>
+    <gold:abbreviation>GREATPL</gold:abbreviation>
+    <gold:orthographicRep>greater plural</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/goal">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#goal"/>
+    <gold:abbreviation>GOAL</gold:abbreviation>
+    <gold:orthographicRep>goal</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/topic">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#TopicProperty"/>
+    <gold:abbreviation>TOP</gold:abbreviation>
+    <gold:orthographicRep>topic</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/transitive">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#TransitiveVerb"/>
+    <gold:abbreviation>TR</gold:abbreviation>
+    <gold:orthographicRep>transitive</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/conditional">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#ConditionalModality"/>
+    <gold:abbreviation>COND</gold:abbreviation>
+    <gold:orthographicRep>conditional</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/second-hand_evidentiality">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#SecondHandEvidentiality"/>
+    <gold:abbreviation>SECHAND</gold:abbreviation>
+    <gold:orthographicRep>second-hand evidentiality</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/plural">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#PluralNumber"/>
+    <gold:abbreviation>PL</gold:abbreviation>
+    <gold:orthographicRep>plural</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/dative">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#DativeCase"/>
+    <gold:abbreviation>DAT</gold:abbreviation>
+    <gold:orthographicRep>dative</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/contablative_case">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#ContablativeCase"/>
+    <gold:abbreviation>CONTABL</gold:abbreviation>
+    <gold:orthographicRep>contablative case</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/illative_case">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#IllativeCase"/>
+    <gold:abbreviation>ILL</gold:abbreviation>
+    <gold:orthographicRep>illative case</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/inessive_case">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#InessiveCase"/>
+    <gold:abbreviation>INESS</gold:abbreviation>
+    <gold:orthographicRep>inessive case</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/adverbial">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#Adverbial"/>
+    <gold:abbreviation>ADV</gold:abbreviation>
+    <gold:orthographicRep>adverbial</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/singular">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#SingularNumber"/>
+    <gold:abbreviation>SG</gold:abbreviation>
+    <gold:orthographicRep>singular</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/volitive_force">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#VolitiveForce"/>
+    <gold:abbreviation>VOL</gold:abbreviation>
+    <gold:orthographicRep>volitive force</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/interablative_case">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#InterablativeCase"/>
+    <gold:abbreviation>INTRABL</gold:abbreviation>
+    <gold:orthographicRep>interablative case</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/accusative">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#AccusativeCase"/>
+    <gold:abbreviation>ACC</gold:abbreviation>
+    <gold:orthographicRep>accusative</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/direct_evidentiality">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#DirectEvidentiality"/>
+    <gold:abbreviation>SENSE</gold:abbreviation>
+    <gold:orthographicRep>direct evidentiality</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/assumptive_evidentiality">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#AssumptiveEvidentiality"/>
+    <gold:abbreviation>ASSMP</gold:abbreviation>
+    <gold:orthographicRep>assumptive evidentiality</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/in-locative_case">
+    <gold:abbreviation>IN</gold:abbreviation>
+    <gold:orthographicRep>in-locative case</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/demonstrative">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#Demonstrative"/>
+    <gold:abbreviation>DEM</gold:abbreviation>
+    <gold:orthographicRep>demonstrative</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/adjective">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#Adjectival"/>
+    <gold:abbreviation>ADJ</gold:abbreviation>
+    <gold:orthographicRep>adjective</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/completive">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#CompletiveAspect"/>
+    <gold:abbreviation>COMPL</gold:abbreviation>
+    <gold:orthographicRep>completive</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/antipassive">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#AntiPassiveVoice"/>
+    <gold:abbreviation>ANTIP</gold:abbreviation>
+    <gold:orthographicRep>antipassive</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/inanimate_gender">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#InanimateGender"/>
+    <gold:abbreviation>INANIM</gold:abbreviation>
+    <gold:orthographicRep>inanimate gender</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/progressive">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#ProgressiveAspect"/>
+    <gold:abbreviation>PROG</gold:abbreviation>
+    <gold:orthographicRep>progressive</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/aversive_case">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#AversiveCase"/>
+    <gold:abbreviation>AVS</gold:abbreviation>
+    <gold:orthographicRep>aversive case</gold:orthographicRep>
     <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/linguistics/data/term/third_person_obviative">
     <gold:hasMeaning rdf:resource="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Klaiman1991_3604"/>
-    <gold:orthographicRep>third person obviative</gold:orthographicRep>
     <gold:abbreviation>OBV</gold:abbreviation>
+    <gold:orthographicRep>third person obviative</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/object">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#Object"/>
+    <gold:abbreviation>OBJ</gold:abbreviation>
+    <gold:orthographicRep>object</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/copula">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#Copula"/>
+    <gold:abbreviation>COP</gold:abbreviation>
+    <gold:orthographicRep>copula</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/interlative_case">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#InterlativeCase"/>
+    <gold:abbreviation>INTRLAT</gold:abbreviation>
+    <gold:orthographicRep>interlative case</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/auditory_evidentiality">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#AuditoryEvidentiality"/>
+    <gold:abbreviation>AUD</gold:abbreviation>
+    <gold:orthographicRep>auditory evidentiality</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/auxiliary">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#Auxiliary"/>
+    <gold:abbreviation>AUX</gold:abbreviation>
+    <gold:orthographicRep>auxiliary</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/obligative_modality">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#ObligativeModality"/>
+    <gold:abbreviation>OBLIG</gold:abbreviation>
+    <gold:orthographicRep>obligative modality</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/neuter">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#NeuterGender"/>
+    <gold:abbreviation>N</gold:abbreviation>
+    <gold:orthographicRep>neuter</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/middle_voice">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#PlainMiddleVoice"/>
+    <gold:abbreviation>MID</gold:abbreviation>
+    <gold:orthographicRep>middle voice</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/relative">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#Relativizer"/>
+    <gold:abbreviation>REL</gold:abbreviation>
+    <gold:orthographicRep>relative</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/classifier">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#Classifier"/>
+    <gold:abbreviation>CLF</gold:abbreviation>
+    <gold:orthographicRep>classifier</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/interallative_case">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#InterallativeCase"/>
+    <gold:abbreviation>INTRALL</gold:abbreviation>
+    <gold:orthographicRep>interallative case</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/inceptive_aspect">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#InceptiveAspect"/>
+    <gold:abbreviation>INCP</gold:abbreviation>
+    <gold:orthographicRep>inceptive aspect</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/optative_mood">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#OptativeMood"/>
+    <gold:abbreviation>OPT</gold:abbreviation>
+    <gold:orthographicRep>optative mood</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/inallative_case">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#InallativeCase"/>
+    <gold:abbreviation>INALL</gold:abbreviation>
+    <gold:orthographicRep>inallative case</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/hortative_force">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#HortatoryForce"/>
+    <gold:abbreviation>HORT</gold:abbreviation>
+    <gold:orthographicRep>hortative force</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/patient">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#patient"/>
+    <gold:abbreviation>P</gold:abbreviation>
+    <gold:orthographicRep>patient</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/contallative_case">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#ContallativeCase"/>
+    <gold:abbreviation>CONTALL</gold:abbreviation>
+    <gold:orthographicRep>contallative case</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/agent">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#agent"/>
+    <gold:abbreviation>A</gold:abbreviation>
+    <gold:orthographicRep>agent</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/imperfective">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#ImperfectiveAspect"/>
+    <gold:abbreviation>IPFV</gold:abbreviation>
+    <gold:orthographicRep>imperfective</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/subtranslative_case">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#SubtranslativeCase"/>
+    <gold:abbreviation>SUBTRANS</gold:abbreviation>
+    <gold:orthographicRep>subtranslative case</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/sublative_case">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#SublativeCase"/>
+    <gold:abbreviation>SUBLAT</gold:abbreviation>
+    <gold:orthographicRep>sublative case</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/recent_tense">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#RecentTense"/>
+    <gold:abbreviation>REC</gold:abbreviation>
+    <gold:orthographicRep>recent tense</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/durative">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#DurativeAspect"/>
+    <gold:abbreviation>DUR</gold:abbreviation>
+    <gold:orthographicRep>durative</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/termset/mytermset">
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/complementizer"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/nominalizer/nominalization"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/oblique"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/abessive_case"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/imperative"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/ablative"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/passive"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/contlative_case"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/reciprocal"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/adessive_case"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/future"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/adverbial"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/masculine"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/determiner"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/superablative_case"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/allative"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/irrealis"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/instrumental"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/non-past_tense"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/partitive_case"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/prohibitive"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/subject"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/still_tense"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/permissive_modality"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/superlative_case"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/vegetable_gender"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/dual"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/intransitive"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/general_number"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/perfective"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/commissive_force"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/suballative_case"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/auditory_evidentiality"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/habitual_aspect"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/superessive_case"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/absolutive"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/direct_voice"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/genitive"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/quotative"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/active_voice"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/participle"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/second_person"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/interessive_case"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/contablative_case"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/subessive_case"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/greater_plural"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/goal"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/topic"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/transitive"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/conditional"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/second-hand_evidentiality"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/plural"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/dative"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/illative_case"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/inessive_case"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/nominative"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/volitive_force"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/singular"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/elative_case"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/interablative_case"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/accusative"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/completive"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/inceptive_aspect"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/in-locative_case"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/demonstrative"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/adjective"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/direct_evidentiality"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/assumptive_evidentiality"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/antipassive"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/inanimate_gender"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/progressive"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/aversive_case"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/animate_gender"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/third_person_obviative"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/object"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/copula"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/interlative_case"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/subablative_case"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/auxiliary"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/obligative_modality"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/neuter"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/middle_voice"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/relative"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/classifier"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/interallative_case"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/optative_mood"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/intranslative_case"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/hortative_force"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/patient"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/contallative_case"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/agent"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/imperfective"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/subtranslative_case"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/sublative_case"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/recent_tense"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/durative"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/simultaneous_aspect"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/benefactive"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/present"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/hearsay_evidentiality"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/locative"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/indirect_evidentiality"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/inverse_voice"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/essive_case"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/declarative"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/negation/negative"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/inallative_case"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/direct_evidential"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/third_person"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/lative_case"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/ergative"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/comitative"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/iterative_aspect"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/reflexive"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/supertranslative_case"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/superallative_case"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/inferential_evidentiality"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/vocative"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/first_person"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/deductive_evidentiality"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/inablative_case"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/trial_number"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/paucal_number"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/feminine"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/predicative"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/converb"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/intertranslative_case"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/indicative"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/article"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/focus"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/visual_evidentiality"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/subjunctive"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/distributive"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/perfect"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/applicative"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/past"/>
+    <gold:hasTerm rdf:resource="http://purl.org/linguistics/data/term/question_particle/marker"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/simultaneous_aspect">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#SimultaneousAspect"/>
+    <gold:abbreviation>SIM</gold:abbreviation>
+    <gold:orthographicRep>simultaneous aspect</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/benefactive">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#BenefactiveCase"/>
+    <gold:abbreviation>BEN</gold:abbreviation>
+    <gold:orthographicRep>benefactive</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/elative_case">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#ElativeCase"/>
+    <gold:abbreviation>ELAT</gold:abbreviation>
+    <gold:orthographicRep>elative case</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/hearsay_evidentiality">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#HearsayEvidentiality"/>
+    <gold:abbreviation>HSY</gold:abbreviation>
+    <gold:orthographicRep>hearsay evidentiality</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/locative">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#LocativeCase"/>
+    <gold:abbreviation>LOC</gold:abbreviation>
+    <gold:orthographicRep>locative</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/inverse_voice">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#InverseVoice"/>
+    <gold:abbreviation>INV</gold:abbreviation>
+    <gold:orthographicRep>inverse voice</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/essive_case">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#EssiveCase"/>
+    <gold:abbreviation>ESS</gold:abbreviation>
+    <gold:orthographicRep>essive case</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/declarative">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#DeclarativeForce"/>
+    <gold:abbreviation>DECL</gold:abbreviation>
+    <gold:orthographicRep>declarative</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/negation/negative">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#NegativePolarity"/>
+    <gold:abbreviation>NEG</gold:abbreviation>
+    <gold:orthographicRep>negation/negative</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/intranslative_case">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#IntranslativeCase"/>
+    <gold:abbreviation>INTRANS</gold:abbreviation>
+    <gold:orthographicRep>intranslative case</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/direct_evidential">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#DirectEvidentiality"/>
+    <gold:abbreviation>DIREVD</gold:abbreviation>
+    <gold:orthographicRep>direct evidential</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/third_person">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#ThirdPerson"/>
+    <gold:abbreviation>3</gold:abbreviation>
+    <gold:orthographicRep>third person</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/lative_case">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#LativeCase"/>
+    <gold:abbreviation>LAT</gold:abbreviation>
+    <gold:orthographicRep>lative case</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/ergative">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#ErgativeCase"/>
+    <gold:abbreviation>ERG</gold:abbreviation>
+    <gold:orthographicRep>ergative</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/comitative">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#ComitativeCase"/>
+    <gold:abbreviation>COM</gold:abbreviation>
+    <gold:orthographicRep>comitative</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/iterative_aspect">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#IterativeAspect"/>
+    <gold:abbreviation>ITR</gold:abbreviation>
+    <gold:orthographicRep>iterative aspect</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/reflexive">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#ReflexivePronoun"/>
+    <gold:abbreviation>REFL</gold:abbreviation>
+    <gold:orthographicRep>reflexive</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/distributive">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#DistributiveAspect"/>
+    <gold:abbreviation>DISTR</gold:abbreviation>
+    <gold:orthographicRep>distributive</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/superallative_case">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#SuperallativeCase"/>
+    <gold:abbreviation>SUPRALL</gold:abbreviation>
+    <gold:orthographicRep>superallative case</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/inferential_evidentiality">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#InferentialEvidentiality"/>
+    <gold:abbreviation>INFEVD</gold:abbreviation>
+    <gold:orthographicRep>inferential evidentiality</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/vocative">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#VocativeCase"/>
+    <gold:abbreviation>VOC</gold:abbreviation>
+    <gold:orthographicRep>vocative</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/first_person">
+    <gold:hasMeaning rdf:resource="http://www.linguistics-ontology.org/bibliography/gold-bibliography.rdf#Crystal1997_1790"/>
+    <gold:abbreviation>1</gold:abbreviation>
+    <gold:orthographicRep>first person</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/direct_voice">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#DirectVoice"/>
+    <gold:abbreviation>DIRV</gold:abbreviation>
+    <gold:orthographicRep>direct voice</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/inablative_case">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#InablativeCase"/>
+    <gold:abbreviation>INABL</gold:abbreviation>
+    <gold:orthographicRep>inablative case</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/trial_number">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#TrialNumber"/>
+    <gold:abbreviation>TRIAL</gold:abbreviation>
+    <gold:orthographicRep>trial number</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/paucal_number">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#PaucalNumber"/>
+    <gold:abbreviation>PAUC</gold:abbreviation>
+    <gold:orthographicRep>paucal number</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/subablative_case">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#SubablativeCase"/>
+    <gold:abbreviation>SUBABL</gold:abbreviation>
+    <gold:orthographicRep>subablative case</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/predicative">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#Predicative"/>
+    <gold:abbreviation>PRED</gold:abbreviation>
+    <gold:orthographicRep>predicative</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/converb">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#ConVerb"/>
+    <gold:abbreviation>CVB</gold:abbreviation>
+    <gold:orthographicRep>converb</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/intertranslative_case">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#IntertranslativeCase"/>
+    <gold:abbreviation>INTRTRANS</gold:abbreviation>
+    <gold:orthographicRep>intertranslative case</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/indicative">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#IndicativeMood"/>
+    <gold:abbreviation>IND</gold:abbreviation>
+    <gold:orthographicRep>indicative</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/article">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#Article"/>
+    <gold:abbreviation>ART</gold:abbreviation>
+    <gold:orthographicRep>article</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/focus">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#FocusProperty"/>
+    <gold:abbreviation>FOC</gold:abbreviation>
+    <gold:orthographicRep>focus</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/visual_evidentiality">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#VisualEvidentiality"/>
+    <gold:abbreviation>VIS</gold:abbreviation>
+    <gold:orthographicRep>visual evidentiality</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/subjunctive">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#SubjunctiveMood"/>
+    <gold:abbreviation>SBJV</gold:abbreviation>
+    <gold:orthographicRep>subjunctive</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/supertranslative_case">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#SupertranslativeCase"/>
+    <gold:abbreviation>SUPRTRANS</gold:abbreviation>
+    <gold:orthographicRep>supertranslative case</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/perfect">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#PerfectTense"/>
+    <gold:abbreviation>PRF</gold:abbreviation>
+    <gold:orthographicRep>perfect</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/applicative">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#ApplicativeVoice"/>
+    <gold:abbreviation>APPL</gold:abbreviation>
+    <gold:orthographicRep>applicative</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/past">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#PastTense"/>
+    <gold:abbreviation>PST</gold:abbreviation>
+    <gold:orthographicRep>past</gold:orthographicRep>
+    <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.org/linguistics/data/term/question_particle/marker">
+    <gold:hasMeaning rdf:resource="http://purl.org/linguistics/gold#InterrogativeOperator"/>
+    <gold:abbreviation>Q</gold:abbreviation>
+    <gold:orthographicRep>question particle/marker</gold:orthographicRep>
     <rdf:type rdf:resource="http://purl.org/linguistics/gold#Term"/>
   </rdf:Description>
 </rdf:RDF>
