@@ -1,0 +1,11 @@
+be sure to build the doc first, then the source
+
+STEP 1
+
+cd eltk/docs
+make html
+
+STEP 2
+
+cd eltk/
+make dist
