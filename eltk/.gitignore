@@ -1,0 +1,10 @@
+Manifest
+
+dist/*
+
+docs/_build/*
+
+*.pyc
+
+
+
