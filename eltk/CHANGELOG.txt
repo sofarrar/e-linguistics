@@ -1,0 +1,7 @@
+v. 0.4 posted, 15-Jan-2010
+
+Migrated ELTK, GOLDComm, and LingDesktop to GIT repo at GITHUB:
+
+http://github.com/sofarrar/e-linguistics
+
+
