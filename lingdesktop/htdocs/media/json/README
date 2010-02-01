@@ -1,5 +1,0 @@
-This dir contains JSON files to be served as static files. They are used for displaying
-
--the ontology tree.
-
-For the code to produce the json, see eltk.utils
