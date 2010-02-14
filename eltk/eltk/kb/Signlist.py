@@ -9,16 +9,7 @@
 """
 Signlist module
 """
-
-import eltk
-from eltk.namespace import GOLDNS
-from eltk.kb.Meta import *
-from eltk.utils.functions import getLocalName
-from eltk.kb.KBComponent import KBComponent
-
-
-
-
+from eltk.kb import KBComponent
 
 class Signlist(KBComponent):
     """

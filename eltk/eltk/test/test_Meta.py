@@ -2,13 +2,13 @@
 #from  __builtin__ import type
 
 import unittest
-from __builtin__ import type
-from urllib import unquote
 
-from eltk.kb.Meta import *
+from rdflib.URIRef import URIRef
+
+from eltk.kb.Meta import OWLClass, getType
 
 class TestOWLClass(unittest.TestCase):
-    
+
     def setUp(self):
         self.Word=OWLClass.new(u'Wordɖ') 
         self.Root=OWLClass.new(u'http://foo.org#Root')
@@ -16,7 +16,6 @@ class TestOWLClass(unittest.TestCase):
         
         self.rw1=self.Word(u'myrootword1',[self.Root])
 
-    
     def testURI(self):
         
         """
@@ -86,7 +85,6 @@ class TestOWLClass(unittest.TestCase):
         val1=self.Word.uri
         self.assertEqual(val1,'Word%C9%96')
 
-        #print unquote(val1)
 
 
 #suite = unittest.TestLoader().loadTestsFromTestCase(TestOWLClass)

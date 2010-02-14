@@ -10,15 +10,9 @@
 Termset is the Python data structure equivalent of  ``termset graphs`` which are logical components of the GOLD Community Model. Put simply, they contain term-concept mappings, e.g., "PST"--gold:PastTense. A termset contains a  set of scientific 'terms' used as part of an annotation system, usually the standard terms from a particular linguistic theory or community of practice. A term is a specific string representing a concept within some scientific domain. Terms may have a standard orthographic representation such as "past tense" or an abbreviation such as "PST".
 """
 
-from eltk.namespace import GOLDNS
-from eltk.kb.Meta import *
-from eltk.utils.functions import getLocalName
 from eltk.kb.KBComponent import KBComponent
-
 from eltk.reader.LinkedDataReader import LinkedDataReader
 from eltk.config import ELTK_HOME
-
-
 
 
 reader = LinkedDataReader()

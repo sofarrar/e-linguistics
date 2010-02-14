@@ -13,18 +13,16 @@ The KBComponent module is  used to create some part of a knowledge base (i.e., a
 #from rdflib.graph import Graph
 from rdflib.Graph import Graph
 
-#from rdflib.namespace import Namespace
-from rdflib.Namespace import Namespace
 
 #from rdflib.term import URIRef
 from rdflib.URIRef import URIRef
 
 from rdflib import RDF
-from rdflib.RDFS import *
+from rdflib.RDFS import RDFSNS
 from rdflib import Literal
 
 
-from eltk.namespace import *
+from eltk.namespace import GOLDNS, OWLNS
 
 from eltk.kb import Meta
 
@@ -128,37 +126,11 @@ class KBComponent(object):
         return graph
 
 
-    def getTermMeaning(self,term_string):
-        """
-        Given some abbreviation, e.g., 'PST', or full form, e.g., 'past tense', return the GOLD URI indicated by that string.
-        
-        :param term_string: the string representation (abbreviation or full form) of the term 
-        :type term_string: str
-        :rtype: rdflib.URIRef.URIRef
-        """ 
-        term = ''
-
-        #loop over the triples (like a sparql query)
-        for k in self.triples.keys():
-            
-            for i in self.triples[k]:
-                
-                if i[1]==term_string:
-                    term= k
-        
-        for k in self.triples.keys():
-
-            if k == term:
-                for i in self.triples[k]:
-
-                    if i[0] is eltk.GOLD.hasMeaning:
-                    
-                        return i[1]
 
 
         
 
-    def renderJSON(self,roots):
+    def renderJSON(self,root):
         
         """
         renderJSON is a utility method to output a JSON rep of the KB. 
