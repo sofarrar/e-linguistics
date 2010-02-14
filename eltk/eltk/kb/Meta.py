@@ -22,7 +22,6 @@ from new import instancemethod
 #from rdflib.term import URIRef
 from rdflib.URIRef import URIRef
 from rdflib import Literal 
-from rdflib.Namespace import Namespace
 
 from eltk.utils.functions import getLocalName
 from eltk.utils.functions  import quote
