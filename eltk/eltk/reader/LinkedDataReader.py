@@ -7,7 +7,7 @@
 # URL: <http://purl.org/linguistics/eltk>
 # For license information, see LICENSE.TXT
 """
-The LinkedDataReader module contains the LinkedDataReader class.
+The LinkedDataReader module contains the LinkedDataReader class used to read RDF resources.
 """
 import abc
 
