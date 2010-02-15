@@ -261,6 +261,26 @@ def getUnitBasedOnForm(graph,form):
     return results
 
 
+def findDataType(graph,uri):
+    
+    """
+    Return a Python data object's type given a URI
+    
+    :param uri: a URI of any linguistic datatype instance (IGT, Lex, etc.)
+    :type uri: rdflib.URIRef.URIRef
+    :rtype: rdflib.URIRef.URIRef
+    """
+
+    return_uri = ''
+
+    ns = dict(rdf=RDF.RDFNS,rdfs=RDFS.RDFSNS,owl=OWLNS,gold=GOLDNS)
+    
+    datatype = graph.query("SELECT ?t WHERE {<"+uri+"> rdf:type ?t}", initNs=ns)
+    
+    for d in datatype:
+        return_uri = d
+
+    return return_uri[0]
 
 
 

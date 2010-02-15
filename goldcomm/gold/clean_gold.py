@@ -1,6 +1,8 @@
 import re
 
-
+"""
+This script does clean-up on the OWL file mostly related to the examples, which have since been removed.
+"""
 
 if __name__=='__main__':
     

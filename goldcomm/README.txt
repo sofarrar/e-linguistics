@@ -4,7 +4,7 @@ Authors: Scott Farrar <farrar@u.washington.edu>
          William D. Lewis <wlewis2@u.washington.edu>        
          Steven Moran <stiv@u.washington.edu>
 
-Copyright (C) 2008--2009 The GOLD Community of Practice
+Copyright (C) 2008--2010 The GOLD Community of Practice
 
 For license information, see LICENSE.TXT
 
@@ -23,7 +23,7 @@ Mailing List:
 
 Contributing: If you would like to contribute to GOLDComm, please see:
 
-     http://code.google/p/goldcomm
+     http://github.com/sofarrar/e-linguistics
 
 
 Redistributing: GOLDComm source code is distributed under the New BSD License.

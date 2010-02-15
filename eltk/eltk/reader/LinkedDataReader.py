@@ -387,12 +387,16 @@ if __name__=='__main__':
     
     reader = LinkedDataReader()
      
-    GOLD_graph = reader.parseGraph(ELTK_HOME+'/examples/inputfiles/gold-2009.owl')
+    #GOLD_graph = reader.parseGraph(ELTK_HOME+'/examples/inputfiles/gold-2009.owl')
+    GOLD_graph = reader.parseGraph('/home/farrar/git-repos/e-linguistics/goldcomm/gold/gold-2009.owl')
     
     GOLD = reader.buildPyModel()
     
+    print GOLD.Noun.uri
     
-
+    x = getattr(GOLD,'Noun')
+    print x
+    
     #for attr in dir(GOLD):
     #    entity = getattr(GOLD,attr)
     #    if type(entity) is Meta.OWLObjectProperty:

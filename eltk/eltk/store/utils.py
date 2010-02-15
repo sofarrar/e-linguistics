@@ -12,7 +12,7 @@ This utils module contains various useful functions concerning the store.
 import MySQLdb
 
 from rdflib.store import Store
-from rdflib import plugin, exceptions
+from rdflib import plugin
 
 from eltk.config import STORE_CONFIG
 

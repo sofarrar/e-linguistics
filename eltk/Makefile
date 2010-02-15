@@ -1,6 +1,6 @@
 PYTHON = python
 
-.PHONY: usage all clean clean_code clean_up test
+.PHONY: usage all doc clean clean_code clean_up test
 
 usage:
 	@echo "make dist -- Build distributions (output to dist/)"
@@ -45,6 +45,8 @@ checksums:
 # ##############
 #
 
+doc:
+	$(MAKE) -C docs html
 
 ########################################################################
 # CLEAN
