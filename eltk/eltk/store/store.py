@@ -13,37 +13,16 @@ The store module is the gatekeeper for populating and maintaining the RDF store 
 
 from cStringIO import StringIO
 
-#note, fix rdflib imports when rdflib-2.5 is finalized
-
-#rdflib-2.5
-#from rdflib.graph import Graph
 from rdflib.Graph import Graph
 
-#from rdflib.namespace import Namespace
-from rdflib.Namespace import Namespace
-
-#from rdflib.term import URIRef
 from rdflib.URIRef import URIRef
 
-from rdflib import RDF,RDFS
+from rdflib import plugin
 
-from rdflib.Graph import Graph, ConjunctiveGraph, ReadOnlyGraphAggregate
+from rdflib.store import Store 
 
-from rdflib import plugin, exceptions
-from rdflib.syntax.parsers import Parser
-
-#from rdflib.store.IOMemory import IOMemory
-from rdflib.store import Store
-
-from eltk.config import ELTK_HOME
 from eltk.config import STORE_CONFIG 
 
-
-from eltk.namespace import *
-
-from eltk.utils.sparql import *    
-
-from eltk.utils.functions import getLocalName
 
 def getIdentifier(graph):
     """
@@ -172,16 +151,11 @@ def addToStore(rdf_tuple):
 
 if __name__=='__main__':
 
+    import json
 
-    from eltk.reader.LinkedDataReader import LinkedDataReader
-    from rdflib.Literal import Literal
-
-
-    reader = LinkedDataReader()
-     
-    GOLD_graph = reader.parseGraph('/home/farrar/git-repos/e-linguistics/goldcomm/gold/gold-2009.owl')
-    
-    GOLD = reader.buildPyModel()
+    from eltk.utils.jsonutils import  ComplexEncoder
+    from eltk.utils.sparql import findDataType
+    from eltk.utils.sparql import findOWLClass
 
 
     #get the right plugin
@@ -194,35 +168,57 @@ if __name__=='__main__':
     store.open(rdflib_config_string, create=False)
 
     #declare conjunctive graph
-    graph1=''
+    graph1=None
+    gold_graph=None
     
     #find the right conjgraph within the store
     for c in store.contexts():
-
+        
         if c.identifier==URIRef('http://purl.org/goldcomm/user1'):
             graph1 = c
+        
+        if c.identifier==URIRef('http://purl.org/linguistics/gold'):
+            gold_graph= c
+                                   
+    # from eltk.kb.Meta import getType                                         
+                                                                                    
+    #what you want to retrieve from the graph                                
+    #user_data = URIRef(u'http://mynamespace/n1')                             
+                                                                               
+    #import a specialized sparql query to get the user data's type           
+    #type = findDataType(graph1,user_data)                                    
+                                                                               
+    #gold_class is the Python metaclass for that type, e.g., GOLD.Noun       
+    #gold_class = getattr(GOLD,getLocalName(type))                            
     
+    #cls = findOWLClass(gold_graph,type)
+    cls = findOWLClass(gold_graph,URIRef(u'http://purl.org/linguistics/gold#AspectProperty'))
+    #cls = findOWLClass(gold_graph,URIRef(u'http://purl.org/linguistics/gold#CompletiveAspect'))
 
-    from eltk.utils.sparql import findDataType
-    from eltk.kb.Meta import getType
+    print cls      
     
-    #what you want to retrieve from the graph 
-    user_data = URIRef(u'http://mynamespace/n1')
-
-    #import a specialized sparql query to get the user data's type
-    type = findDataType(graph1,user_data)
+    print cls.bases
     
-    #gold_class is the Python metaclass for that type, e.g., GOLD.Noun
-    gold_class = getattr(GOLD,getLocalName(type))
+    print cls.subclasses
     
-    #create a GOLD instance
-    gold_inst = gold_class(user_data)
+    print cls.individuals
     
-    #print the URI for verification
-    print gold_inst.uri
-
+    print json.dumps(cls, cls=ComplexEncoder, sort_keys=True, indent=4)
+    
     
 #########################END TEST#######################
+
+
+    #from eltk.reader.LinkedDataReader import LinkedDataReader
+    #from rdflib.Literal import Literal
+
+    
+
+    #reader = LinkedDataReader()
+     
+    #GOLD_graph = reader.parseGraph('/home/farrar/git-repos/e-linguistics/goldcomm/gold/gold-2009.owl')
+    
+    #GOLD = reader.buildPyModel()
 
 
     #from eltk.reader.LinkedDataReader import LinkedDataReader

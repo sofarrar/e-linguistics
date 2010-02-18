@@ -19,10 +19,10 @@ from eltk.config import ELTK_HOME
     
 
 
-reader = LinkedDataReader()
+#reader = LinkedDataReader()
   
-GOLD_graph = reader.parseGraph('/home/farrar/svn_projects/goldcomm/gold/gold-2009.owl')
-GOLD = reader.buildPyModel()
+#GOLD_graph = reader.parseGraph('/home/farrar/svn_projects/goldcomm/gold/gold-2009.owl')
+#GOLD = reader.buildPyModel()
  
 
 
@@ -34,36 +34,40 @@ class ComplexEncoder(json.JSONEncoder):
     
     def default(self, obj):
         
-        #if the obj is a class
-        if isinstance(obj,OWLClass):
-            
-            #children, as in child nodes in a tree structure
-            children = []
-
-            #if the class has subclasses
-            if obj.getSubClasses() is not None: 
-                
-                #
-                for c in obj.getSubClasses():
-                    
-                    #recursive step
-                    children.append(self.default(c))
-               
-            #iterate over instances, if any
-            for i in obj.getInstances():
-                #create the code for the JSON dump
-                children.append(self.makeInstance(i))
-                
-            
-            return {'text':obj.name, 'cls':'folder', 'uri':obj.uri,'children':children}
-        
-        
-        #if the obj is an instance
-        elif isinstance(type(obj),OWLClass):
-            return self.makeInstance(obj) 
-        
-        #returns the json encoded data
-        return json.JSONEncoder.default(self, obj)
+        if obj.subclasses == []:
+            return {'text':obj.name, 'cls':'folder', 'uri':obj.uri,'leaf':'true'}
+        else:
+            return {'text':obj.name, 'cls':'folder', 'uri':obj.uri,'children':'TESTING'}
+        # #if the obj is a class                                                
+        # if isinstance(obj,OWLClass):                                          
+#                                                                               
+            # #children, as in child nodes in a tree structure                  
+            # children = []                                                     
+#                                                                               
+            # #if the class has subclasses                                      
+            # if obj.getSubClasses() is not []:                                 
+#                                                                               
+                # #                                                             
+                # for c in obj.getSubClasses():                                 
+#                                                                               
+                    # #recursive step                                           
+                    # children.append(self.default(c))                          
+#                                                                               
+            # #iterate over instances, if any                                   
+            # for i in obj.getInstances():                                      
+                # #create the code for the JSON dump                            
+                # children.append(self.makeInstance(i))                         
+#                                                                               
+#                                                                               
+            # return {'text':obj.name, 'cls':'folder', 'uri':obj.uri,'children':children} 
+#                                                                               
+#                                                                               
+        # #if the obj is an instance                                            
+        # elif isinstance(type(obj),OWLClass):                                  
+            # return self.makeInstance(obj)                                     
+#                                                                               
+        # #returns the json encoded data                                        
+        # return json.JSONEncoder.default(self, obj)                            
    
     
     def makeInstance(self,inst):

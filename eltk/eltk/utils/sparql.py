@@ -11,6 +11,7 @@ The sparql module contains several functions that wrap commonly used SPARQL quer
 """
 
 from rdflib import RDF,RDFS
+from eltk.kb.Meta import OWLClass
 from eltk.namespace import OWLNS,GOLDNS
 
 
@@ -48,6 +49,8 @@ def sparqlQuery(sparql_string,context):
 
 def getBaseClasses(graph,cls_uri):
     """
+    Returns a list of bases class URIs given a uri which is an owl class
+    
     :param graph: the relevant graph to process
     :type graph: rdflib.Graph.Graph
     :param cls_uri: the URI of the particular class
@@ -264,7 +267,7 @@ def getUnitBasedOnForm(graph,form):
 def findDataType(graph,uri):
     
     """
-    Return a Python data object's type given a URI
+    Return a Python data object's type (expressed as a URI) given an input URI
     
     :param uri: a URI of any linguistic datatype instance (IGT, Lex, etc.)
     :type uri: rdflib.URIRef.URIRef
@@ -282,6 +285,58 @@ def findDataType(graph,uri):
 
     return return_uri[0]
 
+def getClassIndividuals(graph,uri):
+    
+    """
+    Return a list of URIs that correspond to the input URI's class members
+    
+    :param graph: the context graph
+    :type graph: rdflib.Graph.Graph
+    :param uri: a URI for some class
+    :type uri: rdflib.URIRef.URIRef
+    :rtype: list
+    """
+    
+    indivs = []
+    
+    ns = dict(rdf=RDF.RDFNS,rdfs=RDFS.RDFSNS,owl=OWLNS,gold=GOLDNS)
+    
+    results = graph.query('SELECT ?i WHERE {?i rdf:type <'+uri+'>} ', initNs=ns)
+    
+    for i in results:
+        indivs.append(i)
+
+    return indivs
+
+def findOWLClass(graph,uri):
+
+    """
+    Returns a class object (using eltk's metaclasses) based on a given URI
+    
+    :param graph: the context graph
+    :type graph: rdflib.Graph.Graph
+    :param uri: a URI for some class
+    :type uri: rdflib.URIRef.URIRef
+    :rtype: eltk.kb.Meta.OWLClass
+    """
+
+    #create the class
+    cls = OWLClass.new(uri)
+
+
+    #call various SPARQL functions
+    #
+    #for superclasses
+    cls.bases = getBaseClasses(graph,uri)
+    #
+    #for subclasses
+    cls.subclasses = getSubClasses(graph,uri)
+    #
+    #for class members
+    cls.individuals = getClassIndividuals(graph,uri)
+
+
+    return cls
 
 
 if __name__=='__main__':
